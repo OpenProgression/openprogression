@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Methodology",
   description:
     "How OpenProgression benchmarks are derived. Peer-reviewed sources, percentile mapping, and a transparent derivation process backed by 1.3 million data points.",
+  openGraph: {
+    images: [{ url: "/og-methodology.png", width: 1200, height: 630 }],
+  },
 }
 
 const SOURCES = [

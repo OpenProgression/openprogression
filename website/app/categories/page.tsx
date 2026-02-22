@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "8 Categories",
   description:
     "Explore the 8 assessment categories of the OpenProgression standard: Squatting, Pulling, Pressing, Olympic Lifting, Gymnastics, Monostructural, Bodyweight, and Endurance.",
+  openGraph: {
+    images: [{ url: "/og-categories.png", width: 1200, height: 630 }],
+  },
 }
 
 const ICON_MAP = {

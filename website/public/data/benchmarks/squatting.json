@@ -1,0 +1,60 @@
+{
+  "category": "squatting",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "back_squat",
+      "name": "Back Squat",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition back squat",
+      "standards": {
+        "beginner":          { "male": 40,  "female": 25 },
+        "beginner_plus":     { "male": 60,  "female": 40 },
+        "intermediate":      { "male": 80,  "female": 55 },
+        "intermediate_plus": { "male": 105, "female": 70 },
+        "advanced":          { "male": 130, "female": 85 },
+        "advanced_plus":     { "male": 155, "female": 100 },
+        "rx":                { "male": 180, "female": 120 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["ball_weidman_2024", "kilgore_2023", "mangine_2020"]
+    },
+    {
+      "movement": "front_squat",
+      "name": "Front Squat",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition front squat",
+      "standards": {
+        "beginner":          { "male": 34,  "female": 21 },
+        "beginner_plus":     { "male": 51,  "female": 34 },
+        "intermediate":      { "male": 68,  "female": 47 },
+        "intermediate_plus": { "male": 89,  "female": 60 },
+        "advanced":          { "male": 110, "female": 72 },
+        "advanced_plus":     { "male": 132, "female": 85 },
+        "rx":                { "male": 153, "female": 102 }
+      },
+      "notes": "Approximately 85% of back squat values. Based on ~80kg male / ~60kg female.",
+      "sources": ["ball_weidman_2024", "kilgore_2023", "mangine_2020"]
+    },
+    {
+      "movement": "overhead_squat",
+      "name": "Overhead Squat",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition overhead squat",
+      "standards": {
+        "beginner":          { "male": 26,  "female": 16 },
+        "beginner_plus":     { "male": 39,  "female": 26 },
+        "intermediate":      { "male": 52,  "female": 36 },
+        "intermediate_plus": { "male": 68,  "female": 46 },
+        "advanced":          { "male": 85,  "female": 55 },
+        "advanced_plus":     { "male": 101, "female": 65 },
+        "rx":                { "male": 117, "female": 78 }
+      },
+      "notes": "Approximately 65% of back squat values. Requires significant shoulder and thoracic mobility. Based on ~80kg male / ~60kg female.",
+      "sources": ["kilgore_2023", "mangine_2020"]
+    }
+  ]
+}

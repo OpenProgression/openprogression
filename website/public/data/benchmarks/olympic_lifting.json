@@ -1,0 +1,60 @@
+{
+  "category": "olympic_lifting",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "power_clean",
+      "name": "Power Clean",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition power clean (caught above parallel)",
+      "standards": {
+        "beginner":          { "male": 30,  "female": 20 },
+        "beginner_plus":     { "male": 45,  "female": 30 },
+        "intermediate":      { "male": 65,  "female": 45 },
+        "intermediate_plus": { "male": 85,  "female": 57 },
+        "advanced":          { "male": 105, "female": 70 },
+        "advanced_plus":     { "male": 120, "female": 82 },
+        "rx":                { "male": 135, "female": 95 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]
+    },
+    {
+      "movement": "snatch",
+      "name": "Snatch",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition full snatch (squat snatch)",
+      "standards": {
+        "beginner":          { "male": 20,  "female": 15 },
+        "beginner_plus":     { "male": 35,  "female": 25 },
+        "intermediate":      { "male": 52,  "female": 37 },
+        "intermediate_plus": { "male": 70,  "female": 48 },
+        "advanced":          { "male": 90,  "female": 60 },
+        "advanced_plus":     { "male": 105, "female": 70 },
+        "rx":                { "male": 125, "female": 80 }
+      },
+      "notes": "Most technically demanding Olympic lift. Values based on ~80kg male / ~60kg female.",
+      "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]
+    },
+    {
+      "movement": "clean_and_jerk",
+      "name": "Clean & Jerk",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition clean and jerk (full clean, split or power jerk)",
+      "standards": {
+        "beginner":          { "male": 35,  "female": 22 },
+        "beginner_plus":     { "male": 50,  "female": 35 },
+        "intermediate":      { "male": 72,  "female": 50 },
+        "intermediate_plus": { "male": 95,  "female": 65 },
+        "advanced":          { "male": 115, "female": 80 },
+        "advanced_plus":     { "male": 130, "female": 92 },
+        "rx":                { "male": 150, "female": 105 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]
+    }
+  ]
+}
