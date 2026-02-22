@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "ball_weidman_2024",
+      "citation": "Ball, R. & Weidman, D. (2024). Normative data for the squat, bench press and deadlift exercises in powerlifting: Data from 809,986 competition entries. Journal of Science and Medicine in Sport.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39060209/",
+      "type": "peer_reviewed",
+      "sampleSize": 809986
+    },
+    {
+      "id": "mangine_2020",
+      "citation": "Mangine, G.T. et al. (2020). Determination of a CrossFit Benchmark Performance Profile. International Journal of Exercise Science.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228530/",
+      "type": "peer_reviewed",
+      "sampleSize": 162
+    },
+    {
+      "id": "mangine_2023",
+      "citation": "Mangine, G.T., Grundlingh, N., & Feito, Y. (2023). Normative scores for CrossFit Open workouts: 2011-2022. Sports, 11(2), 24.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960888/",
+      "type": "peer_reviewed",
+      "sampleSize": 569607
+    },
+    {
+      "id": "kilgore_2023",
+      "citation": "Kilgore, L. (2023). Lon Kilgore Strength Standard Tables.",
+      "url": "http://lonkilgore.com/resources/Lon_Kilgore_Strength_Standard_Tables-Copyright-2023.pdf",
+      "type": "published_standard"
+    },
+    {
+      "id": "concept2_rankings",
+      "citation": "Concept2 Logbook World Rankings (2025 season data).",
+      "url": "https://log.concept2.com/rankings",
+      "type": "public_database"
+    },
+    {
+      "id": "runninglevel",
+      "citation": "RunningLevel.com race time standards. Based on 1,000,000+ race results.",
+      "url": "https://runninglevel.com",
+      "type": "public_database",
+      "sampleSize": 1000000
+    },
+    {
+      "id": "acsm_guidelines",
+      "citation": "ACSM's Guidelines for Exercise Testing and Prescription. American College of Sports Medicine.",
+      "type": "professional_standard"
+    },
+    {
+      "id": "cooper_institute",
+      "citation": "Physical Fitness Specialist Certification Manual. The Cooper Institute for Aerobics Research, Dallas TX (1997).",
+      "type": "professional_standard"
+    },
+    {
+      "id": "military_pft",
+      "citation": "U.S. Military Physical Fitness Test Standards. Department of Defense (public domain).",
+      "type": "government_standard"
+    },
+    {
+      "id": "strengthlevel",
+      "citation": "StrengthLevel.com exercise standards. Community-sourced performance data.",
+      "url": "https://strengthlevel.com",
+      "type": "community_database"
+    },
+    {
+      "id": "catalyst_athletics",
+      "citation": "Everett, G. (2018). Olympic Weightlifting Skill Levels Chart. Catalyst Athletics.",
+      "url": "https://www.catalystathletics.com/article/1836/Olympic-Weightlifting-Skill-Levels-Chart/",
+      "type": "published_standard"
+    },
+    {
+      "id": "butcher_2018",
+      "citation": "Butcher, S.J. et al. (2018). Normative Values for Self-Reported Benchmark Workout Scores in CrossFit Practitioners. Sports Medicine - Open.",
+      "url": "https://link.springer.com/article/10.1186/s40798-018-0156-x",
+      "type": "peer_reviewed"
+    },
+    {
+      "id": "crossfit_open_analysis",
+      "citation": "CrossFit Open Workout Analysis articles (various years). CrossFit Games.",
+      "url": "https://games.crossfit.com",
+      "type": "official_data"
+    },
+    {
+      "id": "crossfit_liftoff",
+      "citation": "CrossFit Liftoff percentile data (2015). CrossFit Games.",
+      "url": "https://games.crossfit.com/article/liftoff-data",
+      "type": "official_data"
+    }
+  ]
+}

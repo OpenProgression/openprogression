@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Open by Design",
   description:
     "OpenProgression is free and open. The standard, data, and code are MIT licensed. Only the brand name and logo are protected.",
+  openGraph: {
+    images: [{ url: "/og-license.png", width: 1200, height: 630 }],
+  },
 }
 
 const CAN_DO = [

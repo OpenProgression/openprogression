@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "levels": [
+    {
+      "id": "beginner",
+      "number": 1,
+      "name": "Beginner",
+      "shortName": "BEG",
+      "color": "#4ADE80",
+      "description": "New to structured fitness training. Learning fundamental movement patterns.",
+      "trainingAge": "0-6 months",
+      "percentileRange": [0, 20]
+    },
+    {
+      "id": "beginner_plus",
+      "number": 2,
+      "name": "Beginner+",
+      "shortName": "BEG+",
+      "color": "#22C55E",
+      "description": "Basic movements mastered. Building consistency and work capacity.",
+      "trainingAge": "3-12 months",
+      "percentileRange": [20, 35]
+    },
+    {
+      "id": "intermediate",
+      "number": 3,
+      "name": "Intermediate",
+      "shortName": "INT",
+      "color": "#EAB308",
+      "description": "Solid fundamentals across all categories. Handles moderate loads with good form.",
+      "trainingAge": "1-2 years",
+      "percentileRange": [35, 50]
+    },
+    {
+      "id": "intermediate_plus",
+      "number": 4,
+      "name": "Intermediate+",
+      "shortName": "INT+",
+      "color": "#F97316",
+      "description": "Competent athlete proficient across all fitness domains. Requires periodized programming.",
+      "trainingAge": "2-3 years",
+      "percentileRange": [50, 65]
+    },
+    {
+      "id": "advanced",
+      "number": 5,
+      "name": "Advanced",
+      "shortName": "ADV",
+      "color": "#EF4444",
+      "description": "Strong and skilled across all categories. Competition-capable.",
+      "trainingAge": "3-5 years",
+      "percentileRange": [65, 80]
+    },
+    {
+      "id": "advanced_plus",
+      "number": 6,
+      "name": "Advanced+",
+      "shortName": "ADV+",
+      "color": "#DC2626",
+      "description": "Very strong and highly skilled. Competition-level fitness across all domains.",
+      "trainingAge": "5+ years",
+      "percentileRange": [80, 95]
+    },
+    {
+      "id": "rx",
+      "number": 7,
+      "name": "Rx",
+      "shortName": "RX",
+      "color": "#991B1B",
+      "description": "Elite-level performance. Top 5% of trained athletes.",
+      "trainingAge": "5+ years dedicated",
+      "percentileRange": [95, 100]
+    }
+  ]
+}

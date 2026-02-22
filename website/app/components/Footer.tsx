@@ -15,6 +15,7 @@ const QUICK_LINKS = [
   { href: "/categories", label: "Categories" },
   { href: "/benchmarks", label: "Benchmarks" },
   { href: "/methodology", label: "Methodology" },
+  { href: "/data", label: "Data" },
   { href: "/license", label: "Open by Design" },
   {
     href: "https://github.com/OpenProgression/openprogression",

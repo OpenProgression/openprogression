@@ -1,0 +1,42 @@
+{
+  "category": "pressing",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "strict_press",
+      "name": "Strict Press",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition strict shoulder press (standing, no leg drive)",
+      "standards": {
+        "beginner":          { "male": 20,  "female": 12 },
+        "beginner_plus":     { "male": 30,  "female": 20 },
+        "intermediate":      { "male": 45,  "female": 30 },
+        "intermediate_plus": { "male": 55,  "female": 38 },
+        "advanced":          { "male": 68,  "female": 45 },
+        "advanced_plus":     { "male": 80,  "female": 52 },
+        "rx":                { "male": 95,  "female": 57 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["ball_weidman_2024", "kilgore_2023", "acsm_guidelines"]
+    },
+    {
+      "movement": "bench_press",
+      "name": "Bench Press",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition flat barbell bench press",
+      "standards": {
+        "beginner":          { "male": 40,  "female": 20 },
+        "beginner_plus":     { "male": 55,  "female": 30 },
+        "intermediate":      { "male": 70,  "female": 42 },
+        "intermediate_plus": { "male": 90,  "female": 55 },
+        "advanced":          { "male": 105, "female": 65 },
+        "advanced_plus":     { "male": 125, "female": 80 },
+        "rx":                { "male": 145, "female": 90 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["ball_weidman_2024", "kilgore_2023", "acsm_guidelines"]
+    }
+  ]
+}

@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "The 7 Levels",
   description:
     "Explore the 7 progression levels of the OpenProgression standard, from Beginner to Rx. Research-backed benchmarks for every stage of fitness development.",
+  openGraph: {
+    images: [{ url: "/og-levels.png", width: 1200, height: 630 }],
+  },
 }
 
 const LEVELS = [

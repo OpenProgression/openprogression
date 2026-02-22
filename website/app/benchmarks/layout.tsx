@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "Benchmarks",
   description:
     "Explore all OpenProgression benchmarks across 8 categories. Filter by gender and category, see exact numbers for every level from Beginner to Rx.",
+  openGraph: {
+    images: [{ url: "/og-benchmarks.png", width: 1200, height: 630 }],
+  },
 }
 
 export default function BenchmarksLayout({
