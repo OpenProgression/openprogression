@@ -1,0 +1,82 @@
+{
+  "category": "monostructural",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "row_500m",
+      "name": "500m Row",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "500 meter row for time on Concept2 rower",
+      "standards": {
+        "beginner":          { "male": 150, "female": 170 },
+        "beginner_plus":     { "male": 130, "female": 150 },
+        "intermediate":      { "male": 115, "female": 135 },
+        "intermediate_plus": { "male": 105, "female": 125 },
+        "advanced":          { "male": 98,  "female": 115 },
+        "advanced_plus":     { "male": 90,  "female": 105 },
+        "rx":                { "male": 84,  "female": 98 }
+      },
+      "notes": "Times in seconds. BEG=2:30/2:50, BEG+=2:10/2:30, INT=1:55/2:15, INT+=1:45/2:05, ADV=1:38/1:55, ADV+=1:30/1:45, RX=1:24/1:38.",
+      "sources": ["concept2_rankings"]
+    },
+    {
+      "movement": "row_2000m",
+      "name": "2000m Row",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "2000 meter row for time on Concept2 rower",
+      "standards": {
+        "beginner":          { "male": 570, "female": 630 },
+        "beginner_plus":     { "male": 510, "female": 570 },
+        "intermediate":      { "male": 465, "female": 530 },
+        "intermediate_plus": { "male": 435, "female": 490 },
+        "advanced":          { "male": 410, "female": 460 },
+        "advanced_plus":     { "male": 385, "female": 430 },
+        "rx":                { "male": 350, "female": 400 }
+      },
+      "notes": "Times in seconds. BEG=9:30/10:30, BEG+=8:30/9:30, INT=7:45/8:50, INT+=7:15/8:10, ADV=6:50/7:40, ADV+=6:25/7:10, RX=5:50/6:40.",
+      "sources": ["concept2_rankings"]
+    },
+    {
+      "movement": "run_mile",
+      "name": "1 Mile Run",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "1 mile (1609m) run for time",
+      "standards": {
+        "beginner":          { "male": 600, "female": 660 },
+        "beginner_plus":     { "male": 510, "female": 570 },
+        "intermediate":      { "male": 450, "female": 510 },
+        "intermediate_plus": { "male": 405, "female": 465 },
+        "advanced":          { "male": 370, "female": 420 },
+        "advanced_plus":     { "male": 340, "female": 390 },
+        "rx":                { "male": 310, "female": 360 }
+      },
+      "notes": "Times in seconds. BEG=10:00/11:00, BEG+=8:30/9:30, INT=7:30/8:30, INT+=6:45/7:45, ADV=6:10/7:00, ADV+=5:40/6:30, RX=5:10/6:00.",
+      "sources": ["runninglevel"]
+    },
+    {
+      "movement": "run_5k",
+      "name": "5K Run",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "5 kilometer run for time",
+      "standards": {
+        "beginner":          { "male": 1920, "female": 2160 },
+        "beginner_plus":     { "male": 1680, "female": 1920 },
+        "intermediate":      { "male": 1440, "female": 1680 },
+        "intermediate_plus": { "male": 1260, "female": 1500 },
+        "advanced":          { "male": 1140, "female": 1320 },
+        "advanced_plus":     { "male": 1050, "female": 1230 },
+        "rx":                { "male": 960,  "female": 1140 }
+      },
+      "notes": "Times in seconds. BEG=32:00/36:00, BEG+=28:00/32:00, INT=24:00/28:00, INT+=21:00/25:00, ADV=19:00/22:00, ADV+=17:30/20:30, RX=16:00/19:00.",
+      "sources": ["runninglevel"]
+    }
+  ]
+}
