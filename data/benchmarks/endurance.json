@@ -48,15 +48,15 @@
       "lowerIsBetter": true,
       "description": "1 mile run + 100 pull-ups + 200 push-ups + 300 air squats + 1 mile run, with weight vest (9/6kg)",
       "standards": {
-        "beginner":          { "male": 4200, "female": 4500 },
-        "beginner_plus":     { "male": 3600, "female": 3900 },
-        "intermediate":      { "male": 3150, "female": 3450 },
-        "intermediate_plus": { "male": 2700, "female": 3000 },
-        "advanced":          { "male": 2400, "female": 2640 },
-        "advanced_plus":     { "male": 2100, "female": 2340 },
-        "rx":                { "male": 1800, "female": 2100 }
+        "beginner":          { "male": 4800, "female": 5100 },
+        "beginner_plus":     { "male": 4200, "female": 4500 },
+        "intermediate":      { "male": 3600, "female": 3900 },
+        "intermediate_plus": { "male": 3000, "female": 3300 },
+        "advanced":          { "male": 2580, "female": 2880 },
+        "advanced_plus":     { "male": 2250, "female": 2520 },
+        "rx":                { "male": 1920, "female": 2220 }
       },
-      "notes": "Times in seconds with weight vest (9kg male / 6kg female). BEG=70:00/75:00, BEG+=60:00/65:00, INT=52:30/57:30, INT+=45:00/50:00, ADV=40:00/44:00, ADV+=35:00/39:00, RX=30:00/35:00.",
+      "notes": "Times in seconds with weight vest (9kg male / 6kg female). BEG=80:00/85:00, BEG+=70:00/75:00, INT=60:00/65:00, INT+=50:00/55:00, ADV=43:00/48:00, ADV+=37:30/42:00, RX=32:00/37:00.",
       "sources": ["mangine_2023", "butcher_2018"]
     },
     {
