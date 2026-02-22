@@ -75,7 +75,7 @@ OpenProgression (OP) is a **free, open standard** for classifying athletic abili
 | **Pressing** | Strict Press, Push Press, Bench Press |
 | **Olympic Lifting** | Clean, Snatch, Clean & Jerk |
 | **Gymnastics** | Pull-ups, HSPU, Muscle-ups, Toes-to-Bar |
-| **Monostructural** | Row, Run, Bike, Ski Erg |
+| **Monostructural** | 500m Row, 2000m Row, 1-Mile Run, 5K Run |
 | **Bodyweight** | Push-ups, Pistols, Double-unders |
 | **Endurance** | Fran, Grace, Murph, Cindy |
 
