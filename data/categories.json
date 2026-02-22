@@ -41,7 +41,7 @@
       "name": "Monostructural",
       "icon": "🚣",
       "description": "Single-modality cardiovascular output",
-      "keyMovements": ["row_500m", "row_2000m", "run_400m", "run_mile", "run_5k", "ski_erg_1000m"]
+      "keyMovements": ["row_500m", "row_2000m", "run_mile", "run_5k"]
     },
     {
       "id": "bodyweight",

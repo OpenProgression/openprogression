@@ -79,7 +79,7 @@ Bodyweight strength, control, and skill on apparatus. Progresses from basic pull
 
 ## 6. Monostructural
 
-**Key Movements:** 500m Row, 2000m Row, 400m Run, 1-Mile Run, 5K Run, 1000m Ski Erg
+**Key Movements:** 500m Row, 2000m Row, 1-Mile Run, 5K Run
 
 Single-modality cardiovascular output. Tests aerobic capacity, anaerobic threshold, and pacing across different time domains — from sprint (500m row, ~1:30) to sustained effort (5K run, ~20+ minutes).
 

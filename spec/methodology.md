@@ -95,7 +95,7 @@ Large-scale, publicly accessible performance databases:
 - Self-reported data from Concept2 erg users worldwide
 - Sample sizes: 1,000-10,000+ entries per distance/sex
 - URL: https://log.concept2.com/rankings
-- **Used for:** Monostructural benchmarks (rowing and ski erg)
+- **Used for:** Monostructural benchmarks (rowing)
 
 **RunningLevel.com**
 - Race time standards aggregated from 1,000,000+ race results
