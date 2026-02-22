@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "squatting",
+      "name": "Squatting",
+      "icon": "🏋️",
+      "description": "Lower body pushing strength through squat patterns",
+      "keyMovements": ["back_squat", "front_squat", "overhead_squat", "wall_ball"]
+    },
+    {
+      "id": "pulling",
+      "name": "Pulling",
+      "icon": "💪",
+      "description": "Hip-hinge and pulling strength from the floor",
+      "keyMovements": ["deadlift", "sumo_deadlift", "romanian_deadlift"]
+    },
+    {
+      "id": "pressing",
+      "name": "Pressing",
+      "icon": "🔝",
+      "description": "Upper body pressing strength in all planes",
+      "keyMovements": ["strict_press", "push_press", "push_jerk", "bench_press"]
+    },
+    {
+      "id": "olympic_lifting",
+      "name": "Olympic Lifting",
+      "icon": "⚡",
+      "description": "Speed-strength and technical proficiency in the Olympic lifts",
+      "keyMovements": ["power_clean", "power_snatch", "clean_and_jerk", "snatch"]
+    },
+    {
+      "id": "gymnastics",
+      "name": "Gymnastics",
+      "icon": "🤸",
+      "description": "Bodyweight strength, control, and skill on apparatus",
+      "keyMovements": ["strict_pull_up", "kipping_pull_up", "hspu", "toes_to_bar", "bar_muscle_up", "ring_muscle_up"]
+    },
+    {
+      "id": "monostructural",
+      "name": "Monostructural",
+      "icon": "🚣",
+      "description": "Single-modality cardiovascular output",
+      "keyMovements": ["row_500m", "row_2000m", "run_400m", "run_mile", "run_5k", "ski_erg_1000m"]
+    },
+    {
+      "id": "bodyweight",
+      "name": "Bodyweight",
+      "icon": "🏃",
+      "description": "Functional bodyweight strength and endurance",
+      "keyMovements": ["push_up", "air_squat", "pistol_squat", "double_under", "rope_climb"]
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "icon": "❤️",
+      "description": "Sustained effort across extended workouts",
+      "keyMovements": ["fran", "grace", "murph", "cindy", "fight_gone_bad"]
+    }
+  ]
+}

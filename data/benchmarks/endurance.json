@@ -1,0 +1,82 @@
+{
+  "category": "endurance",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "fran",
+      "name": "Fran",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "21-15-9 reps of thrusters (43/30kg) and pull-ups, for time",
+      "standards": {
+        "beginner":          { "male": 600, "female": 660 },
+        "beginner_plus":     { "male": 480, "female": 540 },
+        "intermediate":      { "male": 360, "female": 420 },
+        "intermediate_plus": { "male": 270, "female": 330 },
+        "advanced":          { "male": 210, "female": 260 },
+        "advanced_plus":     { "male": 160, "female": 200 },
+        "rx":                { "male": 120, "female": 150 }
+      },
+      "notes": "Times in seconds. Rx weight: 43kg/30kg thrusters. BEG=10:00/11:00, BEG+=8:00/9:00, INT=6:00/7:00, INT+=4:30/5:30, ADV=3:30/4:20, ADV+=2:40/3:20, RX=2:00/2:30.",
+      "sources": ["mangine_2023", "butcher_2018"]
+    },
+    {
+      "movement": "grace",
+      "name": "Grace",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "30 clean & jerks (61/43kg) for time",
+      "standards": {
+        "beginner":          { "male": 480, "female": 540 },
+        "beginner_plus":     { "male": 360, "female": 420 },
+        "intermediate":      { "male": 270, "female": 330 },
+        "intermediate_plus": { "male": 210, "female": 260 },
+        "advanced":          { "male": 165, "female": 200 },
+        "advanced_plus":     { "male": 130, "female": 160 },
+        "rx":                { "male": 100, "female": 120 }
+      },
+      "notes": "Times in seconds. Rx weight: 61kg/43kg. BEG=8:00/9:00, BEG+=6:00/7:00, INT=4:30/5:30, INT+=3:30/4:20, ADV=2:45/3:20, ADV+=2:10/2:40, RX=1:40/2:00.",
+      "sources": ["mangine_2023", "butcher_2018"]
+    },
+    {
+      "movement": "murph",
+      "name": "Murph",
+      "testType": "time",
+      "unit": "seconds",
+      "lowerIsBetter": true,
+      "description": "1 mile run + 100 pull-ups + 200 push-ups + 300 air squats + 1 mile run, with weight vest (9/6kg)",
+      "standards": {
+        "beginner":          { "male": 4200, "female": 4500 },
+        "beginner_plus":     { "male": 3600, "female": 3900 },
+        "intermediate":      { "male": 3150, "female": 3450 },
+        "intermediate_plus": { "male": 2700, "female": 3000 },
+        "advanced":          { "male": 2400, "female": 2640 },
+        "advanced_plus":     { "male": 2100, "female": 2340 },
+        "rx":                { "male": 1800, "female": 2100 }
+      },
+      "notes": "Times in seconds with weight vest (9kg male / 6kg female). BEG=70:00/75:00, BEG+=60:00/65:00, INT=52:30/57:30, INT+=45:00/50:00, ADV=40:00/44:00, ADV+=35:00/39:00, RX=30:00/35:00.",
+      "sources": ["mangine_2023", "butcher_2018"]
+    },
+    {
+      "movement": "cindy",
+      "name": "Cindy",
+      "testType": "amrap",
+      "unit": "rounds",
+      "lowerIsBetter": false,
+      "description": "20-minute AMRAP: 5 pull-ups + 10 push-ups + 15 air squats",
+      "standards": {
+        "beginner":          { "male": 8,  "female": 6 },
+        "beginner_plus":     { "male": 11, "female": 9 },
+        "intermediate":      { "male": 14, "female": 12 },
+        "intermediate_plus": { "male": 17, "female": 15 },
+        "advanced":          { "male": 20, "female": 18 },
+        "advanced_plus":     { "male": 23, "female": 21 },
+        "rx":                { "male": 26, "female": 24 }
+      },
+      "notes": "Score in completed rounds. Higher is better. Each round = 5 pull-ups + 10 push-ups + 15 air squats.",
+      "sources": ["mangine_2023", "butcher_2018"]
+    }
+  ]
+}
