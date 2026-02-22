@@ -36,12 +36,58 @@ Build packages, libraries, or tools that use OP data:
 - Translate documentation to other languages
 - Add examples and use cases
 
-## Contribution Process
+## How to Submit a Contribution
 
-1. **Open an issue first** — Describe what you want to change and why. This avoids duplicate work and ensures alignment.
-2. **Fork the repository** and create a branch
-3. **Make your changes** with clear commit messages
-4. **Submit a pull request** referencing the issue
+### 1. Open an issue first
+
+Before writing code or changing data, [open an issue](https://github.com/OpenProgression/openprogression/issues/new) describing what you want to change and why. This avoids duplicate work and ensures your contribution aligns with the project direction.
+
+### 2. Fork and clone
+
+```bash
+# Fork via GitHub, then:
+git clone https://github.com/YOUR-USERNAME/openprogression.git
+cd openprogression
+```
+
+### 3. Create a branch
+
+```bash
+git checkout -b your-branch-name
+# Use descriptive names like: add-wall-ball-benchmark, fix-deadlift-rx-value
+```
+
+### 4. Make your changes
+
+- Edit benchmark data in `data/benchmarks/`
+- Update spec docs in `spec/`
+- Follow the data format guidelines below
+- Test the website locally if you changed website code:
+
+```bash
+cd website
+npm install
+npm run dev
+```
+
+### 5. Commit and push
+
+```bash
+git add .
+git commit -m "Add wall ball benchmark to bodyweight category"
+git push origin your-branch-name
+```
+
+### 6. Open a pull request
+
+Go to your fork on GitHub and click **"Compare & pull request"**. In the PR description:
+
+- Reference the issue number (e.g., "Closes #12")
+- Explain what you changed and why
+- List your data sources with citations
+- Note any benchmarks that changed and by how much
+
+We review PRs regularly and will provide feedback or merge promptly.
 
 ## Benchmark Contribution Guidelines
 
