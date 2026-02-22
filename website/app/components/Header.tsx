@@ -27,13 +27,12 @@ const LEVEL_COLORS = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
   const pathname = usePathname()
+  const [mounted, setMounted] = useState(false)
 
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- needed for SSR hydration guard
+  useEffect(() => { setMounted(true) }, [])
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark")

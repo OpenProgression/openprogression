@@ -300,7 +300,7 @@ export default function LevelsPage() {
               Example Athlete Profile
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-              {CATEGORY_NAMES.map((cat, i) => {
+              {CATEGORY_NAMES.map((cat) => {
                 const isWeakest = cat === "Olympic Lifting"
                 return (
                   <div
