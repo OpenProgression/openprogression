@@ -1,11 +1,19 @@
-# OpenProgression
+<p align="center">
+  <a href="https://openprogression.org">
+    <img src="assets/banner.svg" alt="OpenProgression" width="800" />
+  </a>
+</p>
 
-**An open standard for fitness progression assessment.**
+<p align="center">
+  <strong>7 levels. 8 categories. Research-backed benchmarks derived from over 1.3 million data points.</strong>
+</p>
 
-7 levels. 8 categories. Research-backed benchmarks derived from over 1.3 million data points across peer-reviewed studies and public databases.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Standard: v1.0.0](https://img.shields.io/badge/Standard-v1.0.0-teal.svg)](https://openprogression.org)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License" /></a>
+  <a href="https://openprogression.org"><img src="https://img.shields.io/badge/Standard-v1.0.0-teal.svg" alt="Standard v1.0.0" /></a>
+  <a href="https://github.com/OpenProgression/openprogression/issues"><img src="https://img.shields.io/github/issues/OpenProgression/openprogression.svg" alt="Issues" /></a>
+  <a href="https://github.com/OpenProgression/openprogression/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+</p>
 
 ---
 
@@ -13,17 +21,41 @@
 
 OpenProgression (OP) is a **free, open standard** for classifying athletic ability across functional fitness. It provides a common language for coaches, athletes, and software to describe fitness levels — from first-day beginner to elite competitor.
 
-Unlike proprietary assessment systems, OP is:
+<table>
+<tr>
+<td>
 
-- **Open** — Free to use, implement, and contribute to
-- **Research-backed** — Every benchmark traces to peer-reviewed studies or public-domain data
-- **Gym-agnostic** — Works for any functional fitness facility, not tied to any brand
-- **Community-driven** — Standards improve through open contribution
+**Open** — Free to use, implement, and contribute to
+
+</td>
+<td>
+
+**Research-backed** — Every benchmark traces to peer-reviewed studies or public-domain data
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Gym-agnostic** — Works for any functional fitness facility, not tied to any brand
+
+</td>
+<td>
+
+**Community-driven** — Standards improve through open contribution
+
+</td>
+</tr>
+</table>
 
 ## The 7 Levels
 
+<p align="center">
+  <img src="assets/levels.svg" alt="The 7 OpenProgression levels from Beginner to Rx" width="800" />
+</p>
+
 | Level | Name | Percentile | Description |
-|-------|------|-----------|-------------|
+|:-----:|------|:----------:|-------------|
 | 1 | **Beginner** | 0-20th | New to structured training |
 | 2 | **Beginner+** | 20-35th | Fundamentals mastered, building consistency |
 | 3 | **Intermediate** | 35-50th | Solid across all categories, handles moderate loads |
@@ -32,7 +64,7 @@ Unlike proprietary assessment systems, OP is:
 | 6 | **Advanced+** | 80-95th | Competition-level fitness across all domains |
 | 7 | **Rx** | 95-100th | Elite performance, top 5% of trained athletes |
 
-Levels are determined by the **weakest-link principle**: your overall level equals your lowest category level. This encourages well-rounded fitness rather than specialization.
+> Levels are determined by the **weakest-link principle**: your overall level equals your lowest category level. This encourages well-rounded fitness rather than specialization.
 
 ## The 8 Categories
 
@@ -49,17 +81,20 @@ Levels are determined by the **weakest-link principle**: your overall level equa
 
 ## Quick Example
 
-A 80kg male who can:
-- Back Squat 105kg (Intermediate+)
-- Deadlift 150kg (Intermediate+)
-- Strict Press 55kg (Intermediate+)
-- Clean & Jerk 95kg (Intermediate+)
-- Do 9 strict pull-ups (Intermediate+)
-- Row 2000m in 7:15 (Intermediate+)
-- Do 40 push-ups (Intermediate+)
-- Complete Fran in 4:30 (Intermediate+)
+An 80kg male who can:
 
-**Overall level: Intermediate+** (all categories at INT+ or above)
+| Category | Result | Level |
+|----------|--------|:-----:|
+| Back Squat | 105kg | Intermediate+ |
+| Deadlift | 150kg | Intermediate+ |
+| Strict Press | 55kg | Intermediate+ |
+| Clean & Jerk | 95kg | Intermediate+ |
+| Strict Pull-ups | 9 reps | Intermediate+ |
+| 2000m Row | 7:15 | Intermediate+ |
+| Push-ups | 40 reps | Intermediate+ |
+| Fran | 4:30 | Intermediate+ |
+
+**Overall level: Intermediate+** — all categories at INT+ or above.
 
 But if their pull-ups were only 4 (Intermediate), their overall level drops to **Intermediate** — the weakest link determines the chain.
 
@@ -93,7 +128,6 @@ The benchmark data is published as JSON and can be consumed by any application:
 
 ```typescript
 // Example: Load and use OP benchmarks
-import levels from '@openprogression/data/levels.json'
 import squatting from '@openprogression/data/benchmarks/squatting.json'
 
 function getLevel(movement: string, gender: 'male' | 'female', value: number) {
@@ -119,7 +153,7 @@ getLevel('back_squat', 'male', 105) // => 'intermediate_plus'
 All benchmarks are derived from published, citable sources:
 
 | Source | Type | Sample Size |
-|--------|------|-------------|
+|--------|------|:-----------:|
 | Ball & Weidman (2024) | Peer-reviewed (J Sci Med Sport) | 809,986 |
 | Mangine et al. (2023) | Peer-reviewed (Sports) | 569,607 |
 | Concept2 Logbook Rankings | Public database | 10,000+ per distance |
@@ -129,9 +163,7 @@ All benchmarks are derived from published, citable sources:
 | Catalyst Athletics | Published standard | Competition data |
 | StrengthLevel.com | Community database | 30,000-600,000+ per exercise |
 
-Full source details with citations: [`data/sources.json`](data/sources.json)
-
-Methodology: [`spec/methodology.md`](spec/methodology.md)
+Full source details with citations: [`data/sources.json`](data/sources.json) | Methodology: [`spec/methodology.md`](spec/methodology.md)
 
 ## For Coaches
 
@@ -156,9 +188,8 @@ Build OP into your gym management software, workout tracking app, or coaching pl
 
 ## Contributing
 
-We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
-Ways to help:
 - **Review benchmarks** — Are the numbers accurate for your experience?
 - **Add movements** — Help expand the movement library
 - **Improve methodology** — Suggest better research sources
@@ -172,8 +203,6 @@ MIT License. See [LICENSE](LICENSE).
 
 "OpenProgression", the OpenProgression logo, and the 7-level progression gradient mark are trademarks of the OpenProgression project. The trademarks are **not** licensed under the MIT license.
 
-**What this means in practice:**
-
 - **The standard, data, and code are fully open** — use them freely in any project, commercial or not
 - **The name and logo require permission** for use on merchandise, commercial products, or anything that implies official endorsement
 
@@ -185,5 +214,6 @@ OpenProgression is an independent, community-driven open standard. It is not aff
 
 ---
 
-**Website:** [openprogression.org](https://openprogression.org)
-**GitHub:** [github.com/OpenProgression/openprogression](https://github.com/OpenProgression/openprogression)
+<p align="center">
+  <a href="https://openprogression.org"><strong>openprogression.org</strong></a> · <a href="https://github.com/OpenProgression/openprogression">GitHub</a> · <a href="https://github.com/OpenProgression/openprogression/issues">Issues</a>
+</p>

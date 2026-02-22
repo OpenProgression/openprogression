@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 56" width="800" height="56">
+  <rect x="0"   y="0" width="108" height="56" rx="10" fill="#4ADE80"/>
+  <rect x="115" y="0" width="108" height="56" rx="10" fill="#22C55E"/>
+  <rect x="230" y="0" width="108" height="56" rx="10" fill="#EAB308"/>
+  <rect x="345" y="0" width="108" height="56" rx="10" fill="#F97316"/>
+  <rect x="460" y="0" width="108" height="56" rx="10" fill="#EF4444"/>
+  <rect x="575" y="0" width="108" height="56" rx="10" fill="#DC2626"/>
+  <rect x="690" y="0" width="110" height="56" rx="10" fill="#991B1B"/>
+
+  <text x="54"  y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 1</text>
+  <text x="169" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 2</text>
+  <text x="284" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 3</text>
+  <text x="399" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 4</text>
+  <text x="514" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 5</text>
+  <text x="629" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 6</text>
+  <text x="745" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="white">Level 7</text>
+
+  <text x="54"  y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Beginner</text>
+  <text x="169" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Beginner+</text>
+  <text x="284" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Intermediate</text>
+  <text x="399" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Intermediate+</text>
+  <text x="514" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Advanced</text>
+  <text x="629" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Advanced+</text>
+  <text x="745" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="500" font-size="11" fill="rgba(255,255,255,0.85)">Rx</text>
+</svg>
