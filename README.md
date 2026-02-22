@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/OpenProgression/openprogression/actions/workflows/ci.yml"><img src="https://github.com/OpenProgression/openprogression/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License" /></a>
   <a href="https://openprogression.org"><img src="https://img.shields.io/badge/Standard-v1.0.0-teal.svg" alt="Standard v1.0.0" /></a>
   <a href="https://github.com/OpenProgression/openprogression/issues"><img src="https://img.shields.io/github/issues/OpenProgression/openprogression.svg" alt="Issues" /></a>
@@ -206,7 +207,7 @@ MIT License. See [LICENSE](LICENSE).
 - **The standard, data, and code are fully open** — use them freely in any project, commercial or not
 - **The name and logo require permission** for use on merchandise, commercial products, or anything that implies official endorsement
 
-This is the same approach used by Linux, Firefox, Kubernetes, and most major open source projects: the *work* is open, the *brand* is protected.
+This is the same approach used by most major open source projects: the *work* is open, the *brand* is protected.
 
 ## Disclaimer
 
