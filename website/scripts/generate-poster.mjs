@@ -39,6 +39,10 @@ function loadBenchmarks() {
   return allData
 }
 
+function escapeXml(str) {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;")
+}
+
 function formatTime(seconds) {
   const m = Math.floor(seconds / 60)
   const s = seconds % 60
@@ -181,7 +185,7 @@ function generatePoster() {
     for (const cat of data) {
       // Category header row
       svg += `<rect x="${startX}" y="${y}" width="${genderW}" height="${catHeaderH}" rx="6" fill="${TEAL}" opacity="0.15"/>\n`
-      svg += `<text x="${startX + 12}" y="${y + catHeaderH / 2 + 5}" font-size="12" font-weight="700" fill="${TEAL}" letter-spacing="0.5">${cat.label.toUpperCase()}</text>\n`
+      svg += `<text x="${startX + 12}" y="${y + catHeaderH / 2 + 5}" font-size="12" font-weight="700" fill="${TEAL}" letter-spacing="0.5">${escapeXml(cat.label.toUpperCase())}</text>\n`
       y += catHeaderH + 2
 
       // Movement rows
@@ -195,7 +199,7 @@ function generatePoster() {
         }
 
         // Movement name
-        svg += `<text x="${startX + 12}" y="${y + rowH / 2 + 4}" font-size="11" font-weight="500" fill="${TEXT}">${bm.name}</text>\n`
+        svg += `<text x="${startX + 12}" y="${y + rowH / 2 + 4}" font-size="11" font-weight="500" fill="${TEXT}">${escapeXml(bm.name)}</text>\n`
 
         // Unit hint
         const unitHint = bm.unit === "seconds" ? "" : bm.unit === "kg" ? " (kg)" : bm.unit === "rounds" ? " (rounds)" : " (reps)"
