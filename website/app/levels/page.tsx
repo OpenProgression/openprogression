@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "The 7 Levels -- OpenProgression",
+  title: "The 7 Levels",
   description:
     "Explore the 7 progression levels of the OpenProgression standard, from Beginner to Rx. Research-backed benchmarks for every stage of fitness development.",
 }
@@ -158,11 +158,11 @@ export default function LevelsPage() {
           </p>
 
           {/* Level color bar */}
-          <div className="flex justify-center mt-10 gap-1">
+          <div className="flex justify-center mt-6 sm:mt-10 gap-0.5 sm:gap-1">
             {LEVELS.map((level) => (
               <div
                 key={level.id}
-                className="h-2 flex-1 max-w-16 rounded-full"
+                className="h-1.5 sm:h-2 flex-1 max-w-10 sm:max-w-16 rounded-full"
                 style={{ backgroundColor: level.color }}
               />
             ))}
