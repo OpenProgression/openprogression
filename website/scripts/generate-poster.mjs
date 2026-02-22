@@ -92,7 +92,6 @@ function generatePoster() {
   // Colors
   const BG = "#0c1222"
   const BG_CARD = "#131c2e"
-  const BG_CARD_ALT = "#162032"
   const TEXT = "#e2e8f0"
   const TEXT_MUTED = "#64748b"
   const TEXT_DIM = "#475569"

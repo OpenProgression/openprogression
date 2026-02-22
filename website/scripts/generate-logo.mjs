@@ -1,6 +1,5 @@
 import satori from "satori"
 import sharp from "sharp"
-import { readFile } from "fs/promises"
 import { join, dirname } from "path"
 import { fileURLToPath } from "url"
 
