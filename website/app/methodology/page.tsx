@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { ExternalLink, BookOpen, Database, Shield, BarChart3, Globe } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "Methodology",
+  description:
+    "How OpenProgression benchmarks are derived. Peer-reviewed sources, percentile mapping, and a transparent derivation process backed by 1.3 million data points.",
+}
 
 const SOURCES = [
   {
@@ -182,14 +189,14 @@ export default function MethodologyPage() {
           Each of the 7 levels corresponds to a percentile range within the trained population
           — people who regularly engage in structured fitness training (minimum 3 sessions per week).
         </p>
-        <div className="grid grid-cols-7 gap-2">
+        <div className="grid grid-cols-4 sm:grid-cols-7 gap-1.5 sm:gap-2">
           {PERCENTILE_MAP.map((level) => (
             <div
               key={level.short}
-              className="text-center rounded-xl border border-border bg-card p-3 transition-all hover:-translate-y-0.5 hover:shadow-md"
+              className="text-center rounded-xl border border-border bg-card p-2 sm:p-3 transition-all hover:-translate-y-0.5 hover:shadow-md"
             >
               <div
-                className="w-8 h-8 rounded-full mx-auto mb-2 flex items-center justify-center text-xs font-bold text-white"
+                className="w-7 h-7 sm:w-8 sm:h-8 rounded-full mx-auto mb-1.5 sm:mb-2 flex items-center justify-center text-[10px] sm:text-xs font-bold text-white"
                 style={{ backgroundColor: level.color }}
               >
                 {PERCENTILE_MAP.indexOf(level) + 1}

@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "OpenProgression — Open Fitness Progression Standard",
+  description:
+    "An open standard for fitness progression assessment. 7 levels, 8 categories, research-backed benchmarks derived from 1.3 million athletes. Free and MIT licensed.",
+}
+
 export default function Home() {
   return (
     <section className="relative flex items-center justify-center min-h-[90vh] px-6">

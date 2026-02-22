@@ -1,7 +1,8 @@
+import type { Metadata } from "next"
 import { Check, X, ExternalLink, Scale, Shield, Heart } from "lucide-react"
 
-export const metadata = {
-  title: "Open by Design — OpenProgression",
+export const metadata: Metadata = {
+  title: "Open by Design",
   description:
     "OpenProgression is free and open. The standard, data, and code are MIT licensed. Only the brand name and logo are protected.",
 }
@@ -45,7 +46,7 @@ export default function LicensePage() {
       <section className="mb-16">
         <div className="grid md:grid-cols-2 gap-6">
           {/* Open Part */}
-          <div className="p-8 rounded-2xl border border-primary/20 bg-primary/5">
+          <div className="p-5 sm:p-8 rounded-2xl border border-primary/20 bg-primary/5">
             <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4">
               <Scale className="w-6 h-6 text-primary" />
             </div>
@@ -70,7 +71,7 @@ export default function LicensePage() {
           </div>
 
           {/* Protected Part */}
-          <div className="p-8 rounded-2xl border border-border bg-card">
+          <div className="p-5 sm:p-8 rounded-2xl border border-border bg-card">
             <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center mb-4">
               <Shield className="w-6 h-6 text-muted-foreground" />
             </div>
@@ -201,7 +202,7 @@ export default function LicensePage() {
       </section>
 
       {/* Full License */}
-      <section className="p-8 rounded-2xl bg-secondary/50 border border-border">
+      <section className="p-5 sm:p-8 rounded-2xl bg-secondary/50 border border-border">
         <h2 className="text-xl font-display font-bold tracking-tight mb-4">
           Full License Text
         </h2>

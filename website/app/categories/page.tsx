@@ -11,7 +11,7 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "8 Categories -- OpenProgression",
+  title: "8 Categories",
   description:
     "Explore the 8 assessment categories of the OpenProgression standard: Squatting, Pulling, Pressing, Olympic Lifting, Gymnastics, Monostructural, Bodyweight, and Endurance.",
 }

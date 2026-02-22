@@ -462,13 +462,13 @@ export default function BenchmarksPage() {
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="border-b border-border">
-                          <th className="sticky left-0 z-10 bg-card text-left py-3 px-4 font-semibold text-muted-foreground text-xs uppercase tracking-wider min-w-[160px]">
+                          <th className="sticky left-0 z-10 bg-card text-left py-2 sm:py-3 px-3 sm:px-4 font-semibold text-muted-foreground text-[10px] sm:text-xs uppercase tracking-wider min-w-[120px] sm:min-w-[160px]">
                             Movement
                           </th>
                           {LEVEL_KEYS.map((key, i) => (
                             <th
                               key={key}
-                              className="text-center py-3 px-3 font-semibold text-xs uppercase tracking-wider min-w-[80px]"
+                              className="text-center py-2 sm:py-3 px-2 sm:px-3 font-semibold text-[10px] sm:text-xs uppercase tracking-wider min-w-[56px] sm:min-w-[80px]"
                             >
                               <div className="flex flex-col items-center gap-1.5">
                                 <span
@@ -491,7 +491,7 @@ export default function BenchmarksPage() {
                               rowIdx % 2 === 0 ? "bg-secondary/50" : ""
                             }`}
                           >
-                            <td className="sticky left-0 z-10 py-3 px-4 font-medium bg-inherit">
+                            <td className="sticky left-0 z-10 py-2 sm:py-3 px-3 sm:px-4 font-medium text-sm bg-inherit">
                               <div>
                                 <span className="text-foreground">{benchmark.name}</span>
                                 {benchmark.description && (
@@ -506,7 +506,7 @@ export default function BenchmarksPage() {
                               return (
                                 <td
                                   key={key}
-                                  className="text-center py-3 px-3 tabular-nums"
+                                  className="text-center py-2 sm:py-3 px-2 sm:px-3 text-xs sm:text-sm tabular-nums"
                                 >
                                   <span
                                     className={
