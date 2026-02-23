@@ -1,7 +1,19 @@
 "use client"
 
-import { useState, useMemo } from "react"
-import { Search, ChevronDown, ChevronUp, Clock, Repeat, Zap, Dumbbell } from "lucide-react"
+import { useState, useMemo, useEffect, useCallback } from "react"
+import {
+  Search,
+  ChevronDown,
+  ChevronUp,
+  ChevronLeft,
+  ChevronRight,
+  Clock,
+  Repeat,
+  Zap,
+  Dumbbell,
+  Calendar,
+  BookOpen,
+} from "lucide-react"
 
 // ---------------------------------------------------------------------------
 // Level metadata
@@ -38,7 +50,7 @@ type LevelKey = (typeof LEVEL_KEYS)[number]
 type Gender = "male" | "female"
 
 // ---------------------------------------------------------------------------
-// Metcon types from the JSON
+// Data types
 // ---------------------------------------------------------------------------
 interface LoadPair {
   male: number
@@ -52,6 +64,7 @@ interface ScalingOverride {
   reps?: number
   distance?: number
   calories?: number
+  sets?: number
 }
 
 interface Movement {
@@ -88,456 +101,25 @@ interface Metcon {
   movements?: Movement[]
 }
 
-// ---------------------------------------------------------------------------
-// Metcon data (hardcoded from metcons.json)
-// ---------------------------------------------------------------------------
-const METCONS: Metcon[] = [
-  {
-    code: "OP-001",
-    name: "Quick Ember",
-    type: "for_time",
-    timeCap: 8,
-    rounds: 3,
-    stimulus: {
-      duration: "4-7 min",
-      feel: "Short sprint. Power cleans should be fast singles or quick touch-and-go. Push-ups are active recovery.",
-      intent: "Barbell cycling speed, pushing through short-duration discomfort",
-    },
-    coachNotes: "Touch-and-go cleans if possible — singles are fine but don't rest between reps. Push-ups should be unbroken for at least round 1. If cleans are slow singles from the start, go lighter.",
-    movements: [
-      {
-        movement: "Power Clean", reps: 10, load: { male: 61, female: 43 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 56, female: 40 } },
-          advanced: { load: { male: 48, female: 34 } },
-          intermediate_plus: { load: { male: 43, female: 30 } },
-          intermediate: { load: { male: 34, female: 25 } },
-          beginner_plus: { load: { male: 25, female: 20 } },
-          beginner: { load: { male: 20, female: 15 } },
-        },
-      },
-      {
-        movement: "Push-up", reps: 15,
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: { reps: 12 },
-          intermediate: { reps: 12 },
-          beginner_plus: { sub: "Knee Push-up", reps: 12 },
-          beginner: { sub: "Knee Push-up", reps: 10 },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-002",
-    name: "Sweet Honey",
-    type: "amrap",
-    timeCap: 12,
-    stimulus: {
-      duration: "12 min",
-      feel: "Balanced and approachable. Should feel like a rhythm you can sustain — no single movement should break you.",
-      intent: "Mixed modal conditioning, pacing across three domains",
-    },
-    coachNotes: "Find a sustainable pace from round 1 — don't go out too hot on the run. KB swings should be unbroken every round. TTB in 1-2 sets. Target 6-8 rounds at Rx.",
-    movements: [
-      { movement: "Run", distance: 200, unit: "m" },
-      {
-        movement: "Kettlebell Swing", reps: 10, load: { male: 24, female: 16 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 24, female: 16 } },
-          advanced: { load: { male: 20, female: 12 } },
-          intermediate_plus: { load: { male: 16, female: 12 } },
-          intermediate: { load: { male: 16, female: 8 } },
-          beginner_plus: { sub: "Russian Kettlebell Swing", load: { male: 12, female: 8 } },
-          beginner: { sub: "Russian Kettlebell Swing", load: { male: 8, female: 6 } },
-        },
-      },
-      {
-        movement: "Toes-to-Bar", reps: 8,
-        scaling: {
-          advanced_plus: {},
-          advanced: { sub: "Hanging Knee Raise" },
-          intermediate_plus: { sub: "Hanging Knee Raise" },
-          intermediate: { sub: "Hanging Knee Raise", reps: 6 },
-          beginner_plus: { sub: "Sit-up", reps: 12 },
-          beginner: { sub: "Sit-up", reps: 10 },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-003",
-    name: "Heavy Iron",
-    type: "for_time",
-    timeCap: 18,
-    rounds: 5,
-    stimulus: {
-      duration: "10-15 min",
-      feel: "Heavy barbell complex. Low reps but challenging loads. Rest between rounds is expected — the weight is the challenge, not the pace.",
-      intent: "Strength endurance across three barbell movements, cycling heavy loads under fatigue",
-    },
-    coachNotes: "This is NOT a sprint. Take 15-30s between movements if needed. Deadlifts should be heavy but controlled. Front squats from the floor — clean the first rep. Press should be tough but doable for 3 unbroken. Scale load to keep all three movements unbroken.",
-    movements: [
-      {
-        movement: "Deadlift", reps: 3, load: { male: 102, female: 70 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 93, female: 65 } },
-          advanced: { load: { male: 84, female: 57 } },
-          intermediate_plus: { load: { male: 70, female: 48 } },
-          intermediate: { load: { male: 61, female: 43 } },
-          beginner_plus: { load: { male: 48, female: 34 } },
-          beginner: { load: { male: 34, female: 25 } },
-        },
-      },
-      {
-        movement: "Front Squat", reps: 3, load: { male: 70, female: 48 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 65, female: 45 } },
-          advanced: { load: { male: 57, female: 40 } },
-          intermediate_plus: { load: { male: 48, female: 34 } },
-          intermediate: { load: { male: 43, female: 30 } },
-          beginner_plus: { load: { male: 34, female: 25 } },
-          beginner: { load: { male: 25, female: 20 } },
-        },
-      },
-      {
-        movement: "Strict Press", reps: 3, load: { male: 43, female: 30 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 40, female: 27 } },
-          advanced: { load: { male: 34, female: 25 } },
-          intermediate_plus: { load: { male: 30, female: 20 } },
-          intermediate: { load: { male: 25, female: 18 } },
-          beginner_plus: { load: { male: 20, female: 15 } },
-          beginner: { load: { male: 15, female: 10 } },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-004",
-    name: "Sharp Frost",
-    type: "emom",
-    timeCap: 16,
-    interval: 1,
-    pattern: ["A", "B"],
-    stimulus: {
-      duration: "16 min",
-      feel: "Interval work — push hard, recover within the minute. Should have 15-20s rest each round at Rx.",
-      intent: "Power output under repeating time pressure, barbell skill under fatigue",
-    },
-    coachNotes: "Snatches should be crisp singles or quick touch-and-go — no grinding reps. Burpees are the engine piece. If athletes can't finish within 40-45 seconds, reduce snatch load or burpee reps.",
-    groups: {
-      A: {
-        movements: [
-          {
-            movement: "Power Snatch", reps: 3, load: { male: 52, female: 35 }, unit: "kg",
-            scaling: {
-              advanced_plus: { load: { male: 48, female: 32 } },
-              advanced: { load: { male: 43, female: 30 } },
-              intermediate_plus: { load: { male: 35, female: 25 } },
-              intermediate: { load: { male: 30, female: 20 } },
-              beginner_plus: { sub: "Power Clean", load: { male: 25, female: 18 } },
-              beginner: { sub: "Power Clean", load: { male: 20, female: 15 } },
-            },
-          },
-        ],
-      },
-      B: {
-        movements: [
-          {
-            movement: "Bar-facing Burpee", reps: 8,
-            scaling: {
-              advanced_plus: {},
-              advanced: { reps: 7 },
-              intermediate_plus: { reps: 6 },
-              intermediate: { sub: "Burpee", reps: 6 },
-              beginner_plus: { sub: "Burpee", reps: 5 },
-              beginner: { sub: "Up-Down", reps: 5 },
-            },
-          },
-        ],
-      },
-    },
-  },
-  {
-    code: "OP-005",
-    name: "Spicy Gravel",
-    type: "for_time",
-    timeCap: 12,
-    repScheme: [21, 15, 9],
-    stimulus: {
-      duration: "6-10 min",
-      feel: "High intensity couplet. The descending reps give you hope — but the burpees are relentless. Should hurt from round 2 onward.",
-      intent: "High-intensity mixed modal work, mental toughness through descending reps",
-    },
-    coachNotes: "Wall balls should be unbroken in the round of 21 at Rx. Burpees set the pace — just keep moving. Scale wall ball weight to maintain large sets.",
-    movements: [
-      {
-        movement: "Wall Ball", load: { male: 9, female: 6 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 9, female: 6 } },
-          advanced: { load: { male: 6, female: 4 } },
-          intermediate_plus: { load: { male: 6, female: 4 } },
-          intermediate: { load: { male: 6, female: 4 } },
-          beginner_plus: { load: { male: 4, female: 3 } },
-          beginner: { load: { male: 4, female: 3 } },
-        },
-      },
-      {
-        movement: "Burpee",
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: {},
-          intermediate: {},
-          beginner_plus: { sub: "Burpee to Target" },
-          beginner: { sub: "Up-Down" },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-006",
-    name: "Long Oatmeal",
-    type: "amrap",
-    timeCap: 25,
-    stimulus: {
-      duration: "25 min",
-      feel: "Steady engine work. No single movement should gas you — find a rhythm and hold it for 25 minutes.",
-      intent: "Aerobic capacity, pacing discipline, sustained mixed modal output",
-    },
-    coachNotes: "This is a pacer, not a sprint. Athletes should be able to talk between movements. If the cleans slow to singles, go lighter. Run should be conversational pace. Target 5-7 rounds at Rx.",
-    movements: [
-      { movement: "Run", distance: 400, unit: "m" },
-      {
-        movement: "Wall Ball", reps: 15, load: { male: 9, female: 6 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 9, female: 6 } },
-          advanced: { load: { male: 6, female: 4 } },
-          intermediate_plus: { load: { male: 6, female: 4 } },
-          intermediate: { load: { male: 6, female: 4 }, reps: 12 },
-          beginner_plus: { load: { male: 4, female: 3 }, reps: 12 },
-          beginner: { load: { male: 4, female: 3 }, reps: 10 },
-        },
-      },
-      {
-        movement: "Toes-to-Bar", reps: 10,
-        scaling: {
-          advanced_plus: {},
-          advanced: { sub: "Hanging Knee Raise" },
-          intermediate_plus: { sub: "Hanging Knee Raise" },
-          intermediate: { sub: "Hanging Knee Raise", reps: 8 },
-          beginner_plus: { sub: "Sit-up", reps: 15 },
-          beginner: { sub: "Sit-up", reps: 12 },
-        },
-      },
-      {
-        movement: "Power Clean", reps: 5, load: { male: 61, female: 43 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 56, female: 40 } },
-          advanced: { load: { male: 48, female: 34 } },
-          intermediate_plus: { load: { male: 43, female: 30 } },
-          intermediate: { load: { male: 34, female: 25 } },
-          beginner_plus: { load: { male: 25, female: 20 } },
-          beginner: { load: { male: 20, female: 15 } },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-007",
-    name: "Dark Thunder",
-    type: "for_time",
-    timeCap: 16,
-    rounds: 3,
-    stimulus: {
-      duration: "8-14 min",
-      feel: "Gymnastics-heavy and skill-demanding. Every movement requires control and body awareness. Mental focus matters more than fitness here.",
-      intent: "Gymnastics skill under fatigue, unilateral strength, coordination",
-    },
-    coachNotes: "Bar muscle-ups in small sets from the start — don't burn out in round 1. Pistols should be controlled, not rushed. Double-unders are active recovery. Scale movements to maintain quality — ugly muscle-ups are worse than clean pull-ups.",
-    movements: [
-      {
-        movement: "Bar Muscle-up", reps: 5,
-        scaling: {
-          advanced_plus: { sub: "Chest-to-Bar Pull-up", reps: 7 },
-          advanced: { sub: "Chest-to-Bar Pull-up", reps: 8 },
-          intermediate_plus: { sub: "Pull-up", reps: 8 },
-          intermediate: { sub: "Pull-up", reps: 7 },
-          beginner_plus: { sub: "Jumping Pull-up", reps: 8 },
-          beginner: { sub: "Ring Row", reps: 10 },
-        },
-      },
-      {
-        movement: "Pistol Squat", reps: 10,
-        scaling: {
-          advanced_plus: {},
-          advanced: { sub: "Pistol Squat to Box" },
-          intermediate_plus: { sub: "Pistol Squat to Box" },
-          intermediate: { sub: "Air Squat", reps: 20 },
-          beginner_plus: { sub: "Air Squat", reps: 15 },
-          beginner: { sub: "Air Squat", reps: 12 },
-        },
-      },
-      {
-        movement: "Double-Under", reps: 30,
-        scaling: {
-          advanced_plus: {},
-          advanced: { reps: 25 },
-          intermediate_plus: { reps: 20 },
-          intermediate: { sub: "Single-Under", reps: 60 },
-          beginner_plus: { sub: "Single-Under", reps: 50 },
-          beginner: { sub: "Single-Under", reps: 40 },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-008",
-    name: "Light Lemon",
-    type: "for_time",
-    timeCap: 10,
-    stimulus: {
-      duration: "5-8 min",
-      feel: "Fast bodyweight chipper. No equipment, no excuses. The descending reps make each movement feel shorter — just keep moving.",
-      intent: "Bodyweight conditioning, sustained effort without external load",
-    },
-    coachNotes: "This is about constant movement — there's no reason to stop. Double-unders should be unbroken at Rx. Push-ups are where most athletes slow down. Scale to keep moving the entire time.",
-    movements: [
-      {
-        movement: "Double-Under", reps: 50,
-        scaling: {
-          advanced_plus: {},
-          advanced: { reps: 40 },
-          intermediate_plus: { reps: 30 },
-          intermediate: { sub: "Single-Under", reps: 100 },
-          beginner_plus: { sub: "Single-Under", reps: 75 },
-          beginner: { sub: "Single-Under", reps: 50 },
-        },
-      },
-      {
-        movement: "Air Squat", reps: 40,
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: { reps: 35 },
-          intermediate: { reps: 30 },
-          beginner_plus: { reps: 25 },
-          beginner: { reps: 20 },
-        },
-      },
-      {
-        movement: "Push-up", reps: 30,
-        scaling: {
-          advanced_plus: {},
-          advanced: { reps: 25 },
-          intermediate_plus: { reps: 20 },
-          intermediate: { reps: 15 },
-          beginner_plus: { sub: "Knee Push-up", reps: 15 },
-          beginner: { sub: "Knee Push-up", reps: 10 },
-        },
-      },
-      {
-        movement: "Jumping Lunge", reps: 20,
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: { reps: 16 },
-          intermediate: { sub: "Walking Lunge", reps: 16 },
-          beginner_plus: { sub: "Walking Lunge", reps: 12 },
-          beginner: { sub: "Walking Lunge", reps: 10 },
-        },
-      },
-      {
-        movement: "Burpee", reps: 10,
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: {},
-          intermediate: {},
-          beginner_plus: { sub: "Burpee to Target" },
-          beginner: { sub: "Up-Down", reps: 8 },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-009",
-    name: "Thick Smoke",
-    type: "for_time",
-    timeCap: 14,
-    rounds: 3,
-    stimulus: {
-      duration: "8-14 min",
-      feel: "Moderate grind. Thrusters are the challenge — heavy enough to demand respect but light enough for sets. Pull-ups are the rest. Box jumps keep the legs honest.",
-      intent: "Mixed modal, barbell cycling under fatigue, classic triplet",
-    },
-    coachNotes: "Break thrusters at 8 if needed — don't go to failure in round 1. Pull-ups should be quick sets. Box jumps are steady — no need to sprint them. Scale load to keep under the cap.",
-    movements: [
-      {
-        movement: "Thruster", reps: 15, load: { male: 43, female: 30 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 40, female: 27 } },
-          advanced: { load: { male: 34, female: 25 } },
-          intermediate_plus: { load: { male: 30, female: 20 } },
-          intermediate: { load: { male: 25, female: 18 } },
-          beginner_plus: { load: { male: 20, female: 15 } },
-          beginner: { load: { male: 15, female: 10 } },
-        },
-      },
-      {
-        movement: "Pull-up", reps: 12,
-        scaling: {
-          advanced_plus: {},
-          advanced: {},
-          intermediate_plus: { sub: "Jumping Pull-up" },
-          intermediate: { sub: "Jumping Pull-up", reps: 10 },
-          beginner_plus: { sub: "Ring Row" },
-          beginner: { sub: "Ring Row", reps: 8 },
-        },
-      },
-      {
-        movement: "Box Jump", reps: 9, height: { male: 60, female: 50 }, unit: "cm",
-        scaling: {
-          advanced_plus: {},
-          advanced: { height: { male: 50, female: 40 } },
-          intermediate_plus: { height: { male: 50, female: 40 } },
-          intermediate: { sub: "Box Step-up", height: { male: 50, female: 40 } },
-          beginner_plus: { sub: "Box Step-up", height: { male: 50, female: 40 } },
-          beginner: { sub: "Box Step-up", height: { male: 40, female: 30 } },
-        },
-      },
-    ],
-  },
-  {
-    code: "OP-010",
-    name: "Loud Copper",
-    type: "for_time",
-    timeCap: 22,
-    stimulus: {
-      duration: "15-22 min",
-      feel: "Big and explosive. The rows bookend the barbell work — you'll need to find your pace on the erg knowing 30 clean & jerks are waiting. The second row is where mental toughness shows.",
-      intent: "Engine capacity, explosive barbell cycling, pacing strategy",
-    },
-    coachNotes: "Don't blow up on the first row — save energy for the barbell. C&J should be quick singles or small touch-and-go sets. The second row will feel harder than the first — that's normal. Settle in and hold a pace.",
-    movements: [
-      { movement: "Row", distance: 1000, unit: "m" },
-      {
-        movement: "Clean & Jerk", reps: 30, load: { male: 61, female: 43 }, unit: "kg",
-        scaling: {
-          advanced_plus: { load: { male: 56, female: 40 } },
-          advanced: { load: { male: 48, female: 34 } },
-          intermediate_plus: { load: { male: 43, female: 30 } },
-          intermediate: { load: { male: 34, female: 25 } },
-          beginner_plus: { sub: "Power Clean & Push Press", load: { male: 25, female: 20 } },
-          beginner: { sub: "Power Clean & Push Press", load: { male: 20, female: 15 } },
-        },
-      },
-      { movement: "Row", distance: 1000, unit: "m" },
-    ],
-  },
-]
+interface StrengthMovement {
+  movement: string
+  scheme: string
+  sets: number
+  reps: number
+  load?: LoadPair
+  unit?: string
+  notes?: string
+  scaling?: Partial<Record<Exclude<LevelKey, "rx">, ScalingOverride>>
+}
+
+interface Session {
+  date: string
+  title: string
+  warmup: { notes: string; durationMinutes: number } | null
+  strength: StrengthMovement[] | null
+  metcon: string | null
+  accessory: { notes: string } | null
+}
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -563,7 +145,10 @@ function resolveMovement(
   level: LevelKey,
   gender: Gender
 ): { name: string; detail: string } {
-  const scaling = level !== "rx" ? mov.scaling?.[level as Exclude<LevelKey, "rx">] : undefined
+  const scaling =
+    level !== "rx"
+      ? mov.scaling?.[level as Exclude<LevelKey, "rx">]
+      : undefined
   const name = scaling?.sub || mov.movement
   const reps = scaling?.reps ?? mov.reps
   const load = scaling?.load ?? mov.load
@@ -587,6 +172,31 @@ function resolveMovement(
   }
 
   return { name, detail }
+}
+
+function resolveStrengthLoad(
+  sm: StrengthMovement,
+  level: LevelKey,
+  gender: Gender
+): number | undefined {
+  const scaling =
+    level !== "rx"
+      ? sm.scaling?.[level as Exclude<LevelKey, "rx">]
+      : undefined
+  const load = scaling?.load ?? sm.load
+  if (!load) return undefined
+  return gender === "male" ? load.male : load.female
+}
+
+function resolveStrengthName(
+  sm: StrengthMovement,
+  level: LevelKey
+): string {
+  const scaling =
+    level !== "rx"
+      ? sm.scaling?.[level as Exclude<LevelKey, "rx">]
+      : undefined
+  return scaling?.sub || sm.movement
 }
 
 function formatHeader(metcon: Metcon): string {
@@ -618,33 +228,635 @@ function getMovementNames(metcon: Metcon): string[] {
   return getAllMovements(metcon).map((m) => m.movement)
 }
 
+function formatDate(dateStr: string): { dayName: string; dayNum: string; month: string } {
+  const d = new Date(dateStr + "T12:00:00")
+  const dayName = d.toLocaleDateString("en-US", { weekday: "short" })
+  const dayNum = d.getDate().toString()
+  const month = d.toLocaleDateString("en-US", { month: "short" })
+  return { dayName, dayNum, month }
+}
+
 // ---------------------------------------------------------------------------
-// Component
+// Metcon Card (shared between Daily + Library)
 // ---------------------------------------------------------------------------
-export default function ProgrammingPage() {
-  const [gender, setGender] = useState<Gender>("male")
-  const [level, setLevel] = useState<number>(6) // default Rx
+function MetconCard({
+  metcon,
+  level,
+  levelKey,
+  gender,
+  defaultExpanded,
+}: {
+  metcon: Metcon
+  level: number
+  levelKey: LevelKey
+  gender: Gender
+  defaultExpanded?: boolean
+}) {
+  const [isExpanded, setIsExpanded] = useState(defaultExpanded ?? false)
+  const TypeIcon = TYPE_ICONS[metcon.type] || Clock
+  const isEMOM = metcon.type === "emom"
+
+  return (
+    <div className="rounded-xl border bg-card overflow-hidden transition-all">
+      {/* Card Header */}
+      <button
+        className="w-full px-6 py-5 flex items-center gap-4 text-left hover:bg-secondary/50 transition-colors"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <div
+          className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+          style={{ backgroundColor: `${LEVEL_COLORS[level]}15` }}
+        >
+          <TypeIcon
+            className="w-5 h-5"
+            style={{ color: LEVEL_COLORS[level] }}
+          />
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 mb-0.5">
+            <span className="text-xs font-mono text-muted-foreground">
+              {metcon.code}
+            </span>
+            <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium">
+              {TYPE_LABELS[metcon.type] || metcon.type}
+            </span>
+          </div>
+          <h3 className="text-lg font-display font-bold tracking-tight truncate">
+            &ldquo;{metcon.name}&rdquo;
+          </h3>
+        </div>
+        <div className="flex items-center gap-3 shrink-0">
+          <span className="text-sm text-muted-foreground font-medium">
+            {metcon.stimulus.duration}
+          </span>
+          {isExpanded ? (
+            <ChevronUp className="w-5 h-5 text-muted-foreground" />
+          ) : (
+            <ChevronDown className="w-5 h-5 text-muted-foreground" />
+          )}
+        </div>
+      </button>
+
+      {/* Expanded Detail */}
+      {isExpanded && (
+        <div className="border-t border-border">
+          {/* Whiteboard */}
+          <div className="px-6 py-5">
+            <div
+              className="rounded-lg p-5 border"
+              style={{
+                borderColor: `${LEVEL_COLORS[level]}30`,
+                backgroundColor: `${LEVEL_COLORS[level]}05`,
+              }}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  {formatHeader(metcon)}
+                </h4>
+                <span
+                  className="text-xs font-bold px-2.5 py-1 rounded-full"
+                  style={{
+                    backgroundColor: `${LEVEL_COLORS[level]}20`,
+                    color: LEVEL_COLORS[level],
+                  }}
+                >
+                  {LEVEL_NAMES[level]}
+                </span>
+              </div>
+              <p className="text-xs text-muted-foreground mb-3">
+                {metcon.type === "amrap" ? "Time:" : "Time cap:"}{" "}
+                {metcon.timeCap} min
+              </p>
+
+              {isEMOM && metcon.pattern && metcon.groups ? (
+                <div className="space-y-3">
+                  {metcon.pattern.map((key) => {
+                    const group = metcon.groups![key]
+                    return (
+                      <div key={key}>
+                        <p className="text-xs font-bold text-muted-foreground mb-1">
+                          Minute {key}:
+                        </p>
+                        {group.movements.map((mov, j) => {
+                          const resolved = resolveMovement(mov, levelKey, gender)
+                          return (
+                            <p key={j} className="text-base font-medium pl-4">
+                              {resolved.detail} {resolved.name}
+                            </p>
+                          )
+                        })}
+                      </div>
+                    )
+                  })}
+                </div>
+              ) : metcon.repScheme ? (
+                <div className="space-y-1">
+                  <p className="text-xs font-bold text-muted-foreground mb-2">
+                    {metcon.repScheme.join("-")}:
+                  </p>
+                  {metcon.movements?.map((mov, i) => {
+                    const resolved = resolveMovement(mov, levelKey, gender)
+                    return (
+                      <p key={i} className="text-base font-medium">
+                        {resolved.name}
+                        {resolved.detail && (
+                          <span className="text-muted-foreground text-sm ml-2">
+                            {resolved.detail}
+                          </span>
+                        )}
+                      </p>
+                    )
+                  })}
+                </div>
+              ) : (
+                <div className="space-y-1">
+                  {metcon.movements?.map((mov, i) => {
+                    const resolved = resolveMovement(mov, levelKey, gender)
+                    return (
+                      <p key={i} className="text-base font-medium">
+                        {resolved.detail} {resolved.name}
+                      </p>
+                    )
+                  })}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Stimulus + Coach Notes */}
+          <div className="px-6 pb-5 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="p-4 rounded-lg bg-secondary/50">
+              <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
+                Stimulus
+              </h5>
+              <p className="text-sm text-foreground leading-relaxed">
+                {metcon.stimulus.feel}
+              </p>
+              <p className="text-xs text-muted-foreground mt-2 italic">
+                {metcon.stimulus.intent}
+              </p>
+            </div>
+            <div className="p-4 rounded-lg bg-secondary/50">
+              <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
+                Coach Notes
+              </h5>
+              <p className="text-sm text-foreground leading-relaxed">
+                {metcon.coachNotes}
+              </p>
+            </div>
+          </div>
+
+          {/* All Levels Quick View */}
+          <div className="px-6 pb-5">
+            <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
+              All Levels
+            </h5>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-border">
+                    <th className="text-left py-2 px-3 text-xs font-semibold text-muted-foreground">
+                      Movement
+                    </th>
+                    {LEVEL_NAMES.map((name, i) => (
+                      <th
+                        key={i}
+                        className="text-center py-2 px-2 text-xs font-bold"
+                        style={{ color: LEVEL_COLORS[i] }}
+                      >
+                        {name}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {getAllMovements(metcon).map((mov, i) => (
+                    <tr
+                      key={i}
+                      className="border-b border-border last:border-b-0"
+                    >
+                      <td className="py-2 px-3 font-medium text-xs whitespace-nowrap">
+                        {mov.movement}
+                      </td>
+                      {LEVEL_KEYS.map((lk, li) => {
+                        const resolved = resolveMovement(mov, lk, gender)
+                        const isActive = li === level
+                        return (
+                          <td
+                            key={lk}
+                            className={`text-center py-2 px-2 text-xs whitespace-nowrap ${
+                              isActive
+                                ? "font-bold"
+                                : "text-muted-foreground"
+                            }`}
+                            style={{
+                              backgroundColor: isActive
+                                ? `${LEVEL_COLORS[li]}10`
+                                : undefined,
+                            }}
+                          >
+                            <span>
+                              {resolved.name !== mov.movement && (
+                                <span className="block text-[10px] opacity-70">
+                                  {resolved.name}
+                                </span>
+                              )}
+                              {resolved.detail || "-"}
+                            </span>
+                          </td>
+                        )
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Daily Session View
+// ---------------------------------------------------------------------------
+function DailyView({
+  sessions,
+  metcons,
+  level,
+  levelKey,
+  gender,
+}: {
+  sessions: Session[]
+  metcons: Metcon[]
+  level: number
+  levelKey: LevelKey
+  gender: Gender
+}) {
+  const sortedDates = useMemo(
+    () => sessions.map((s) => s.date).sort(),
+    [sessions]
+  )
+  const [selectedDate, setSelectedDate] = useState("")
+
+  useEffect(() => {
+    if (sortedDates.length === 0) return
+    const today = new Date().toISOString().split("T")[0]
+    // Find today or nearest future session
+    const future = sortedDates.find((d) => d >= today)
+    setSelectedDate(future || sortedDates[sortedDates.length - 1])
+  }, [sortedDates])
+
+  const session = sessions.find((s) => s.date === selectedDate)
+  const currentIdx = sortedDates.indexOf(selectedDate)
+  const metcon = session?.metcon
+    ? metcons.find((m) => m.code === session.metcon)
+    : null
+
+  const goToPrev = useCallback(() => {
+    if (currentIdx > 0) setSelectedDate(sortedDates[currentIdx - 1])
+  }, [currentIdx, sortedDates])
+
+  const goToNext = useCallback(() => {
+    if (currentIdx < sortedDates.length - 1)
+      setSelectedDate(sortedDates[currentIdx + 1])
+  }, [currentIdx, sortedDates])
+
+  if (sortedDates.length === 0) {
+    return (
+      <div className="text-center py-16">
+        <p className="text-muted-foreground">No sessions scheduled yet.</p>
+      </div>
+    )
+  }
+
+  return (
+    <div className="flex flex-col gap-6">
+      {/* Date Navigation */}
+      <div className="flex items-center justify-center gap-2">
+        <button
+          onClick={goToPrev}
+          disabled={currentIdx <= 0}
+          className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+        >
+          <ChevronLeft className="w-5 h-5" />
+        </button>
+
+        <div className="flex gap-1 overflow-x-auto px-2">
+          {sortedDates.map((date) => {
+            const { dayName, dayNum, month } = formatDate(date)
+            const isSelected = date === selectedDate
+            return (
+              <button
+                key={date}
+                onClick={() => setSelectedDate(date)}
+                className={`flex flex-col items-center px-4 py-2 rounded-lg text-xs font-medium transition-colors min-w-[60px] ${
+                  isSelected
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                }`}
+              >
+                <span className="font-bold">{dayName}</span>
+                <span className="text-lg font-display font-black leading-tight">
+                  {dayNum}
+                </span>
+                <span>{month}</span>
+              </button>
+            )
+          })}
+        </div>
+
+        <button
+          onClick={goToNext}
+          disabled={currentIdx >= sortedDates.length - 1}
+          className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+        >
+          <ChevronRight className="w-5 h-5" />
+        </button>
+      </div>
+
+      {/* Session Title */}
+      {session && (
+        <div className="text-center">
+          <h2 className="text-2xl font-display font-bold tracking-tight">
+            {session.title}
+          </h2>
+        </div>
+      )}
+
+      {!session && (
+        <div className="text-center py-16">
+          <p className="text-muted-foreground">Rest day.</p>
+        </div>
+      )}
+
+      {session && (
+        <div className="flex flex-col gap-4">
+          {/* Warm-up */}
+          {session.warmup && (
+            <div className="rounded-xl border bg-card p-6">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-orange-500/10 flex items-center justify-center">
+                  <Clock className="w-4 h-4 text-orange-500" />
+                </div>
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Warm-up
+                </h3>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium ml-auto">
+                  {session.warmup.durationMinutes} min
+                </span>
+              </div>
+              <p className="text-sm text-foreground leading-relaxed">
+                {session.warmup.notes}
+              </p>
+            </div>
+          )}
+
+          {/* Strength */}
+          {session.strength && session.strength.length > 0 && (
+            <div className="rounded-xl border bg-card p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
+                  <Dumbbell className="w-4 h-4 text-blue-500" />
+                </div>
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Strength
+                </h3>
+              </div>
+
+              <div className="flex flex-col gap-5">
+                {session.strength.map((sm, si) => {
+                  const loadVal = resolveStrengthLoad(sm, levelKey, gender)
+                  const movName = resolveStrengthName(sm, levelKey)
+
+                  return (
+                    <div key={si}>
+                      {/* Movement + scheme + load */}
+                      <div className="flex items-baseline gap-3 mb-1">
+                        <span className="text-lg font-display font-bold tracking-tight">
+                          {movName}
+                        </span>
+                        <span className="text-sm font-mono text-muted-foreground">
+                          {sm.scheme}
+                        </span>
+                        {loadVal && (
+                          <span
+                            className="text-sm font-bold"
+                            style={{ color: LEVEL_COLORS[level] }}
+                          >
+                            {loadVal}
+                            {sm.unit || "kg"}
+                          </span>
+                        )}
+                        <span
+                          className="text-xs font-bold px-2 py-0.5 rounded-full ml-auto"
+                          style={{
+                            backgroundColor: `${LEVEL_COLORS[level]}20`,
+                            color: LEVEL_COLORS[level],
+                          }}
+                        >
+                          {LEVEL_NAMES[level]}
+                        </span>
+                      </div>
+
+                      {/* Notes */}
+                      {sm.notes && (
+                        <p className="text-sm text-muted-foreground mb-3">
+                          {sm.notes}
+                        </p>
+                      )}
+
+                      {/* All-levels strength scaling */}
+                      {sm.load && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {LEVEL_KEYS.map((lk, li) => {
+                            const lv = resolveStrengthLoad(sm, lk, gender)
+                            const isActive = li === level
+                            return (
+                              <span
+                                key={lk}
+                                className={`text-xs px-2 py-1 rounded-md font-medium ${
+                                  isActive
+                                    ? "font-bold text-white"
+                                    : "text-muted-foreground bg-secondary"
+                                }`}
+                                style={{
+                                  backgroundColor: isActive
+                                    ? LEVEL_COLORS[li]
+                                    : undefined,
+                                }}
+                              >
+                                {LEVEL_NAMES[li].replace("+", "+")}: {lv}
+                                {sm.unit || "kg"}
+                              </span>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Metcon */}
+          {metcon && (
+            <div>
+              <div className="flex items-center gap-2 mb-3 px-1">
+                <div className="w-8 h-8 rounded-lg bg-red-500/10 flex items-center justify-center">
+                  <Zap className="w-4 h-4 text-red-500" />
+                </div>
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Metcon
+                </h3>
+              </div>
+              <MetconCard
+                metcon={metcon}
+                level={level}
+                levelKey={levelKey}
+                gender={gender}
+                defaultExpanded
+              />
+            </div>
+          )}
+
+          {/* Accessory */}
+          {session.accessory && (
+            <div className="rounded-xl border bg-card p-6">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-8 h-8 rounded-lg bg-purple-500/10 flex items-center justify-center">
+                  <Repeat className="w-4 h-4 text-purple-500" />
+                </div>
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+                  Accessory
+                </h3>
+              </div>
+              <p className="text-sm text-foreground leading-relaxed">
+                {session.accessory.notes}
+              </p>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// WOD Library View
+// ---------------------------------------------------------------------------
+function LibraryView({
+  metcons,
+  level,
+  levelKey,
+  gender,
+}: {
+  metcons: Metcon[]
+  level: number
+  levelKey: LevelKey
+  gender: Gender
+}) {
   const [search, setSearch] = useState("")
   const [typeFilter, setTypeFilter] = useState<string>("all")
-  const [expandedCode, setExpandedCode] = useState<string | null>(null)
-
-  const levelKey = LEVEL_KEYS[level]
 
   const filtered = useMemo(() => {
-    return METCONS.filter((m) => {
+    return metcons.filter((m) => {
       if (typeFilter !== "all" && m.type !== typeFilter) return false
       if (search.trim()) {
         const q = search.toLowerCase()
         const nameMatch = m.name.toLowerCase().includes(q)
         const codeMatch = m.code.toLowerCase().includes(q)
-        const movementMatch = getMovementNames(m).some((n) => n.toLowerCase().includes(q))
+        const movementMatch = getMovementNames(m).some((n) =>
+          n.toLowerCase().includes(q)
+        )
         if (!nameMatch && !codeMatch && !movementMatch) return false
       }
       return true
     })
-  }, [search, typeFilter])
+  }, [metcons, search, typeFilter])
 
   const types = ["all", "for_time", "amrap", "emom"]
+
+  return (
+    <div className="flex flex-col gap-6">
+      {/* Search + Type Filter */}
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <div className="relative w-full sm:w-80">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+          <input
+            type="text"
+            placeholder="Search by name, code, or movement..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full pl-10 pr-4 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
+          />
+        </div>
+        <div className="flex bg-secondary rounded-full p-1">
+          {types.map((t) => (
+            <button
+              key={t}
+              className={`px-4 py-2 rounded-full text-xs font-medium transition-colors ${
+                typeFilter === t
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              onClick={() => setTypeFilter(t)}
+            >
+              {t === "all" ? "All" : TYPE_LABELS[t] || t}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* WOD Cards */}
+      <div className="flex flex-col gap-4">
+        {filtered.length === 0 && (
+          <div className="text-center py-16">
+            <p className="text-muted-foreground">
+              No metcons match your search.
+            </p>
+          </div>
+        )}
+
+        {filtered.map((metcon) => (
+          <MetconCard
+            key={metcon.code}
+            metcon={metcon}
+            level={level}
+            levelKey={levelKey}
+            gender={gender}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
+// Page Component
+// ---------------------------------------------------------------------------
+export default function ProgrammingPage() {
+  const [gender, setGender] = useState<Gender>("male")
+  const [level, setLevel] = useState<number>(6) // default Rx
+  const [activeTab, setActiveTab] = useState<"daily" | "library">("daily")
+  const [metcons, setMetcons] = useState<Metcon[]>([])
+  const [sessions, setSessions] = useState<Session[]>([])
+  const [loading, setLoading] = useState(true)
+
+  const levelKey = LEVEL_KEYS[level]
+
+  useEffect(() => {
+    Promise.all([
+      fetch("/data/metcons.json").then((r) => r.json()),
+      fetch("/data/sessions.json").then((r) => r.json()),
+    ]).then(([metconData, sessionData]) => {
+      setMetcons(metconData.metcons)
+      setSessions(sessionData.sessions)
+      setLoading(false)
+    })
+  }, [])
 
   return (
     <>
@@ -652,13 +864,14 @@ export default function ProgrammingPage() {
       <section className="relative py-20 md:py-28 px-6">
         <div className="container max-w-4xl mx-auto text-center">
           <div className="section-tag section-tag-teal justify-center mb-6">
-            WOD Library
+            Programming
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-black tracking-tight mb-6">
-            <span className="text-primary">Programming</span>
+            <span className="text-primary">Daily Workouts</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Browse the metcon library. Every workout scaled to your level.
+            Full sessions scaled to your level. Warm-up, strength, metcon, and
+            accessory — all personalized.
           </p>
         </div>
       </section>
@@ -667,9 +880,36 @@ export default function ProgrammingPage() {
       <section className="pb-4 px-6">
         <div className="container max-w-5xl mx-auto">
           <div className="flex flex-col gap-4">
-            {/* Row 1: Gender + Level */}
+            {/* Row 1: Tabs */}
+            <div className="flex justify-center">
+              <div className="flex bg-secondary rounded-full p-1">
+                <button
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-colors ${
+                    activeTab === "daily"
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                  onClick={() => setActiveTab("daily")}
+                >
+                  <Calendar className="w-4 h-4" />
+                  Daily
+                </button>
+                <button
+                  className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-colors ${
+                    activeTab === "library"
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                  onClick={() => setActiveTab("library")}
+                >
+                  <BookOpen className="w-4 h-4" />
+                  WOD Library
+                </button>
+              </div>
+            </div>
+
+            {/* Row 2: Gender + Level */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              {/* Gender Toggle */}
               <div className="flex bg-secondary rounded-full p-1">
                 <button
                   className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
@@ -692,8 +932,6 @@ export default function ProgrammingPage() {
                   Female
                 </button>
               </div>
-
-              {/* Level Selector */}
               <div className="flex bg-secondary rounded-full p-1">
                 {LEVEL_NAMES.map((name, i) => (
                   <button
@@ -704,7 +942,8 @@ export default function ProgrammingPage() {
                         : "text-muted-foreground hover:text-foreground"
                     }`}
                     style={{
-                      backgroundColor: level === i ? LEVEL_COLORS[i] : undefined,
+                      backgroundColor:
+                        level === i ? LEVEL_COLORS[i] : undefined,
                     }}
                     onClick={() => setLevel(i)}
                   >
@@ -713,276 +952,33 @@ export default function ProgrammingPage() {
                 ))}
               </div>
             </div>
-
-            {/* Row 2: Search + Type Filter */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-              {/* Search */}
-              <div className="relative w-full sm:w-80">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                <input
-                  type="text"
-                  placeholder="Search by name, code, or movement..."
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
-                />
-              </div>
-
-              {/* Type Filter */}
-              <div className="flex bg-secondary rounded-full p-1">
-                {types.map((t) => (
-                  <button
-                    key={t}
-                    className={`px-4 py-2 rounded-full text-xs font-medium transition-colors ${
-                      typeFilter === t
-                        ? "bg-primary text-primary-foreground"
-                        : "text-muted-foreground hover:text-foreground"
-                    }`}
-                    onClick={() => setTypeFilter(t)}
-                  >
-                    {t === "all" ? "All" : TYPE_LABELS[t] || t}
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* WOD Cards */}
+      {/* Content */}
       <section className="py-8 px-6">
         <div className="container max-w-5xl mx-auto">
-          <div className="flex flex-col gap-4">
-            {filtered.length === 0 && (
-              <div className="text-center py-16">
-                <p className="text-muted-foreground">No metcons match your search.</p>
-              </div>
-            )}
-
-            {filtered.map((metcon) => {
-              const isExpanded = expandedCode === metcon.code
-              const TypeIcon = TYPE_ICONS[metcon.type] || Clock
-              const isEMOM = metcon.type === "emom"
-
-              return (
-                <div
-                  key={metcon.code}
-                  className="rounded-xl border bg-card overflow-hidden transition-all"
-                >
-                  {/* Card Header — always visible */}
-                  <button
-                    className="w-full px-6 py-5 flex items-center gap-4 text-left hover:bg-secondary/50 transition-colors"
-                    onClick={() => setExpandedCode(isExpanded ? null : metcon.code)}
-                  >
-                    {/* Type Icon */}
-                    <div
-                      className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-                      style={{ backgroundColor: `${LEVEL_COLORS[level]}15` }}
-                    >
-                      <TypeIcon className="w-5 h-5" style={{ color: LEVEL_COLORS[level] }} />
-                    </div>
-
-                    {/* Name + Meta */}
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2 mb-0.5">
-                        <span className="text-xs font-mono text-muted-foreground">{metcon.code}</span>
-                        <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium">
-                          {TYPE_LABELS[metcon.type] || metcon.type}
-                        </span>
-                      </div>
-                      <h3 className="text-lg font-display font-bold tracking-tight truncate">
-                        &ldquo;{metcon.name}&rdquo;
-                      </h3>
-                    </div>
-
-                    {/* Time + Expand */}
-                    <div className="flex items-center gap-3 shrink-0">
-                      <span className="text-sm text-muted-foreground font-medium">
-                        {metcon.stimulus.duration}
-                      </span>
-                      {isExpanded ? (
-                        <ChevronUp className="w-5 h-5 text-muted-foreground" />
-                      ) : (
-                        <ChevronDown className="w-5 h-5 text-muted-foreground" />
-                      )}
-                    </div>
-                  </button>
-
-                  {/* Expanded Detail */}
-                  {isExpanded && (
-                    <div className="border-t border-border">
-                      {/* Whiteboard */}
-                      <div className="px-6 py-5">
-                        <div
-                          className="rounded-lg p-5 border"
-                          style={{
-                            borderColor: `${LEVEL_COLORS[level]}30`,
-                            backgroundColor: `${LEVEL_COLORS[level]}05`,
-                          }}
-                        >
-                          {/* Level badge + format header */}
-                          <div className="flex items-center justify-between mb-4">
-                            <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                              {formatHeader(metcon)}
-                            </h4>
-                            <span
-                              className="text-xs font-bold px-2.5 py-1 rounded-full"
-                              style={{
-                                backgroundColor: `${LEVEL_COLORS[level]}20`,
-                                color: LEVEL_COLORS[level],
-                              }}
-                            >
-                              {LEVEL_NAMES[level]}
-                            </span>
-                          </div>
-
-                          {/* Time cap */}
-                          <p className="text-xs text-muted-foreground mb-3">
-                            {metcon.type === "amrap" ? "Time:" : "Time cap:"} {metcon.timeCap} min
-                          </p>
-
-                          {/* Movements */}
-                          {isEMOM && metcon.pattern && metcon.groups ? (
-                            <div className="space-y-3">
-                              {metcon.pattern.map((key) => {
-                                const group = metcon.groups![key]
-                                return (
-                                  <div key={key}>
-                                    <p className="text-xs font-bold text-muted-foreground mb-1">
-                                      Minute {key}:
-                                    </p>
-                                    {group.movements.map((mov, j) => {
-                                      const resolved = resolveMovement(mov, levelKey, gender)
-                                      return (
-                                        <p key={j} className="text-base font-medium pl-4">
-                                          {resolved.detail} {resolved.name}
-                                        </p>
-                                      )
-                                    })}
-                                  </div>
-                                )
-                              })}
-                            </div>
-                          ) : metcon.repScheme ? (
-                            <div className="space-y-1">
-                              <p className="text-xs font-bold text-muted-foreground mb-2">
-                                {metcon.repScheme.join("-")}:
-                              </p>
-                              {metcon.movements?.map((mov, i) => {
-                                const resolved = resolveMovement(mov, levelKey, gender)
-                                return (
-                                  <p key={i} className="text-base font-medium">
-                                    {resolved.name}
-                                    {resolved.detail && (
-                                      <span className="text-muted-foreground text-sm ml-2">
-                                        {resolved.detail}
-                                      </span>
-                                    )}
-                                  </p>
-                                )
-                              })}
-                            </div>
-                          ) : (
-                            <div className="space-y-1">
-                              {metcon.movements?.map((mov, i) => {
-                                const resolved = resolveMovement(mov, levelKey, gender)
-                                return (
-                                  <p key={i} className="text-base font-medium">
-                                    {resolved.detail} {resolved.name}
-                                  </p>
-                                )
-                              })}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* Stimulus + Coach Notes */}
-                      <div className="px-6 pb-5 grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="p-4 rounded-lg bg-secondary/50">
-                          <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
-                            Stimulus
-                          </h5>
-                          <p className="text-sm text-foreground leading-relaxed">
-                            {metcon.stimulus.feel}
-                          </p>
-                          <p className="text-xs text-muted-foreground mt-2 italic">
-                            {metcon.stimulus.intent}
-                          </p>
-                        </div>
-                        <div className="p-4 rounded-lg bg-secondary/50">
-                          <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2">
-                            Coach Notes
-                          </h5>
-                          <p className="text-sm text-foreground leading-relaxed">
-                            {metcon.coachNotes}
-                          </p>
-                        </div>
-                      </div>
-
-                      {/* All Levels Quick View */}
-                      <div className="px-6 pb-5">
-                        <h5 className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
-                          All Levels
-                        </h5>
-                        <div className="overflow-x-auto">
-                          <table className="w-full text-sm">
-                            <thead>
-                              <tr className="border-b border-border">
-                                <th className="text-left py-2 px-3 text-xs font-semibold text-muted-foreground">
-                                  Movement
-                                </th>
-                                {LEVEL_NAMES.map((name, i) => (
-                                  <th
-                                    key={i}
-                                    className="text-center py-2 px-2 text-xs font-bold"
-                                    style={{ color: LEVEL_COLORS[i] }}
-                                  >
-                                    {name.replace("+", "+")}
-                                  </th>
-                                ))}
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {getAllMovements(metcon).map((mov, i) => (
-                                <tr key={i} className="border-b border-border last:border-b-0">
-                                  <td className="py-2 px-3 font-medium text-xs whitespace-nowrap">
-                                    {mov.movement}
-                                  </td>
-                                  {LEVEL_KEYS.map((lk, li) => {
-                                    const resolved = resolveMovement(mov, lk, gender)
-                                    const isActive = li === level
-                                    return (
-                                      <td
-                                        key={lk}
-                                        className={`text-center py-2 px-2 text-xs whitespace-nowrap ${
-                                          isActive ? "font-bold" : "text-muted-foreground"
-                                        }`}
-                                        style={{
-                                          backgroundColor: isActive ? `${LEVEL_COLORS[li]}10` : undefined,
-                                        }}
-                                      >
-                                        <span className={isActive ? "" : ""}>
-                                          {resolved.name !== mov.movement && (
-                                            <span className="block text-[10px] opacity-70">{resolved.name}</span>
-                                          )}
-                                          {resolved.detail || "-"}
-                                        </span>
-                                      </td>
-                                    )
-                                  })}
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              )
-            })}
-          </div>
+          {loading ? (
+            <div className="text-center py-16">
+              <p className="text-muted-foreground">Loading...</p>
+            </div>
+          ) : activeTab === "daily" ? (
+            <DailyView
+              sessions={sessions}
+              metcons={metcons}
+              level={level}
+              levelKey={levelKey}
+              gender={gender}
+            />
+          ) : (
+            <LibraryView
+              metcons={metcons}
+              level={level}
+              levelKey={levelKey}
+              gender={gender}
+            />
+          )}
         </div>
       </section>
     </>

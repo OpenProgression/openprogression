@@ -421,35 +421,98 @@ If a field is not present in the scaling override, the Rx value carries forward.
 
 ## Daily Session Structure
 
-A daily session references a metcon by code and provides the surrounding programming. The metcon library is a separate, reusable dataset.
+A daily session assembles a complete class hour: warmup, strength, metcon, and accessory work. Sessions are stored in `data/sessions.json` and reference metcons by code from the separate metcon library.
+
+### Session Schema
 
 ```json
 {
-  "date": "2026-02-23",
-  "warmup": {
-    "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats"
-  },
-  "strength": {
-    "movement": "Weighted Ring Dip",
-    "scheme": "5x3",
-    "sets": 5,
-    "reps": 3,
-    "notes": "Building. Rest 2:00 between sets."
-  },
-  "metcon": {
-    "code": "OP-047"
-  },
-  "extras": {
-    "notes": "3x12 GHD sit-ups, 3x20 banded pull-aparts"
-  }
+  "version": "1.0.0",
+  "sessions": [
+    {
+      "date": "2026-02-24",
+      "title": "Monday — Push/Pull",
+      "warmup": {
+        "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": [
+        {
+          "movement": "Back Squat",
+          "scheme": "5x3",
+          "sets": 5,
+          "reps": 3,
+          "load": { "male": 140, "female": 95 },
+          "unit": "kg",
+          "notes": "Build across sets. Rest 2:00.",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 125, "female": 85 } },
+            "advanced":          { "load": { "male": 105, "female": 70 } },
+            "intermediate_plus": { "load": { "male": 85, "female": 57 } },
+            "intermediate":      { "load": { "male": 70, "female": 47 } },
+            "beginner_plus":     { "load": { "male": 50, "female": 35 } },
+            "beginner":          { "load": { "male": 40, "female": 25 } }
+          }
+        }
+      ],
+      "metcon": "OP-001",
+      "accessory": {
+        "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts"
+      }
+    }
+  ]
 }
 ```
 
+### Session-Level Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `date` | string | Yes | ISO date (`YYYY-MM-DD`) |
+| `title` | string | Yes | Human-readable day title (e.g., "Monday — Push/Pull") |
+| `warmup` | object \| null | No | Warmup block |
+| `strength` | array \| null | No | Array of strength movements with full scaling |
+| `metcon` | string \| null | No | Metcon code reference (e.g., `"OP-005"`) |
+| `accessory` | object \| null | No | Accessory/cool-down block |
+
+### Warmup Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `notes` | string | Yes | Free-text warmup description |
+| `durationMinutes` | number | Yes | Duration in minutes (for display, e.g., "Warm-up (10 min)") |
+
+### Strength Movement Fields
+
+Strength movements use the same scaling system as metcon movements. Rx is the default; lower levels override only what changes. Strength is **always an array** — even a single lift is `[{ ... }]`. Consistent parsing, no type-checking branching in the renderer.
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `movement` | string | Yes | Movement name |
+| `scheme` | string | Yes | Human-readable display string (e.g., "5x3", "4x5") |
+| `sets` | number | Yes | Number of sets |
+| `reps` | number | Yes | Reps per set |
+| `load` | `{ male, female }` | No | Rx load in specified unit |
+| `unit` | string | No | Unit for load (`"kg"`) |
+| `notes` | string | No | Coach cues: rest periods, RPE, tempo, "build across sets", "@ 80% 1RM" |
+| `scaling` | object | No | Per-level overrides (same format as metcon scaling) |
+
+Scaling overrides can include `sub` (movement substitution), `load`, `reps`, or `sets` — following the same sparse inheritance model as metcons. Percentage-based work (e.g., "@ 80% 1RM") goes in `notes` as a coach cue, but absolute loads are still provided per level so athletes without a tested 1RM can see their numbers.
+
+### Accessory Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `notes` | string | Yes | Free-text accessory work description |
+
 ### Session Design Principles
 
+- **All fields are nullable** — pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
+- **Strength uses full 7-level scaling** — same format as metcon movements. Athletes see their personalized numbers on the gym TV and in the app.
+- **Metcon is a code reference** — `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
 - **Metcons are immutable** — if a coach wants to modify a metcon (different time cap, different reps), it becomes a new metcon with a new code. This keeps the library clean and results comparable.
-- **Strength is structured** — `scheme` is the human-readable display string (e.g., "5x3"), while `sets` and `reps` provide machine-parseable values for tracking and auto-progression. Strength loads are intentionally free-text in `notes` for v1 — real-world strength programming uses percentages, RPE, "building to heavy," and other formats that don't fit a single `load` field cleanly. A structured load/percentage field can be added in a future version when auto-progression is built.
-- **Warmup and extras are free-text** — these vary too much to justify rigid structure. If future AI validation needs to cross-reference warmup movements with the metcon, the warmup format can be upgraded to a structured movements array.
+- **Warmup and accessory are free-text** — these are coach flavor that doesn't need per-level scaling. A `durationMinutes` field on warmup supports display (e.g., "Warm-up (10 min)").
+- **Strength notes handle edge cases** — percentage-based work, tempo, RPE, and other coaching cues go in `notes` alongside the absolute loads.
 
 ## Age Adjustment
 
