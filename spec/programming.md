@@ -1,6 +1,6 @@
 # OpenProgression Programming Specification
 
-**Version:** 0.3.0 (Draft)
+**Version:** 0.4.0 (Draft)
 
 ## Session Structure
 
@@ -104,24 +104,30 @@ OP-203 "Long Oatmeal"
 
 Note: `timeCap` is used across all types for consistency, but its meaning differs. For **For Time** and **For Load**, it's an upper bound — athletes may finish before the cap. For **AMRAP**, **EMOM**, and **Intervals**, it IS the workout duration — athletes always work the full time.
 
-## Scaling Tiers
+## Scaling Levels
 
-Rather than writing 7 separate versions, metcons use 3 scaling tiers:
+Metcons provide scaling for all 7 OP levels. The level keys match the canonical identifiers used across the OP data model:
 
-| Tier | OP Levels | Description |
-|------|-----------|-------------|
-| **Rx** | Advanced+, Rx | The default prescribed workout. Top-level values in the data. |
-| **Scaled** | Intermediate, Intermediate+, Advanced | Reduced loads, simpler movement variations |
-| **Foundation** | Beginner, Beginner+ | Accessible loads, fundamental movement substitutions |
+| Level Key | Display Name | Description |
+|-----------|-------------|-------------|
+| `rx` | Rx | The default prescribed workout. Top-level values in the data. |
+| `advanced_plus` | Advanced+ | Near-Rx loads, full movement complexity |
+| `advanced` | Advanced | Moderate load reduction, same movements where possible |
+| `intermediate_plus` | Intermediate+ | Lighter loads, some movement substitutions |
+| `intermediate` | Intermediate | Accessible loads, standard substitutions |
+| `beginner_plus` | Beginner+ | Light loads, fundamental movement patterns |
+| `beginner` | Beginner | Entry-level loads, full movement substitutions |
 
-Rx is always the default — scaling tiers only override what changes (loads, movement substitutions, occasionally reps). This keeps the data DRY.
+**Rx is always the default** — the top-level values on each movement represent Rx. The `scaling` object provides overrides for the 6 levels below Rx, using the same DRY principle: each level only specifies what changes from Rx. If a field is not overridden, the Rx value carries forward.
+
+Not every level needs an explicit override. If `intermediate` and `intermediate_plus` use the same load, only one needs to be specified — the other inherits from the nearest level above it. In practice, movements that only need load scaling will have light overrides, while movements with full substitution chains (e.g., ring muscle-up → bar muscle-up → chest-to-bar → pull-up → jumping pull-up → ring row) will be more verbose. That verbosity represents real coaching decisions.
 
 ## Level Targeting
 
 Metcons are not named by level, but each metcon should specify:
 
 - **Rx weights** (the default prescribed load)
-- **Scaling guidance** via the 3-tier system
+- **Scaling guidance** for all 7 OP levels
 - **Intended stimulus** — time domain, feel, target effort
 - **Coach notes** — practical tips for execution and pacing
 
@@ -150,12 +156,20 @@ Many workouts use descending, ascending, or custom rep patterns (21-15-9, 1-2-3-
       "load": { "male": 24, "female": 16 },
       "unit": "kg",
       "scaling": {
-        "scaled": { "load": { "male": 16, "female": 12 } },
-        "foundation": { "sub": "Russian Kettlebell Swing", "load": { "male": 12, "female": 8 } }
+        "advanced_plus": { "load": { "male": 24, "female": 16 } },
+        "advanced":      { "load": { "male": 20, "female": 12 } },
+        "intermediate_plus": { "load": { "male": 16, "female": 12 } },
+        "intermediate":  { "load": { "male": 16, "female": 8 } },
+        "beginner_plus": { "sub": "Russian Kettlebell Swing", "load": { "male": 12, "female": 8 } },
+        "beginner":      { "sub": "Russian Kettlebell Swing", "load": { "male": 8, "female": 6 } }
       }
     },
     {
-      "movement": "Burpee"
+      "movement": "Burpee",
+      "scaling": {
+        "beginner_plus": { "sub": "Burpee to Target" },
+        "beginner":      { "sub": "Up-Down" }
+      }
     }
   ]
 }
@@ -179,7 +193,7 @@ Loads, heights, scaling options, and coach notes are **presentation**, not ident
 
 ## Metcon Data Structure
 
-Each metcon in the library follows this schema. Top-level values are always Rx. Scaling overrides only what changes per tier.
+Each metcon in the library follows this schema. Top-level values are always Rx. Scaling overrides only what changes per level.
 
 ### For Time
 
@@ -203,16 +217,24 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "load": { "male": 43, "female": 30 },
       "unit": "kg",
       "scaling": {
-        "scaled": { "load": { "male": 30, "female": 20 } },
-        "foundation": { "load": { "male": 20, "female": 15 } }
+        "advanced_plus": { "load": { "male": 40, "female": 27 } },
+        "advanced":      { "load": { "male": 34, "female": 25 } },
+        "intermediate_plus": { "load": { "male": 30, "female": 20 } },
+        "intermediate":  { "load": { "male": 25, "female": 18 } },
+        "beginner_plus": { "load": { "male": 20, "female": 15 } },
+        "beginner":      { "load": { "male": 15, "female": 10 } }
       }
     },
     {
       "movement": "Pull-up",
       "reps": 12,
       "scaling": {
-        "scaled": { "sub": "Jumping Pull-up" },
-        "foundation": { "sub": "Ring Row" }
+        "advanced_plus": {},
+        "advanced":      { "sub": "Kipping Pull-up" },
+        "intermediate_plus": { "sub": "Jumping Pull-up" },
+        "intermediate":  { "sub": "Jumping Pull-up", "reps": 10 },
+        "beginner_plus": { "sub": "Ring Row" },
+        "beginner":      { "sub": "Ring Row", "reps": 8 }
       }
     },
     {
@@ -221,13 +243,19 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "height": { "male": 60, "female": 50 },
       "unit": "cm",
       "scaling": {
-        "scaled": { "height": { "male": 50, "female": 40 } },
-        "foundation": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } }
+        "advanced_plus": { "height": { "male": 60, "female": 50 } },
+        "advanced":      { "height": { "male": 50, "female": 40 } },
+        "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+        "intermediate":  { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+        "beginner_plus": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+        "beginner":      { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
       }
     }
   ]
 }
 ```
+
+Note: `advanced_plus` Pull-up has an empty override `{}` — this explicitly confirms the Rx movement carries forward unchanged. Empty overrides are optional but can improve readability for movements with complex substitution chains.
 
 ### AMRAP
 
@@ -251,16 +279,24 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "load": { "male": 9, "female": 6 },
       "unit": "kg",
       "scaling": {
-        "scaled": { "load": { "male": 6, "female": 4 } },
-        "foundation": { "load": { "male": 4, "female": 3 }, "reps": 12 }
+        "advanced_plus": { "load": { "male": 9, "female": 6 } },
+        "advanced":      { "load": { "male": 6, "female": 4 } },
+        "intermediate_plus": { "load": { "male": 6, "female": 4 } },
+        "intermediate":  { "load": { "male": 6, "female": 4 }, "reps": 12 },
+        "beginner_plus": { "load": { "male": 4, "female": 3 }, "reps": 12 },
+        "beginner":      { "load": { "male": 4, "female": 3 }, "reps": 10 }
       }
     },
     {
       "movement": "Toes-to-Bar",
       "reps": 10,
       "scaling": {
-        "scaled": { "sub": "Hanging Knee Raise" },
-        "foundation": { "sub": "Sit-up", "reps": 15 }
+        "advanced_plus": {},
+        "advanced":      { "sub": "Hanging Knee Raise" },
+        "intermediate_plus": { "sub": "Hanging Knee Raise" },
+        "intermediate":  { "sub": "Hanging Knee Raise", "reps": 8 },
+        "beginner_plus": { "sub": "Sit-up", "reps": 15 },
+        "beginner":      { "sub": "Sit-up", "reps": 12 }
       }
     },
     {
@@ -269,8 +305,12 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "load": { "male": 61, "female": 43 },
       "unit": "kg",
       "scaling": {
-        "scaled": { "load": { "male": 43, "female": 30 } },
-        "foundation": { "load": { "male": 30, "female": 20 } }
+        "advanced_plus": { "load": { "male": 52, "female": 38 } },
+        "advanced":      { "load": { "male": 43, "female": 30 } },
+        "intermediate_plus": { "load": { "male": 38, "female": 27 } },
+        "intermediate":  { "load": { "male": 30, "female": 20 } },
+        "beginner_plus": { "load": { "male": 25, "female": 15 } },
+        "beginner":      { "load": { "male": 20, "female": 15 } }
       }
     }
   ]
@@ -304,8 +344,12 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
           "load": { "male": 52, "female": 35 },
           "unit": "kg",
           "scaling": {
-            "scaled": { "load": { "male": 35, "female": 25 } },
-            "foundation": { "load": { "male": 25, "female": 15 } }
+            "advanced_plus": { "load": { "male": 48, "female": 32 } },
+            "advanced":      { "load": { "male": 43, "female": 30 } },
+            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+            "intermediate":  { "load": { "male": 30, "female": 20 } },
+            "beginner_plus": { "load": { "male": 25, "female": 15 } },
+            "beginner":      { "sub": "Power Clean", "load": { "male": 25, "female": 15 } }
           }
         }
       ]
@@ -316,8 +360,12 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
           "movement": "Bar Muscle-up",
           "reps": 4,
           "scaling": {
-            "scaled": { "sub": "Chest-to-Bar Pull-up", "reps": 6 },
-            "foundation": { "sub": "Pull-up", "reps": 6 }
+            "advanced_plus": { "sub": "Chest-to-Bar Pull-up", "reps": 5 },
+            "advanced":      { "sub": "Chest-to-Bar Pull-up", "reps": 6 },
+            "intermediate_plus": { "sub": "Pull-up", "reps": 6 },
+            "intermediate":  { "sub": "Pull-up", "reps": 8 },
+            "beginner_plus": { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner":      { "sub": "Ring Row", "reps": 10 }
           }
         }
       ]
@@ -354,11 +402,11 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
 | `distance` | number | No | Distance (runs, rows, etc.) |
 | `calories` | number | No | Calorie target (bike, row, ski) |
 | `unit` | string | No | Unit for load/height/distance: `"kg"`, `"cm"`, `"m"` |
-| `scaling` | object | No | Per-tier overrides (see below) |
+| `scaling` | object | No | Per-level overrides (see below) |
 
 ### Scaling Override Fields
 
-Each tier (`scaled`, `foundation`) can override any movement field:
+Each level (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `beginner_plus`, `beginner`) can override any movement field:
 
 | Field | Description |
 |-------|-------------|
