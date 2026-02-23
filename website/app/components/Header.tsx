@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { href: "/levels", label: "Levels" },
   { href: "/categories", label: "Categories" },
   { href: "/benchmarks", label: "Benchmarks" },
+  { href: "/programming", label: "Programming" },
   { href: "/calculator", label: "Calculator" },
   { href: "/methodology", label: "Methodology" },
   { href: "/data", label: "Data" },
