@@ -46,13 +46,13 @@
       "code": "OP-002",
       "name": "Sweet Honey",
       "type": "amrap",
-      "timeCap": 12,
+      "timeCap": 20,
       "stimulus": {
-        "duration": "12 min",
-        "feel": "Balanced and approachable. Should feel like a rhythm you can sustain — no single movement should break you.",
-        "intent": "Mixed modal conditioning, pacing across three domains"
+        "duration": "20 min",
+        "feel": "A true engine test. Find a pace you can hold for 20 minutes — the run sets the rhythm, the swings keep you honest, and the toes-to-bar test your midline.",
+        "intent": "Aerobic capacity, pacing discipline, mixed modal endurance"
       },
-      "coachNotes": "Find a sustainable pace from round 1 — don't go out too hot on the run. KB swings should be unbroken every round. TTB in 1-2 sets. Target 6-8 rounds at Rx.",
+      "coachNotes": "This is a 20-minute pacer, not a sprint. Athletes should find their rhythm by round 3 and hold it. KB swings unbroken every round. TTB in 1-2 sets. Run at conversational pace. Target 10-13 rounds at Rx.",
       "movements": [
         {
           "movement": "Run",
@@ -91,15 +91,20 @@
       "code": "OP-003",
       "name": "Heavy Iron",
       "type": "for_time",
-      "timeCap": 18,
+      "timeCap": 22,
       "rounds": 5,
       "stimulus": {
-        "duration": "10-15 min",
-        "feel": "Heavy barbell complex. Low reps but challenging loads. Rest between rounds is expected — the weight is the challenge, not the pace.",
-        "intent": "Strength endurance across three barbell movements, cycling heavy loads under fatigue"
+        "duration": "14-20 min",
+        "feel": "Heavy barbell complex with a run to keep the heart rate up. Low reps but challenging loads — the 200m between rounds is active recovery but stops you from resting too long.",
+        "intent": "Strength endurance across three barbell movements, pacing heavy loads with running"
       },
-      "coachNotes": "This is NOT a sprint. Take 15-30s between movements if needed. Deadlifts should be heavy but controlled. Front squats from the floor — clean the first rep. Press should be tough but doable for 3 unbroken. Scale load to keep all three movements unbroken.",
+      "coachNotes": "The run should be a jog, not a sprint — save energy for the barbell. Deadlifts controlled, front squats from the floor (clean first rep), press should be tough but unbroken. Scale load to keep all three movements unbroken every round.",
       "movements": [
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        },
         {
           "movement": "Deadlift",
           "reps": 3,
@@ -296,14 +301,14 @@
       "code": "OP-007",
       "name": "Dark Thunder",
       "type": "for_time",
-      "timeCap": 16,
-      "rounds": 3,
+      "timeCap": 22,
+      "rounds": 5,
       "stimulus": {
-        "duration": "8-14 min",
-        "feel": "Gymnastics-heavy and skill-demanding. Every movement requires control and body awareness. Mental focus matters more than fitness here.",
-        "intent": "Gymnastics skill under fatigue, unilateral strength, coordination"
+        "duration": "14-20 min",
+        "feel": "Gymnastics grinder. Five rounds means you can't go all-out on muscle-ups early — pace from the start. The double-unders are your chance to breathe.",
+        "intent": "Gymnastics skill under sustained fatigue, unilateral strength, coordination"
       },
-      "coachNotes": "Bar muscle-ups in small sets from the start — don't burn out in round 1. Pistols should be controlled, not rushed. Double-unders are active recovery. Scale movements to maintain quality — ugly muscle-ups are worse than clean pull-ups.",
+      "coachNotes": "Bar muscle-ups in small sets from round 1 — don't burn out early. Pistols controlled, not rushed. Double-unders are active recovery. Scale to maintain quality across all 5 rounds. Target consistent round splits.",
       "movements": [
         {
           "movement": "Bar Muscle-up",
@@ -347,13 +352,14 @@
       "code": "OP-008",
       "name": "Light Lemon",
       "type": "for_time",
-      "timeCap": 10,
+      "timeCap": 18,
+      "rounds": 2,
       "stimulus": {
-        "duration": "5-8 min",
-        "feel": "Fast bodyweight chipper. No equipment, no excuses. The descending reps make each movement feel shorter — just keep moving.",
-        "intent": "Bodyweight conditioning, sustained effort without external load"
+        "duration": "12-17 min",
+        "feel": "Bodyweight grinder. Two rounds of the descending chipper — the second round is where character shows. No equipment, no excuses.",
+        "intent": "Bodyweight conditioning, sustained effort, mental toughness through repeated volume"
       },
-      "coachNotes": "This is about constant movement — there's no reason to stop. Double-unders should be unbroken at Rx. Push-ups are where most athletes slow down. Scale to keep moving the entire time.",
+      "coachNotes": "Round 1 should feel manageable — don't go out too hot. Round 2 starts right back at 50 DU, which is a mental challenge. Push-ups are where most athletes slow down. Scale to keep moving continuously through both rounds.",
       "movements": [
         {
           "movement": "Double-Under",
@@ -421,15 +427,20 @@
       "code": "OP-009",
       "name": "Thick Smoke",
       "type": "for_time",
-      "timeCap": 14,
+      "timeCap": 22,
       "rounds": 3,
       "stimulus": {
-        "duration": "8-14 min",
-        "feel": "Moderate grind. Thrusters are the challenge — heavy enough to demand respect but light enough for sets. Pull-ups are the rest. Box jumps keep the legs honest.",
-        "intent": "Mixed modal, barbell cycling under fatigue, classic triplet"
+        "duration": "15-22 min",
+        "feel": "Classic mixed modal grind with running. The 400m gives you a moment to breathe before hitting the thrusters — but your legs won't thank you. Pull-ups are the rest. Box jumps keep the legs honest.",
+        "intent": "Mixed modal capacity, barbell cycling under fatigue, pacing with running"
       },
-      "coachNotes": "Break thrusters at 8 if needed — don't go to failure in round 1. Pull-ups should be quick sets. Box jumps are steady — no need to sprint them. Scale load to keep under the cap.",
+      "coachNotes": "Use the run to recover, not to sprint. Thrusters in sets of 5-8 — don't go to failure. Pull-ups should be quick sets. Box jumps steady. Scale load to keep moving through all 3 rounds.",
       "movements": [
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m"
+        },
         {
           "movement": "Thruster",
           "reps": 15,
