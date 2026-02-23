@@ -384,7 +384,7 @@ export default function MethodologyPage() {
           {[
             { title: "Self-reported data", desc: "Some sources (StrengthLevel, Concept2 logbook) rely on self-reported performance, which may introduce upward bias." },
             { title: "Population differences", desc: "CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in cross-referencing (see Population & Normalization above)." },
-            { title: "No age differentiation", desc: "All benchmarks target a prime training age range (approx. 18-40). Strength typically peaks around ages 25-35. Future versions may include age-adjusted standards using existing source data that provides age breakdowns." },
+            { title: "Age adjustment", desc: "All benchmarks target a prime training age range (18-29). A flat age-adjustment multiplier can be applied: 30-39 (0.96x), 40-49 (0.89x), 50+ (0.81x). The Calculator page applies these automatically." },
             { title: "Absolute vs. relative strength", desc: "Barbell benchmarks use absolute values for a reference bodyweight (~80kg male / ~60kg female). Bodyweight multipliers are available alongside absolute values on the Benchmarks page." },
             { title: "Limited gymnastics research", desc: "Peer-reviewed normative data for pull-ups, muscle-ups, and HSPU is sparse. We supplement with military standards and community databases." },
             { title: "Equipment variation", desc: "Standards assume standard equipment (barbell, pull-up bar, Concept2 erg). Athletes using different equipment may need adjusted benchmarks." },

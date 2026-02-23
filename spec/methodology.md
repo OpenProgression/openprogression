@@ -193,7 +193,7 @@ When a source population is narrower than the OP target (e.g., competitive power
 
 2. **Population skew** — CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in our cross-referencing (see Population Definition above).
 
-3. **No age differentiation** — All benchmarks target a prime training age range of approximately 18-40 years. Strength typically peaks around ages 25-35, while endurance may peak slightly later. Athletes outside this range should expect some variation. Some of our source data (van den Hoek et al., Concept2 rankings) includes age breakdowns that could inform future age-adjusted versions.
+3. **Age adjustment** — All benchmarks target a prime training age range of approximately 18-29 years. For athletes outside this range, a flat age-adjustment multiplier can be applied to all benchmarks: 30-39 (0.96x), 40-49 (0.89x), 50+ (0.81x). These multipliers are approximate and based on observed age-related performance decline across strength and endurance domains. The interactive calculator on the website applies these automatically.
 
 4. **Absolute vs. relative strength** — Barbell benchmarks are given as absolute values, which inherently favor heavier athletes. Bodyweight multipliers are provided alongside absolute values for strength benchmarks (see Bodyweight Normalization above).
 
