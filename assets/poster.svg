@@ -534,6 +534,23 @@
 <text x="1984" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">18r</text>
 <text x="2120" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21r</text>
 <text x="2256" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">24r</text>
+<!-- Age Adjustment Multipliers -->
+<rect x="1920" y="1340" width="380" height="186" rx="10" fill="#131c2e" stroke="#1e293b" stroke-width="1"/>
+<text x="2110" y="1366" text-anchor="middle" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">AGE ADJUSTMENT</text>
+<text x="2110" y="1382" text-anchor="middle" font-size="9" fill="#64748b">Multiply benchmarks by this factor for your age range</text>
+<text x="1950" y="1410" font-size="10" font-weight="600" fill="#64748b">AGE</text>
+<text x="2170" y="1410" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">MULTIPLIER</text>
+<line x1="1940" y1="1418" x2="2280" y2="1418" stroke="#1e293b" stroke-width="1"/>
+<text x="1950" y="1438" font-size="11" font-weight="500" fill="#e2e8f0">18 – 29</text>
+<text x="2170" y="1438" text-anchor="middle" font-size="11" font-weight="600" fill="#4ADE80">1.00x</text>
+<text x="2260" y="1438" text-anchor="middle" font-size="9" fill="#64748b">(baseline)</text>
+<text x="1950" y="1462" font-size="11" font-weight="500" fill="#e2e8f0">30 – 39</text>
+<text x="2170" y="1462" text-anchor="middle" font-size="11" font-weight="600" fill="#EAB308">0.96x</text>
+<text x="1950" y="1486" font-size="11" font-weight="500" fill="#e2e8f0">40 – 49</text>
+<text x="2170" y="1486" text-anchor="middle" font-size="11" font-weight="600" fill="#F97316">0.89x</text>
+<text x="1950" y="1510" font-size="11" font-weight="500" fill="#e2e8f0">50+</text>
+<text x="2170" y="1510" text-anchor="middle" font-size="11" font-weight="600" fill="#EF4444">0.81x</text>
+
 <text x="60" y="1614" font-size="11" fill="#475569" font-weight="400">openprogression.org  ·  MIT License  ·  All benchmarks derived from peer-reviewed research and public-domain data</text>
 <text x="2324" y="1614" text-anchor="end" font-size="11" fill="#475569" font-weight="400">github.com/OpenProgression/openprogression</text>
 <circle cx="912" cy="1590" r="4" fill="#4ADE80"/>

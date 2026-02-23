@@ -28,6 +28,25 @@ const LEVEL_SHORT = ["BEG", "BEG+", "INT", "INT+", "ADV", "ADV+", "RX"]
 type Gender = "male" | "female"
 
 // ---------------------------------------------------------------------------
+// Age adjustment multipliers
+// ---------------------------------------------------------------------------
+const AGE_RANGES = [
+  { label: "18-29", value: "18-29" },
+  { label: "30-39", value: "30-39" },
+  { label: "40-49", value: "40-49" },
+  { label: "50+", value: "50+" },
+] as const
+
+type AgeRange = (typeof AGE_RANGES)[number]["value"]
+
+const AGE_MULTIPLIERS: Record<AgeRange, number> = {
+  "18-29": 1.00,
+  "30-39": 0.96,
+  "40-49": 0.89,
+  "50+":   0.81,
+}
+
+// ---------------------------------------------------------------------------
 // Calculator movements — one representative per category
 // ---------------------------------------------------------------------------
 const MOVEMENTS = [
@@ -180,18 +199,37 @@ function formatTime(seconds: number): string {
   return s === 0 ? `${m}:00` : `${m}:${s.toString().padStart(2, "0")}`
 }
 
+function adjustThresholds(
+  thresholds: number[],
+  ageMultiplier: number,
+  higherIsBetter: boolean
+): number[] {
+  if (ageMultiplier === 1.00) return thresholds
+  if (higherIsBetter) {
+    // Strength/reps: lower the threshold (easier to reach)
+    return thresholds.map((t) => Math.round(t * ageMultiplier))
+  } else {
+    // Time: raise the threshold (more time allowed)
+    return thresholds.map((t) => Math.round(t / ageMultiplier))
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
 export default function CalculatorPage() {
   const [gender, setGender] = useState<Gender>("male")
+  const [ageRange, setAgeRange] = useState<AgeRange>("18-29")
   const [inputs, setInputs] = useState<Record<string, string>>({})
+
+  const ageMultiplier = AGE_MULTIPLIERS[ageRange]
 
   const results = MOVEMENTS.map((m) => {
     const raw = inputs[m.category] || ""
     const value = parseInput(raw, m.inputType)
     if (value === null) return { ...m, level: null }
-    const level = determineLevel(value, m.thresholds[gender], m.higherIsBetter)
+    const adjusted = adjustThresholds(m.thresholds[gender], ageMultiplier, m.higherIsBetter)
+    const level = determineLevel(value, adjusted, m.higherIsBetter)
     return { ...m, level }
   })
 
@@ -222,8 +260,9 @@ export default function CalculatorPage() {
       {/* Controls + Form */}
       <section className="pb-8 px-6">
         <div className="container max-w-4xl mx-auto">
-          {/* Gender Toggle */}
-          <div className="flex justify-center mb-10">
+          {/* Gender + Age Controls */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
+            {/* Gender Toggle */}
             <div className="flex bg-secondary rounded-full p-1">
               <button
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
@@ -246,6 +285,23 @@ export default function CalculatorPage() {
                 Female
               </button>
             </div>
+
+            {/* Age Range Toggle */}
+            <div className="flex bg-secondary rounded-full p-1">
+              {AGE_RANGES.map((a) => (
+                <button
+                  key={a.value}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                    ageRange === a.value
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                  onClick={() => setAgeRange(a.value)}
+                >
+                  {a.label}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Input Grid */}
@@ -253,8 +309,9 @@ export default function CalculatorPage() {
             {MOVEMENTS.map((m) => {
               const raw = inputs[m.category] || ""
               const value = parseInput(raw, m.inputType)
+              const adjusted = adjustThresholds(m.thresholds[gender], ageMultiplier, m.higherIsBetter)
               const level = value !== null
-                ? determineLevel(value, m.thresholds[gender], m.higherIsBetter)
+                ? determineLevel(value, adjusted, m.higherIsBetter)
                 : null
 
               return (
@@ -462,7 +519,9 @@ export default function CalculatorPage() {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Each category uses one representative movement. Your level is determined by
               comparing your result against benchmarks for a ~80 kg male / ~60 kg female
-              reference athlete. Your overall level follows the{" "}
+              reference athlete. Selecting an age range adjusts all benchmarks with a flat
+              multiplier (30-39: 0.96x, 40-49: 0.89x, 50+: 0.81x). Your overall level
+              follows the{" "}
               <span className="font-medium text-foreground">weakest-link principle</span>:
               it equals your lowest category level.
             </p>
