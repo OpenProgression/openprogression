@@ -36,8 +36,8 @@
             "advanced":          {},
             "intermediate_plus": { "reps": 12 },
             "intermediate":      { "reps": 12 },
-            "beginner_plus":     { "sub": "Knee Push-up", "reps": 12 },
-            "beginner":          { "sub": "Knee Push-up", "reps": 10 }
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 12 },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Box Push-up" }, "reps": 10 }
           }
         }
       ]
@@ -183,11 +183,11 @@
               "reps": 8,
               "scaling": {
                 "advanced_plus":     {},
-                "advanced":          { "reps": 7 },
-                "intermediate_plus": { "reps": 6 },
+                "advanced":          { "sub": "Burpee to Target", "reps": 7 },
+                "intermediate_plus": { "sub": "Burpee to Target", "reps": 6 },
                 "intermediate":      { "sub": "Burpee", "reps": 6 },
                 "beginner_plus":     { "sub": "Burpee", "reps": 5 },
-                "beginner":          { "sub": "Up-Down", "reps": 5 }
+                "beginner":          { "sub": "Bodybuilder", "reps": 5 }
               }
             }
           ]
@@ -213,22 +213,22 @@
           "unit": "kg",
           "scaling": {
             "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 6, "female": 4 } },
-            "intermediate_plus": { "load": { "male": 6, "female": 4 } },
-            "intermediate":      { "load": { "male": 6, "female": 4 } },
-            "beginner_plus":     { "load": { "male": 4, "female": 3 } },
+            "advanced":          { "load": { "male": 9, "female": 6 } },
+            "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+            "intermediate":      { "load": { "male": 9, "female": 6 } },
+            "beginner_plus":     { "load": { "male": 6, "female": 4 } },
             "beginner":          { "load": { "male": 4, "female": 3 } }
           }
         },
         {
-          "movement": "Burpee",
+          "movement": "Burpee to Target",
           "scaling": {
             "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee to Target" },
-            "beginner":          { "sub": "Up-Down" }
+            "advanced":          { "sub": "Burpee" },
+            "intermediate_plus": { "sub": "Burpee" },
+            "intermediate":      { "sub": "Burpee" },
+            "beginner_plus":     { "sub": "Bodybuilder" },
+            "beginner":          { "sub": "Bodybuilder" }
           }
         }
       ]
@@ -257,10 +257,10 @@
           "unit": "kg",
           "scaling": {
             "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 6, "female": 4 } },
-            "intermediate_plus": { "load": { "male": 6, "female": 4 } },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 12 },
-            "beginner_plus":     { "load": { "male": 4, "female": 3 }, "reps": 12 },
+            "advanced":          { "load": { "male": 9, "female": 6 } },
+            "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+            "intermediate":      { "load": { "male": 9, "female": 6 }, "reps": 12 },
+            "beginner_plus":     { "load": { "male": 6, "female": 4 }, "reps": 12 },
             "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 10 }
           }
         },
@@ -387,8 +387,8 @@
             "advanced":          { "reps": 25 },
             "intermediate_plus": { "reps": 20 },
             "intermediate":      { "reps": 15 },
-            "beginner_plus":     { "sub": "Knee Push-up", "reps": 15 },
-            "beginner":          { "sub": "Knee Push-up", "reps": 10 }
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 15 },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Box Push-up" }, "reps": 10 }
           }
         },
         {
@@ -411,8 +411,8 @@
             "advanced":          {},
             "intermediate_plus": {},
             "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee to Target" },
-            "beginner":          { "sub": "Up-Down", "reps": 8 }
+            "beginner_plus":     { "sub": "Bodybuilder" },
+            "beginner":          { "sub": "Bodybuilder", "reps": 8 }
           }
         }
       ]

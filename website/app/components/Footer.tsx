@@ -94,7 +94,16 @@ export default function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
               Supporters
             </h3>
-            <p className="text-sm text-muted-foreground">Coming soon</p>
+            <ul className="space-y-2">
+              <li className="text-sm text-muted-foreground">
+                <span className="text-foreground">CrossFit Maskineriet</span>
+                <span className="ml-1 text-xs opacity-60">Beta Tester</span>
+              </li>
+              <li className="text-sm text-muted-foreground">
+                <span className="text-foreground">SnowOak Ventures</span>
+                <span className="ml-1 text-xs opacity-60">Financial Supporter</span>
+              </li>
+            </ul>
           </div>
         </div>
 

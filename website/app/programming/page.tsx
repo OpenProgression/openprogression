@@ -47,7 +47,6 @@ const LEVEL_KEYS = [
 ] as const
 
 type LevelKey = (typeof LEVEL_KEYS)[number]
-type Gender = "male" | "female"
 
 // ---------------------------------------------------------------------------
 // Data types
@@ -58,7 +57,7 @@ interface LoadPair {
 }
 
 interface ScalingOverride {
-  sub?: string
+  sub?: string | { male?: string; female?: string }
   load?: LoadPair
   height?: LoadPair
   reps?: number
@@ -119,6 +118,15 @@ interface Session {
 }
 
 // ---------------------------------------------------------------------------
+// Resolved movement (structured for flexible display)
+// ---------------------------------------------------------------------------
+interface ResolvedMovement {
+  maleName: string
+  femaleName: string
+  detail: string
+}
+
+// ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 const TYPE_LABELS: Record<string, string> = {
@@ -137,21 +145,33 @@ const TYPE_ICONS: Record<string, typeof Clock> = {
   intervals: Zap,
 }
 
+/** Resolve a movement at a given level with M/F combined format */
 function resolveMovement(
   mov: Movement,
-  level: LevelKey,
-  gender: Gender
-): { name: string; detail: string } {
+  level: LevelKey
+): ResolvedMovement {
   const scaling =
     level !== "rx"
       ? mov.scaling?.[level as Exclude<LevelKey, "rx">]
       : undefined
-  const name = scaling?.sub || mov.movement
+
+  // Resolve movement name per gender
+  const subValue = scaling?.sub
+  let maleName: string, femaleName: string
+  if (typeof subValue === "object" && subValue !== null) {
+    maleName = subValue.male || mov.movement
+    femaleName = subValue.female || mov.movement
+  } else {
+    const s = (subValue as string) || mov.movement
+    maleName = s
+    femaleName = s
+  }
+
   const reps = scaling?.reps ?? mov.reps
   const load = scaling?.load ?? mov.load
   const height = scaling?.height ?? mov.height
-  const distance = mov.distance
-  const calories = mov.calories
+  const distance = scaling?.distance ?? mov.distance
+  const calories = scaling?.calories ?? mov.calories
 
   const parts: string[] = []
   if (reps) parts.push(`${reps}`)
@@ -160,15 +180,31 @@ function resolveMovement(
 
   let detail = parts.join(" ")
   if (load) {
-    const val = gender === "male" ? load.male : load.female
-    detail += ` @ ${val}${mov.unit || "kg"}`
+    detail +=
+      load.male === load.female
+        ? ` @ ${load.male} ${mov.unit || "kg"}`
+        : ` @ ${load.male}/${load.female} ${mov.unit || "kg"}`
   }
   if (height) {
-    const val = gender === "male" ? height.male : height.female
-    detail += ` (${val}${mov.unit || "cm"})`
+    detail +=
+      height.male === height.female
+        ? ` (${height.male} ${mov.unit || "cm"})`
+        : ` (${height.male}/${height.female} ${mov.unit || "cm"})`
   }
 
-  return { name, detail }
+  return { maleName, femaleName, detail }
+}
+
+/** Format display name — combined M/F when they differ */
+function displayName(r: ResolvedMovement): string {
+  return r.maleName === r.femaleName
+    ? r.maleName
+    : `${r.maleName} (M) / ${r.femaleName} (F)`
+}
+
+/** Check if this level has a movement substitution */
+function hasSub(r: ResolvedMovement, rxName: string): boolean {
+  return r.maleName !== rxName || r.femaleName !== rxName
 }
 
 function formatHeader(metcon: Metcon): string {
@@ -200,7 +236,11 @@ function getMovementNames(metcon: Metcon): string[] {
   return getAllMovements(metcon).map((m) => m.movement)
 }
 
-function formatDate(dateStr: string): { dayName: string; dayNum: string; month: string } {
+function formatDate(dateStr: string): {
+  dayName: string
+  dayNum: string
+  month: string
+} {
   const d = new Date(dateStr + "T12:00:00")
   const dayName = d.toLocaleDateString("en-US", { weekday: "short" })
   const dayNum = d.getDate().toString()
@@ -215,13 +255,11 @@ function MetconCard({
   metcon,
   level,
   levelKey,
-  gender,
   defaultExpanded,
 }: {
   metcon: Metcon
   level: number
   levelKey: LevelKey
-  gender: Gender
   defaultExpanded?: boolean
 }) {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded ?? false)
@@ -310,10 +348,10 @@ function MetconCard({
                           Minute {key}:
                         </p>
                         {group.movements.map((mov, j) => {
-                          const resolved = resolveMovement(mov, levelKey, gender)
+                          const r = resolveMovement(mov, levelKey)
                           return (
                             <p key={j} className="text-base font-medium pl-4">
-                              {resolved.detail} {resolved.name}
+                              {r.detail} {displayName(r)}
                             </p>
                           )
                         })}
@@ -327,13 +365,13 @@ function MetconCard({
                     {metcon.repScheme.join("-")}:
                   </p>
                   {metcon.movements?.map((mov, i) => {
-                    const resolved = resolveMovement(mov, levelKey, gender)
+                    const r = resolveMovement(mov, levelKey)
                     return (
                       <p key={i} className="text-base font-medium">
-                        {resolved.name}
-                        {resolved.detail && (
+                        {displayName(r)}
+                        {r.detail && (
                           <span className="text-muted-foreground text-sm ml-2">
-                            {resolved.detail}
+                            {r.detail}
                           </span>
                         )}
                       </p>
@@ -343,10 +381,10 @@ function MetconCard({
               ) : (
                 <div className="space-y-1">
                   {metcon.movements?.map((mov, i) => {
-                    const resolved = resolveMovement(mov, levelKey, gender)
+                    const r = resolveMovement(mov, levelKey)
                     return (
                       <p key={i} className="text-base font-medium">
-                        {resolved.detail} {resolved.name}
+                        {r.detail} {displayName(r)}
                       </p>
                     )
                   })}
@@ -411,12 +449,14 @@ function MetconCard({
                         {mov.movement}
                       </td>
                       {LEVEL_KEYS.map((lk, li) => {
-                        const resolved = resolveMovement(mov, lk, gender)
+                        const r = resolveMovement(mov, lk)
                         const isActive = li === level
+                        const isSub = hasSub(r, mov.movement)
+                        const genderDiff = r.maleName !== r.femaleName
                         return (
                           <td
                             key={lk}
-                            className={`text-center py-2 px-2 text-xs whitespace-nowrap ${
+                            className={`text-center py-2 px-2 text-xs ${
                               isActive
                                 ? "font-bold"
                                 : "text-muted-foreground"
@@ -427,14 +467,33 @@ function MetconCard({
                                 : undefined,
                             }}
                           >
-                            <span>
-                              {resolved.name !== mov.movement && (
-                                <span className="block text-[10px] opacity-70">
-                                  {resolved.name}
-                                </span>
-                              )}
-                              {resolved.detail || "-"}
-                            </span>
+                            {isSub ? (
+                              <span>
+                                {genderDiff ? (
+                                  <>
+                                    <span className="block font-medium whitespace-nowrap">
+                                      M: {r.maleName}
+                                    </span>
+                                    <span className="block font-medium whitespace-nowrap">
+                                      F: {r.femaleName}
+                                    </span>
+                                  </>
+                                ) : (
+                                  <span className="block font-medium whitespace-nowrap">
+                                    {r.maleName}
+                                  </span>
+                                )}
+                                {r.detail && (
+                                  <span className="block text-[10px] opacity-70">
+                                    {r.detail}
+                                  </span>
+                                )}
+                              </span>
+                            ) : (
+                              <span className="whitespace-nowrap">
+                                {r.detail || r.maleName}
+                              </span>
+                            )}
                           </td>
                         )
                       })}
@@ -458,30 +517,28 @@ function DailyView({
   metcons,
   level,
   levelKey,
-  gender,
 }: {
   sessions: Session[]
   metcons: Metcon[]
   level: number
   levelKey: LevelKey
-  gender: Gender
 }) {
   const sortedDates = useMemo(
     () => sessions.map((s) => s.date).sort(),
     [sessions]
   )
-  const [selectedDate, setSelectedDate] = useState("")
 
-  useEffect(() => {
-    if (sortedDates.length === 0) return
+  const defaultDate = useMemo(() => {
+    if (sortedDates.length === 0) return ""
     const today = new Date().toISOString().split("T")[0]
-    // Find today or nearest future session
-    const future = sortedDates.find((d) => d >= today)
-    setSelectedDate(future || sortedDates[sortedDates.length - 1])
+    return sortedDates.find((d) => d >= today) || sortedDates[sortedDates.length - 1]
   }, [sortedDates])
 
-  const session = sessions.find((s) => s.date === selectedDate)
-  const currentIdx = sortedDates.indexOf(selectedDate)
+  const [selectedDate, setSelectedDate] = useState("")
+  const activeDate = selectedDate || defaultDate
+
+  const session = sessions.find((s) => s.date === activeDate)
+  const currentIdx = sortedDates.indexOf(activeDate)
   const metcon = session?.metcon
     ? metcons.find((m) => m.code === session.metcon)
     : null
@@ -518,7 +575,7 @@ function DailyView({
         <div className="flex gap-1 overflow-x-auto px-2">
           {sortedDates.map((date) => {
             const { dayName, dayNum, month } = formatDate(date)
-            const isSelected = date === selectedDate
+            const isSelected = date === activeDate
             return (
               <button
                 key={date}
@@ -640,7 +697,6 @@ function DailyView({
                 metcon={metcon}
                 level={level}
                 levelKey={levelKey}
-                gender={gender}
                 defaultExpanded
               />
             </div>
@@ -680,12 +736,10 @@ function LibraryView({
   metcons,
   level,
   levelKey,
-  gender,
 }: {
   metcons: Metcon[]
   level: number
   levelKey: LevelKey
-  gender: Gender
 }) {
   const [search, setSearch] = useState("")
   const [typeFilter, setTypeFilter] = useState<string>("all")
@@ -755,7 +809,6 @@ function LibraryView({
             metcon={metcon}
             level={level}
             levelKey={levelKey}
-            gender={gender}
           />
         ))}
       </div>
@@ -767,7 +820,6 @@ function LibraryView({
 // Page Component
 // ---------------------------------------------------------------------------
 export default function ProgrammingPage() {
-  const [gender, setGender] = useState<Gender>("male")
   const [level, setLevel] = useState<number>(6) // default Rx
   const [activeTab, setActiveTab] = useState<"daily" | "library">("daily")
   const [metcons, setMetcons] = useState<Metcon[]>([])
@@ -837,30 +889,8 @@ export default function ProgrammingPage() {
               </div>
             </div>
 
-            {/* Row 2: Gender + Level */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <div className="flex bg-secondary rounded-full p-1">
-                <button
-                  className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                    gender === "male"
-                      ? "bg-primary text-primary-foreground"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                  onClick={() => setGender("male")}
-                >
-                  Male
-                </button>
-                <button
-                  className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                    gender === "female"
-                      ? "bg-primary text-primary-foreground"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                  onClick={() => setGender("female")}
-                >
-                  Female
-                </button>
-              </div>
+            {/* Row 2: Level */}
+            <div className="flex justify-center">
               <div className="flex bg-secondary rounded-full p-1">
                 {LEVEL_NAMES.map((name, i) => (
                   <button
@@ -898,14 +928,12 @@ export default function ProgrammingPage() {
               metcons={metcons}
               level={level}
               levelKey={levelKey}
-              gender={gender}
             />
           ) : (
             <LibraryView
               metcons={metcons}
               level={level}
               levelKey={levelKey}
-              gender={gender}
             />
           )}
         </div>
