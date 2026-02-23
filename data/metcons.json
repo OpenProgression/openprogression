@@ -183,11 +183,11 @@
               "reps": 8,
               "scaling": {
                 "advanced_plus":     {},
-                "advanced":          { "reps": 7 },
-                "intermediate_plus": { "reps": 6 },
+                "advanced":          { "sub": "Burpee to Target", "reps": 7 },
+                "intermediate_plus": { "sub": "Burpee to Target", "reps": 6 },
                 "intermediate":      { "sub": "Burpee", "reps": 6 },
                 "beginner_plus":     { "sub": "Burpee", "reps": 5 },
-                "beginner":          { "sub": "Up-Down", "reps": 5 }
+                "beginner":          { "sub": "Bodybuilder", "reps": 5 }
               }
             }
           ]
@@ -221,14 +221,14 @@
           }
         },
         {
-          "movement": "Burpee",
+          "movement": "Burpee to Target",
           "scaling": {
             "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee to Target" },
-            "beginner":          { "sub": "Up-Down" }
+            "advanced":          { "sub": "Burpee" },
+            "intermediate_plus": { "sub": "Burpee" },
+            "intermediate":      { "sub": "Burpee" },
+            "beginner_plus":     { "sub": "Bodybuilder" },
+            "beginner":          { "sub": "Bodybuilder" }
           }
         }
       ]
@@ -411,8 +411,8 @@
             "advanced":          {},
             "intermediate_plus": {},
             "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee to Target" },
-            "beginner":          { "sub": "Up-Down", "reps": 8 }
+            "beginner_plus":     { "sub": "Bodybuilder" },
+            "beginner":          { "sub": "Bodybuilder", "reps": 8 }
           }
         }
       ]
