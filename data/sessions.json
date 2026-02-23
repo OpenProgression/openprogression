@@ -4,136 +4,114 @@
     {
       "date": "2026-02-24",
       "title": "Monday — Push/Pull",
+      "estimatedMinutes": 58,
       "warmup": {
-        "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats",
+        "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n10 push-up to down dog",
         "durationMinutes": 10
       },
       "strength": [
         {
           "movement": "Back Squat",
           "scheme": "5x3",
-          "sets": 5,
-          "reps": 3,
-          "load": { "male": 140, "female": 95 },
-          "unit": "kg",
-          "notes": "Build across sets. Rest 2:00 between sets.",
-          "scaling": {
-            "advanced_plus":     { "load": { "male": 125, "female": 85 } },
-            "advanced":          { "load": { "male": 105, "female": 70 } },
-            "intermediate_plus": { "load": { "male": 85, "female": 57 } },
-            "intermediate":      { "load": { "male": 70, "female": 47 } },
-            "beginner_plus":     { "load": { "male": 50, "female": 35 } },
-            "beginner":          { "load": { "male": 40, "female": 25 } }
-          }
+          "prescription": "Build to a heavy 3",
+          "notes": "Rest 2:00 between sets. Start at ~60% and add weight each set."
         }
       ],
       "metcon": "OP-001",
       "accessory": {
-        "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts"
+        "notes": "3x15 GHD hip extensions\n3x20 banded pull-aparts\n2x30s dead hang",
+        "durationMinutes": 10
       }
     },
     {
       "date": "2026-02-25",
-      "title": "Tuesday — Engine",
+      "title": "Tuesday — Engine & Skill",
+      "estimatedMinutes": 55,
       "warmup": {
-        "notes": "5 min easy row, then 2 rounds: 10 KB deadlifts, 10 leg swings each side, 5 inchworms",
-        "durationMinutes": 8
+        "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
+        "durationMinutes": 12
       },
-      "strength": null,
-      "metcon": "OP-002",
+      "strength": [
+        {
+          "movement": "Toes-to-Bar",
+          "scheme": "Skill: 10 min",
+          "prescription": "Kipping drills, sets of 3-5, focus on rhythm",
+          "notes": "Not for score. Build quality positions. Scale to hanging knee raises if needed."
+        }
+      ],
+      "metcon": "OP-006",
       "accessory": {
-        "notes": "3x20 hollow rocks, 2x30s L-sit hold"
+        "notes": "3x20 hollow rocks\n2x30s L-sit hold",
+        "durationMinutes": 8
       }
     },
     {
       "date": "2026-02-26",
       "title": "Wednesday — Press & Burn",
+      "estimatedMinutes": 57,
       "warmup": {
-        "notes": "3 rounds: 5 push-ups, 10 ring rows, 15 band pull-aparts",
+        "notes": "3 rounds:\n5 push-ups\n10 ring rows\n15 band pull-aparts\n10 PVC strict press",
         "durationMinutes": 8
       },
       "strength": [
         {
           "movement": "Strict Press",
           "scheme": "4x5",
-          "sets": 4,
-          "reps": 5,
-          "load": { "male": 52, "female": 35 },
-          "unit": "kg",
-          "notes": "Same weight across all sets. Rest 1:30.",
-          "scaling": {
-            "advanced_plus":     { "load": { "male": 47, "female": 32 } },
-            "advanced":          { "load": { "male": 40, "female": 27 } },
-            "intermediate_plus": { "load": { "male": 34, "female": 23 } },
-            "intermediate":      { "load": { "male": 27, "female": 18 } },
-            "beginner_plus":     { "load": { "male": 22, "female": 15 } },
-            "beginner":          { "load": { "male": 17, "female": 12 } }
-          }
+          "prescription": "@ 70% 1RM",
+          "notes": "Same weight across all sets. Rest 1:30 between sets."
+        },
+        {
+          "movement": "Paused Front Squat",
+          "scheme": "3x5",
+          "prescription": "@ 60% 1RM — 2s pause at bottom",
+          "notes": "Control the descent. Full stop at the bottom, then drive up. Rest 2:00."
         }
       ],
       "metcon": "OP-005",
       "accessory": {
-        "notes": "3x12 DB bent-over rows, 3x15 tricep dips"
+        "notes": "3x12 DB bent-over rows\n3x15 tricep dips\n2x20 banded face pulls",
+        "durationMinutes": 10
       }
     },
     {
       "date": "2026-02-28",
       "title": "Friday — Deadlift & Grind",
+      "estimatedMinutes": 58,
       "warmup": {
-        "notes": "3 rounds: 10 good mornings (empty bar), 10 box step-ups, 10 wrist circles each direction",
+        "notes": "3 rounds:\n10 good mornings (empty bar)\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
       },
       "strength": [
         {
           "movement": "Deadlift",
-          "scheme": "5x3",
-          "sets": 5,
-          "reps": 3,
-          "load": { "male": 150, "female": 102 },
-          "unit": "kg",
-          "notes": "Build across sets. Reset between reps — no touch-and-go. Rest 2:00.",
-          "scaling": {
-            "advanced_plus":     { "load": { "male": 135, "female": 93 } },
-            "advanced":          { "load": { "male": 116, "female": 80 } },
-            "intermediate_plus": { "load": { "male": 97, "female": 66 } },
-            "intermediate":      { "load": { "male": 80, "female": 55 } },
-            "beginner_plus":     { "load": { "male": 60, "female": 43 } },
-            "beginner":          { "load": { "male": 45, "female": 30 } }
-          }
+          "scheme": "Build to 3RM",
+          "prescription": "Build to a 3-rep max",
+          "notes": "Reset between reps — no touch-and-go. Start at ~50%, add 5-10% per set. 5-6 working sets total."
         }
       ],
       "metcon": "OP-009",
       "accessory": {
-        "notes": "3x12 GHD sit-ups, 3x20 banded face pulls"
+        "notes": "3x12 GHD sit-ups\n3x20 banded face pulls\n2x30s side plank each side",
+        "durationMinutes": 10
       }
     },
     {
       "date": "2026-03-01",
       "title": "Saturday — Weekend Grinder",
+      "estimatedMinutes": 55,
       "warmup": {
-        "notes": "800m easy jog, then 2 rounds: 10 PVC overhead squats, 10 groiners, 5 strict pull-ups",
+        "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 groiners\n5 strict pull-ups",
         "durationMinutes": 12
       },
       "strength": [
         {
           "movement": "Power Clean",
-          "scheme": "3x3",
-          "sets": 3,
-          "reps": 3,
-          "load": { "male": 93, "female": 65 },
-          "unit": "kg",
-          "notes": "Technique focus — crisp triples, not maximal. Rest 1:30.",
-          "scaling": {
-            "advanced_plus":     { "load": { "male": 84, "female": 60 } },
-            "advanced":          { "load": { "male": 75, "female": 52 } },
-            "intermediate_plus": { "load": { "male": 65, "female": 43 } },
-            "intermediate":      { "load": { "male": 52, "female": 35 } },
-            "beginner_plus":     { "load": { "male": 40, "female": 27 } },
-            "beginner":          { "load": { "male": 30, "female": 20 } }
-          }
+          "scheme": "E90S x 8",
+          "prescription": "2 reps per set, build across",
+          "notes": "Every 90 seconds for 8 sets. Start light, add weight each set. Focus on speed under the bar."
         }
       ],
-      "metcon": "OP-006",
+      "metcon": "OP-010",
       "accessory": null
     }
   ]

@@ -432,6 +432,7 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
     {
       "date": "2026-02-24",
       "title": "Monday — Push/Pull",
+      "estimatedMinutes": 60,
       "warmup": {
         "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats",
         "durationMinutes": 10
@@ -440,24 +441,14 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
         {
           "movement": "Back Squat",
           "scheme": "5x3",
-          "sets": 5,
-          "reps": 3,
-          "load": { "male": 140, "female": 95 },
-          "unit": "kg",
-          "notes": "Build across sets. Rest 2:00.",
-          "scaling": {
-            "advanced_plus":     { "load": { "male": 125, "female": 85 } },
-            "advanced":          { "load": { "male": 105, "female": 70 } },
-            "intermediate_plus": { "load": { "male": 85, "female": 57 } },
-            "intermediate":      { "load": { "male": 70, "female": 47 } },
-            "beginner_plus":     { "load": { "male": 50, "female": 35 } },
-            "beginner":          { "load": { "male": 40, "female": 25 } }
-          }
+          "prescription": "Build to a heavy 3",
+          "notes": "Rest 2:00 between sets. Reset at the top of each rep."
         }
       ],
       "metcon": "OP-001",
       "accessory": {
-        "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts"
+        "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts",
+        "durationMinutes": 10
       }
     }
   ]
@@ -470,8 +461,9 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 |-------|------|----------|-------------|
 | `date` | string | Yes | ISO date (`YYYY-MM-DD`) |
 | `title` | string | Yes | Human-readable day title (e.g., "Monday — Push/Pull") |
+| `estimatedMinutes` | number | Yes | Total session duration target (typically 45-60) |
 | `warmup` | object \| null | No | Warmup block |
-| `strength` | array \| null | No | Array of strength movements with full scaling |
+| `strength` | array \| null | No | Array of strength movements (prescription-based) |
 | `metcon` | string \| null | No | Metcon code reference (e.g., `"OP-005"`) |
 | `accessory` | object \| null | No | Accessory/cool-down block |
 
@@ -484,35 +476,41 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 
 ### Strength Movement Fields
 
-Strength movements use the same scaling system as metcon movements. Rx is the default; lower levels override only what changes. Strength is **always an array** — even a single lift is `[{ ... }]`. Consistent parsing, no type-checking branching in the renderer.
+Strength is **prescription-based**, not absolute loads. Athletes use their own benchmark data (tested 1RM or OP level standards) to calculate working weights. This matches how real coaches program — "build to a heavy 3" or "@ 70% 1RM" rather than fixed loads per level.
+
+Strength is **always an array** — even a single lift is `[{ ... }]`. Consistent parsing, no type-checking branching in the renderer.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `movement` | string | Yes | Movement name |
-| `scheme` | string | Yes | Human-readable display string (e.g., "5x3", "4x5") |
-| `sets` | number | Yes | Number of sets |
-| `reps` | number | Yes | Reps per set |
-| `load` | `{ male, female }` | No | Rx load in specified unit |
-| `unit` | string | No | Unit for load (`"kg"`) |
-| `notes` | string | No | Coach cues: rest periods, RPE, tempo, "build across sets", "@ 80% 1RM" |
-| `scaling` | object | No | Per-level overrides (same format as metcon scaling) |
+| `movement` | string | Yes | Movement name (e.g., "Back Squat", "Paused Front Squat") |
+| `scheme` | string | Yes | Human-readable format (e.g., "5x3", "Build to 3RM", "E90S x 8") |
+| `prescription` | string | Yes | Loading intent: "Build to a heavy 3", "@ 70% 1RM", "@ 60% 1RM — 2s pause at bottom" |
+| `notes` | string | No | Additional coach cues: rest periods, tempo, pacing |
 
-Scaling overrides can include `sub` (movement substitution), `load`, `reps`, or `sets` — following the same sparse inheritance model as metcons. Percentage-based work (e.g., "@ 80% 1RM") goes in `notes` as a coach cue, but absolute loads are still provided per level so athletes without a tested 1RM can see their numbers.
+**Common prescription patterns:**
+- `"Build to a heavy 3"` — effort-based, athlete chooses weight
+- `"@ 70% 1RM"` — percentage-based, calculated from tested or estimated 1RM
+- `"@ 60% 1RM — 2s pause at bottom"` — variation with specific tempo
+- `"Build across sets"` — ascending weight each set
+- `"Moderate weight, focus on positions"` — technique/skill work
+
+### Accessory Fields
 
 ### Accessory Fields
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `notes` | string | Yes | Free-text accessory work description |
+| `notes` | string | Yes | Free-text accessory work description. Use `\n` for line breaks between exercises. |
+| `durationMinutes` | number | No | Duration in minutes |
 
 ### Session Design Principles
 
+- **Sessions target 45-60 minutes** — warmup + strength + metcon + accessory + transitions should fill a class hour. Short metcons pair with longer strength blocks; long metcons pair with lighter skill work.
 - **All fields are nullable** — pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
-- **Strength uses full 7-level scaling** — same format as metcon movements. Athletes see their personalized numbers on the gym TV and in the app.
+- **Strength is prescription-based** — "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks.
 - **Metcon is a code reference** — `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
-- **Metcons are immutable** — if a coach wants to modify a metcon (different time cap, different reps), it becomes a new metcon with a new code. This keeps the library clean and results comparable.
-- **Warmup and accessory are free-text** — these are coach flavor that doesn't need per-level scaling. A `durationMinutes` field on warmup supports display (e.g., "Warm-up (10 min)").
-- **Strength notes handle edge cases** — percentage-based work, tempo, RPE, and other coaching cues go in `notes` alongside the absolute loads.
+- **Metcons are immutable** — if a coach wants to modify a metcon, it becomes a new metcon with a new code. This keeps the library clean and results comparable.
+- **Warmup and accessory are free-text** — coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
 
 ## Age Adjustment
 

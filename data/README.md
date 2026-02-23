@@ -166,21 +166,18 @@ Daily programming that assembles complete class sessions. Each session reference
     {
       "date": "2026-02-24",
       "title": "Monday — Push/Pull",
-      "warmup": { "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats", "durationMinutes": 10 },
+      "estimatedMinutes": 58,
+      "warmup": { "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats", "durationMinutes": 10 },
       "strength": [
         {
           "movement": "Back Squat",
           "scheme": "5x3",
-          "sets": 5,
-          "reps": 3,
-          "load": { "male": 140, "female": 95 },
-          "unit": "kg",
-          "notes": "Build across sets. Rest 2:00.",
-          "scaling": { "beginner": { "load": { "male": 40, "female": 25 } }, "..." : "..." }
+          "prescription": "Build to a heavy 3",
+          "notes": "Rest 2:00 between sets."
         }
       ],
       "metcon": "OP-001",
-      "accessory": { "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts" }
+      "accessory": { "notes": "3x15 GHD hip extensions\n3x20 banded pull-aparts", "durationMinutes": 10 }
     }
   ]
 }
@@ -192,12 +189,15 @@ Daily programming that assembles complete class sessions. Each session reference
 |-------|------|-------------|
 | `date` | string | ISO date (`YYYY-MM-DD`) |
 | `title` | string | Human-readable day title |
-| `warmup` | object \| null | `{ notes, durationMinutes }` — free text, no scaling |
-| `strength` | array \| null | Array of strength movements with full 7-level scaling |
+| `estimatedMinutes` | number | Total session duration target (45-60) |
+| `warmup` | object \| null | `{ notes, durationMinutes }` — free text, `\n` for line breaks |
+| `strength` | array \| null | `[{ movement, scheme, prescription, notes }]` — prescription-based |
 | `metcon` | string \| null | Metcon code reference (e.g., `"OP-005"`) |
-| `accessory` | object \| null | `{ notes }` — free text, no scaling |
+| `accessory` | object \| null | `{ notes, durationMinutes? }` — free text, `\n` for line breaks |
 
-**Strength uses the same scaling system as metcons.** Rx load is the top-level default; lower levels override via `scaling`. Strength is always an array — even a single lift is `[{ ... }]`.
+**Strength is prescription-based** — "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks. Strength is always an array — even a single lift is `[{ ... }]`.
+
+**Sessions target 45-60 minutes.** Short metcons pair with longer strength blocks; long metcons pair with lighter skill work.
 
 **All fields are nullable.** Engine days have `"strength": null`. Long metcon days may have `"accessory": null`. Rest days have no session entry.
 

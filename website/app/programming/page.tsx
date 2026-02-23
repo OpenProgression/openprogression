@@ -104,21 +104,18 @@ interface Metcon {
 interface StrengthMovement {
   movement: string
   scheme: string
-  sets: number
-  reps: number
-  load?: LoadPair
-  unit?: string
+  prescription: string
   notes?: string
-  scaling?: Partial<Record<Exclude<LevelKey, "rx">, ScalingOverride>>
 }
 
 interface Session {
   date: string
   title: string
+  estimatedMinutes: number
   warmup: { notes: string; durationMinutes: number } | null
   strength: StrengthMovement[] | null
   metcon: string | null
-  accessory: { notes: string } | null
+  accessory: { notes: string; durationMinutes?: number } | null
 }
 
 // ---------------------------------------------------------------------------
@@ -172,31 +169,6 @@ function resolveMovement(
   }
 
   return { name, detail }
-}
-
-function resolveStrengthLoad(
-  sm: StrengthMovement,
-  level: LevelKey,
-  gender: Gender
-): number | undefined {
-  const scaling =
-    level !== "rx"
-      ? sm.scaling?.[level as Exclude<LevelKey, "rx">]
-      : undefined
-  const load = scaling?.load ?? sm.load
-  if (!load) return undefined
-  return gender === "male" ? load.male : load.female
-}
-
-function resolveStrengthName(
-  sm: StrengthMovement,
-  level: LevelKey
-): string {
-  const scaling =
-    level !== "rx"
-      ? sm.scaling?.[level as Exclude<LevelKey, "rx">]
-      : undefined
-  return scaling?.sub || sm.movement
 }
 
 function formatHeader(metcon: Metcon): string {
@@ -582,6 +554,9 @@ function DailyView({
           <h2 className="text-2xl font-display font-bold tracking-tight">
             {session.title}
           </h2>
+          <p className="text-sm text-muted-foreground mt-1">
+            ~{session.estimatedMinutes} min
+          </p>
         </div>
       )}
 
@@ -607,9 +582,9 @@ function DailyView({
                   {session.warmup.durationMinutes} min
                 </span>
               </div>
-              <p className="text-sm text-foreground leading-relaxed">
+              <div className="text-sm text-foreground leading-relaxed whitespace-pre-line">
                 {session.warmup.notes}
-              </p>
+              </div>
             </div>
           )}
 
@@ -626,77 +601,26 @@ function DailyView({
               </div>
 
               <div className="flex flex-col gap-5">
-                {session.strength.map((sm, si) => {
-                  const loadVal = resolveStrengthLoad(sm, levelKey, gender)
-                  const movName = resolveStrengthName(sm, levelKey)
-
-                  return (
-                    <div key={si}>
-                      {/* Movement + scheme + load */}
-                      <div className="flex items-baseline gap-3 mb-1">
-                        <span className="text-lg font-display font-bold tracking-tight">
-                          {movName}
-                        </span>
-                        <span className="text-sm font-mono text-muted-foreground">
-                          {sm.scheme}
-                        </span>
-                        {loadVal && (
-                          <span
-                            className="text-sm font-bold"
-                            style={{ color: LEVEL_COLORS[level] }}
-                          >
-                            {loadVal}
-                            {sm.unit || "kg"}
-                          </span>
-                        )}
-                        <span
-                          className="text-xs font-bold px-2 py-0.5 rounded-full ml-auto"
-                          style={{
-                            backgroundColor: `${LEVEL_COLORS[level]}20`,
-                            color: LEVEL_COLORS[level],
-                          }}
-                        >
-                          {LEVEL_NAMES[level]}
-                        </span>
-                      </div>
-
-                      {/* Notes */}
-                      {sm.notes && (
-                        <p className="text-sm text-muted-foreground mb-3">
-                          {sm.notes}
-                        </p>
-                      )}
-
-                      {/* All-levels strength scaling */}
-                      {sm.load && (
-                        <div className="flex flex-wrap gap-1.5">
-                          {LEVEL_KEYS.map((lk, li) => {
-                            const lv = resolveStrengthLoad(sm, lk, gender)
-                            const isActive = li === level
-                            return (
-                              <span
-                                key={lk}
-                                className={`text-xs px-2 py-1 rounded-md font-medium ${
-                                  isActive
-                                    ? "font-bold text-white"
-                                    : "text-muted-foreground bg-secondary"
-                                }`}
-                                style={{
-                                  backgroundColor: isActive
-                                    ? LEVEL_COLORS[li]
-                                    : undefined,
-                                }}
-                              >
-                                {LEVEL_NAMES[li].replace("+", "+")}: {lv}
-                                {sm.unit || "kg"}
-                              </span>
-                            )
-                          })}
-                        </div>
-                      )}
+                {session.strength.map((sm, si) => (
+                  <div key={si}>
+                    <div className="flex items-baseline gap-3 mb-1">
+                      <span className="text-lg font-display font-bold tracking-tight">
+                        {sm.movement}
+                      </span>
+                      <span className="text-sm font-mono text-muted-foreground">
+                        {sm.scheme}
+                      </span>
                     </div>
-                  )
-                })}
+                    <p className="text-sm font-medium text-primary mb-1">
+                      {sm.prescription}
+                    </p>
+                    {sm.notes && (
+                      <p className="text-sm text-muted-foreground">
+                        {sm.notes}
+                      </p>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           )}
@@ -732,10 +656,15 @@ function DailyView({
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
                   Accessory
                 </h3>
+                {session.accessory.durationMinutes && (
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium ml-auto">
+                    {session.accessory.durationMinutes} min
+                  </span>
+                )}
               </div>
-              <p className="text-sm text-foreground leading-relaxed">
+              <div className="text-sm text-foreground leading-relaxed whitespace-pre-line">
                 {session.accessory.notes}
-              </p>
+              </div>
             </div>
           )}
         </div>
