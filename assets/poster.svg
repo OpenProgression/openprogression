@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2384 1684" width="2384" height="1684">
 <defs>
   <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#0c1222"/>
-    <stop offset="100%" style="stop-color:#0f172a"/>
+    <stop offset="0%" style="stop-color:#121110"/>
+    <stop offset="100%" style="stop-color:#1a1816"/>
   </linearGradient>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap');
@@ -12,7 +12,7 @@
 </defs>
 
 <!-- Background -->
-<rect width="2384" height="1684" rx="24" fill="url(#bgGrad)"/>
+<rect width="2384" height="1684" fill="url(#bgGrad)"/>
 
 <circle cx="1120" cy="80" r="8" fill="#4ADE80"/>
 <circle cx="1144" cy="80" r="8" fill="#22C55E"/>
@@ -22,12 +22,12 @@
 <circle cx="1240" cy="80" r="8" fill="#DC2626"/>
 <circle cx="1264" cy="80" r="8" fill="#991B1B"/>
 <text x="1192" y="122" text-anchor="middle" font-size="42" font-weight="800" letter-spacing="-1">
-  <tspan fill="#e2e8f0">Open</tspan><tspan fill="#0D9488">Progression</tspan>
+  <tspan fill="#e7e5e4">Open</tspan><tspan fill="#0D9488">Progression</tspan>
 </text>
-<text x="1192" y="148" text-anchor="middle" font-size="16" fill="#64748b" font-weight="400">Benchmark Standards  ·  v1.0.0  ·  Reference bodyweight: Male ~80kg / Female ~60kg</text>
-<text x="616" y="180" text-anchor="middle" font-size="20" font-weight="700" fill="#e2e8f0" letter-spacing="3">MALE</text>
-<text x="1768" y="180" text-anchor="middle" font-size="20" font-weight="700" fill="#e2e8f0" letter-spacing="3">FEMALE</text>
-<line x1="1192" y1="168" x2="1192" y2="1564" stroke="#1e293b" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="1192" y="148" text-anchor="middle" font-size="16" fill="#78716c" font-weight="400">Benchmark Standards  ·  v1.0.0  ·  Reference bodyweight: Male ~80kg / Female ~60kg</text>
+<text x="616" y="180" text-anchor="middle" font-size="20" font-weight="700" fill="#e7e5e4" letter-spacing="3">MALE</text>
+<text x="1768" y="180" text-anchor="middle" font-size="20" font-weight="700" fill="#e7e5e4" letter-spacing="3">FEMALE</text>
+<line x1="1192" y1="168" x2="1192" y2="1564" stroke="#2c2825" stroke-width="2" stroke-dasharray="6,4"/>
 <circle cx="288" cy="186" r="5" fill="#4ADE80"/>
 <text x="288" y="202" text-anchor="middle" font-size="11" font-weight="700" fill="#4ADE80">BEG</text>
 <circle cx="424" cy="186" r="5" fill="#22C55E"/>
@@ -44,243 +44,243 @@
 <text x="1104" y="202" text-anchor="middle" font-size="11" font-weight="700" fill="#991B1B">RX</text>
 <rect x="60" y="214" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="235" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">SQUATTING</text>
-<rect x="60" y="248" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="266" font-size="11" font-weight="500" fill="#e2e8f0">Back Squat</text>
-<text x="214" y="266" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="288" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">40kg</text>
-<text x="424" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">60kg</text>
-<text x="560" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<text x="696" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">105kg</text>
-<text x="832" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">130kg</text>
-<text x="968" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">155kg</text>
-<text x="1104" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">180kg</text>
-<text x="72" y="294" font-size="11" font-weight="500" fill="#e2e8f0">Front Squat</text>
-<text x="288" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">34kg</text>
-<text x="424" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">51kg</text>
-<text x="560" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">68kg</text>
-<text x="696" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">89kg</text>
-<text x="832" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">110kg</text>
-<text x="968" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">132kg</text>
-<text x="1104" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">153kg</text>
-<rect x="60" y="304" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="322" font-size="11" font-weight="500" fill="#e2e8f0">Overhead Squat</text>
-<text x="288" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26kg</text>
-<text x="424" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">39kg</text>
-<text x="560" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">52kg</text>
-<text x="696" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">68kg</text>
-<text x="832" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">85kg</text>
-<text x="968" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">101kg</text>
-<text x="1104" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">117kg</text>
+<rect x="60" y="248" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="266" font-size="11" font-weight="500" fill="#e7e5e4">Back Squat</text>
+<text x="214" y="266" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="288" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">40kg</text>
+<text x="424" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">60kg</text>
+<text x="560" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<text x="696" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">105kg</text>
+<text x="832" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">130kg</text>
+<text x="968" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">155kg</text>
+<text x="1104" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">180kg</text>
+<text x="72" y="294" font-size="11" font-weight="500" fill="#e7e5e4">Front Squat</text>
+<text x="288" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">34kg</text>
+<text x="424" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">51kg</text>
+<text x="560" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">68kg</text>
+<text x="696" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">89kg</text>
+<text x="832" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">110kg</text>
+<text x="968" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">132kg</text>
+<text x="1104" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">153kg</text>
+<rect x="60" y="304" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="322" font-size="11" font-weight="500" fill="#e7e5e4">Overhead Squat</text>
+<text x="288" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26kg</text>
+<text x="424" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">39kg</text>
+<text x="560" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">52kg</text>
+<text x="696" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">68kg</text>
+<text x="832" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">85kg</text>
+<text x="968" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">101kg</text>
+<text x="1104" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">117kg</text>
 <rect x="60" y="348" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="369" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">PULLING</text>
-<rect x="60" y="382" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="400" font-size="11" font-weight="500" fill="#e2e8f0">Deadlift</text>
-<text x="214" y="400" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="288" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">60kg</text>
-<text x="424" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">90kg</text>
-<text x="560" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">120kg</text>
-<text x="696" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">150kg</text>
-<text x="832" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">180kg</text>
-<text x="968" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">210kg</text>
-<text x="1104" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">240kg</text>
+<rect x="60" y="382" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="400" font-size="11" font-weight="500" fill="#e7e5e4">Deadlift</text>
+<text x="214" y="400" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="288" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">60kg</text>
+<text x="424" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">90kg</text>
+<text x="560" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">120kg</text>
+<text x="696" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">150kg</text>
+<text x="832" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">180kg</text>
+<text x="968" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">210kg</text>
+<text x="1104" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">240kg</text>
 <rect x="60" y="426" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="447" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">PRESSING</text>
-<rect x="60" y="460" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="478" font-size="11" font-weight="500" fill="#e2e8f0">Strict Press</text>
-<text x="214" y="478" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="288" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20kg</text>
-<text x="424" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">30kg</text>
-<text x="560" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">45kg</text>
-<text x="696" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="832" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">68kg</text>
-<text x="968" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<text x="1104" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">95kg</text>
-<text x="72" y="506" font-size="11" font-weight="500" fill="#e2e8f0">Bench Press</text>
-<text x="288" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">40kg</text>
-<text x="424" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="560" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70kg</text>
-<text x="696" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">90kg</text>
-<text x="832" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">105kg</text>
-<text x="968" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">125kg</text>
-<text x="1104" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">145kg</text>
+<rect x="60" y="460" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="478" font-size="11" font-weight="500" fill="#e7e5e4">Strict Press</text>
+<text x="214" y="478" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="288" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20kg</text>
+<text x="424" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">30kg</text>
+<text x="560" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">45kg</text>
+<text x="696" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="832" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">68kg</text>
+<text x="968" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<text x="1104" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">95kg</text>
+<text x="72" y="506" font-size="11" font-weight="500" fill="#e7e5e4">Bench Press</text>
+<text x="288" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">40kg</text>
+<text x="424" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="560" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70kg</text>
+<text x="696" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">90kg</text>
+<text x="832" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">105kg</text>
+<text x="968" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">125kg</text>
+<text x="1104" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">145kg</text>
 <rect x="60" y="532" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="553" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">OLYMPIC LIFTING</text>
-<rect x="60" y="566" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="584" font-size="11" font-weight="500" fill="#e2e8f0">Power Clean</text>
-<text x="214" y="584" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="288" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">30kg</text>
-<text x="424" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">45kg</text>
-<text x="560" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">65kg</text>
-<text x="696" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">85kg</text>
-<text x="832" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">105kg</text>
-<text x="968" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">120kg</text>
-<text x="1104" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">135kg</text>
-<text x="72" y="612" font-size="11" font-weight="500" fill="#e2e8f0">Snatch</text>
-<text x="288" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20kg</text>
-<text x="424" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">35kg</text>
-<text x="560" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">52kg</text>
-<text x="696" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70kg</text>
-<text x="832" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">90kg</text>
-<text x="968" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">105kg</text>
-<text x="1104" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">125kg</text>
-<rect x="60" y="622" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="640" font-size="11" font-weight="500" fill="#e2e8f0">Clean &amp; Jerk</text>
-<text x="288" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">35kg</text>
-<text x="424" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">50kg</text>
-<text x="560" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">72kg</text>
-<text x="696" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">95kg</text>
-<text x="832" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">115kg</text>
-<text x="968" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">130kg</text>
-<text x="1104" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">150kg</text>
+<rect x="60" y="566" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="584" font-size="11" font-weight="500" fill="#e7e5e4">Power Clean</text>
+<text x="214" y="584" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="288" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">30kg</text>
+<text x="424" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">45kg</text>
+<text x="560" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">65kg</text>
+<text x="696" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">85kg</text>
+<text x="832" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">105kg</text>
+<text x="968" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">120kg</text>
+<text x="1104" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">135kg</text>
+<text x="72" y="612" font-size="11" font-weight="500" fill="#e7e5e4">Snatch</text>
+<text x="288" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20kg</text>
+<text x="424" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">35kg</text>
+<text x="560" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">52kg</text>
+<text x="696" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70kg</text>
+<text x="832" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">90kg</text>
+<text x="968" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">105kg</text>
+<text x="1104" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">125kg</text>
+<rect x="60" y="622" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="640" font-size="11" font-weight="500" fill="#e7e5e4">Clean &amp; Jerk</text>
+<text x="288" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">35kg</text>
+<text x="424" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">50kg</text>
+<text x="560" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">72kg</text>
+<text x="696" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">95kg</text>
+<text x="832" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">115kg</text>
+<text x="968" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">130kg</text>
+<text x="1104" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">150kg</text>
 <rect x="60" y="666" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="687" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">GYMNASTICS</text>
-<rect x="60" y="700" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="718" font-size="11" font-weight="500" fill="#e2e8f0">Strict Pull-ups</text>
-<text x="214" y="718" text-anchor="end" font-size="8" fill="#475569"> (reps)</text>
-<text x="288" y="718" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-3</text>
-<text x="560" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4-8</text>
-<text x="696" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9-14</text>
-<text x="832" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">15-20</text>
-<text x="968" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21-25</text>
-<text x="1104" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26+</text>
-<text x="72" y="746" font-size="11" font-weight="500" fill="#e2e8f0">Handstand Push-ups (Strict)</text>
-<text x="288" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="560" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-5</text>
-<text x="696" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6-10</text>
-<text x="832" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11-18</text>
-<text x="968" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">19-28</text>
-<text x="1104" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">29+</text>
-<rect x="60" y="756" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="774" font-size="11" font-weight="500" fill="#e2e8f0">Toes to Bar</text>
-<text x="288" y="774" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-3</text>
-<text x="560" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4-10</text>
-<text x="696" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11-16</text>
-<text x="832" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">17-24</text>
-<text x="968" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">25-31</text>
-<text x="1104" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">32+</text>
-<text x="72" y="802" font-size="11" font-weight="500" fill="#e2e8f0">Bar Muscle-up</text>
-<text x="288" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="560" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="696" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-4</text>
-<text x="832" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5-9</text>
-<text x="968" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">10-14</text>
-<text x="1104" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">15+</text>
-<rect x="60" y="812" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="830" font-size="11" font-weight="500" fill="#e2e8f0">Ring Muscle-up</text>
-<text x="288" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="560" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="696" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-3</text>
-<text x="832" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4-8</text>
-<text x="968" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9-15</text>
-<text x="1104" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">16+</text>
+<rect x="60" y="700" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="718" font-size="11" font-weight="500" fill="#e7e5e4">Strict Pull-ups</text>
+<text x="214" y="718" text-anchor="end" font-size="8" fill="#57534e"> (reps)</text>
+<text x="288" y="718" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-3</text>
+<text x="560" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4-8</text>
+<text x="696" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9-14</text>
+<text x="832" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">15-20</text>
+<text x="968" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21-25</text>
+<text x="1104" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26+</text>
+<text x="72" y="746" font-size="11" font-weight="500" fill="#e7e5e4">Handstand Push-ups (Strict)</text>
+<text x="288" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="560" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-5</text>
+<text x="696" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6-10</text>
+<text x="832" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11-18</text>
+<text x="968" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">19-28</text>
+<text x="1104" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">29+</text>
+<rect x="60" y="756" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="774" font-size="11" font-weight="500" fill="#e7e5e4">Toes to Bar</text>
+<text x="288" y="774" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-3</text>
+<text x="560" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4-10</text>
+<text x="696" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11-16</text>
+<text x="832" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">17-24</text>
+<text x="968" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">25-31</text>
+<text x="1104" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">32+</text>
+<text x="72" y="802" font-size="11" font-weight="500" fill="#e7e5e4">Bar Muscle-up</text>
+<text x="288" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="560" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="696" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-4</text>
+<text x="832" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5-9</text>
+<text x="968" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">10-14</text>
+<text x="1104" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">15+</text>
+<rect x="60" y="812" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="830" font-size="11" font-weight="500" fill="#e7e5e4">Ring Muscle-up</text>
+<text x="288" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="560" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="696" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-3</text>
+<text x="832" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4-8</text>
+<text x="968" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9-15</text>
+<text x="1104" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">16+</text>
 <rect x="60" y="856" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="877" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">MONOSTRUCTURAL</text>
-<rect x="60" y="890" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="908" font-size="11" font-weight="500" fill="#e2e8f0">500m Row</text>
-<text x="214" y="908" text-anchor="end" font-size="8" fill="#475569"></text>
-<text x="288" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:30</text>
-<text x="424" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:10</text>
-<text x="560" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:55</text>
-<text x="696" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:45</text>
-<text x="832" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:38</text>
-<text x="968" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:30</text>
-<text x="1104" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:24</text>
-<text x="72" y="936" font-size="11" font-weight="500" fill="#e2e8f0">2000m Row</text>
-<text x="288" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9:30</text>
-<text x="424" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:30</text>
-<text x="560" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:45</text>
-<text x="696" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:15</text>
-<text x="832" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:50</text>
-<text x="968" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:25</text>
-<text x="1104" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5:50</text>
-<rect x="60" y="946" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="964" font-size="11" font-weight="500" fill="#e2e8f0">1 Mile Run</text>
-<text x="288" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">10:00</text>
-<text x="424" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:30</text>
-<text x="560" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:30</text>
-<text x="696" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:45</text>
-<text x="832" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:10</text>
-<text x="968" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5:40</text>
-<text x="1104" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5:10</text>
-<text x="72" y="992" font-size="11" font-weight="500" fill="#e2e8f0">5K Run</text>
-<text x="288" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">32:00</text>
-<text x="424" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">28:00</text>
-<text x="560" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">24:00</text>
-<text x="696" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21:00</text>
-<text x="832" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">19:00</text>
-<text x="968" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">17:30</text>
-<text x="1104" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">16:00</text>
+<rect x="60" y="890" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="908" font-size="11" font-weight="500" fill="#e7e5e4">500m Row</text>
+<text x="214" y="908" text-anchor="end" font-size="8" fill="#57534e"></text>
+<text x="288" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:30</text>
+<text x="424" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:10</text>
+<text x="560" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:55</text>
+<text x="696" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:45</text>
+<text x="832" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:38</text>
+<text x="968" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:30</text>
+<text x="1104" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:24</text>
+<text x="72" y="936" font-size="11" font-weight="500" fill="#e7e5e4">2000m Row</text>
+<text x="288" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9:30</text>
+<text x="424" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:30</text>
+<text x="560" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:45</text>
+<text x="696" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:15</text>
+<text x="832" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:50</text>
+<text x="968" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:25</text>
+<text x="1104" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5:50</text>
+<rect x="60" y="946" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="964" font-size="11" font-weight="500" fill="#e7e5e4">1 Mile Run</text>
+<text x="288" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">10:00</text>
+<text x="424" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:30</text>
+<text x="560" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:30</text>
+<text x="696" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:45</text>
+<text x="832" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:10</text>
+<text x="968" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5:40</text>
+<text x="1104" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5:10</text>
+<text x="72" y="992" font-size="11" font-weight="500" fill="#e7e5e4">5K Run</text>
+<text x="288" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">32:00</text>
+<text x="424" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">28:00</text>
+<text x="560" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">24:00</text>
+<text x="696" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21:00</text>
+<text x="832" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">19:00</text>
+<text x="968" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">17:30</text>
+<text x="1104" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">16:00</text>
 <rect x="60" y="1018" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="1039" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">BODYWEIGHT</text>
-<rect x="60" y="1052" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="1070" font-size="11" font-weight="500" fill="#e2e8f0">Push-ups</text>
-<text x="214" y="1070" text-anchor="end" font-size="8" fill="#475569"> (reps)</text>
-<text x="288" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">0-10</text>
-<text x="424" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11-20</text>
-<text x="560" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21-35</text>
-<text x="696" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">36-50</text>
-<text x="832" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">51-65</text>
-<text x="968" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">66-80</text>
-<text x="1104" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">81+</text>
-<text x="72" y="1098" font-size="11" font-weight="500" fill="#e2e8f0">Double-Unders</text>
-<text x="288" y="1098" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-5</text>
-<text x="560" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6-25</text>
-<text x="696" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26-50</text>
-<text x="832" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">51-80</text>
-<text x="968" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">81+</text>
-<text x="1104" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">121+</text>
-<rect x="60" y="1108" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="1126" font-size="11" font-weight="500" fill="#e2e8f0">Pistol Squat</text>
-<text x="288" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="424" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="560" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-3</text>
-<text x="696" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4-8</text>
-<text x="832" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9-15</text>
-<text x="968" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">16-24</text>
-<text x="1104" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">25+</text>
+<rect x="60" y="1052" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="1070" font-size="11" font-weight="500" fill="#e7e5e4">Push-ups</text>
+<text x="214" y="1070" text-anchor="end" font-size="8" fill="#57534e"> (reps)</text>
+<text x="288" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">0-10</text>
+<text x="424" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11-20</text>
+<text x="560" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21-35</text>
+<text x="696" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">36-50</text>
+<text x="832" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">51-65</text>
+<text x="968" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">66-80</text>
+<text x="1104" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">81+</text>
+<text x="72" y="1098" font-size="11" font-weight="500" fill="#e7e5e4">Double-Unders</text>
+<text x="288" y="1098" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-5</text>
+<text x="560" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6-25</text>
+<text x="696" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26-50</text>
+<text x="832" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">51-80</text>
+<text x="968" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">81+</text>
+<text x="1104" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">121+</text>
+<rect x="60" y="1108" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="1126" font-size="11" font-weight="500" fill="#e7e5e4">Pistol Squat</text>
+<text x="288" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="424" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="560" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-3</text>
+<text x="696" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4-8</text>
+<text x="832" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9-15</text>
+<text x="968" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">16-24</text>
+<text x="1104" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">25+</text>
 <rect x="60" y="1152" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="72" y="1173" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">ENDURANCE</text>
-<rect x="60" y="1186" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="1204" font-size="11" font-weight="500" fill="#e2e8f0">Fran</text>
-<text x="214" y="1204" text-anchor="end" font-size="8" fill="#475569"></text>
-<text x="288" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">10:00</text>
-<text x="424" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:00</text>
-<text x="560" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:00</text>
-<text x="696" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4:30</text>
-<text x="832" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3:30</text>
-<text x="968" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:40</text>
-<text x="1104" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:00</text>
-<text x="72" y="1232" font-size="11" font-weight="500" fill="#e2e8f0">Grace</text>
-<text x="288" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:00</text>
-<text x="424" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:00</text>
-<text x="560" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4:30</text>
-<text x="696" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3:30</text>
-<text x="832" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:45</text>
-<text x="968" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:10</text>
-<text x="1104" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:40</text>
-<rect x="60" y="1242" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="72" y="1260" font-size="11" font-weight="500" fill="#e2e8f0">Murph</text>
-<text x="288" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80:00</text>
-<text x="424" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70:00</text>
-<text x="560" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">60:00</text>
-<text x="696" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">50:00</text>
-<text x="832" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">43:00</text>
-<text x="968" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">37:30</text>
-<text x="1104" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">32:00</text>
-<text x="72" y="1288" font-size="11" font-weight="500" fill="#e2e8f0">Cindy</text>
-<text x="288" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8r</text>
-<text x="424" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11r</text>
-<text x="560" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">14r</text>
-<text x="696" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">17r</text>
-<text x="832" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20r</text>
-<text x="968" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">23r</text>
-<text x="1104" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26r</text>
+<rect x="60" y="1186" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="1204" font-size="11" font-weight="500" fill="#e7e5e4">Fran</text>
+<text x="214" y="1204" text-anchor="end" font-size="8" fill="#57534e"></text>
+<text x="288" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">10:00</text>
+<text x="424" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:00</text>
+<text x="560" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:00</text>
+<text x="696" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4:30</text>
+<text x="832" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3:30</text>
+<text x="968" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:40</text>
+<text x="1104" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:00</text>
+<text x="72" y="1232" font-size="11" font-weight="500" fill="#e7e5e4">Grace</text>
+<text x="288" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:00</text>
+<text x="424" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:00</text>
+<text x="560" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4:30</text>
+<text x="696" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3:30</text>
+<text x="832" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:45</text>
+<text x="968" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:10</text>
+<text x="1104" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:40</text>
+<rect x="60" y="1242" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="72" y="1260" font-size="11" font-weight="500" fill="#e7e5e4">Murph</text>
+<text x="288" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80:00</text>
+<text x="424" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70:00</text>
+<text x="560" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">60:00</text>
+<text x="696" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">50:00</text>
+<text x="832" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">43:00</text>
+<text x="968" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">37:30</text>
+<text x="1104" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">32:00</text>
+<text x="72" y="1288" font-size="11" font-weight="500" fill="#e7e5e4">Cindy</text>
+<text x="288" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8r</text>
+<text x="424" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11r</text>
+<text x="560" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">14r</text>
+<text x="696" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">17r</text>
+<text x="832" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20r</text>
+<text x="968" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">23r</text>
+<text x="1104" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26r</text>
 <circle cx="1440" cy="186" r="5" fill="#4ADE80"/>
 <text x="1440" y="202" text-anchor="middle" font-size="11" font-weight="700" fill="#4ADE80">BEG</text>
 <circle cx="1576" cy="186" r="5" fill="#22C55E"/>
@@ -297,274 +297,274 @@
 <text x="2256" y="202" text-anchor="middle" font-size="11" font-weight="700" fill="#991B1B">RX</text>
 <rect x="1212" y="214" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="235" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">SQUATTING</text>
-<rect x="1212" y="248" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="266" font-size="11" font-weight="500" fill="#e2e8f0">Back Squat</text>
-<text x="1366" y="266" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="1440" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">25kg</text>
-<text x="1576" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">40kg</text>
-<text x="1712" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="1848" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70kg</text>
-<text x="1984" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">85kg</text>
-<text x="2120" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">100kg</text>
-<text x="2256" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">120kg</text>
-<text x="1224" y="294" font-size="11" font-weight="500" fill="#e2e8f0">Front Squat</text>
-<text x="1440" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21kg</text>
-<text x="1576" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">34kg</text>
-<text x="1712" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">47kg</text>
-<text x="1848" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">60kg</text>
-<text x="1984" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">72kg</text>
-<text x="2120" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">85kg</text>
-<text x="2256" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">102kg</text>
-<rect x="1212" y="304" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="322" font-size="11" font-weight="500" fill="#e2e8f0">Overhead Squat</text>
-<text x="1440" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">16kg</text>
-<text x="1576" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26kg</text>
-<text x="1712" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">36kg</text>
-<text x="1848" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">46kg</text>
-<text x="1984" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="2120" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">65kg</text>
-<text x="2256" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">78kg</text>
+<rect x="1212" y="248" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="266" font-size="11" font-weight="500" fill="#e7e5e4">Back Squat</text>
+<text x="1366" y="266" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="1440" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">25kg</text>
+<text x="1576" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">40kg</text>
+<text x="1712" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="1848" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70kg</text>
+<text x="1984" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">85kg</text>
+<text x="2120" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">100kg</text>
+<text x="2256" y="266" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">120kg</text>
+<text x="1224" y="294" font-size="11" font-weight="500" fill="#e7e5e4">Front Squat</text>
+<text x="1440" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21kg</text>
+<text x="1576" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">34kg</text>
+<text x="1712" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">47kg</text>
+<text x="1848" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">60kg</text>
+<text x="1984" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">72kg</text>
+<text x="2120" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">85kg</text>
+<text x="2256" y="294" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">102kg</text>
+<rect x="1212" y="304" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="322" font-size="11" font-weight="500" fill="#e7e5e4">Overhead Squat</text>
+<text x="1440" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">16kg</text>
+<text x="1576" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26kg</text>
+<text x="1712" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">36kg</text>
+<text x="1848" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">46kg</text>
+<text x="1984" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="2120" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">65kg</text>
+<text x="2256" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">78kg</text>
 <rect x="1212" y="348" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="369" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">PULLING</text>
-<rect x="1212" y="382" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="400" font-size="11" font-weight="500" fill="#e2e8f0">Deadlift</text>
-<text x="1366" y="400" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="1440" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">35kg</text>
-<text x="1576" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="1712" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<text x="1848" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">100kg</text>
-<text x="1984" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">120kg</text>
-<text x="2120" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">145kg</text>
-<text x="2256" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">170kg</text>
+<rect x="1212" y="382" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="400" font-size="11" font-weight="500" fill="#e7e5e4">Deadlift</text>
+<text x="1366" y="400" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="1440" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">35kg</text>
+<text x="1576" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="1712" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<text x="1848" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">100kg</text>
+<text x="1984" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">120kg</text>
+<text x="2120" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">145kg</text>
+<text x="2256" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">170kg</text>
 <rect x="1212" y="426" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="447" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">PRESSING</text>
-<rect x="1212" y="460" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="478" font-size="11" font-weight="500" fill="#e2e8f0">Strict Press</text>
-<text x="1366" y="478" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="1440" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">12kg</text>
-<text x="1576" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20kg</text>
-<text x="1712" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">30kg</text>
-<text x="1848" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">38kg</text>
-<text x="1984" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">45kg</text>
-<text x="2120" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">52kg</text>
-<text x="2256" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">57kg</text>
-<text x="1224" y="506" font-size="11" font-weight="500" fill="#e2e8f0">Bench Press</text>
-<text x="1440" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20kg</text>
-<text x="1576" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">30kg</text>
-<text x="1712" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">42kg</text>
-<text x="1848" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55kg</text>
-<text x="1984" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">65kg</text>
-<text x="2120" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<text x="2256" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">90kg</text>
+<rect x="1212" y="460" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="478" font-size="11" font-weight="500" fill="#e7e5e4">Strict Press</text>
+<text x="1366" y="478" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="1440" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">12kg</text>
+<text x="1576" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20kg</text>
+<text x="1712" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">30kg</text>
+<text x="1848" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">38kg</text>
+<text x="1984" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">45kg</text>
+<text x="2120" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">52kg</text>
+<text x="2256" y="478" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">57kg</text>
+<text x="1224" y="506" font-size="11" font-weight="500" fill="#e7e5e4">Bench Press</text>
+<text x="1440" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20kg</text>
+<text x="1576" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">30kg</text>
+<text x="1712" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">42kg</text>
+<text x="1848" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55kg</text>
+<text x="1984" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">65kg</text>
+<text x="2120" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<text x="2256" y="506" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">90kg</text>
 <rect x="1212" y="532" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="553" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">OLYMPIC LIFTING</text>
-<rect x="1212" y="566" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="584" font-size="11" font-weight="500" fill="#e2e8f0">Power Clean</text>
-<text x="1366" y="584" text-anchor="end" font-size="8" fill="#475569"> (kg)</text>
-<text x="1440" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20kg</text>
-<text x="1576" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">30kg</text>
-<text x="1712" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">45kg</text>
-<text x="1848" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">57kg</text>
-<text x="1984" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70kg</text>
-<text x="2120" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">82kg</text>
-<text x="2256" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">95kg</text>
-<text x="1224" y="612" font-size="11" font-weight="500" fill="#e2e8f0">Snatch</text>
-<text x="1440" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">15kg</text>
-<text x="1576" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">25kg</text>
-<text x="1712" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">37kg</text>
-<text x="1848" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">48kg</text>
-<text x="1984" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">60kg</text>
-<text x="2120" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">70kg</text>
-<text x="2256" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<rect x="1212" y="622" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="640" font-size="11" font-weight="500" fill="#e2e8f0">Clean &amp; Jerk</text>
-<text x="1440" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">22kg</text>
-<text x="1576" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">35kg</text>
-<text x="1712" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">50kg</text>
-<text x="1848" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">65kg</text>
-<text x="1984" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">80kg</text>
-<text x="2120" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">92kg</text>
-<text x="2256" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">105kg</text>
+<rect x="1212" y="566" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="584" font-size="11" font-weight="500" fill="#e7e5e4">Power Clean</text>
+<text x="1366" y="584" text-anchor="end" font-size="8" fill="#57534e"> (kg)</text>
+<text x="1440" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20kg</text>
+<text x="1576" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">30kg</text>
+<text x="1712" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">45kg</text>
+<text x="1848" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">57kg</text>
+<text x="1984" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70kg</text>
+<text x="2120" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">82kg</text>
+<text x="2256" y="584" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">95kg</text>
+<text x="1224" y="612" font-size="11" font-weight="500" fill="#e7e5e4">Snatch</text>
+<text x="1440" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">15kg</text>
+<text x="1576" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">25kg</text>
+<text x="1712" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">37kg</text>
+<text x="1848" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">48kg</text>
+<text x="1984" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">60kg</text>
+<text x="2120" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">70kg</text>
+<text x="2256" y="612" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<rect x="1212" y="622" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="640" font-size="11" font-weight="500" fill="#e7e5e4">Clean &amp; Jerk</text>
+<text x="1440" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">22kg</text>
+<text x="1576" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">35kg</text>
+<text x="1712" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">50kg</text>
+<text x="1848" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">65kg</text>
+<text x="1984" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">80kg</text>
+<text x="2120" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">92kg</text>
+<text x="2256" y="640" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">105kg</text>
 <rect x="1212" y="666" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="687" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">GYMNASTICS</text>
-<rect x="1212" y="700" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="718" font-size="11" font-weight="500" fill="#e2e8f0">Strict Pull-ups</text>
-<text x="1366" y="718" text-anchor="end" font-size="8" fill="#475569"> (reps)</text>
-<text x="1440" y="718" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">0-1</text>
-<text x="1712" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2-4</text>
-<text x="1848" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5-8</text>
-<text x="1984" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9-12</text>
-<text x="2120" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">13-16</text>
-<text x="2256" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">17+</text>
-<text x="1224" y="746" font-size="11" font-weight="500" fill="#e2e8f0">Handstand Push-ups (Strict)</text>
-<text x="1440" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1712" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-3</text>
-<text x="1848" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4-7</text>
-<text x="1984" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8-13</text>
-<text x="2120" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">14-20</text>
-<text x="2256" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21+</text>
-<rect x="1212" y="756" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="774" font-size="11" font-weight="500" fill="#e2e8f0">Toes to Bar</text>
-<text x="1440" y="774" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-2</text>
-<text x="1712" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3-7</text>
-<text x="1848" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8-11</text>
-<text x="1984" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">12-17</text>
-<text x="2120" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">18-22</text>
-<text x="2256" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">23+</text>
-<text x="1224" y="802" font-size="11" font-weight="500" fill="#e2e8f0">Bar Muscle-up</text>
-<text x="1440" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1712" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1848" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-2</text>
-<text x="1984" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3-6</text>
-<text x="2120" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7-10</text>
-<text x="2256" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11+</text>
-<rect x="1212" y="812" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="830" font-size="11" font-weight="500" fill="#e2e8f0">Ring Muscle-up</text>
-<text x="1440" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1712" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1848" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-2</text>
-<text x="1984" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3-5</text>
-<text x="2120" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6-10</text>
-<text x="2256" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11+</text>
+<rect x="1212" y="700" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="718" font-size="11" font-weight="500" fill="#e7e5e4">Strict Pull-ups</text>
+<text x="1366" y="718" text-anchor="end" font-size="8" fill="#57534e"> (reps)</text>
+<text x="1440" y="718" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">0-1</text>
+<text x="1712" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2-4</text>
+<text x="1848" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5-8</text>
+<text x="1984" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9-12</text>
+<text x="2120" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">13-16</text>
+<text x="2256" y="718" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">17+</text>
+<text x="1224" y="746" font-size="11" font-weight="500" fill="#e7e5e4">Handstand Push-ups (Strict)</text>
+<text x="1440" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="746" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1712" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-3</text>
+<text x="1848" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4-7</text>
+<text x="1984" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8-13</text>
+<text x="2120" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">14-20</text>
+<text x="2256" y="746" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21+</text>
+<rect x="1212" y="756" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="774" font-size="11" font-weight="500" fill="#e7e5e4">Toes to Bar</text>
+<text x="1440" y="774" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-2</text>
+<text x="1712" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3-7</text>
+<text x="1848" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8-11</text>
+<text x="1984" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">12-17</text>
+<text x="2120" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">18-22</text>
+<text x="2256" y="774" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">23+</text>
+<text x="1224" y="802" font-size="11" font-weight="500" fill="#e7e5e4">Bar Muscle-up</text>
+<text x="1440" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1712" y="802" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1848" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-2</text>
+<text x="1984" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3-6</text>
+<text x="2120" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7-10</text>
+<text x="2256" y="802" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11+</text>
+<rect x="1212" y="812" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="830" font-size="11" font-weight="500" fill="#e7e5e4">Ring Muscle-up</text>
+<text x="1440" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1712" y="830" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1848" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-2</text>
+<text x="1984" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3-5</text>
+<text x="2120" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6-10</text>
+<text x="2256" y="830" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11+</text>
 <rect x="1212" y="856" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="877" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">MONOSTRUCTURAL</text>
-<rect x="1212" y="890" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="908" font-size="11" font-weight="500" fill="#e2e8f0">500m Row</text>
-<text x="1366" y="908" text-anchor="end" font-size="8" fill="#475569"></text>
-<text x="1440" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:50</text>
-<text x="1576" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:30</text>
-<text x="1712" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:15</text>
-<text x="1848" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:05</text>
-<text x="1984" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:55</text>
-<text x="2120" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:45</text>
-<text x="2256" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1:38</text>
-<text x="1224" y="936" font-size="11" font-weight="500" fill="#e2e8f0">2000m Row</text>
-<text x="1440" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">10:30</text>
-<text x="1576" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9:30</text>
-<text x="1712" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:50</text>
-<text x="1848" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:10</text>
-<text x="1984" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:40</text>
-<text x="2120" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:10</text>
-<text x="2256" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:40</text>
-<rect x="1212" y="946" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="964" font-size="11" font-weight="500" fill="#e2e8f0">1 Mile Run</text>
-<text x="1440" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11:00</text>
-<text x="1576" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9:30</text>
-<text x="1712" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">8:30</text>
-<text x="1848" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:45</text>
-<text x="1984" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:00</text>
-<text x="2120" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:30</text>
-<text x="2256" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6:00</text>
-<text x="1224" y="992" font-size="11" font-weight="500" fill="#e2e8f0">5K Run</text>
-<text x="1440" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">36:00</text>
-<text x="1576" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">32:00</text>
-<text x="1712" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">28:00</text>
-<text x="1848" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">25:00</text>
-<text x="1984" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">22:00</text>
-<text x="2120" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">20:30</text>
-<text x="2256" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">19:00</text>
+<rect x="1212" y="890" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="908" font-size="11" font-weight="500" fill="#e7e5e4">500m Row</text>
+<text x="1366" y="908" text-anchor="end" font-size="8" fill="#57534e"></text>
+<text x="1440" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:50</text>
+<text x="1576" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:30</text>
+<text x="1712" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:15</text>
+<text x="1848" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:05</text>
+<text x="1984" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:55</text>
+<text x="2120" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:45</text>
+<text x="2256" y="908" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1:38</text>
+<text x="1224" y="936" font-size="11" font-weight="500" fill="#e7e5e4">2000m Row</text>
+<text x="1440" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">10:30</text>
+<text x="1576" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9:30</text>
+<text x="1712" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:50</text>
+<text x="1848" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:10</text>
+<text x="1984" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:40</text>
+<text x="2120" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:10</text>
+<text x="2256" y="936" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:40</text>
+<rect x="1212" y="946" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="964" font-size="11" font-weight="500" fill="#e7e5e4">1 Mile Run</text>
+<text x="1440" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11:00</text>
+<text x="1576" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9:30</text>
+<text x="1712" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">8:30</text>
+<text x="1848" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:45</text>
+<text x="1984" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:00</text>
+<text x="2120" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:30</text>
+<text x="2256" y="964" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6:00</text>
+<text x="1224" y="992" font-size="11" font-weight="500" fill="#e7e5e4">5K Run</text>
+<text x="1440" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">36:00</text>
+<text x="1576" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">32:00</text>
+<text x="1712" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">28:00</text>
+<text x="1848" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">25:00</text>
+<text x="1984" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">22:00</text>
+<text x="2120" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">20:30</text>
+<text x="2256" y="992" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">19:00</text>
 <rect x="1212" y="1018" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="1039" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">BODYWEIGHT</text>
-<rect x="1212" y="1052" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="1070" font-size="11" font-weight="500" fill="#e2e8f0">Push-ups</text>
-<text x="1366" y="1070" text-anchor="end" font-size="8" fill="#475569"> (reps)</text>
-<text x="1440" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">0-4</text>
-<text x="1576" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5-10</text>
-<text x="1712" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11-18</text>
-<text x="1848" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">19-28</text>
-<text x="1984" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">29-38</text>
-<text x="2120" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">39-48</text>
-<text x="2256" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">49+</text>
-<text x="1224" y="1098" font-size="11" font-weight="500" fill="#e2e8f0">Double-Unders</text>
-<text x="1440" y="1098" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-5</text>
-<text x="1712" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6-25</text>
-<text x="1848" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">26-50</text>
-<text x="1984" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">51-80</text>
-<text x="2120" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">81+</text>
-<text x="2256" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">121+</text>
-<rect x="1212" y="1108" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="1126" font-size="11" font-weight="500" fill="#e2e8f0">Pistol Squat</text>
-<text x="1440" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1576" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#475569">-</text>
-<text x="1712" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">1-2</text>
-<text x="1848" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3-6</text>
-<text x="1984" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7-12</text>
-<text x="2120" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">13-20</text>
-<text x="2256" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21+</text>
+<rect x="1212" y="1052" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="1070" font-size="11" font-weight="500" fill="#e7e5e4">Push-ups</text>
+<text x="1366" y="1070" text-anchor="end" font-size="8" fill="#57534e"> (reps)</text>
+<text x="1440" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">0-4</text>
+<text x="1576" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5-10</text>
+<text x="1712" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11-18</text>
+<text x="1848" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">19-28</text>
+<text x="1984" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">29-38</text>
+<text x="2120" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">39-48</text>
+<text x="2256" y="1070" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">49+</text>
+<text x="1224" y="1098" font-size="11" font-weight="500" fill="#e7e5e4">Double-Unders</text>
+<text x="1440" y="1098" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-5</text>
+<text x="1712" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6-25</text>
+<text x="1848" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">26-50</text>
+<text x="1984" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">51-80</text>
+<text x="2120" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">81+</text>
+<text x="2256" y="1098" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">121+</text>
+<rect x="1212" y="1108" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="1126" font-size="11" font-weight="500" fill="#e7e5e4">Pistol Squat</text>
+<text x="1440" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1576" y="1126" text-anchor="middle" font-size="11" font-weight="400" fill="#57534e">-</text>
+<text x="1712" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">1-2</text>
+<text x="1848" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3-6</text>
+<text x="1984" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7-12</text>
+<text x="2120" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">13-20</text>
+<text x="2256" y="1126" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21+</text>
 <rect x="1212" y="1152" width="1112" height="32" rx="6" fill="#0D9488" opacity="0.15"/>
 <text x="1224" y="1173" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">ENDURANCE</text>
-<rect x="1212" y="1186" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="1204" font-size="11" font-weight="500" fill="#e2e8f0">Fran</text>
-<text x="1366" y="1204" text-anchor="end" font-size="8" fill="#475569"></text>
-<text x="1440" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">11:00</text>
-<text x="1576" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9:00</text>
-<text x="1712" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:00</text>
-<text x="1848" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5:30</text>
-<text x="1984" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4:20</text>
-<text x="2120" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3:20</text>
-<text x="2256" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:30</text>
-<text x="1224" y="1232" font-size="11" font-weight="500" fill="#e2e8f0">Grace</text>
-<text x="1440" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9:00</text>
-<text x="1576" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">7:00</text>
-<text x="1712" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">5:30</text>
-<text x="1848" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">4:20</text>
-<text x="1984" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">3:20</text>
-<text x="2120" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:40</text>
-<text x="2256" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">2:00</text>
-<rect x="1212" y="1242" width="1112" height="28" rx="4" fill="#131c2e" opacity="0.5"/>
-<text x="1224" y="1260" font-size="11" font-weight="500" fill="#e2e8f0">Murph</text>
-<text x="1440" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">85:00</text>
-<text x="1576" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">75:00</text>
-<text x="1712" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">65:00</text>
-<text x="1848" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">55:00</text>
-<text x="1984" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">48:00</text>
-<text x="2120" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">42:00</text>
-<text x="2256" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">37:00</text>
-<text x="1224" y="1288" font-size="11" font-weight="500" fill="#e2e8f0">Cindy</text>
-<text x="1440" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">6r</text>
-<text x="1576" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">9r</text>
-<text x="1712" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">12r</text>
-<text x="1848" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">15r</text>
-<text x="1984" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">18r</text>
-<text x="2120" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">21r</text>
-<text x="2256" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e2e8f0">24r</text>
+<rect x="1212" y="1186" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="1204" font-size="11" font-weight="500" fill="#e7e5e4">Fran</text>
+<text x="1366" y="1204" text-anchor="end" font-size="8" fill="#57534e"></text>
+<text x="1440" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">11:00</text>
+<text x="1576" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9:00</text>
+<text x="1712" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:00</text>
+<text x="1848" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5:30</text>
+<text x="1984" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4:20</text>
+<text x="2120" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3:20</text>
+<text x="2256" y="1204" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:30</text>
+<text x="1224" y="1232" font-size="11" font-weight="500" fill="#e7e5e4">Grace</text>
+<text x="1440" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9:00</text>
+<text x="1576" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">7:00</text>
+<text x="1712" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">5:30</text>
+<text x="1848" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">4:20</text>
+<text x="1984" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">3:20</text>
+<text x="2120" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:40</text>
+<text x="2256" y="1232" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">2:00</text>
+<rect x="1212" y="1242" width="1112" height="28" rx="4" fill="#1f1d1a" opacity="0.5"/>
+<text x="1224" y="1260" font-size="11" font-weight="500" fill="#e7e5e4">Murph</text>
+<text x="1440" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">85:00</text>
+<text x="1576" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">75:00</text>
+<text x="1712" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">65:00</text>
+<text x="1848" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">55:00</text>
+<text x="1984" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">48:00</text>
+<text x="2120" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">42:00</text>
+<text x="2256" y="1260" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">37:00</text>
+<text x="1224" y="1288" font-size="11" font-weight="500" fill="#e7e5e4">Cindy</text>
+<text x="1440" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">6r</text>
+<text x="1576" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">9r</text>
+<text x="1712" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">12r</text>
+<text x="1848" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">15r</text>
+<text x="1984" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">18r</text>
+<text x="2120" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">21r</text>
+<text x="2256" y="1288" text-anchor="middle" font-size="11" font-weight="600" fill="#e7e5e4">24r</text>
 <!-- Age Adjustment Multipliers -->
-<rect x="1920" y="1340" width="380" height="186" rx="10" fill="#131c2e" stroke="#1e293b" stroke-width="1"/>
+<rect x="1920" y="1340" width="380" height="186" rx="10" fill="#1f1d1a" stroke="#2c2825" stroke-width="1"/>
 <text x="2110" y="1366" text-anchor="middle" font-size="12" font-weight="700" fill="#0D9488" letter-spacing="0.5">AGE ADJUSTMENT</text>
-<text x="2110" y="1382" text-anchor="middle" font-size="9" fill="#64748b">Multiply benchmarks by this factor for your age range</text>
-<text x="1950" y="1410" font-size="10" font-weight="600" fill="#64748b">AGE</text>
-<text x="2170" y="1410" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">MULTIPLIER</text>
-<line x1="1940" y1="1418" x2="2280" y2="1418" stroke="#1e293b" stroke-width="1"/>
-<text x="1950" y="1438" font-size="11" font-weight="500" fill="#e2e8f0">18 – 29</text>
+<text x="2110" y="1382" text-anchor="middle" font-size="9" fill="#78716c">Multiply benchmarks by this factor for your age range</text>
+<text x="1950" y="1410" font-size="10" font-weight="600" fill="#78716c">AGE</text>
+<text x="2170" y="1410" text-anchor="middle" font-size="10" font-weight="600" fill="#78716c">MULTIPLIER</text>
+<line x1="1940" y1="1418" x2="2280" y2="1418" stroke="#2c2825" stroke-width="1"/>
+<text x="1950" y="1438" font-size="11" font-weight="500" fill="#e7e5e4">18 – 29</text>
 <text x="2170" y="1438" text-anchor="middle" font-size="11" font-weight="600" fill="#4ADE80">1.00x</text>
-<text x="2260" y="1438" text-anchor="middle" font-size="9" fill="#64748b">(baseline)</text>
-<text x="1950" y="1462" font-size="11" font-weight="500" fill="#e2e8f0">30 – 39</text>
+<text x="2260" y="1438" text-anchor="middle" font-size="9" fill="#78716c">(baseline)</text>
+<text x="1950" y="1462" font-size="11" font-weight="500" fill="#e7e5e4">30 – 39</text>
 <text x="2170" y="1462" text-anchor="middle" font-size="11" font-weight="600" fill="#EAB308">0.96x</text>
-<text x="1950" y="1486" font-size="11" font-weight="500" fill="#e2e8f0">40 – 49</text>
+<text x="1950" y="1486" font-size="11" font-weight="500" fill="#e7e5e4">40 – 49</text>
 <text x="2170" y="1486" text-anchor="middle" font-size="11" font-weight="600" fill="#F97316">0.89x</text>
-<text x="1950" y="1510" font-size="11" font-weight="500" fill="#e2e8f0">50+</text>
+<text x="1950" y="1510" font-size="11" font-weight="500" fill="#e7e5e4">50+</text>
 <text x="2170" y="1510" text-anchor="middle" font-size="11" font-weight="600" fill="#EF4444">0.81x</text>
 
-<text x="60" y="1614" font-size="11" fill="#475569" font-weight="400">openprogression.org  ·  MIT License  ·  All benchmarks derived from peer-reviewed research and public-domain data</text>
-<text x="2324" y="1614" text-anchor="end" font-size="11" fill="#475569" font-weight="400">github.com/OpenProgression/openprogression</text>
+<text x="60" y="1614" font-size="11" fill="#57534e" font-weight="400">openprogression.org  ·  MIT License  ·  All benchmarks derived from peer-reviewed research and public-domain data</text>
+<text x="2324" y="1614" text-anchor="end" font-size="11" fill="#57534e" font-weight="400">github.com/OpenProgression/openprogression</text>
 <circle cx="912" cy="1590" r="4" fill="#4ADE80"/>
-<text x="922" y="1594" font-size="9" fill="#64748b" font-weight="500">Beginner</text>
+<text x="922" y="1594" font-size="9" fill="#78716c" font-weight="500">Beginner</text>
 <circle cx="992" cy="1590" r="4" fill="#22C55E"/>
-<text x="1002" y="1594" font-size="9" fill="#64748b" font-weight="500">Beginner+</text>
+<text x="1002" y="1594" font-size="9" fill="#78716c" font-weight="500">Beginner+</text>
 <circle cx="1072" cy="1590" r="4" fill="#EAB308"/>
-<text x="1082" y="1594" font-size="9" fill="#64748b" font-weight="500">Intermediate</text>
+<text x="1082" y="1594" font-size="9" fill="#78716c" font-weight="500">Intermediate</text>
 <circle cx="1152" cy="1590" r="4" fill="#F97316"/>
-<text x="1162" y="1594" font-size="9" fill="#64748b" font-weight="500">Intermediate+</text>
+<text x="1162" y="1594" font-size="9" fill="#78716c" font-weight="500">Intermediate+</text>
 <circle cx="1232" cy="1590" r="4" fill="#EF4444"/>
-<text x="1242" y="1594" font-size="9" fill="#64748b" font-weight="500">Advanced</text>
+<text x="1242" y="1594" font-size="9" fill="#78716c" font-weight="500">Advanced</text>
 <circle cx="1312" cy="1590" r="4" fill="#DC2626"/>
-<text x="1322" y="1594" font-size="9" fill="#64748b" font-weight="500">Advanced+</text>
+<text x="1322" y="1594" font-size="9" fill="#78716c" font-weight="500">Advanced+</text>
 <circle cx="1392" cy="1590" r="4" fill="#991B1B"/>
-<text x="1402" y="1594" font-size="9" fill="#64748b" font-weight="500">Rx</text>
+<text x="1402" y="1594" font-size="9" fill="#78716c" font-weight="500">Rx</text>
 </svg>
