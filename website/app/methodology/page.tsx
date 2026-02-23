@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 
 const SOURCES = [
   {
-    id: "ball_weidman_2024",
+    id: "van_den_hoek_2024",
     title: "Normative data for squat, bench press and deadlift",
-    authors: "Ball, R. & Weidman, D.",
+    authors: "van den Hoek, D.J. et al.",
     year: 2024,
-    journal: "Journal of Science and Medicine in Sport",
+    journal: "Journal of Science and Medicine in Sport, 27(10), 734-742",
     sampleSize: "809,986",
     url: "https://pubmed.ncbi.nlm.nih.gov/39060209/",
     type: "Peer-reviewed",
@@ -211,6 +211,50 @@ export default function MethodologyPage() {
         </div>
       </section>
 
+      {/* Population & Normalization */}
+      <section className="mb-16">
+        <h2 className="text-2xl font-display font-bold tracking-tight mb-4">
+          Population &amp; Normalization
+        </h2>
+        <p className="text-muted-foreground mb-6">
+          Our data sources represent different subsets of the trained population. Understanding
+          how they differ — and how we reconcile them — is key to interpreting the benchmarks.
+        </p>
+        <div className="space-y-3 mb-8">
+          {[
+            { source: "van den Hoek et al. (2024)", pop: "Competitive powerlifters", note: "Self-selected, drug-tested. Represents the higher end of trained barbell strength." },
+            { source: "Mangine et al. (2023)", pop: "CrossFit Open registrants", note: "Broad cross-section of functional fitness practitioners, from recreational to competitive." },
+            { source: "Concept2 Logbook", pop: "Erg users worldwide", note: "Self-reported. Skews toward dedicated rowers and functional fitness athletes." },
+            { source: "StrengthLevel.com", pop: "Gym users", note: "Broadest population but most prone to self-selection and reporting bias." },
+            { source: "RunningLevel.com", pop: "Recreational runners", note: "Aggregated from race results across all ability levels." },
+            { source: "U.S. Military PFT", pop: "Active-duty service members", note: "Mandatory standards representing a baseline of trained fitness." },
+          ].map((item) => (
+            <div key={item.source} className="flex gap-4 items-start p-4 rounded-xl border border-border bg-card">
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap mb-1">
+                  <span className="font-semibold text-sm">{item.source}</span>
+                  <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-secondary text-muted-foreground">
+                    {item.pop}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground">{item.note}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="p-5 rounded-xl bg-secondary/50 border border-border">
+          <h3 className="font-semibold text-sm mb-2">How we reconcile populations</h3>
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            When a source population is narrower than the OP target (e.g., competitive powerlifters),
+            we use their <span className="font-medium text-foreground">percentile distributions</span> (relative
+            spacing between levels) — which tend to be robust across populations — and calibrate
+            the <span className="font-medium text-foreground">absolute values</span> against broader
+            databases. Each benchmark is cross-referenced with at least one additional source where
+            possible, weighted by sample size.
+          </p>
+        </div>
+      </section>
+
       {/* Derivation Process */}
       <section className="mb-16">
         <h2 className="text-2xl font-display font-bold tracking-tight mb-4">
@@ -339,8 +383,9 @@ export default function MethodologyPage() {
         <div className="space-y-3">
           {[
             { title: "Self-reported data", desc: "Some sources (StrengthLevel, Concept2 logbook) rely on self-reported performance, which may introduce upward bias." },
-            { title: "Population differences", desc: "CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in cross-referencing." },
-            { title: "Absolute vs. relative strength", desc: "Barbell benchmarks use absolute values for a reference bodyweight (~80kg male / ~60kg female). Future versions may add ratio-based standards." },
+            { title: "Population differences", desc: "CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in cross-referencing (see Population & Normalization above)." },
+            { title: "No age differentiation", desc: "All benchmarks target a prime training age range (approx. 18-40). Strength typically peaks around ages 25-35. Future versions may include age-adjusted standards using existing source data that provides age breakdowns." },
+            { title: "Absolute vs. relative strength", desc: "Barbell benchmarks use absolute values for a reference bodyweight (~80kg male / ~60kg female). Bodyweight multipliers are available alongside absolute values on the Benchmarks page." },
             { title: "Limited gymnastics research", desc: "Peer-reviewed normative data for pull-ups, muscle-ups, and HSPU is sparse. We supplement with military standards and community databases." },
             { title: "Equipment variation", desc: "Standards assume standard equipment (barbell, pull-up bar, Concept2 erg). Athletes using different equipment may need adjusted benchmarks." },
           ].map((item) => (

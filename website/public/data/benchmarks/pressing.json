@@ -17,8 +17,17 @@
         "advanced_plus":     { "male": 80,  "female": 52 },
         "rx":                { "male": 95,  "female": 57 }
       },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.25, "female": 0.20 },
+        "beginner_plus":     { "male": 0.38, "female": 0.33 },
+        "intermediate":      { "male": 0.56, "female": 0.50 },
+        "intermediate_plus": { "male": 0.69, "female": 0.63 },
+        "advanced":          { "male": 0.85, "female": 0.75 },
+        "advanced_plus":     { "male": 1.00, "female": 0.87 },
+        "rx":                { "male": 1.19, "female": 0.95 }
+      },
       "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
-      "sources": ["ball_weidman_2024", "kilgore_2023", "acsm_guidelines"]
+      "sources": ["van_den_hoek_2024", "kilgore_2023", "acsm_guidelines"]
     },
     {
       "movement": "bench_press",
@@ -35,8 +44,17 @@
         "advanced_plus":     { "male": 125, "female": 80 },
         "rx":                { "male": 145, "female": 90 }
       },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.50, "female": 0.33 },
+        "beginner_plus":     { "male": 0.69, "female": 0.50 },
+        "intermediate":      { "male": 0.88, "female": 0.70 },
+        "intermediate_plus": { "male": 1.13, "female": 0.92 },
+        "advanced":          { "male": 1.31, "female": 1.08 },
+        "advanced_plus":     { "male": 1.56, "female": 1.33 },
+        "rx":                { "male": 1.81, "female": 1.50 }
+      },
       "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
-      "sources": ["ball_weidman_2024", "kilgore_2023", "acsm_guidelines"]
+      "sources": ["van_den_hoek_2024", "kilgore_2023", "acsm_guidelines"]
     }
   ]
 }

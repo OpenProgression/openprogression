@@ -17,6 +17,15 @@
         "advanced_plus":     { "male": 120, "female": 82 },
         "rx":                { "male": 135, "female": 95 }
       },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.38, "female": 0.33 },
+        "beginner_plus":     { "male": 0.56, "female": 0.50 },
+        "intermediate":      { "male": 0.81, "female": 0.75 },
+        "intermediate_plus": { "male": 1.06, "female": 0.95 },
+        "advanced":          { "male": 1.31, "female": 1.17 },
+        "advanced_plus":     { "male": 1.50, "female": 1.37 },
+        "rx":                { "male": 1.69, "female": 1.58 }
+      },
       "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
       "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]
     },
@@ -35,6 +44,15 @@
         "advanced_plus":     { "male": 105, "female": 70 },
         "rx":                { "male": 125, "female": 80 }
       },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.25, "female": 0.25 },
+        "beginner_plus":     { "male": 0.44, "female": 0.42 },
+        "intermediate":      { "male": 0.65, "female": 0.62 },
+        "intermediate_plus": { "male": 0.88, "female": 0.80 },
+        "advanced":          { "male": 1.13, "female": 1.00 },
+        "advanced_plus":     { "male": 1.31, "female": 1.17 },
+        "rx":                { "male": 1.56, "female": 1.33 }
+      },
       "notes": "Most technically demanding Olympic lift. Values based on ~80kg male / ~60kg female.",
       "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]
     },
@@ -52,6 +70,15 @@
         "advanced":          { "male": 115, "female": 80 },
         "advanced_plus":     { "male": 130, "female": 92 },
         "rx":                { "male": 150, "female": 105 }
+      },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.44, "female": 0.37 },
+        "beginner_plus":     { "male": 0.63, "female": 0.58 },
+        "intermediate":      { "male": 0.90, "female": 0.83 },
+        "intermediate_plus": { "male": 1.19, "female": 1.08 },
+        "advanced":          { "male": 1.44, "female": 1.33 },
+        "advanced_plus":     { "male": 1.63, "female": 1.53 },
+        "rx":                { "male": 1.88, "female": 1.75 }
       },
       "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
       "sources": ["catalyst_athletics", "crossfit_liftoff", "mangine_2020"]

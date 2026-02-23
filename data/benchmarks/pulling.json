@@ -17,8 +17,17 @@
         "advanced_plus":     { "male": 210, "female": 145 },
         "rx":                { "male": 240, "female": 170 }
       },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.75, "female": 0.58 },
+        "beginner_plus":     { "male": 1.13, "female": 0.92 },
+        "intermediate":      { "male": 1.50, "female": 1.33 },
+        "intermediate_plus": { "male": 1.88, "female": 1.67 },
+        "advanced":          { "male": 2.25, "female": 2.00 },
+        "advanced_plus":     { "male": 2.63, "female": 2.42 },
+        "rx":                { "male": 3.00, "female": 2.83 }
+      },
       "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
-      "sources": ["ball_weidman_2024", "kilgore_2023"]
+      "sources": ["van_den_hoek_2024", "kilgore_2023"]
     }
   ]
 }

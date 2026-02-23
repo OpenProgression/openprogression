@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "sources": [
     {
-      "id": "ball_weidman_2024",
-      "citation": "Ball, R. & Weidman, D. (2024). Normative data for the squat, bench press and deadlift exercises in powerlifting: Data from 809,986 competition entries. Journal of Science and Medicine in Sport.",
+      "id": "van_den_hoek_2024",
+      "citation": "van den Hoek, D.J., Beaumont, P.L., van den Hoek, A.K., Owen, P.J., Garrett, J.M., Buhmann, R., & Latella, C. (2024). Normative data for the squat, bench press and deadlift exercises in powerlifting: Data from 809,986 competition entries. Journal of Science and Medicine in Sport.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39060209/",
       "type": "peer_reviewed",
       "sampleSize": 809986
