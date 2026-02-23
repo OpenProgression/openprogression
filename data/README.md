@@ -10,6 +10,7 @@ data/
 ├── categories.json          # 8 benchmark categories
 ├── sources.json             # Research citations
 ├── metcons.json             # Programmed workouts (WOD library)
+├── sessions.json            # Daily programming (references metcons by code)
 ├── benchmarks/
 │   ├── squatting.json       # Back Squat, Front Squat, Overhead Squat
 │   ├── pulling.json         # Deadlift
@@ -30,6 +31,8 @@ levels.json          defines level keys: beginner, beginner_plus, ..., rx
 benchmarks/*.json    uses those keys for standards per movement
     ↓
 metcons.json         uses those keys for scaling overrides per movement
+    ↓
+sessions.json        references metcons by code, adds strength scaling per level
     ↓
 categories.json      groups benchmark movements into 8 categories
     ↓
@@ -152,6 +155,52 @@ The WOD library. Each metcon follows the [Programming Spec v0.4.0](../spec/progr
 
 **EMOM format:** Uses `pattern` (e.g., `["A", "B"]`) and `groups` for alternating minutes. `interval` sets the minute length (1 = EMOM, 2 = E2MOM).
 
+## sessions.json
+
+Daily programming that assembles complete class sessions. Each session references a metcon by code and adds warmup, strength, and accessory work.
+
+```json
+{
+  "version": "1.0.0",
+  "sessions": [
+    {
+      "date": "2026-02-24",
+      "title": "Monday — Push/Pull",
+      "warmup": { "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats", "durationMinutes": 10 },
+      "strength": [
+        {
+          "movement": "Back Squat",
+          "scheme": "5x3",
+          "sets": 5,
+          "reps": 3,
+          "load": { "male": 140, "female": 95 },
+          "unit": "kg",
+          "notes": "Build across sets. Rest 2:00.",
+          "scaling": { "beginner": { "load": { "male": 40, "female": 25 } }, "..." : "..." }
+        }
+      ],
+      "metcon": "OP-001",
+      "accessory": { "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts" }
+    }
+  ]
+}
+```
+
+### Session Structure
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `date` | string | ISO date (`YYYY-MM-DD`) |
+| `title` | string | Human-readable day title |
+| `warmup` | object \| null | `{ notes, durationMinutes }` — free text, no scaling |
+| `strength` | array \| null | Array of strength movements with full 7-level scaling |
+| `metcon` | string \| null | Metcon code reference (e.g., `"OP-005"`) |
+| `accessory` | object \| null | `{ notes }` — free text, no scaling |
+
+**Strength uses the same scaling system as metcons.** Rx load is the top-level default; lower levels override via `scaling`. Strength is always an array — even a single lift is `[{ ... }]`.
+
+**All fields are nullable.** Engine days have `"strength": null`. Long metcon days may have `"accessory": null`. Rest days have no session entry.
+
 ## Rendering a Scaled WOD
 
 To display a metcon for a specific athlete:
@@ -194,4 +243,5 @@ Strength benchmarks include `bwMultiplier` fields for athletes at different body
 
 - Benchmark data: semantic versioning (1.0.0)
 - Metcon data: follows programming spec version (0.4.0)
+- Session data: semantic versioning (1.0.0)
 - Level keys and category IDs are stable — they won't change between versions
