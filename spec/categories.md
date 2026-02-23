@@ -107,6 +107,8 @@ Functional bodyweight strength and endurance without apparatus. Tests muscular e
 
 Sustained performance across mixed-modal workouts of varying time domains. Tests the ability to maintain output when combining strength, gymnastics, and cardiovascular demands.
 
+> **Note on workout names:** The benchmark workouts in this category originated as named workouts in the CrossFit community. They are referenced here by their universally recognized names. OpenProgression is not affiliated with CrossFit, Inc. These workouts are included because they have become de facto standard tests of mixed-modal fitness capacity across the broader functional fitness community, with extensive published normative data (Mangine et al. 2023, Butcher et al. 2018).
+
 **Why it matters:** Functional fitness is ultimately expressed in the ability to perform varied tasks at sustained intensity. Benchmark workouts are the closest approximation to real-world fitness testing because they combine multiple domains under fatigue.
 
 **Benchmark type:** Time (for-time workouts) or rounds/reps (AMRAPs)

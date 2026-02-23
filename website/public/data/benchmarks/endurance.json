@@ -5,6 +5,7 @@
     {
       "movement": "fran",
       "name": "Fran",
+      "attribution": "Originally a CrossFit benchmark workout",
       "testType": "time",
       "unit": "seconds",
       "lowerIsBetter": true,
@@ -24,6 +25,7 @@
     {
       "movement": "grace",
       "name": "Grace",
+      "attribution": "Originally a CrossFit benchmark workout",
       "testType": "time",
       "unit": "seconds",
       "lowerIsBetter": true,
@@ -43,6 +45,7 @@
     {
       "movement": "murph",
       "name": "Murph",
+      "attribution": "Originally a CrossFit benchmark workout",
       "testType": "time",
       "unit": "seconds",
       "lowerIsBetter": true,
@@ -62,6 +65,7 @@
     {
       "movement": "cindy",
       "name": "Cindy",
+      "attribution": "Originally a CrossFit benchmark workout",
       "testType": "amrap",
       "unit": "rounds",
       "lowerIsBetter": false,

@@ -155,7 +155,7 @@ All benchmarks are derived from published, citable sources:
 
 | Source | Type | Sample Size |
 |--------|------|:-----------:|
-| Ball & Weidman (2024) | Peer-reviewed (J Sci Med Sport) | 809,986 |
+| van den Hoek et al. (2024) | Peer-reviewed (J Sci Med Sport) | 809,986 |
 | Mangine et al. (2023) | Peer-reviewed (Sports) | 569,607 |
 | Concept2 Logbook Rankings | Public database | 10,000+ per distance |
 | RunningLevel.com | Aggregated race data | 1,000,000+ |
@@ -195,6 +195,13 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full gu
 - **Add movements** — Help expand the movement library
 - **Improve methodology** — Suggest better research sources
 - **Build integrations** — Create packages for your language/framework
+
+## Roadmap
+
+- **Age-adjusted benchmarks** — Current standards target ~18-40 year-olds. Future versions may include age brackets using existing source data that provides age breakdowns.
+- **Expanded bodyweight scaling** — Enhanced BW-relative benchmarks beyond the current reference weights.
+- **Additional movements** — Expanding the movement library within existing categories.
+- **Interactive assessment tools** — Web-based calculator for instant level assessment.
 
 ## License
 

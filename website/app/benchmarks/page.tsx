@@ -31,6 +31,8 @@ type Gender = "male" | "female"
 // ---------------------------------------------------------------------------
 // Benchmark types
 // ---------------------------------------------------------------------------
+type DisplayMode = "absolute" | "bw"
+
 interface ValueBenchmark {
   name: string
   unit: string
@@ -38,6 +40,8 @@ interface ValueBenchmark {
   description?: string
   male: Record<LevelKey, number>
   female: Record<LevelKey, number>
+  bwMale?: Record<LevelKey, number>
+  bwFemale?: Record<LevelKey, number>
 }
 
 interface RangeBenchmark {
@@ -96,6 +100,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 40, beginner_plus: 60, intermediate: 80, intermediate_plus: 105, advanced: 130, advanced_plus: 155, rx: 180 },
       female: { beginner: 25, beginner_plus: 40, intermediate: 55, intermediate_plus: 70, advanced: 85, advanced_plus: 100, rx: 120 },
+      bwMale: { beginner: 0.50, beginner_plus: 0.75, intermediate: 1.00, intermediate_plus: 1.31, advanced: 1.63, advanced_plus: 1.94, rx: 2.25 },
+      bwFemale: { beginner: 0.42, beginner_plus: 0.67, intermediate: 0.92, intermediate_plus: 1.17, advanced: 1.42, advanced_plus: 1.67, rx: 2.00 },
     },
     {
       name: "Front Squat",
@@ -103,6 +109,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 34, beginner_plus: 51, intermediate: 68, intermediate_plus: 89, advanced: 110, advanced_plus: 132, rx: 153 },
       female: { beginner: 21, beginner_plus: 34, intermediate: 47, intermediate_plus: 60, advanced: 72, advanced_plus: 85, rx: 102 },
+      bwMale: { beginner: 0.43, beginner_plus: 0.64, intermediate: 0.85, intermediate_plus: 1.11, advanced: 1.38, advanced_plus: 1.65, rx: 1.91 },
+      bwFemale: { beginner: 0.35, beginner_plus: 0.57, intermediate: 0.78, intermediate_plus: 1.00, advanced: 1.20, advanced_plus: 1.42, rx: 1.70 },
     },
     {
       name: "Overhead Squat",
@@ -110,6 +118,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 26, beginner_plus: 39, intermediate: 52, intermediate_plus: 68, advanced: 85, advanced_plus: 101, rx: 117 },
       female: { beginner: 16, beginner_plus: 26, intermediate: 36, intermediate_plus: 46, advanced: 55, advanced_plus: 65, rx: 78 },
+      bwMale: { beginner: 0.33, beginner_plus: 0.49, intermediate: 0.65, intermediate_plus: 0.85, advanced: 1.06, advanced_plus: 1.26, rx: 1.46 },
+      bwFemale: { beginner: 0.27, beginner_plus: 0.43, intermediate: 0.60, intermediate_plus: 0.77, advanced: 0.92, advanced_plus: 1.08, rx: 1.30 },
     },
   ],
   pulling: [
@@ -119,6 +129,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 60, beginner_plus: 90, intermediate: 120, intermediate_plus: 150, advanced: 180, advanced_plus: 210, rx: 240 },
       female: { beginner: 35, beginner_plus: 55, intermediate: 80, intermediate_plus: 100, advanced: 120, advanced_plus: 145, rx: 170 },
+      bwMale: { beginner: 0.75, beginner_plus: 1.13, intermediate: 1.50, intermediate_plus: 1.88, advanced: 2.25, advanced_plus: 2.63, rx: 3.00 },
+      bwFemale: { beginner: 0.58, beginner_plus: 0.92, intermediate: 1.33, intermediate_plus: 1.67, advanced: 2.00, advanced_plus: 2.42, rx: 2.83 },
     },
   ],
   pressing: [
@@ -128,6 +140,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 20, beginner_plus: 30, intermediate: 45, intermediate_plus: 55, advanced: 68, advanced_plus: 80, rx: 95 },
       female: { beginner: 12, beginner_plus: 20, intermediate: 30, intermediate_plus: 38, advanced: 45, advanced_plus: 52, rx: 57 },
+      bwMale: { beginner: 0.25, beginner_plus: 0.38, intermediate: 0.56, intermediate_plus: 0.69, advanced: 0.85, advanced_plus: 1.00, rx: 1.19 },
+      bwFemale: { beginner: 0.20, beginner_plus: 0.33, intermediate: 0.50, intermediate_plus: 0.63, advanced: 0.75, advanced_plus: 0.87, rx: 0.95 },
     },
     {
       name: "Bench Press",
@@ -135,6 +149,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 40, beginner_plus: 55, intermediate: 70, intermediate_plus: 90, advanced: 105, advanced_plus: 125, rx: 145 },
       female: { beginner: 20, beginner_plus: 30, intermediate: 42, intermediate_plus: 55, advanced: 65, advanced_plus: 80, rx: 90 },
+      bwMale: { beginner: 0.50, beginner_plus: 0.69, intermediate: 0.88, intermediate_plus: 1.13, advanced: 1.31, advanced_plus: 1.56, rx: 1.81 },
+      bwFemale: { beginner: 0.33, beginner_plus: 0.50, intermediate: 0.70, intermediate_plus: 0.92, advanced: 1.08, advanced_plus: 1.33, rx: 1.50 },
     },
   ],
   olympic_lifting: [
@@ -144,6 +160,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 30, beginner_plus: 45, intermediate: 65, intermediate_plus: 85, advanced: 105, advanced_plus: 120, rx: 135 },
       female: { beginner: 20, beginner_plus: 30, intermediate: 45, intermediate_plus: 57, advanced: 70, advanced_plus: 82, rx: 95 },
+      bwMale: { beginner: 0.38, beginner_plus: 0.56, intermediate: 0.81, intermediate_plus: 1.06, advanced: 1.31, advanced_plus: 1.50, rx: 1.69 },
+      bwFemale: { beginner: 0.33, beginner_plus: 0.50, intermediate: 0.75, intermediate_plus: 0.95, advanced: 1.17, advanced_plus: 1.37, rx: 1.58 },
     },
     {
       name: "Snatch",
@@ -151,6 +169,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 20, beginner_plus: 35, intermediate: 52, intermediate_plus: 70, advanced: 90, advanced_plus: 105, rx: 125 },
       female: { beginner: 15, beginner_plus: 25, intermediate: 37, intermediate_plus: 48, advanced: 60, advanced_plus: 70, rx: 80 },
+      bwMale: { beginner: 0.25, beginner_plus: 0.44, intermediate: 0.65, intermediate_plus: 0.88, advanced: 1.13, advanced_plus: 1.31, rx: 1.56 },
+      bwFemale: { beginner: 0.25, beginner_plus: 0.42, intermediate: 0.62, intermediate_plus: 0.80, advanced: 1.00, advanced_plus: 1.17, rx: 1.33 },
     },
     {
       name: "Clean & Jerk",
@@ -158,6 +178,8 @@ const BENCHMARKS: Record<CategoryKey, Benchmark[]> = {
       type: "value",
       male: { beginner: 35, beginner_plus: 50, intermediate: 72, intermediate_plus: 95, advanced: 115, advanced_plus: 130, rx: 150 },
       female: { beginner: 22, beginner_plus: 35, intermediate: 50, intermediate_plus: 65, advanced: 80, advanced_plus: 92, rx: 105 },
+      bwMale: { beginner: 0.44, beginner_plus: 0.63, intermediate: 0.90, intermediate_plus: 1.19, advanced: 1.44, advanced_plus: 1.63, rx: 1.88 },
+      bwFemale: { beginner: 0.37, beginner_plus: 0.58, intermediate: 0.83, intermediate_plus: 1.08, advanced: 1.33, advanced_plus: 1.53, rx: 1.75 },
     },
   ],
   gymnastics: [
@@ -303,7 +325,16 @@ function formatRange(range: number[]): string {
   return `${range[0]}-${range[1]}`
 }
 
-function formatCell(benchmark: Benchmark, gender: Gender, levelKey: LevelKey): string {
+function formatCell(benchmark: Benchmark, gender: Gender, levelKey: LevelKey, displayMode: DisplayMode = "absolute"): string {
+  if (displayMode === "bw" && benchmark.type === "value") {
+    const vb = benchmark as ValueBenchmark
+    const bwData = gender === "male" ? vb.bwMale : vb.bwFemale
+    if (bwData) {
+      const val = bwData[levelKey]
+      return `${val.toFixed(2)}x`
+    }
+  }
+
   const data = benchmark[gender] as Record<LevelKey, number | number[]>
   const val = data[levelKey]
 
@@ -326,6 +357,7 @@ function formatCell(benchmark: Benchmark, gender: Gender, levelKey: LevelKey): s
 // ---------------------------------------------------------------------------
 export default function BenchmarksPage() {
   const [gender, setGender] = useState<Gender>("male")
+  const [displayMode, setDisplayMode] = useState<DisplayMode>("absolute")
   const [activeCategory, setActiveCategory] = useState<"all" | CategoryKey>("all")
   const scrollRef = useRef<HTMLDivElement>(null)
   const [showLeftFade, setShowLeftFade] = useState(false)
@@ -395,6 +427,31 @@ export default function BenchmarksPage() {
               onClick={() => setGender("female")}
             >
               Female
+            </button>
+          </div>
+
+          {/* Display Mode Toggle */}
+          <div className="flex bg-secondary rounded-full p-1 flex-shrink-0">
+            <button
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                displayMode === "absolute"
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              onClick={() => setDisplayMode("absolute")}
+            >
+              kg
+            </button>
+            <button
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                displayMode === "bw"
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              onClick={() => setDisplayMode("bw")}
+              title="Show as bodyweight multiplier (for strength benchmarks)"
+            >
+              x BW
             </button>
           </div>
 
@@ -502,7 +559,7 @@ export default function BenchmarksPage() {
                               </div>
                             </td>
                             {LEVEL_KEYS.map((key) => {
-                              const cellValue = formatCell(benchmark, gender, key)
+                              const cellValue = formatCell(benchmark, gender, key, displayMode)
                               return (
                                 <td
                                   key={key}
@@ -542,8 +599,8 @@ export default function BenchmarksPage() {
             <p className="text-muted-foreground text-sm leading-relaxed">
               All benchmark standards are based on an approximately 80 kg male and 60 kg
               female reference athlete. Values are derived from peer-reviewed research,
-              competition data, and established fitness testing databases. Adjust
-              proportionally for bodyweight where applicable.
+              competition data, and established fitness testing databases. Use the
+              &quot;x BW&quot; toggle to view strength benchmarks as bodyweight multipliers.
             </p>
             <a
               href="/methodology"

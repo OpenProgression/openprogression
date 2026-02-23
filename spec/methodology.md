@@ -28,9 +28,10 @@ To convert this mapping into specific numbers, we reference datasets that provid
 
 The strongest evidence comes from studies published in peer-reviewed scientific journals:
 
-**Ball & Weidman (2024)**
+**van den Hoek et al. (2024)**
+- van den Hoek, D.J., Beaumont, P.L., van den Hoek, A.K., Owen, P.J., Garrett, J.M., Buhmann, R., & Latella, C.
 - "Normative data for the squat, bench press and deadlift exercises in powerlifting: Data from 809,986 competition entries"
-- *Journal of Science and Medicine in Sport*
+- *Journal of Science and Medicine in Sport*, 27(10), 734-742
 - Sample: 809,986 competition entries (571,650 male, 238,336 female)
 - Coverage: Squat, bench press, deadlift — percentile data by bodyweight class, age, and sex
 - DOI: https://pubmed.ncbi.nlm.nih.gov/39060209/
@@ -153,7 +154,9 @@ Barbell strength benchmarks are published as **absolute values** for reference b
 - Male reference: ~80kg (176 lb)
 - Female reference: ~60kg (132 lb)
 
-These reference weights approximate the median bodyweight of trained adults in published studies. For athletes at different bodyweights, standards should be adjusted proportionally. Strength scales roughly with the 2/3 power of bodyweight (Allometric scaling), though this relationship varies by lift and training status.
+These reference weights approximate the median bodyweight of trained adults in published studies. For athletes at different bodyweights, standards should be adjusted proportionally. Strength scales roughly with the 2/3 power of bodyweight (allometric scaling), though this relationship varies by lift and training status.
+
+Each strength benchmark also includes a `bwMultiplier` field, calculated by dividing the absolute standard by the reference bodyweight. For example, a male Intermediate back squat of 80kg yields a 1.00x BW multiplier, while a male Rx deadlift of 240kg yields 3.00x BW. The multiplier provides a more meaningful comparison for athletes at different bodyweights than absolute values alone.
 
 ## Population Definition
 
@@ -162,19 +165,41 @@ The OP percentile ranges reference the **trained population** — adults who eng
 - The **general population** (which would make OP levels too easy for trained athletes)
 - The **competitive population** (which would make OP levels unreachable for recreational athletes)
 
-Most of our data sources (Concept2 logbook, CrossFit Open, StrengthLevel.com) represent self-selected trained individuals, which aligns well with this target population.
+### Source Population Characteristics
+
+Each data source represents a different subset of the trained population:
+
+| Source | Population | Characteristics |
+|--------|-----------|-----------------|
+| van den Hoek et al. (2024) | Competitive powerlifters | Self-selected, drug-tested competition athletes. Represents the higher end of trained barbell strength. |
+| Mangine et al. (2023) | CrossFit Open registrants | Broad cross-section of functional fitness practitioners, from recreational to competitive. |
+| Concept2 Logbook | Erg users worldwide | Self-reported. Skews toward dedicated rowers and functional fitness athletes. |
+| StrengthLevel.com | Gym users | Broadest population but most prone to self-selection and reporting bias. |
+| RunningLevel.com | Recreational runners | Aggregated from race results. Represents active runners across all ability levels. |
+| U.S. Military PFT | Active-duty service members | Mandatory standards representing a baseline of trained fitness. |
+
+### How Populations Are Reconciled
+
+When a source population is narrower than the OP target (e.g., competitive powerlifters), we use the following approach:
+
+1. **Percentile shape** — Peer-reviewed sources from competition contexts are used primarily for their percentile distributions (the relative spacing between levels), which tend to be robust even across populations.
+2. **Absolute value calibration** — The actual benchmark numbers are calibrated against broader databases (StrengthLevel, Concept2 rankings) to ensure they reflect the trained population rather than the competitive population.
+3. **Sample size weighting** — When multiple sources cover the same benchmark, we weight by sample size and adjust for population specificity.
+4. **Cross-referencing** — Each benchmark is validated against at least one additional source where possible to reduce single-source bias.
 
 ## Limitations
 
 1. **Self-reported data** — Some sources (StrengthLevel, Concept2 logbook) rely on self-reported performance. This may introduce upward bias.
 
-2. **Population skew** — CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in our cross-referencing.
+2. **Population skew** — CrossFit Open athletes, powerlifting competitors, and Concept2 users are not identical populations. We account for this in our cross-referencing (see Population Definition above).
 
-3. **Absolute vs. relative strength** — Barbell benchmarks are given as absolute values, which inherently favor heavier athletes. Future versions may add bodyweight-ratio standards.
+3. **No age differentiation** — All benchmarks target a prime training age range of approximately 18-40 years. Strength typically peaks around ages 25-35, while endurance may peak slightly later. Athletes outside this range should expect some variation. Some of our source data (van den Hoek et al., Concept2 rankings) includes age breakdowns that could inform future age-adjusted versions.
 
-4. **Limited gymnastics research** — Peer-reviewed normative data for pull-ups, muscle-ups, and HSPU is sparse. We supplement with military standards (public domain) and community databases.
+4. **Absolute vs. relative strength** — Barbell benchmarks are given as absolute values, which inherently favor heavier athletes. Bodyweight multipliers are provided alongside absolute values for strength benchmarks (see Bodyweight Normalization above).
 
-5. **Cultural and equipment variation** — Standards assume access to standard equipment (barbell, pull-up bar, Concept2 erg). Athletes training with different equipment may need adjusted benchmarks.
+5. **Limited gymnastics research** — Peer-reviewed normative data for pull-ups, muscle-ups, and HSPU is sparse. We supplement with military standards (public domain) and community databases.
+
+6. **Cultural and equipment variation** — Standards assume access to standard equipment (barbell, pull-up bar, Concept2 erg). Athletes training with different equipment may need adjusted benchmarks.
 
 ## Versioning
 

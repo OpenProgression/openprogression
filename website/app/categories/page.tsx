@@ -84,7 +84,7 @@ const CATEGORIES = [
   {
     id: "endurance",
     name: "Endurance",
-    description: "Sustained effort across extended workouts",
+    description: "Sustained effort across extended mixed-modal workouts. Benchmarks originated in the CrossFit community and are used here by their widely recognized names.",
     movements: ["Fran", "Grace", "Murph", "Cindy"],
     icon: "Heart" as const,
   },
