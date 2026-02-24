@@ -1,0 +1,30 @@
+# OpenProgression
+
+> An open standard for fitness progression assessment. 7 levels, 8 categories, 25 benchmarks derived from 1.3 million data points. Free and MIT licensed.
+
+OpenProgression provides research-backed benchmarks for assessing fitness across all major movement domains. Each benchmark has male and female standards at 7 progression levels mapped to population percentiles.
+
+## Links
+
+- [Home](https://openprogression.org)
+- [The 7 Levels](https://openprogression.org/levels)
+- [8 Categories](https://openprogression.org/categories)
+- [Benchmarks](https://openprogression.org/benchmarks)
+- [Calculator](https://openprogression.org/calculator)
+- [Programming](https://openprogression.org/programming)
+- [Data & Downloads](https://openprogression.org/data)
+- [Methodology](https://openprogression.org/methodology)
+- [License](https://openprogression.org/license)
+- [GitHub](https://github.com/davidborgenvik/openprogression)
+
+## API / Data Access
+
+All data is available as JSON at:
+- Bundled: https://openprogression.org/data/openprogression.json
+- Levels: https://openprogression.org/data/levels.json
+- Categories: https://openprogression.org/data/categories.json
+- Benchmarks: https://openprogression.org/data/benchmarks/{category}.json
+
+## Full Documentation
+
+- [llms-full.txt](https://openprogression.org/llms-full.txt)
