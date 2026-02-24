@@ -131,7 +131,7 @@ Untrained → F1 → F2 → F3 → Beginner → Beginner+ → ... → Rx
                               └── OP v1.0 benchmarks start here
 ```
 
-Foundation Milestones are **not levels**. They are optional pre-level markers that applications can display to provide early progress feedback. They follow the same weakest-link principle: all requirements for a milestone must be met across multiple categories.
+Foundation Milestones are **not levels**. They are optional pre-level markers that applications can display to provide early progress feedback. They follow the same weakest-link principle: all requirements for a milestone must be met across multiple categories. F1 requires only a chair and household items — no gym or pull-up bar needed. Estimated timelines assume healthy but sedentary adults; deconditioned or frail individuals may need 2-3x longer.
 
 Full specification: [`spec/progressions.md`](progressions.md) | Data: [`data/milestones.json`](../data/milestones.json)
 

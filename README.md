@@ -73,11 +73,11 @@ For athletes below the Beginner benchmarks, **Foundation Milestones** provide ea
 
 | Milestone | Name | Description |
 |:---------:|------|-------------|
-| F1 | **Foundation** | Basic human movements: chair sit-to-stand, wall push-up, walking |
-| F2 | **Moving** | Bodyweight exercises: air squats, incline push-ups, plank holds |
-| F3 | **Ready** | Ready for equipment: full push-up, dead hang, running a mile |
+| F1 | **Foundation** | Chair sit-to-stand, wall push-up, farmer's carry, walking -- no gym needed |
+| F2 | **Moving** | Air squats, incline push-ups, band rows, plank holds |
+| F3 | **Ready** | Full push-up, dead hang or farmer's carry, running a mile |
 
-Foundation Milestones are not levels -- they are optional pre-level markers for applications that serve untrained or deconditioned populations. Full spec: [`spec/progressions.md`](spec/progressions.md)
+Foundation Milestones are not levels -- they are optional pre-level markers for applications that serve untrained or deconditioned populations. F1 requires only a chair and household items. Full spec: [`spec/progressions.md`](spec/progressions.md)
 
 ## [The 8 Categories](https://openprogression.org/categories)
 

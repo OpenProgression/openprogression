@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels — they are pre-level markers that apps can use to show early progress.",
+  "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels — they are pre-level markers that apps can use to show early progress. Estimated timelines assume a healthy but sedentary adult training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer (ICFSR consensus: 3-5 months for meaningful functional improvement).",
   "milestones": [
     {
       "id": "F1",
@@ -32,11 +32,11 @@
           "description": "10 glute bridges with full hip extension"
         },
         {
-          "movement": "dead_hang_10s",
-          "name": "Dead Hang",
+          "movement": "farmers_carry_30s",
+          "name": "Farmer's Carry",
           "category": "gymnastics",
-          "criteria": { "type": "time", "target": 10, "unit": "seconds" },
-          "description": "Hang from a bar with straight arms for 10 seconds"
+          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
+          "description": "Carry two heavy bags or water bottles (approx. 5kg each) while walking for 30 seconds"
         },
         {
           "movement": "walk_1km",
@@ -46,7 +46,7 @@
           "description": "Walk 1 kilometer without stopping"
         }
       ],
-      "sources": ["rikli_jones_2013", "nsca_essentials_2016", "bohannon_2019", "who_physical_activity_2020"]
+      "sources": ["rikli_jones_2013", "jones_rikli_1999", "nsca_essentials_2016", "bohannon_2019", "who_physical_activity_2020", "chodzko_zajko_2009"]
     },
     {
       "id": "F2",
@@ -92,7 +92,7 @@
           "description": "Complete 800 meters of walking and running in any combination"
         }
       ],
-      "sources": ["nsca_essentials_2016", "mcgill_2015", "acsm_guidelines"]
+      "sources": ["nsca_essentials_2016", "mcgill_2015", "strand_2014", "acsm_guidelines", "fragala_2019"]
     },
     {
       "id": "F3",
@@ -124,11 +124,14 @@
           "description": "10 bodyweight Romanian deadlifts with neutral spine"
         },
         {
-          "movement": "dead_hang_30s",
-          "name": "Dead Hang (30 Seconds)",
+          "movement": "dead_hang_or_carry",
+          "name": "Dead Hang OR Farmer's Carry",
           "category": "gymnastics",
-          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
-          "description": "Hang from a bar with straight arms for 30 seconds"
+          "criteria": { "type": "either", "options": [
+            { "movement": "dead_hang_30s", "type": "time", "target": 30, "unit": "seconds" },
+            { "movement": "farmers_carry_60s", "type": "time", "target": 60, "unit": "seconds" }
+          ]},
+          "description": "Hang from a bar for 30 seconds, OR carry two heavy bags (approx. 8kg each) for 60 seconds"
         },
         {
           "movement": "run_mile_any_pace",
@@ -145,7 +148,7 @@
           "description": "Hold a forearm plank for 60 seconds with neutral spine"
         }
       ],
-      "sources": ["nsca_essentials_2016", "mcgill_2015", "acsm_guidelines", "bohannon_2019", "runninglevel"]
+      "sources": ["nsca_essentials_2016", "mcgill_2015", "strand_2014", "acsm_guidelines", "bohannon_2019", "runninglevel", "fragala_2019"]
     }
   ]
 }
