@@ -1,0 +1,407 @@
+# OpenProgression — Full Documentation
+
+> An open standard for fitness progression assessment. 7 levels, 8 categories, 25 benchmarks derived from 1.3 million data points. Free and MIT licensed.
+
+## Overview
+
+OpenProgression is a research-backed, open standard for assessing and tracking fitness progression. It defines 7 progression levels across 8 movement categories, with 25 benchmark movements. Each benchmark has male and female standards mapped to population percentiles using peer-reviewed data.
+
+The standard is designed for coaches, athletes, gym owners, and app developers who need an objective framework to assess fitness level and track progression over time.
+
+---
+
+## The 7 Levels
+
+Each level corresponds to a percentile range in the trained population:
+
+| # | Level | Short | Percentile | Training Age | Description |
+|---|-------|-------|------------|-------------|-------------|
+| 1 | Beginner | BEG | 0-20th | 0-6 months | New to structured fitness training. Learning fundamental movement patterns. |
+| 2 | Beginner+ | BEG+ | 20-35th | 3-12 months | Basic movements mastered. Building consistency and work capacity. |
+| 3 | Intermediate | INT | 35-50th | 1-2 years | Solid fundamentals across all categories. Handles moderate loads with good form. |
+| 4 | Intermediate+ | INT+ | 50-65th | 2-3 years | Competent athlete proficient across all fitness domains. Requires periodized programming. |
+| 5 | Advanced | ADV | 65-80th | 3-5 years | Strong and skilled across all categories. Competition-capable. |
+| 6 | Advanced+ | ADV+ | 80-95th | 5+ years | Very strong and highly skilled. Competition-level fitness across all domains. |
+| 7 | Rx | RX | 95-100th | 5+ years dedicated | Elite-level performance. Top 5% of trained athletes. |
+
+---
+
+## The 8 Categories
+
+### 1. Squatting
+Lower body pushing strength through squat patterns.
+Key movements: Back Squat, Front Squat, Overhead Squat
+
+### 2. Pulling
+Hip-hinge and pulling strength from the floor.
+Key movements: Deadlift
+
+### 3. Pressing
+Upper body pressing strength in all planes.
+Key movements: Strict Press, Bench Press
+
+### 4. Olympic Lifting
+Speed-strength and technical proficiency in the Olympic lifts.
+Key movements: Power Clean, Snatch, Clean & Jerk
+
+### 5. Gymnastics
+Bodyweight strength, control, and skill on apparatus.
+Key movements: Strict Pull-up, HSPU, Toes-to-Bar, Bar Muscle-up, Ring Muscle-up
+
+### 6. Monostructural
+Single-modality cardiovascular output.
+Key movements: 500m Row, 2000m Row, 1 Mile Run, 5K Run
+
+### 7. Bodyweight
+Functional bodyweight strength and endurance.
+Key movements: Push-up, Double-Under, Pistol Squat
+
+### 8. Endurance
+Sustained effort across extended mixed-modal workouts.
+Key movements: Fran, Grace, Murph, Cindy
+
+---
+
+## All 25 Benchmarks
+
+### Squatting
+
+**Back Squat** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 40 | 25 |
+| BEG+ | 60 | 40 |
+| INT | 80 | 55 |
+| INT+ | 105 | 70 |
+| ADV | 130 | 85 |
+| ADV+ | 155 | 100 |
+| RX | 180 | 120 |
+
+**Front Squat** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 34 | 21 |
+| BEG+ | 51 | 34 |
+| INT | 68 | 47 |
+| INT+ | 89 | 60 |
+| ADV | 110 | 72 |
+| ADV+ | 132 | 85 |
+| RX | 153 | 102 |
+
+**Overhead Squat** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 26 | 16 |
+| BEG+ | 39 | 26 |
+| INT | 52 | 36 |
+| INT+ | 68 | 46 |
+| ADV | 85 | 55 |
+| ADV+ | 101 | 65 |
+| RX | 117 | 78 |
+
+### Pulling
+
+**Deadlift** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 60 | 35 |
+| BEG+ | 90 | 55 |
+| INT | 120 | 80 |
+| INT+ | 150 | 100 |
+| ADV | 180 | 120 |
+| ADV+ | 210 | 145 |
+| RX | 240 | 170 |
+
+### Pressing
+
+**Strict Press** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 20 | 12 |
+| BEG+ | 30 | 20 |
+| INT | 45 | 30 |
+| INT+ | 55 | 38 |
+| ADV | 68 | 45 |
+| ADV+ | 80 | 52 |
+| RX | 95 | 57 |
+
+**Bench Press** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 40 | 20 |
+| BEG+ | 55 | 30 |
+| INT | 70 | 42 |
+| INT+ | 90 | 55 |
+| ADV | 105 | 65 |
+| ADV+ | 125 | 80 |
+| RX | 145 | 90 |
+
+### Olympic Lifting
+
+**Power Clean** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 30 | 20 |
+| BEG+ | 45 | 30 |
+| INT | 65 | 45 |
+| INT+ | 85 | 57 |
+| ADV | 105 | 70 |
+| ADV+ | 120 | 82 |
+| RX | 135 | 95 |
+
+**Snatch** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 20 | 15 |
+| BEG+ | 35 | 25 |
+| INT | 52 | 37 |
+| INT+ | 70 | 48 |
+| ADV | 90 | 60 |
+| ADV+ | 105 | 70 |
+| RX | 125 | 80 |
+
+**Clean & Jerk** (kg, 1RM)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 35 | 22 |
+| BEG+ | 50 | 35 |
+| INT | 72 | 50 |
+| INT+ | 95 | 65 |
+| ADV | 115 | 80 |
+| ADV+ | 130 | 92 |
+| RX | 150 | 105 |
+
+### Gymnastics
+
+**Strict Pull-ups** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 1-3 | 0-1 |
+| INT | 4-8 | 2-4 |
+| INT+ | 9-14 | 5-8 |
+| ADV | 15-20 | 9-12 |
+| ADV+ | 21-25 | 13-16 |
+| RX | 26+ | 17+ |
+
+**Handstand Push-ups, Strict** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 0 | 0 |
+| INT | 1-5 | 1-3 |
+| INT+ | 6-10 | 4-7 |
+| ADV | 11-18 | 8-13 |
+| ADV+ | 19-28 | 14-20 |
+| RX | 29+ | 21+ |
+
+**Toes-to-Bar** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 1-3 | 1-2 |
+| INT | 4-10 | 3-7 |
+| INT+ | 11-16 | 8-11 |
+| ADV | 17-24 | 12-17 |
+| ADV+ | 25-31 | 18-22 |
+| RX | 32+ | 23+ |
+
+**Bar Muscle-up** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 0 | 0 |
+| INT | 0 | 0 |
+| INT+ | 1-4 | 1-2 |
+| ADV | 5-9 | 3-6 |
+| ADV+ | 10-14 | 7-10 |
+| RX | 15+ | 11+ |
+
+**Ring Muscle-up** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 0 | 0 |
+| INT | 0 | 0 |
+| INT+ | 1-3 | 1-2 |
+| ADV | 4-8 | 3-5 |
+| ADV+ | 9-15 | 6-10 |
+| RX | 16+ | 11+ |
+
+### Monostructural
+
+**500m Row** (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 2:30 | 2:50 |
+| BEG+ | 2:10 | 2:30 |
+| INT | 1:55 | 2:15 |
+| INT+ | 1:45 | 2:05 |
+| ADV | 1:38 | 1:55 |
+| ADV+ | 1:30 | 1:45 |
+| RX | 1:24 | 1:38 |
+
+**2000m Row** (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 9:30 | 10:30 |
+| BEG+ | 8:30 | 9:30 |
+| INT | 7:45 | 8:50 |
+| INT+ | 7:15 | 8:10 |
+| ADV | 6:50 | 7:40 |
+| ADV+ | 6:25 | 7:10 |
+| RX | 5:50 | 6:40 |
+
+**1 Mile Run** (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 10:00 | 11:00 |
+| BEG+ | 8:30 | 9:30 |
+| INT | 7:30 | 8:30 |
+| INT+ | 6:45 | 7:45 |
+| ADV | 6:10 | 7:00 |
+| ADV+ | 5:40 | 6:30 |
+| RX | 5:10 | 6:00 |
+
+**5K Run** (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 32:00 | 36:00 |
+| BEG+ | 28:00 | 32:00 |
+| INT | 24:00 | 28:00 |
+| INT+ | 21:00 | 25:00 |
+| ADV | 19:00 | 22:00 |
+| ADV+ | 17:30 | 20:30 |
+| RX | 16:00 | 19:00 |
+
+### Bodyweight
+
+**Push-ups** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0-10 | 0-4 |
+| BEG+ | 11-20 | 5-10 |
+| INT | 21-35 | 11-18 |
+| INT+ | 36-50 | 19-28 |
+| ADV | 51-65 | 29-38 |
+| ADV+ | 66-80 | 39-48 |
+| RX | 81+ | 49+ |
+
+**Double-Unders** (max unbroken reps)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 1-5 | 1-5 |
+| INT | 6-25 | 6-25 |
+| INT+ | 26-50 | 26-50 |
+| ADV | 51-80 | 51-80 |
+| ADV+ | 81-120 | 81-120 |
+| RX | 121+ | 121+ |
+
+**Pistol Squat** (max unbroken reps per leg)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 0 | 0 |
+| BEG+ | 0 | 0 |
+| INT | 1-3 | 1-2 |
+| INT+ | 4-8 | 3-6 |
+| ADV | 9-15 | 7-12 |
+| ADV+ | 16-24 | 13-20 |
+| RX | 25+ | 21+ |
+
+### Endurance
+
+**Fran** — 21-15-9 Thrusters (43/30 kg) & Pull-ups (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 10:00 | 11:00 |
+| BEG+ | 8:00 | 9:00 |
+| INT | 6:00 | 7:00 |
+| INT+ | 4:30 | 5:30 |
+| ADV | 3:30 | 4:20 |
+| ADV+ | 2:40 | 3:20 |
+| RX | 2:00 | 2:30 |
+
+**Grace** — 30 Clean & Jerks at 61/43 kg (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 8:00 | 9:00 |
+| BEG+ | 6:00 | 7:00 |
+| INT | 4:30 | 5:30 |
+| INT+ | 3:30 | 4:20 |
+| ADV | 2:45 | 3:20 |
+| ADV+ | 2:10 | 2:40 |
+| RX | 1:40 | 2:00 |
+
+**Murph** — 1mi Run + 100 Pull-ups + 200 Push-ups + 300 Air Squats + 1mi Run, with vest 9/6 kg (time, lower is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 80:00 | 85:00 |
+| BEG+ | 70:00 | 75:00 |
+| INT | 60:00 | 65:00 |
+| INT+ | 50:00 | 55:00 |
+| ADV | 43:00 | 48:00 |
+| ADV+ | 37:30 | 42:00 |
+| RX | 32:00 | 37:00 |
+
+**Cindy** — 20-min AMRAP: 5 Pull-ups + 10 Push-ups + 15 Air Squats (rounds, higher is better)
+| Level | Male | Female |
+|-------|------|--------|
+| BEG | 8 | 6 |
+| BEG+ | 11 | 9 |
+| INT | 14 | 12 |
+| INT+ | 17 | 15 |
+| ADV | 20 | 18 |
+| ADV+ | 23 | 21 |
+| RX | 26 | 24 |
+
+---
+
+## Methodology
+
+Benchmarks are derived using a multi-source triangulation approach:
+
+1. **Primary data**: Peer-reviewed studies covering 1.3M+ athletes
+2. **Cross-reference**: Published standards (Kilgore, Catalyst Athletics, military PFT)
+3. **Validation**: Community databases (Concept2 rankings, StrengthLevel, RunningLevel)
+4. **Percentile mapping**: Each level maps to a specific percentile range in the trained population
+
+Key sources:
+- van den Hoek et al. (2024) — 809,986 powerlifting entries
+- Mangine et al. (2023) — 569,607 CrossFit Open scores
+- Mangine et al. (2020) — CrossFit benchmark performance profiles
+- Concept2 world rankings
+- RunningLevel.com — 1,000,000+ race results
+
+Full source list: https://openprogression.org/methodology
+
+---
+
+## Data Access
+
+All data is freely available as JSON:
+
+**Bundled file** (all data in one request):
+https://openprogression.org/data/openprogression.json
+
+**Individual files**:
+- https://openprogression.org/data/levels.json
+- https://openprogression.org/data/categories.json
+- https://openprogression.org/data/sources.json
+- https://openprogression.org/data/benchmarks/squatting.json
+- https://openprogression.org/data/benchmarks/pulling.json
+- https://openprogression.org/data/benchmarks/pressing.json
+- https://openprogression.org/data/benchmarks/olympic_lifting.json
+- https://openprogression.org/data/benchmarks/gymnastics.json
+- https://openprogression.org/data/benchmarks/monostructural.json
+- https://openprogression.org/data/benchmarks/bodyweight.json
+- https://openprogression.org/data/benchmarks/endurance.json
+
+---
+
+## License
+
+OpenProgression is MIT licensed. The standard, data, and code are free to use, modify, and redistribute. Only the brand name "OpenProgression" and logo are protected trademarks.
+
+Full license: https://openprogression.org/license
+GitHub: https://github.com/davidborgenvik/openprogression
