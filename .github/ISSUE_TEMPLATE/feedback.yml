@@ -1,0 +1,38 @@
+name: General Feedback
+description: Share your thoughts, ideas, or suggestions for OpenProgression
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your feedback! This helps us build a better standard for everyone.
+  - type: dropdown
+    id: role
+    attributes:
+      label: What best describes you?
+      options:
+        - Coach
+        - Athlete
+        - Gym Owner
+        - Developer
+        - Researcher
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Tell us what's on your mind. What works? What doesn't? What's missing?
+      placeholder: I think...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Any additional context?
+      description: Optional. Add any background that might help us understand your feedback.
+      placeholder: For example, your training background, gym size, sport, etc.
+    validations:
+      required: false
