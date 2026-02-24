@@ -1,0 +1,59 @@
+name: Benchmark Review
+description: A benchmark number feels too high, too low, or something is off
+title: "[Benchmark] "
+labels: ["benchmark-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Think a benchmark is off? We want to know. Every number should be accurate and defensible.
+  - type: input
+    id: movement
+    attributes:
+      label: Which movement?
+      placeholder: e.g. Back Squat, Fran, 2000m Row
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Which level feels off?
+      options:
+        - Beginner
+        - Beginner+
+        - Intermediate
+        - Intermediate+
+        - Advanced
+        - Advanced+
+        - Rx
+        - Multiple levels
+    validations:
+      required: true
+  - type: dropdown
+    id: gender
+    attributes:
+      label: Male or female standard?
+      options:
+        - Male
+        - Female
+        - Both
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: What's the issue?
+      options:
+        - Too high (most people at this level can't hit this number)
+        - Too low (this is easy for people at this level)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Why do you think it's off?
+      description: Your experience, data, or reasoning. Anything helps.
+      placeholder: Based on my experience coaching 200+ athletes...
+    validations:
+      required: true

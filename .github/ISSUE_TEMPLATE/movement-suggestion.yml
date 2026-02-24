@@ -1,0 +1,47 @@
+name: Suggest a Movement
+description: Suggest a new benchmark movement to add to the standard
+title: "[Movement] "
+labels: ["new-movement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want to see a movement added to the standard? Tell us about it.
+  - type: input
+    id: movement
+    attributes:
+      label: Movement name
+      placeholder: e.g. Turkish Get-Up, Rope Climb, Ski Erg 1000m
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Which category does it belong to?
+      options:
+        - Squatting
+        - Pulling
+        - Pressing
+        - Olympic Lifting
+        - Gymnastics
+        - Monostructural
+        - Bodyweight
+        - Endurance
+        - New category needed
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this movement be included?
+      description: What makes it a good benchmark? Is it widely performed? Is there data available?
+      placeholder: This movement is commonly tested in...
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Any data or references?
+      description: Optional. Links to studies, standards, or community data that could help set the benchmarks.
+    validations:
+      required: false

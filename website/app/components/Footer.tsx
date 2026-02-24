@@ -22,6 +22,11 @@ const QUICK_LINKS = [
     label: "GitHub",
     external: true,
   },
+  {
+    href: "https://github.com/OpenProgression/openprogression/issues/new/choose",
+    label: "Give Feedback",
+    external: true,
+  },
 ]
 
 export default function Footer() {
