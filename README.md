@@ -49,7 +49,7 @@ OpenProgression (OP) is a **free, open standard** for classifying athletic abili
 </tr>
 </table>
 
-## The 7 Levels
+## [The 7 Levels](https://openprogression.org/levels)
 
 <p align="center">
   <img src="assets/levels.svg" alt="The 7 OpenProgression levels from Beginner to Rx" width="800" />
@@ -67,7 +67,7 @@ OpenProgression (OP) is a **free, open standard** for classifying athletic abili
 
 > Levels are determined by the **weakest-link principle**: your overall level equals your lowest category level. This encourages well-rounded fitness rather than specialization.
 
-## The 8 Categories
+## [The 8 Categories](https://openprogression.org/categories)
 
 | Category | Key Movements |
 |----------|--------------|
@@ -81,6 +81,8 @@ OpenProgression (OP) is a **free, open standard** for classifying athletic abili
 | **Endurance** | Fran, Grace, Murph, Cindy |
 
 ## Quick Example
+
+Try it yourself with the **[Level Calculator](https://openprogression.org/calculator)**.
 
 An 80kg male who can:
 
@@ -123,9 +125,9 @@ openprogression/
 └── website/            # openprogression.org (Next.js)
 ```
 
-## Using the Data
+## [Using the Data](https://openprogression.org/data)
 
-The benchmark data is published as JSON and can be consumed by any application:
+All benchmark data is published as JSON and can be consumed by any application. Browse all benchmarks interactively at **[openprogression.org/benchmarks](https://openprogression.org/benchmarks)**.
 
 ```typescript
 // Example: Load and use OP benchmarks
@@ -164,15 +166,15 @@ All benchmarks are derived from published, citable sources:
 | Catalyst Athletics | Published standard | Competition data |
 | StrengthLevel.com | Community database | 30,000-600,000+ per exercise |
 
-Full source details with citations: [`data/sources.json`](data/sources.json) | Methodology: [`spec/methodology.md`](spec/methodology.md)
+Full source details with citations: [`data/sources.json`](data/sources.json) | [Methodology](https://openprogression.org/methodology): [`spec/methodology.md`](spec/methodology.md)
 
 ## For Coaches
 
 OpenProgression gives you a shared framework to:
 
-- **Assess** new members and place them in appropriate scaling
-- **Scale** workouts across 7 clearly defined levels
-- **Track** athlete progression over time with objective benchmarks
+- **Assess** new members and place them in appropriate scaling with the [Level Calculator](https://openprogression.org/calculator)
+- **Program** workouts scaled across all 7 levels with the [WOD Library](https://openprogression.org/programming)
+- **Track** athlete progression over time with [objective benchmarks](https://openprogression.org/benchmarks)
 - **Communicate** fitness levels in a way every coach understands
 
 The weakest-link principle ensures athletes develop well-rounded fitness rather than hiding behind their strengths.
@@ -181,11 +183,11 @@ The weakest-link principle ensures athletes develop well-rounded fitness rather 
 
 Build OP into your gym management software, workout tracking app, or coaching platform:
 
-- JSON data files ready to import
+- [JSON data files](https://openprogression.org/data) ready to import
 - Clear schema with TypeScript-friendly structure
-- Gender-differentiated standards
+- Gender-differentiated standards across [25 benchmarks](https://openprogression.org/benchmarks)
 - Source citations for every benchmark
-- MIT licensed — use it however you want
+- [MIT licensed](https://openprogression.org/license) — use it however you want
 
 ## Contributing
 
@@ -198,10 +200,11 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full gu
 
 ## Roadmap
 
-- **Age-adjusted benchmarks** — Current standards target ~18-40 year-olds. Future versions may include age brackets using existing source data that provides age breakdowns.
-- **Expanded bodyweight scaling** — Enhanced BW-relative benchmarks beyond the current reference weights.
-- **Additional movements** — Expanding the movement library within existing categories.
-- **Interactive assessment tools** — Web-based calculator for instant level assessment.
+- [x] **[Level Calculator](https://openprogression.org/calculator)** — Instant level assessment across all 8 categories
+- [x] **[Scaled Programming](https://openprogression.org/programming)** — WOD library and daily sessions with 7-level scaling
+- [ ] **Age-adjusted benchmarks** — Current standards target ~18-40 year-olds. Future versions may include age brackets.
+- [ ] **Expanded bodyweight scaling** — Enhanced BW-relative benchmarks beyond the current reference weights.
+- [ ] **Additional movements** — Expanding the movement library within existing categories.
 
 ## License
 
@@ -223,5 +226,5 @@ OpenProgression is an independent, community-driven open standard. It is not aff
 ---
 
 <p align="center">
-  <a href="https://openprogression.org"><strong>openprogression.org</strong></a> · <a href="https://github.com/OpenProgression/openprogression">GitHub</a> · <a href="https://github.com/OpenProgression/openprogression/issues">Issues</a>
+  <a href="https://openprogression.org"><strong>openprogression.org</strong></a> · <a href="https://openprogression.org/benchmarks">Benchmarks</a> · <a href="https://openprogression.org/calculator">Calculator</a> · <a href="https://openprogression.org/programming">Programming</a> · <a href="https://github.com/OpenProgression/openprogression">GitHub</a>
 </p>
