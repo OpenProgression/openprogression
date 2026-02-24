@@ -96,9 +96,40 @@ function getLevel(category, movement, gender, value) {
 getLevel('squatting', 'back_squat', 'male', 105)
 // => 'intermediate_plus'`
 
+const datasetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: "OpenProgression Fitness Benchmarks",
+  description:
+    "Research-backed fitness benchmark data across 8 categories and 7 progression levels. 25 movements with gender-specific standards derived from 1.3 million data points. Includes squatting, pulling, pressing, Olympic lifting, gymnastics, monostructural, bodyweight, and endurance benchmarks.",
+  url: "https://openprogression.org/data",
+  license: "https://opensource.org/licenses/MIT",
+  creator: {
+    "@type": "Organization",
+    name: "OpenProgression",
+    url: "https://openprogression.org",
+  },
+  distribution: {
+    "@type": "DataDownload",
+    contentUrl: "https://openprogression.org/data/openprogression.json",
+    encodingFormat: "application/json",
+  },
+  keywords: [
+    "fitness benchmarks",
+    "strength standards",
+    "CrossFit levels",
+    "exercise progression",
+    "athletic performance data",
+  ],
+}
+
 export default function DataPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd) }}
+      />
       {/* Hero */}
       <div className="mb-16">
         <div className="section-tag section-tag-teal mb-4">Data</div>
