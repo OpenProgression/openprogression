@@ -30,6 +30,37 @@ const methodologyJsonLd = {
   datePublished: "2025-01-01",
 }
 
+const methodologyFaqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How are OpenProgression fitness benchmarks derived?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "OpenProgression benchmarks use a multi-source triangulation approach. Primary data comes from peer-reviewed studies covering 1.3 million+ athletes, cross-referenced with published standards (Kilgore, Catalyst Athletics, military PFT), validated against community databases (Concept2 rankings, StrengthLevel, RunningLevel), and mapped to percentile ranges in the trained population.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What research sources does OpenProgression use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Key sources include van den Hoek et al. (2024) with 809,986 powerlifting entries, Mangine et al. (2023) with 569,607 CrossFit Open scores, Concept2 world rankings, RunningLevel.com with 1,000,000+ race results, U.S. Military PFT standards, ACSM/Cooper Institute guidelines, and Catalyst Athletics Olympic lifting standards.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the OpenProgression data free to use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. All OpenProgression data is MIT licensed — free to use, modify, and redistribute in any project, commercial or otherwise. The benchmark data is available as JSON at openprogression.org/data. Only the brand name and logo are trademark protected.",
+      },
+    },
+  ],
+}
+
 const SOURCES = [
   {
     id: "van_den_hoek_2024",
@@ -193,6 +224,10 @@ export default function MethodologyPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(methodologyJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(methodologyFaqJsonLd) }}
       />
       {/* Hero */}
       <div className="mb-16">

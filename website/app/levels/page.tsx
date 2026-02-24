@@ -9,6 +9,45 @@ export const metadata: Metadata = {
   },
 }
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What are the OpenProgression fitness levels?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "OpenProgression defines 7 fitness levels: Beginner (0-20th percentile), Beginner+ (20-35th), Intermediate (35-50th), Intermediate+ (50-65th), Advanced (65-80th), Advanced+ (80-95th), and Rx (95-100th). Each level is mapped to population percentiles using data from 1.3 million athletes.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is your overall OpenProgression level determined?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Your overall level is determined by the weakest-link principle: your overall level equals your lowest category score across all 8 fitness categories (Squatting, Pulling, Pressing, Olympic Lifting, Gymnastics, Monostructural, Bodyweight, Endurance). This ensures well-rounded fitness rather than specialization.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does Rx level mean in OpenProgression?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Rx is the highest level in OpenProgression, representing the top 5% of trained athletes (95-100th percentile). Rx athletes demonstrate elite performance across all fitness domains, typically with 5+ years of dedicated training. Examples include a 180kg back squat for males, sub-2:00 Fran time, and 15+ unbroken bar muscle-ups.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are the 8 OpenProgression fitness categories?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The 8 categories are: Squatting (Back Squat, Front Squat, Overhead Squat), Pulling (Deadlift), Pressing (Strict Press, Bench Press), Olympic Lifting (Power Clean, Snatch, Clean & Jerk), Gymnastics (Pull-ups, HSPU, Toes-to-Bar, Muscle-ups), Monostructural (500m Row, 2000m Row, 1 Mile Run, 5K Run), Bodyweight (Push-ups, Double-Unders, Pistol Squats), and Endurance (Fran, Grace, Murph, Cindy).",
+      },
+    },
+  ],
+}
+
 const LEVELS = [
   {
     id: "beginner",
@@ -145,6 +184,10 @@ const CATEGORY_NAMES = [
 export default function LevelsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 px-6">
         <div className="container max-w-4xl mx-auto text-center">
