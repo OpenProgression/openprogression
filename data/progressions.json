@@ -1,0 +1,496 @@
+{
+  "version": "1.0.0",
+  "description": "Movement progression chains leading to OP benchmark movements. Each chain defines a sequence of prerequisite movements (regressions) from foundational patterns through to the benchmark entry point.",
+  "progressions": [
+    {
+      "targetMovement": "back_squat",
+      "targetCategory": "squatting",
+      "description": "Squat pattern progression from assisted sit-to-stand through barbell loading",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "chair_sit_to_stand_high",
+          "name": "Chair Sit-to-Stand (High Surface)",
+          "description": "Stand up from a knee-height surface (bed, high chair) without using hands. Establishes basic squat-to-stand pattern.",
+          "equipment": "chair",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["rikli_jones_2013"]
+        },
+        {
+          "step": 2,
+          "movement": "chair_sit_to_stand",
+          "name": "Chair Sit-to-Stand (Standard)",
+          "description": "Stand up from a standard-height chair (approx. 43cm / 17in seat) without using hands. This is the 30-second chair stand test position used in clinical fitness assessment.",
+          "equipment": "chair",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["rikli_jones_2013"]
+        },
+        {
+          "step": 3,
+          "movement": "air_squat_partial",
+          "name": "Air Squat (Partial Depth)",
+          "description": "Bodyweight squat to approximately parallel (thighs parallel to floor). No external support.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 20 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 4,
+          "movement": "air_squat",
+          "name": "Air Squat (Below Parallel)",
+          "description": "Bodyweight squat below parallel with good form: heels down, knees tracking toes, neutral spine, hip crease below knee.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 20 },
+          "milestone": "F3",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 5,
+          "movement": "goblet_squat",
+          "name": "Goblet Squat",
+          "description": "Squat below parallel holding a kettlebell or dumbbell at chest height. Introduces external loading while reinforcing upright torso.",
+          "equipment": "kettlebell",
+          "criteria": { "type": "reps", "target": 10, "load": { "male": 12, "female": 8 }, "unit": "kg" },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 6,
+          "movement": "barbell_back_squat_empty",
+          "name": "Barbell Back Squat (Empty Bar)",
+          "description": "Back squat with empty barbell (20kg). Establishes bar positioning, rack position, and squat pattern under barbell.",
+          "equipment": "barbell",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "deadlift",
+      "targetCategory": "pulling",
+      "description": "Hip hinge progression from floor-based glute activation through barbell deadlift pattern",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "glute_bridge",
+          "name": "Glute Bridge",
+          "description": "Lying on back, feet flat on floor, drive hips to full extension. Foundational hip extension pattern used in lower back and post-pregnancy rehab.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 2,
+          "movement": "hip_hinge_pvc",
+          "name": "Hip Hinge (PVC/Broomstick)",
+          "description": "Standing hip hinge with a PVC pipe or broomstick along the spine (contact at head, upper back, sacrum). Teaches neutral spine and hip-dominant movement.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 3,
+          "movement": "rdl_bodyweight",
+          "name": "Romanian Deadlift (Bodyweight)",
+          "description": "Standing hip hinge with arms extended, lowering hands toward shins. No external load. Establishes the RDL pattern and hamstring flexibility.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F3",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 4,
+          "movement": "kettlebell_deadlift",
+          "name": "Kettlebell Deadlift",
+          "description": "Deadlift a kettlebell or dumbbell from the floor using hip hinge pattern. Introduces loading from floor height.",
+          "equipment": "kettlebell",
+          "criteria": { "type": "reps", "target": 10, "load": { "male": 16, "female": 12 }, "unit": "kg" },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 5,
+          "movement": "barbell_deadlift_empty",
+          "name": "Barbell Deadlift (Empty Bar)",
+          "description": "Conventional deadlift with empty barbell from floor (or elevated if mobility limited). Establishes barbell deadlift positioning.",
+          "equipment": "barbell",
+          "criteria": { "type": "reps", "target": 5 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "strict_press",
+      "targetCategory": "pressing",
+      "description": "Vertical pressing progression from push-up variations through barbell overhead press",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "wall_push_up",
+          "name": "Wall Push-up",
+          "description": "Push-up performed against a wall at arm's length. Minimal load on upper body. Accessible to nearly everyone including shoulder rehab patients.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 2,
+          "movement": "incline_push_up",
+          "name": "Incline Push-up (Bench Height)",
+          "description": "Push-up with hands on a bench, counter, or sturdy elevated surface (approx. 40-60cm). Increases load compared to wall push-up.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 3,
+          "movement": "knee_push_up",
+          "name": "Knee Push-up",
+          "description": "Push-up from knees with full range of motion (chest to floor, full lockout). Approximately 50-60% bodyweight load.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 4,
+          "movement": "push_up_single",
+          "name": "Full Push-up",
+          "description": "Standard push-up: chest to floor, full lockout, body in plank position. One complete rep with good form.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 1 },
+          "milestone": "F3",
+          "sources": ["acsm_guidelines", "military_pft"]
+        },
+        {
+          "step": 5,
+          "movement": "db_press",
+          "name": "Dumbbell Shoulder Press",
+          "description": "Seated or standing dumbbell overhead press. Introduces vertical pressing pattern with external load.",
+          "equipment": "kettlebell",
+          "criteria": { "type": "reps", "target": 10, "load": { "male": 8, "female": 5 }, "unit": "kg" },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 6,
+          "movement": "barbell_press_empty",
+          "name": "Barbell Strict Press (Empty Bar)",
+          "description": "Standing barbell strict press with empty bar (20kg). Establishes barbell overhead pressing pattern.",
+          "equipment": "barbell",
+          "criteria": { "type": "reps", "target": 5 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "push_up",
+      "targetCategory": "bodyweight",
+      "description": "Push-up progression from wall to floor. Shares early steps with pressing progression.",
+      "sharedSteps": "strict_press",
+      "sharedUpTo": 4,
+      "steps": [
+        {
+          "step": 1,
+          "movement": "wall_push_up",
+          "name": "Wall Push-up",
+          "description": "Push-up performed against a wall at arm's length.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 2,
+          "movement": "incline_push_up",
+          "name": "Incline Push-up (Bench Height)",
+          "description": "Push-up with hands on a bench or sturdy elevated surface.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 3,
+          "movement": "knee_push_up",
+          "name": "Knee Push-up",
+          "description": "Push-up from knees with full range of motion.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 4,
+          "movement": "push_up_single",
+          "name": "Full Push-up (1 Rep)",
+          "description": "One complete push-up with good form: chest to floor, full lockout, body in plank position.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 1 },
+          "milestone": "F3",
+          "sources": ["acsm_guidelines", "military_pft"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "strict_pull_up",
+      "targetCategory": "gymnastics",
+      "description": "Pull-up progression from passive hang through eccentric and assisted variations to first strict pull-up",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "dead_hang_10s",
+          "name": "Dead Hang (10 Seconds)",
+          "description": "Passive hang from pull-up bar with straight arms, shoulders engaged. Builds grip strength and shoulder stability. Also used in grip rehab.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "time", "target": 10, "unit": "seconds" },
+          "milestone": "F1",
+          "sources": ["bohannon_2019", "nsca_essentials_2016"]
+        },
+        {
+          "step": 2,
+          "movement": "dead_hang_30s",
+          "name": "Dead Hang (30 Seconds)",
+          "description": "Extended passive hang. Indicates sufficient grip strength and shoulder tolerance for pulling progressions.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
+          "milestone": "F3",
+          "sources": ["bohannon_2019"]
+        },
+        {
+          "step": 3,
+          "movement": "scapular_pull_up",
+          "name": "Scapular Pull-up (Active Hang)",
+          "description": "From dead hang, depress and retract scapulae to create slight upward movement without bending arms. Activates the lats and establishes mind-muscle connection.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 4,
+          "movement": "eccentric_pull_up",
+          "name": "Eccentric Pull-up (Slow Negative)",
+          "description": "Jump or step to chin-over-bar position, then lower slowly (3-5 seconds) to dead hang. Builds pulling strength eccentrically.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "reps", "target": 5 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 5,
+          "movement": "band_assisted_pull_up",
+          "name": "Band-Assisted Pull-up",
+          "description": "Strict pull-up with feet or knees in a resistance band looped over the bar. Reduces effective bodyweight.",
+          "equipment": "resistance_band",
+          "criteria": { "type": "reps", "target": 5 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "toes_to_bar",
+      "targetCategory": "gymnastics",
+      "description": "Core and hanging progression from floor-based holds through hanging leg raises to toes-to-bar",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "plank_10s",
+          "name": "Plank Hold (10 Seconds)",
+          "description": "Forearm plank with neutral spine. Foundation core stability exercise used in rehab and fitness assessment.",
+          "equipment": "none",
+          "criteria": { "type": "time", "target": 10, "unit": "seconds" },
+          "milestone": null,
+          "sources": ["mcgill_2015"]
+        },
+        {
+          "step": 2,
+          "movement": "plank_30s",
+          "name": "Plank Hold (30 Seconds)",
+          "description": "Extended forearm plank. 30 seconds indicates adequate baseline core endurance for healthy adults.",
+          "equipment": "none",
+          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
+          "milestone": "F2",
+          "sources": ["mcgill_2015"]
+        },
+        {
+          "step": 3,
+          "movement": "plank_60s",
+          "name": "Plank Hold (60 Seconds)",
+          "description": "60-second forearm plank. Indicates strong core endurance. Sufficient for structured training.",
+          "equipment": "none",
+          "criteria": { "type": "time", "target": 60, "unit": "seconds" },
+          "milestone": "F3",
+          "sources": ["mcgill_2015"]
+        },
+        {
+          "step": 4,
+          "movement": "hollow_hold_10s",
+          "name": "Hollow Body Hold (10 Seconds)",
+          "description": "Lying supine, arms overhead, legs extended, lower back pressed to floor. Gymnastic foundation position for all hanging core work.",
+          "equipment": "none",
+          "criteria": { "type": "time", "target": 10, "unit": "seconds" },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 5,
+          "movement": "hanging_knee_raise",
+          "name": "Hanging Knee Raise",
+          "description": "From dead hang, raise knees to hip height (90 degrees). Combines grip endurance with hip flexion under load.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 6,
+          "movement": "hanging_leg_raise",
+          "name": "Hanging Straight Leg Raise",
+          "description": "From dead hang, raise straight legs to 90 degrees (L-sit position). Requires hamstring flexibility and core strength.",
+          "equipment": "pull_up_bar",
+          "criteria": { "type": "reps", "target": 5 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "run_mile",
+      "targetCategory": "monostructural",
+      "description": "Running progression from walking through walk/run intervals to continuous running",
+      "steps": [
+        {
+          "step": 1,
+          "movement": "walk_1km",
+          "name": "Walk 1km Without Stopping",
+          "description": "Continuous walking for 1 kilometer at any pace. Baseline cardiovascular and musculoskeletal capacity.",
+          "equipment": "none",
+          "criteria": { "type": "completion" },
+          "milestone": "F1",
+          "sources": ["who_physical_activity_2020"]
+        },
+        {
+          "step": 2,
+          "movement": "walk_run_intervals",
+          "name": "Walk/Run Intervals",
+          "description": "Alternating 1 minute running with 2 minutes walking, repeated 8 times (24 minutes total). Standard return-to-running protocol.",
+          "equipment": "none",
+          "criteria": { "type": "completion", "details": "8 rounds of 1 min run / 2 min walk" },
+          "milestone": "F2",
+          "sources": ["acsm_guidelines", "who_physical_activity_2020"]
+        },
+        {
+          "step": 3,
+          "movement": "run_400m",
+          "name": "Run 400m Without Stopping",
+          "description": "Continuous running for 400 meters (one standard track lap) at any pace.",
+          "equipment": "none",
+          "criteria": { "type": "completion" },
+          "milestone": "F2",
+          "sources": ["acsm_guidelines"]
+        },
+        {
+          "step": 4,
+          "movement": "run_800m",
+          "name": "Run 800m Without Stopping",
+          "description": "Continuous running for 800 meters at any pace. A meaningful aerobic milestone for previously sedentary adults.",
+          "equipment": "none",
+          "criteria": { "type": "completion" },
+          "milestone": "F3",
+          "sources": ["acsm_guidelines"]
+        },
+        {
+          "step": 5,
+          "movement": "run_mile_any_pace",
+          "name": "Run 1 Mile (Any Pace)",
+          "description": "Continuous running for 1 mile (1609m) without walking breaks. At this point the athlete is ready for the timed OP benchmark.",
+          "equipment": "none",
+          "criteria": { "type": "completion" },
+          "milestone": "F3",
+          "sources": ["acsm_guidelines", "runninglevel"]
+        }
+      ]
+    },
+    {
+      "targetMovement": "bench_press",
+      "targetCategory": "pressing",
+      "description": "Horizontal pressing progression. Shares push-up chain with strict_press progression, then diverges to barbell bench.",
+      "sharedSteps": "strict_press",
+      "sharedUpTo": 4,
+      "steps": [
+        {
+          "step": 1,
+          "movement": "wall_push_up",
+          "name": "Wall Push-up",
+          "description": "Push-up performed against a wall at arm's length.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F1",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 2,
+          "movement": "incline_push_up",
+          "name": "Incline Push-up (Bench Height)",
+          "description": "Push-up with hands on a bench or sturdy elevated surface.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 3,
+          "movement": "knee_push_up",
+          "name": "Knee Push-up",
+          "description": "Push-up from knees with full range of motion.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": "F2",
+          "sources": ["nsca_essentials_2016", "acsm_guidelines"]
+        },
+        {
+          "step": 4,
+          "movement": "push_up_single",
+          "name": "Full Push-up (1 Rep)",
+          "description": "One complete push-up with good form.",
+          "equipment": "none",
+          "criteria": { "type": "reps", "target": 1 },
+          "milestone": "F3",
+          "sources": ["acsm_guidelines", "military_pft"]
+        },
+        {
+          "step": 5,
+          "movement": "db_bench_press",
+          "name": "Dumbbell Bench Press",
+          "description": "Lying on bench, press dumbbells from chest to lockout. Introduces horizontal pressing with external load.",
+          "equipment": "kettlebell",
+          "criteria": { "type": "reps", "target": 10, "load": { "male": 10, "female": 6 }, "unit": "kg" },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        },
+        {
+          "step": 6,
+          "movement": "barbell_bench_empty",
+          "name": "Barbell Bench Press (Empty Bar)",
+          "description": "Flat bench press with empty barbell (20kg). Establishes bar path, grip width, and pressing mechanics.",
+          "equipment": "barbell",
+          "criteria": { "type": "reps", "target": 10 },
+          "milestone": null,
+          "sources": ["nsca_essentials_2016"]
+        }
+      ]
+    }
+  ]
+}
