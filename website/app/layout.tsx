@@ -21,6 +21,27 @@ const display = Inter_Tight({
 
 const SITE_URL = "https://openprogression.org"
 
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "OpenProgression",
+    url: SITE_URL,
+    logo: `${SITE_URL}/og.png`,
+    description:
+      "An open standard for fitness progression assessment. 7 levels, 8 categories, 25 benchmarks derived from 1.3 million data points.",
+    sameAs: ["https://github.com/OpenProgression/openprogression"],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "OpenProgression",
+    url: SITE_URL,
+    description:
+      "A research-backed, open standard for assessing and tracking fitness progression. 7 levels, 8 categories, backed by peer-reviewed data from 1.3 million athletes.",
+  },
+]
+
 export const metadata: Metadata = {
   title: {
     default: "OpenProgression — Open Fitness Progression Standard",
@@ -64,6 +85,13 @@ export default function RootLayout({
       <body
         className={`${outfit.variable} ${display.variable} font-sans`}
       >
+        {jsonLd.map((data, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+          />
+        ))}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
           <main className="min-h-screen">{children}</main>

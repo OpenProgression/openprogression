@@ -10,6 +10,26 @@ export const metadata: Metadata = {
   },
 }
 
+const methodologyJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "OpenProgression Methodology",
+  description:
+    "How OpenProgression benchmarks are derived. Peer-reviewed sources, percentile mapping, and a transparent derivation process backed by 1.3 million data points.",
+  url: "https://openprogression.org/methodology",
+  author: {
+    "@type": "Organization",
+    name: "OpenProgression",
+    url: "https://openprogression.org",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "OpenProgression",
+    url: "https://openprogression.org",
+  },
+  datePublished: "2025-01-01",
+}
+
 const SOURCES = [
   {
     id: "van_den_hoek_2024",
@@ -170,6 +190,10 @@ const PERCENTILE_MAP = [
 export default function MethodologyPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(methodologyJsonLd) }}
+      />
       {/* Hero */}
       <div className="mb-16">
         <div className="section-tag section-tag-teal mb-4">Methodology</div>
