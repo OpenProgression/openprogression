@@ -115,6 +115,26 @@ Elite-level performance across all fitness domains. Top 5% of the trained popula
 - Can compete in high-level fitness competitions
 - Exceptional work capacity across all time domains
 
+## Foundation Milestones (Pre-Beginner)
+
+For athletes who are below the Beginner benchmarks — people new to exercise, returning from injury, or rebuilding after a long break — **Foundation Milestones** provide trackable progress markers within the Beginner level.
+
+| Milestone | Name | What It Means | Estimated Time |
+|:---------:|------|---------------|:--------------:|
+| F1 | **Foundation** | Can perform basic human movements safely | 1-2 weeks |
+| F2 | **Moving** | Can perform bodyweight exercises with good form | 2-4 weeks |
+| F3 | **Ready** | Ready for structured training with equipment | 4-8 weeks |
+
+```
+Untrained → F1 → F2 → F3 → Beginner → Beginner+ → ... → Rx
+                              │
+                              └── OP v1.0 benchmarks start here
+```
+
+Foundation Milestones are **not levels**. They are optional pre-level markers that applications can display to provide early progress feedback. They follow the same weakest-link principle: all requirements for a milestone must be met across multiple categories.
+
+Full specification: [`spec/progressions.md`](progressions.md) | Data: [`data/milestones.json`](../data/milestones.json)
+
 ## The Weakest-Link Principle
 
 An athlete's **overall OP level** equals their **lowest category level**.
