@@ -25,6 +25,13 @@ Every OP benchmark movement has an implicit chain of prerequisite movements (reg
 
 These are not new exercises — they are the same progressions used in coaching, physiotherapy, and clinical rehabilitation, now formalized into the OP data model.
 
+### Design Principles
+
+1. **Home-first** — Early steps in every chain require no gym equipment. A chair, a wall, a floor, and a resistance band cover F1 and F2 entirely.
+2. **No pull-up bar required until F2+** — Dead hangs are valuable but require equipment not available in every home. Farmer's carry and band exercises provide grip and pulling work without a bar.
+3. **Research-grounded** — Every step cites published exercise science or clinical literature.
+4. **Gradual steps** — Smaller jumps than programs like Couch to 5K (which has 73% dropout, partly due to large progression jumps; Murphy et al., 2023).
+
 ### Compatibility with Existing Scaling
 
 The metcon scaling system (`spec/programming.md`) already defines substitution chains for workout scaling:
@@ -57,14 +64,14 @@ Each step includes:
 #### Squatting → Back Squat
 
 ```
-Chair Sit-to-Stand (High)  →  Chair Sit-to-Stand (Standard)  →  Air Squat (Partial)
-      [F1]                          [F1]                            [F2]
+Chair Sit-to-Stand (High)  →  Chair Sit-to-Stand (Standard)  →  Box Squat (to chair)
+          [F1]                          [F1]                           [F2]
 
-→  Air Squat (Full Depth)  →  Goblet Squat  →  Barbell Back Squat (Empty Bar)
-         [F3]                                         → OP Beginner
+→  Air Squat (Partial)  →  Air Squat (Full Depth)  →  Goblet Squat  →  BB Back Squat
+         [F2]                     [F3]                                    → OP Beginner
 ```
 
-The chair sit-to-stand is the clinical standard for lower body functional fitness assessment (Rikli & Jones, 2013). It is used globally in physiotherapy for post-knee-surgery, fall prevention, and elderly fitness assessment.
+The chair sit-to-stand is the clinical standard for lower body functional fitness assessment (Rikli & Jones, 2013; validated by Jones, Rikli & Beam, 1999 with test-retest reliability r=0.89 across 7,183 participants aged 60-94). The box squat provides a safety net and depth target as a bridge between assisted and free squatting — a standard PT progression step (NSCA, 2016; Fragala et al., 2019).
 
 #### Pulling → Deadlift
 
@@ -73,7 +80,7 @@ Glute Bridge  →  Hip Hinge (PVC)  →  RDL (Bodyweight)  →  KB Deadlift  →
     [F1]             [F2]                [F3]                                → OP Beginner
 ```
 
-The glute bridge is a standard physiotherapy exercise for lower back rehab and post-pregnancy recovery. The PVC hip hinge teaches neutral spine mechanics before any loading.
+The glute bridge is a standard physiotherapy exercise for lower back rehab and post-pregnancy recovery. The PVC hip hinge teaches neutral spine mechanics before any loading (NSCA, 2016).
 
 #### Pressing → Strict Press / Bench Press
 
@@ -84,40 +91,56 @@ Wall Push-up  →  Incline Push-up  →  Knee Push-up  →  Full Push-up (1 rep)
 →  DB Press / DB Bench  →  Barbell Press / Bench (Empty Bar)  → OP Beginner
 ```
 
-Push-up regressions are documented in NSCA (2016) and ACSM guidelines. Wall push-ups are a standard entry point in shoulder rehab programs.
+Push-up regressions are documented in NSCA (2016) and ACSM guidelines. Each incline change adjusts the percentage of bodyweight being pressed. Wall push-ups are a standard entry point in shoulder rehab programs.
 
 #### Gymnastics → Strict Pull-up
 
 ```
-Dead Hang (10s)  →  Dead Hang (30s)  →  Scapular Pull-up  →  Eccentric Pull-up
-      [F1]               [F3]
+Farmer's Carry (30s)  →  Band Pull-apart  →  Seated Band Row  →  Dead Hang (10s)
+        [F1]                  [F1]                [F2]                 [F2]
 
-→  Band-Assisted Pull-up  → OP Beginner+ (1 strict pull-up)
+→  Dead Hang (30s)  →  Scapular Pull-up  →  Eccentric Pull-up  →  Band-Assisted Pull-up
+        [F3]
+                                                              → OP Beginner+ (1 strict pull-up)
 ```
 
-Note: Pull-ups are 0 at the Beginner level, so this chain leads to Beginner+. Grip strength and hanging capacity are established biomarkers for functional health (Bohannon, 2019).
+This chain starts with **no pull-up bar required**. Farmer's carry develops grip strength using household items (bags, water bottles). Band pull-aparts and seated band rows build scapular retraction and upper back strength with a resistance band — a standard home-based horizontal pulling exercise for older adults (Fragala et al., 2019). Dead hangs enter at F2 once grip and shoulder capacity are established.
 
-#### Gymnastics/Core → Toes-to-Bar
+Note: Pull-ups are 0 at the Beginner level, so this chain leads to Beginner+. Grip strength is an established biomarker for functional health and all-cause mortality in older adults (Bohannon, 2019).
+
+#### Core → Toes-to-Bar (McGill Big 3 Foundation)
 
 ```
-Plank (10s)  →  Plank (30s)  →  Plank (60s)  →  Hollow Hold  →  Hanging Knee Raise
-                    [F2]            [F3]
+McGill Curl-up  →  Bird Dog  →  Side Plank (knees)  →  Plank (30s)  →  Side Plank (full)
+     [F1]           [F1]            [F1]                   [F2]             [F2]
 
-→  Hanging Leg Raise  → OP Beginner+ (1 T2B)
+→  Plank (60s)  →  Hollow Hold  →  Hanging Knee Raise  →  Hanging Leg Raise
+      [F3]
+                                                          → OP Beginner+ (1 T2B)
 ```
 
-Plank hold norms from McGill et al. (2015) provide evidence-based criteria for core endurance milestones.
+The core progression is built on the **McGill Big 3** — three anti-movement exercises that are the clinical standard for spine health and core development (McGill, 2015):
+
+1. **Curl-up** — anti-extension (protects the lower back)
+2. **Bird dog** — anti-rotation (trains spinal stability)
+3. **Side plank** — anti-lateral-flexion (builds lateral core endurance)
+
+McGill's research explicitly argues against traditional sit-ups and crunches, which load the spine through repeated flexion. The Big 3 trains the core's primary function: **resisting unwanted movement** to protect the spine.
+
+Plank normative data from Strand et al. (2014, n=471) and McGill et al. (2015) provide evidence-based thresholds. For adults aged 50-59, 30-60 seconds is a strong plank hold; plank endurance decreases approximately 10-15% per decade after age 35.
 
 #### Monostructural → 1-Mile Run
 
 ```
-Walk 1km  →  Walk/Run Intervals  →  Run 400m  →  Run 800m  →  Run 1 Mile (any pace)
-  [F1]            [F2]                 [F2]          [F3]           [F3]
+Walk 10 min  →  Walk 1km  →  Walk/Run Intervals  →  Run 400m  →  Run 800m  →  Run 1 Mile
+    [F1]          [F1]            [F2]                  [F2]         [F3]         [F3]
 
 → OP Beginner (timed mile)
 ```
 
-Walking and walk/run interval programs align with WHO (2020) physical activity guidelines and ACSM return-to-running protocols.
+The progression starts with **10-minute continuous walking** — the absolute baseline for sedentary adults. WHO (2020) and ACSM (Chodzko-Zajko et al., 2009) both recommend replacing sedentary time with light activity as the first step.
+
+This progression has more intermediate steps than Couch to 5K, which jumps from 5-minute to 20-minute continuous running in Week 5 and has a 73% non-completion rate with 19% injury incidence (Murphy et al., 2023). Our intervals (1 min run / 2 min walk) are more gradual than C25K Week 1 (60s run / 90s walk).
 
 ### Equipment Tags
 
@@ -127,12 +150,12 @@ Each progression step declares its equipment requirement so applications can fil
 |-----|-------------|:-----------------:|
 | `none` | No equipment needed | Yes |
 | `chair` | Standard chair or sturdy surface | Yes |
-| `resistance_band` | Resistance band | Yes |
+| `resistance_band` | Resistance band (~$10-25) | Yes |
 | `kettlebell` | Kettlebell or dumbbell | Maybe |
 | `pull_up_bar` | Pull-up bar (doorframe or freestanding) | Maybe |
 | `barbell` | Barbell and plates | No (gym) |
 
-Apps can show: "Steps 1-4 can be done at home. Steps 5-6 require gym equipment."
+Apps can show: "Steps 1-4 can be done at home. Steps 5+ require gym equipment."
 
 ### Shared Progression Steps
 
@@ -156,9 +179,13 @@ Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Be
 
 1. **Achievable quickly** — F1 within 1-2 weeks for most sedentary adults
 2. **Cross-category** — Each milestone tests multiple movement categories (like the weakest-link principle)
-3. **Equipment-minimal** — F1 requires only a chair and somewhere to hang; F2/F3 are mostly bodyweight
+3. **Equipment-minimal** — F1 requires only a chair and household items; F2 adds a resistance band; F3 optionally adds a pull-up bar
 4. **Pass/fail** — Criteria are capability-based, not percentile-based (unlike OP levels)
 5. **Research-grounded** — Criteria reference published clinical and exercise science standards
+
+### Timeline Caveat
+
+Estimated timelines assume a **healthy but sedentary adult** training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer. The ICFSR expert consensus (Dent et al., 2021) recommends 3-5 months of multicomponent training as the minimum for meaningful functional improvement in frail older adults. The NSCA (Fragala et al., 2019) recommends increasing intensity or duration no more than once every 4 weeks for older adults.
 
 ### Milestone Definitions
 
@@ -171,12 +198,14 @@ Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Be
 | Chair Sit-to-Stand | Squatting | 10 reps without hands |
 | Wall Push-up | Pressing | 10 reps |
 | Glute Bridge | Pulling | 10 reps |
-| Dead Hang | Gymnastics | 10 seconds |
+| Farmer's Carry | Gymnastics | 30 seconds with ~5kg per hand |
 | Walk 1km | Monostructural | Completion |
 
-**Estimated time:** 1-2 weeks for most sedentary adults.
+**Estimated time:** 1-2 weeks for healthy sedentary adults. 4-6 weeks for deconditioned individuals.
 
-**Evidence:** The chair stand test criteria are based on the Senior Fitness Test (Rikli & Jones, 2013). The 10-second dead hang aligns with minimum grip endurance thresholds (Bohannon, 2019). The 1km walk threshold reflects WHO (2020) minimum physical activity guidelines.
+**Evidence:** The chair stand test criteria (10 reps) are well below the normal range for all age groups 60-94 in the Senior Fitness Test (Rikli & Jones, 2013; Jones, Rikli & Beam, 1999: n=7,183, test-retest r=0.89). The farmer's carry tests grip endurance — a key functional health biomarker (Bohannon, 2019) — without requiring a pull-up bar. The 1km walk threshold reflects WHO (2020) minimum physical activity guidelines.
+
+**Why farmer's carry instead of dead hang:** A dead hang requires a pull-up bar, which is not available in most homes. The farmer's carry tests the same functional grip capacity using household items (shopping bags, water bottles, etc.) and is accessible to everyone. Dead hangs enter the progression at F2.
 
 #### F2: Moving
 
@@ -192,7 +221,7 @@ Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Be
 
 **Estimated time:** 2-4 weeks from F1.
 
-**Evidence:** The 30-second plank threshold is supported by McGill et al. (2015) normative data. Exercise selections follow NSCA (2016) progression guidelines.
+**Evidence:** The 30-second plank threshold is supported by McGill et al. (2015) and Strand et al. (2014, n=471) normative data. For adults aged 50+, 30 seconds represents adequate baseline core endurance. Exercise selections follow NSCA (2016) and Fragala et al. (2019) progression guidelines for older adults.
 
 #### F3: Ready
 
@@ -203,13 +232,13 @@ Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Be
 | Air Squat (Full Depth) | Squatting | 20 reps |
 | Full Push-up | Pressing | 1 rep |
 | RDL (Bodyweight) | Pulling | 10 reps |
-| Dead Hang | Gymnastics | 30 seconds |
+| Dead Hang OR Farmer's Carry | Gymnastics | 30 seconds hang, OR 60 seconds carry (~8kg/hand) |
 | Run 1 Mile | Monostructural | Completion (any pace) |
 | Plank Hold | Bodyweight | 60 seconds |
 
 **Estimated time:** 4-8 weeks from F2.
 
-**Evidence:** The 60-second plank threshold aligns with "good" core endurance in healthy populations (McGill et al., 2015). The ability to run one continuous mile is a standard baseline aerobic capacity marker (ACSM).
+**Evidence:** The 60-second plank threshold aligns with "good" core endurance in healthy populations (McGill et al., 2015; Strand et al., 2014). The ability to run one continuous mile is a standard baseline aerobic capacity marker (ACSM). The dead hang / farmer's carry alternative ensures this milestone is achievable both at home and in a gym.
 
 ### Milestone Assessment
 
@@ -238,7 +267,10 @@ Many foundation progression steps are identical to standard physiotherapy exerci
 | Chair Sit-to-Stand | Post-knee surgery, elderly fall prevention (SFT) |
 | Glute Bridge | Lower back rehab, post-pregnancy recovery |
 | Wall Push-up | Shoulder rehab, post-surgery upper body |
-| Dead Hang | Shoulder mobility, grip rehab |
+| McGill Curl-up | Lower back pain management, post-injury core rehab |
+| Bird Dog | Spinal stability, lower back rehab |
+| Side Plank | Lateral core stability, scoliosis management |
+| Farmer's Carry | Grip rehab, functional independence assessment |
 | Walk/Run Intervals | Cardiac rehab, return-to-activity protocols |
 | Plank Hold | Core stability, lower back pain management |
 
@@ -257,7 +289,7 @@ This overlap is by design. Functional fitness movements **are** human movement p
 | Metcon scaling | No change (scaling already goes below Beginner) |
 | Level calculation | No change (milestones are a separate concept) |
 | `data/benchmarks/*.json` | No change |
-| `data/sources.json` | 5 new sources added |
+| `data/sources.json` | 9 new sources added |
 | New: `data/progressions.json` | Additive |
 | New: `data/milestones.json` | Additive |
 
@@ -282,10 +314,14 @@ Contains Foundation Milestone definitions (F1, F2, F3) with requirements and cri
 | Source | Used For |
 |--------|----------|
 | Rikli & Jones (2013) | Chair stand test criteria, functional fitness assessment |
+| Jones, Rikli & Beam (1999) | 30-second chair stand test validation (n=7,183, r=0.89) |
 | NSCA Essentials (2016) | Exercise progression/regression principles |
+| Fragala et al. (2019) | NSCA resistance training guidelines for older adults |
+| Chodzko-Zajko et al. (2009) | ACSM position stand on exercise and older adults |
 | WHO (2020) | Physical activity baseline thresholds |
-| McGill et al. (2015) | Plank hold normative data |
-| Bohannon (2019) | Grip strength and hanging as functional markers |
+| McGill et al. (2015) | Core endurance assessment, McGill Big 3 |
+| Strand et al. (2014) | Plank and core endurance normative data (n=471) |
+| Bohannon (2019) | Grip strength as functional health biomarker |
 | ACSM Guidelines | Push-up progressions, aerobic capacity baselines |
 
 Full citations in `data/sources.json`.
