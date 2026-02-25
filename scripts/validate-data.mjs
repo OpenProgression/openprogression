@@ -206,6 +206,25 @@ if (milestones) {
       assert(typeof req.category === "string", `Milestone ${ms.id}: ${req.movement} missing category`)
       assert(CATEGORIES.includes(req.category), `Milestone ${ms.id}: ${req.movement} has unknown category "${req.category}"`)
       assert(typeof req.criteria === "object", `Milestone ${ms.id}: ${req.movement} missing criteria`)
+
+      // Validate "either" criteria type
+      if (req.criteria && req.criteria.type === "either") {
+        assert(
+          Array.isArray(req.criteria.options),
+          `Milestone ${ms.id}: ${req.movement} "either" criteria missing options array`
+        )
+        if (Array.isArray(req.criteria.options)) {
+          assert(
+            req.criteria.options.length >= 2,
+            `Milestone ${ms.id}: ${req.movement} "either" criteria should have at least 2 options`
+          )
+          for (const opt of req.criteria.options) {
+            assert(typeof opt.movement === "string", `Milestone ${ms.id}: ${req.movement} "either" option missing movement`)
+            assert(typeof opt.type === "string", `Milestone ${ms.id}: ${req.movement} "either" option missing type`)
+            assert(opt.target !== undefined, `Milestone ${ms.id}: ${req.movement} "either" option missing target`)
+          }
+        }
+      }
     }
 
     // Validate sources reference known source IDs
