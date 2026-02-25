@@ -20,30 +20,30 @@
 
 ## What is OpenProgression?
 
-OpenProgression (OP) is a **free, open standard** for classifying athletic ability across functional fitness. It provides a common language for coaches, athletes, and software to describe fitness levels — from first-day beginner to elite competitor.
+OpenProgression (OP) is a **free, open standard** for classifying athletic ability across functional fitness. It provides a common language for coaches, athletes, and software to describe fitness levels -- from first-day beginner to elite competitor.
 
 <table>
 <tr>
 <td>
 
-**Open** — Free to use, implement, and contribute to
+**Open** -- Free to use, implement, and contribute to
 
 </td>
 <td>
 
-**Research-backed** — Every benchmark traces to peer-reviewed studies or public-domain data
+**Research-backed** -- Every benchmark traces to peer-reviewed studies or public-domain data
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Gym-agnostic** — Works for any functional fitness facility, not tied to any brand
+**Gym-agnostic** -- Works for any functional fitness facility, not tied to any brand
 
 </td>
 <td>
 
-**Community-driven** — Standards improve through open contribution
+**Community-driven** -- Standards improve through open contribution
 
 </td>
 </tr>
@@ -66,6 +66,18 @@ OpenProgression (OP) is a **free, open standard** for classifying athletic abili
 | 7 | **Rx** | 95-100th | Elite performance, top 5% of trained athletes |
 
 > Levels are determined by the **weakest-link principle**: your overall level equals your lowest category level. This encourages well-rounded fitness rather than specialization.
+
+### Foundation Milestones
+
+For athletes below the Beginner benchmarks, **Foundation Milestones** provide early progress markers:
+
+| Milestone | Name | Description |
+|:---------:|------|-------------|
+| F1 | **Foundation** | Chair sit-to-stand, wall push-up, farmer's carry, walking -- no gym needed |
+| F2 | **Moving** | Air squats, incline push-ups, band rows, plank holds |
+| F3 | **Ready** | Full push-up, dead hang or farmer's carry, running a mile |
+
+Foundation Milestones are not levels -- they are optional pre-level markers for applications that serve untrained or deconditioned populations. F1 requires only a chair and household items. Full spec: [`spec/progressions.md`](spec/progressions.md)
 
 ## [The 8 Categories](https://openprogression.org/categories)
 
@@ -97,9 +109,9 @@ An 80kg male who can:
 | Push-ups | 40 reps | Intermediate+ |
 | Fran | 4:30 | Intermediate+ |
 
-**Overall level: Intermediate+** — all categories at INT+ or above.
+**Overall level: Intermediate+** -- all categories at INT+ or above.
 
-But if their pull-ups were only 4 (Intermediate), their overall level drops to **Intermediate** — the weakest link determines the chain.
+But if their pull-ups were only 4 (Intermediate), their overall level drops to **Intermediate** -- the weakest link determines the chain.
 
 ## Repository Structure
 
@@ -108,11 +120,14 @@ openprogression/
 ├── spec/               # The standard (human-readable)
 │   ├── levels.md
 │   ├── categories.md
-│   └── methodology.md
+│   ├── methodology.md
+│   └── progressions.md
 ├── data/               # Machine-readable benchmark data
 │   ├── levels.json
 │   ├── categories.json
 │   ├── sources.json
+│   ├── progressions.json
+│   ├── milestones.json
 │   └── benchmarks/
 │       ├── squatting.json
 │       ├── pulling.json
@@ -187,24 +202,25 @@ Build OP into your gym management software, workout tracking app, or coaching pl
 - Clear schema with TypeScript-friendly structure
 - Gender-differentiated standards across [25 benchmarks](https://openprogression.org/benchmarks)
 - Source citations for every benchmark
-- [MIT licensed](https://openprogression.org/license) — use it however you want
+- [MIT licensed](https://openprogression.org/license) -- use it however you want
 
 ## Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
-- **Review benchmarks** — Are the numbers accurate for your experience?
-- **Add movements** — Help expand the movement library
-- **Improve methodology** — Suggest better research sources
-- **Build integrations** — Create packages for your language/framework
+- **Review benchmarks** -- Are the numbers accurate for your experience?
+- **Add movements** -- Help expand the movement library
+- **Improve methodology** -- Suggest better research sources
+- **Build integrations** -- Create packages for your language/framework
 
 ## Roadmap
 
-- [x] **[Level Calculator](https://openprogression.org/calculator)** — Instant level assessment across all 8 categories
-- [x] **[Scaled Programming](https://openprogression.org/programming)** — WOD library and daily sessions with 7-level scaling
-- [ ] **Age-adjusted benchmarks** — Current standards target ~18-40 year-olds. Future versions may include age brackets.
-- [ ] **Expanded bodyweight scaling** — Enhanced BW-relative benchmarks beyond the current reference weights.
-- [ ] **Additional movements** — Expanding the movement library within existing categories.
+- [x] **[Level Calculator](https://openprogression.org/calculator)** -- Instant level assessment across all 8 categories
+- [x] **[Scaled Programming](https://openprogression.org/programming)** -- WOD library and daily sessions with 7-level scaling
+- [x] **[Movement Progressions & Foundation Milestones](spec/progressions.md)** -- Regression chains and pre-Beginner progress markers for untrained populations
+- [ ] **Age-adjusted benchmarks** -- Current standards target ~18-40 year-olds. Future versions may include age brackets.
+- [ ] **Expanded bodyweight scaling** -- Enhanced BW-relative benchmarks beyond the current reference weights.
+- [ ] **Additional movements** -- Expanding the movement library within existing categories.
 
 ## License
 
@@ -214,7 +230,7 @@ MIT License. See [LICENSE](LICENSE).
 
 "OpenProgression", the OpenProgression logo, and the 7-level progression gradient mark are trademarks of the OpenProgression project. The trademarks are **not** licensed under the MIT license.
 
-- **The standard, data, and code are fully open** — use them freely in any project, commercial or not
+- **The standard, data, and code are fully open** -- use them freely in any project, commercial or not
 - **The name and logo require permission** for use on merchandise, commercial products, or anything that implies official endorsement
 
 This is the same approach used by most major open source projects: the *work* is open, the *brand* is protected.
