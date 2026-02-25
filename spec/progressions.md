@@ -4,7 +4,7 @@
 
 ## Overview
 
-OpenProgression v1.0 defines benchmarks for the **trained population** — athletes who can already perform fundamental barbell movements and bodyweight exercises. Movement Progressions and Foundation Milestones extend the standard downward to serve the **untrained and deconditioned population**: people who have never trained, are returning from injury, or are rebuilding after a long break.
+OpenProgression v1.0 defines benchmarks for the **trained population** -- athletes who can already perform fundamental barbell movements and bodyweight exercises. Movement Progressions and Foundation Milestones extend the standard downward to serve the **untrained and deconditioned population**: people who have never trained, are returning from injury, or are rebuilding after a long break.
 
 This extension is **purely additive**. The 7-level system, benchmark values, percentile mapping, and weakest-link principle are all unchanged.
 
@@ -15,7 +15,7 @@ Level 1 (Beginner, 0-20th percentile) covers a massive range of ability:
 - A sedentary adult who has never exercised: 0 push-ups, cannot squat to depth, no barbell experience
 - An athlete at the top of Beginner: 10 push-ups, 40kg back squat, 60kg deadlift
 
-These two people are months apart in ability, but the standard gives them the same label. For someone starting from zero, the first level-up (Beginner to Beginner+) may take 6-12 months — a long time without measurable progress.
+These two people are months apart in ability, but the standard gives them the same label. For someone starting from zero, the first level-up (Beginner to Beginner+) may take 6-12 months -- a long time without measurable progress.
 
 ## Movement Progressions
 
@@ -23,14 +23,14 @@ These two people are months apart in ability, but the standard gives them the sa
 
 Every OP benchmark movement has an implicit chain of prerequisite movements (regressions). A back squat requires the ability to air squat, which requires the ability to sit-to-stand from a chair. Currently OP only tracks the benchmark movement itself. Progressions formalize the regression chain.
 
-These are not new exercises — they are the same progressions used in coaching, physiotherapy, and clinical rehabilitation, now formalized into the OP data model.
+These are not new exercises -- they are the same progressions used in coaching, physiotherapy, and clinical rehabilitation, now formalized into the OP data model.
 
 ### Design Principles
 
-1. **Home-first** — Early steps in every chain require no gym equipment. A chair, a wall, a floor, and a resistance band cover F1 and F2 entirely.
-2. **No pull-up bar required until F2+** — Dead hangs are valuable but require equipment not available in every home. Farmer's carry and band exercises provide grip and pulling work without a bar.
-3. **Research-grounded** — Every step cites published exercise science or clinical literature.
-4. **Gradual steps** — Smaller jumps than programs like Couch to 5K (which has 73% dropout, partly due to large progression jumps; Murphy et al., 2023).
+1. **Home-first** -- Early steps in every chain require no gym equipment. A chair, a wall, a floor, and a resistance band cover F1 and F2 entirely.
+2. **No pull-up bar required until F2+** -- Dead hangs are valuable but require equipment not available in every home. Farmer's carry and band exercises provide grip and pulling work without a bar.
+3. **Research-grounded** -- Every step cites published exercise science or clinical literature.
+4. **Gradual steps** -- Smaller jumps than programs like Couch to 5K, which has high dropout rates partly due to large progression jumps.
 
 ### Compatibility with Existing Scaling
 
@@ -51,13 +51,34 @@ data/progressions.json → progressions[].steps[]
 ```
 
 Each step includes:
-- **movement** — Unique identifier (snake_case)
-- **name** — Human-readable name
-- **description** — What the movement is and how to perform it
-- **equipment** — What's needed (see Equipment Tags below)
-- **criteria** — Pass condition (reps, time, or completion)
-- **milestone** — Which Foundation Milestone this step contributes to (if any)
-- **sources** — Research citations supporting the movement and criteria
+- **movement** -- Unique identifier (snake_case)
+- **name** -- Human-readable name
+- **description** -- What the movement is and how to perform it
+- **equipment** -- What's needed (see Equipment Tags below)
+- **criteria** -- Pass condition (reps, time, completion, or either)
+- **milestone** -- Which Foundation Milestone this step contributes to (if any)
+- **sources** -- Research citations supporting the movement and criteria
+
+### Criteria Types
+
+| Type | Fields | Example |
+|------|--------|---------|
+| `reps` | `target`, optional `load`/`unit` | `{ "type": "reps", "target": 10 }` |
+| `time` | `target`, `unit` | `{ "type": "time", "target": 30, "unit": "seconds" }` |
+| `completion` | optional `details` | `{ "type": "completion" }` |
+| `either` | `options[]` | Pass if **any one** option is met |
+
+The `either` type allows alternative pass criteria -- useful when a milestone can be achieved via different movements (e.g., dead hang OR farmer's carry). Each option in the `options` array has `movement`, `type`, and `target`:
+
+```json
+{
+  "type": "either",
+  "options": [
+    { "movement": "dead_hang_30s", "type": "time", "target": 30, "unit": "seconds" },
+    { "movement": "farmers_carry_60s", "type": "time", "target": 60, "unit": "seconds" }
+  ]
+}
+```
 
 ### Progression Chains
 
@@ -71,7 +92,7 @@ Chair Sit-to-Stand (High)  →  Chair Sit-to-Stand (Standard)  →  Box Squat (t
          [F2]                     [F3]                                    → OP Beginner
 ```
 
-The chair sit-to-stand is the clinical standard for lower body functional fitness assessment (Rikli & Jones, 2013; validated by Jones, Rikli & Beam, 1999 with test-retest reliability r=0.89 across 7,183 participants aged 60-94). The box squat provides a safety net and depth target as a bridge between assisted and free squatting — a standard PT progression step (NSCA, 2016; Fragala et al., 2019).
+The chair sit-to-stand is the clinical standard for lower body functional fitness assessment (Rikli & Jones, 2013; validated by Jones, Rikli & Beam, 1999 with test-retest reliability r=0.89 across 7,183 participants aged 60-94). The box squat provides a safety net and depth target as a bridge between assisted and free squatting -- a standard PT progression step (NSCA, 2016; Fragala et al., 2019).
 
 #### Pulling → Deadlift
 
@@ -104,7 +125,7 @@ Farmer's Carry (30s)  →  Band Pull-apart  →  Seated Band Row  →  Dead Hang
                                                               → OP Beginner+ (1 strict pull-up)
 ```
 
-This chain starts with **no pull-up bar required**. Farmer's carry develops grip strength using household items (bags, water bottles). Band pull-aparts and seated band rows build scapular retraction and upper back strength with a resistance band — a standard home-based horizontal pulling exercise for older adults (Fragala et al., 2019). Dead hangs enter at F2 once grip and shoulder capacity are established.
+This chain starts with **no pull-up bar required**. Farmer's carry develops grip strength using household items (bags, water bottles). Band pull-aparts and seated band rows build scapular retraction and upper back strength with a resistance band -- a standard home-based horizontal pulling exercise for older adults (Fragala et al., 2019). Dead hangs enter at F2 once grip and shoulder capacity are established.
 
 Note: Pull-ups are 0 at the Beginner level, so this chain leads to Beginner+. Grip strength is an established biomarker for functional health and all-cause mortality in older adults (Bohannon, 2019).
 
@@ -119,11 +140,11 @@ McGill Curl-up  →  Bird Dog  →  Side Plank (knees)  →  Plank (30s)  →  S
                                                           → OP Beginner+ (1 T2B)
 ```
 
-The core progression is built on the **McGill Big 3** — three anti-movement exercises that are the clinical standard for spine health and core development (McGill, 2015):
+The core progression is built on the **McGill Big 3** -- three anti-movement exercises that are the clinical standard for spine health and core development (McGill, 2015):
 
-1. **Curl-up** — anti-extension (protects the lower back)
-2. **Bird dog** — anti-rotation (trains spinal stability)
-3. **Side plank** — anti-lateral-flexion (builds lateral core endurance)
+1. **Curl-up** -- anti-extension (protects the lower back)
+2. **Bird dog** -- anti-rotation (trains spinal stability)
+3. **Side plank** -- anti-lateral-flexion (builds lateral core endurance)
 
 McGill's research explicitly argues against traditional sit-ups and crunches, which load the spine through repeated flexion. The Big 3 trains the core's primary function: **resisting unwanted movement** to protect the spine.
 
@@ -138,9 +159,9 @@ Walk 10 min  →  Walk 1km  →  Walk/Run Intervals  →  Run 400m  →  Run 800
 → OP Beginner (timed mile)
 ```
 
-The progression starts with **10-minute continuous walking** — the absolute baseline for sedentary adults. WHO (2020) and ACSM (Chodzko-Zajko et al., 2009) both recommend replacing sedentary time with light activity as the first step.
+The progression starts with **10-minute continuous walking** -- the absolute baseline for sedentary adults. WHO (2020) and ACSM (Chodzko-Zajko et al., 2009) both recommend replacing sedentary time with light activity as the first step.
 
-This progression has more intermediate steps than Couch to 5K, which jumps from 5-minute to 20-minute continuous running in Week 5 and has a 73% non-completion rate with 19% injury incidence (Murphy et al., 2023). Our intervals (1 min run / 2 min walk) are more gradual than C25K Week 1 (60s run / 90s walk).
+This progression has more intermediate steps than Couch to 5K, which has high dropout rates partly due to large progression jumps (e.g., 5-minute to 20-minute continuous running in Week 5). Our intervals (1 min run / 2 min walk) are more gradual than C25K Week 1 (60s run / 90s walk).
 
 ### Equipment Tags
 
@@ -151,7 +172,7 @@ Each progression step declares its equipment requirement so applications can fil
 | `none` | No equipment needed | Yes |
 | `chair` | Standard chair or sturdy surface | Yes |
 | `resistance_band` | Resistance band (~$10-25) | Yes |
-| `kettlebell` | Kettlebell or dumbbell | Maybe |
+| `free_weight` | Kettlebell or dumbbell | Maybe |
 | `pull_up_bar` | Pull-up bar (doorframe or freestanding) | Maybe |
 | `barbell` | Barbell and plates | No (gym) |
 
@@ -167,7 +188,7 @@ Some benchmark movements share early progression steps. For example, `strict_pre
 
 ### Concept
 
-Foundation Milestones are named micro-achievements within the Beginner level that provide visible progress before the first level-up. They are **not levels** — they are pre-level markers that applications can optionally display.
+Foundation Milestones are named micro-achievements within the Beginner level that provide visible progress before the first level-up. They are **not levels** -- they are pre-level markers that applications can optionally display.
 
 ```
 Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Beginner+ → ...
@@ -177,11 +198,11 @@ Untrained → F1 (Foundation) → F2 (Moving) → F3 (Ready) → Beginner → Be
 
 ### Design Principles
 
-1. **Achievable quickly** — F1 within 1-2 weeks for most sedentary adults
-2. **Cross-category** — Each milestone tests multiple movement categories (like the weakest-link principle)
-3. **Equipment-minimal** — F1 requires only a chair and household items; F2 adds a resistance band; F3 optionally adds a pull-up bar
-4. **Pass/fail** — Criteria are capability-based, not percentile-based (unlike OP levels)
-5. **Research-grounded** — Criteria reference published clinical and exercise science standards
+1. **Achievable quickly** -- F1 within 1-2 weeks for most sedentary adults
+2. **Cross-category** -- Each milestone tests multiple movement categories (like the weakest-link principle)
+3. **Equipment-minimal** -- F1 requires only a chair and household items; F2 adds a resistance band; F3 optionally adds a pull-up bar
+4. **Pass/fail** -- Criteria are capability-based, not percentile-based (unlike OP levels)
+5. **Research-grounded** -- Criteria reference published clinical and exercise science standards
 
 ### Timeline Caveat
 
@@ -203,7 +224,7 @@ Estimated timelines assume a **healthy but sedentary adult** training 3x/week. F
 
 **Estimated time:** 1-2 weeks for healthy sedentary adults. 4-6 weeks for deconditioned individuals.
 
-**Evidence:** The chair stand test criteria (10 reps) are well below the normal range for all age groups 60-94 in the Senior Fitness Test (Rikli & Jones, 2013; Jones, Rikli & Beam, 1999: n=7,183, test-retest r=0.89). The farmer's carry tests grip endurance — a key functional health biomarker (Bohannon, 2019) — without requiring a pull-up bar. The 1km walk threshold reflects WHO (2020) minimum physical activity guidelines.
+**Evidence:** The chair stand test criteria (10 reps) are well below the normal range for all age groups 60-94 in the Senior Fitness Test (Rikli & Jones, 2013; Jones, Rikli & Beam, 1999: n=7,183, test-retest r=0.89). The farmer's carry tests grip endurance -- a key functional health biomarker (Bohannon, 2019) -- without requiring a pull-up bar. The 1km walk threshold reflects WHO (2020) minimum physical activity guidelines.
 
 **Why farmer's carry instead of dead hang:** A dead hang requires a pull-up bar, which is not available in most homes. The farmer's carry tests the same functional grip capacity using household items (shopping bags, water bottles, etc.) and is accessible to everyone. Dead hangs enter the progression at F2.
 
@@ -256,6 +277,15 @@ Milestones follow the same weakest-link principle as OP levels: **all requiremen
 
 This is consistent with the OP philosophy of encouraging well-rounded fitness.
 
+### Categories Not Covered by Foundation Milestones
+
+Foundation Milestones intentionally exclude two OP categories:
+
+- **Olympic Lifting** -- The clean, snatch, and clean & jerk are technically demanding movements that require coached instruction and cannot be safely self-taught through a progression chain. Foundation-level athletes should focus on the squat, hinge, and press patterns that underpin Olympic lifts.
+- **Endurance (Benchmark WODs)** -- Fran, Grace, Murph, and Cindy combine barbell, gymnastics, and monostructural movements at intensity. They require proficiency in their component movements before being trained as workouts. The running/monostructural chain already covers aerobic base building.
+
+Both categories are fully covered by the existing OP level benchmarks once an athlete reaches the Beginner level.
+
 ---
 
 ## Rehab and Physiotherapy Overlap
@@ -288,12 +318,13 @@ This overlap is by design. Functional fitness movements **are** human movement p
 | Weakest-link principle | No change (milestones also use it) |
 | Metcon scaling | No change (scaling already goes below Beginner) |
 | Level calculation | No change (milestones are a separate concept) |
+| `data/levels.json` | **No change** -- level definitions, IDs, and colors are untouched |
 | `data/benchmarks/*.json` | No change |
 | `data/sources.json` | 9 new sources added |
 | New: `data/progressions.json` | Additive |
 | New: `data/milestones.json` | Additive |
 
-Implementations that do not support progressions or milestones continue to work exactly as before. All new data is in separate files.
+**Foundation Milestones are not levels.** They do not alter `data/levels.json` in any way. Applications that ignore `data/milestones.json` and `data/progressions.json` continue to function exactly as before -- the 7-level system is completely unchanged. Milestones are an optional layer that apps can adopt independently.
 
 ---
 

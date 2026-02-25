@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels — they are pre-level markers that apps can use to show early progress. Estimated timelines assume a healthy but sedentary adult training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer (ICFSR consensus: 3-5 months for meaningful functional improvement).",
+  "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels -- they are pre-level markers that apps can use to show early progress. Estimated timelines assume a healthy but sedentary adult training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer (ICFSR consensus: 3-5 months for meaningful functional improvement).",
   "milestones": [
     {
       "id": "F1",
@@ -34,7 +34,7 @@
         {
           "movement": "farmers_carry_30s",
           "name": "Farmer's Carry",
-          "category": "gymnastics",
+          "category": "monostructural",
           "criteria": { "type": "time", "target": 30, "unit": "seconds" },
           "description": "Carry two heavy bags or water bottles (approx. 5kg each) while walking for 30 seconds"
         },
@@ -126,7 +126,7 @@
         {
           "movement": "dead_hang_or_carry",
           "name": "Dead Hang OR Farmer's Carry",
-          "category": "gymnastics",
+          "category": "monostructural",
           "criteria": { "type": "either", "options": [
             { "movement": "dead_hang_30s", "type": "time", "target": 30, "unit": "seconds" },
             { "movement": "farmers_carry_60s", "type": "time", "target": 60, "unit": "seconds" }
