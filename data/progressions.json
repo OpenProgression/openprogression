@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Movement progression chains leading to OP benchmark movements. Each chain defines a sequence of prerequisite movements (regressions) from foundational patterns through to the benchmark entry point.",
   "progressions": [
     {

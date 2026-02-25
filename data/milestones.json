@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels -- they are pre-level markers that apps can use to show early progress. Estimated timelines assume a healthy but sedentary adult training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer (ICFSR consensus: 3-5 months for meaningful functional improvement).",
   "milestones": [
     {
