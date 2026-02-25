@@ -34,7 +34,7 @@
         {
           "movement": "farmers_carry_30s",
           "name": "Farmer's Carry",
-          "category": "monostructural",
+          "category": "gymnastics",
           "criteria": { "type": "time", "target": 30, "unit": "seconds" },
           "description": "Carry two heavy bags or water bottles (approx. 5kg each) while walking for 30 seconds"
         },
@@ -126,7 +126,7 @@
         {
           "movement": "dead_hang_or_carry",
           "name": "Dead Hang OR Farmer's Carry",
-          "category": "monostructural",
+          "category": "gymnastics",
           "criteria": { "type": "either", "options": [
             { "movement": "dead_hang_30s", "type": "time", "target": 30, "unit": "seconds" },
             { "movement": "farmers_carry_60s", "type": "time", "target": 60, "unit": "seconds" }
