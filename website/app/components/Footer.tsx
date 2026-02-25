@@ -101,11 +101,11 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">
-                <span className="text-foreground">CrossFit Maskineriet</span>
+                <a href="https://crossfitmaskineriet.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">CrossFit Maskineriet</a>
                 <span className="ml-1 text-xs opacity-60">Beta Tester</span>
               </li>
               <li className="text-sm text-muted-foreground">
-                <span className="text-foreground">SnowOak Ventures</span>
+                <a href="https://snowoak.io" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">SnowOak Ventures</a>
                 <span className="ml-1 text-xs opacity-60">Financial Supporter</span>
               </li>
             </ul>
