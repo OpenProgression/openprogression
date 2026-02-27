@@ -70,7 +70,7 @@ Examples: Rain, Smoke, Honey, Lemon, Pretzel, Thunder, Copper, Frost, Ember, Sal
 ```
 OP-047 "Thick Smoke"
 3 Rounds For Time:
-  15 Thrusters (43/30kg)
+  15 Thrusters (50/35kg)
   12 Pull-ups
   9 Box Jumps (60/50cm)
 ```
@@ -79,7 +79,7 @@ OP-047 "Thick Smoke"
 OP-112 "Quick Honey"
 For Time:
   21-15-9
-  Kettlebell Swings (24/16kg)
+  Kettlebell Swings (32/24kg)
   Burpees
 ```
 
@@ -89,7 +89,7 @@ OP-203 "Long Oatmeal"
   400m Run
   15 Wall Balls (9/6kg)
   10 Toes-to-Bar
-  5 Power Cleans (61/43kg)
+  5 Power Cleans (60/45kg)
 ```
 
 ## Metcon Types
@@ -118,9 +118,11 @@ Metcons provide scaling for all 7 OP levels. The level keys match the canonical 
 | `beginner_plus` | Beginner+ | Light loads, fundamental movement patterns |
 | `beginner` | Beginner | Entry-level loads, full movement substitutions |
 
-**Rx is always the default** — the top-level values on each movement represent Rx. The `scaling` object provides overrides for the 6 levels below Rx, using the same DRY principle: each level only specifies what changes from Rx. If a field is not overridden, the Rx value carries forward.
+**Rx is always the default** -- the top-level values on each movement represent Rx. The `scaling` object provides values for all 6 levels below Rx.
 
-Not every level needs an explicit override. If `intermediate` and `intermediate_plus` use the same load, only one needs to be specified — the other inherits from the nearest level above it. In practice, movements that only need load scaling will have light overrides, while movements with full substitution chains (e.g., ring muscle-up → bar muscle-up → chest-to-bar → pull-up → jumping pull-up → ring row) will be more verbose. That verbosity represents real coaching decisions.
+**Every movement with a `scaling` object must include explicit entries for all 6 non-Rx levels** (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `beginner_plus`, `beginner`), even when the values are identical to Rx. This ensures every level is fully self-describing and prevents rendering issues where missing data could produce blank cells or dashes. The trade-off is slightly more verbose data, but the gain is that each level can be read in isolation without resolving an inheritance chain.
+
+Movements that are identical across all levels (e.g., Run 200m, Row 1000m) may omit the `scaling` object entirely. The rule is: if `scaling` exists, all 6 levels must be present.
 
 ## Level Targeting
 
@@ -132,6 +134,83 @@ Metcons are not named by level, but each metcon should specify:
 - **Coach notes** — practical tips for execution and pacing
 
 The OP level system determines how athletes scale, not which metcons they do. All athletes do the same metcon, scaled to their level.
+
+## Scaling Integrity Rules
+
+These rules ensure that scaling across levels is consistent, logical, and never produces broken or confusing output.
+
+### 1. No placeholder values
+
+Never use `"-"`, `"N/A"`, `"none"`, empty strings, or similar as movement names or substitutions. Every level must resolve to a real, performable movement.
+
+### 2. Monotonic movement difficulty (Rx down to Beginner)
+
+The movement at each level must be **equal to or harder than** the level below it. Difficulty never increases as you go down levels. For example:
+
+- Rx: Bar Muscle-up
+- Advanced+: Chest-to-Bar Pull-up
+- Advanced: Chest-to-Bar Pull-up
+- Intermediate+: Pull-up
+- Intermediate: Pull-up
+- Beginner+: Jumping Pull-up
+- Beginner: Ring Row
+
+A movement may stay the same across adjacent levels (the difficulty change comes from load/reps instead), but it must never get harder at a lower level.
+
+### 3. Monotonic load (same movement, Rx down to Beginner)
+
+When the same movement appears at multiple levels, load must **decrease or stay the same** as you go down. For example, if Advanced and Advanced+ both use Chest-to-Bar Pull-up with load, Advanced's load must be less than or equal to Advanced+'s load.
+
+### 4. Monotonic reps (same movement, Rx down to Beginner)
+
+When the **same movement** appears at multiple adjacent levels, reps must **decrease or stay the same** as you go down. A higher-level athlete should do equal or more reps of the same movement.
+
+### 5. Rep adjustment across movement substitutions
+
+When a movement substitution occurs (e.g., Toes-to-Bar becomes Sit-up), reps may **increase** at the lower level to preserve the intended stimulus. This is the one case where a lower level does "more" -- but it's more reps of an easier movement, not more of the same movement.
+
+### 6. Common metcon scaling chains
+
+When substituting movements, follow these established difficulty orderings. Movements are listed hardest to easiest.
+
+**Pulling (gymnastics)**
+Bar Muscle-up > Chest-to-Bar Pull-up > Pull-up > Jumping Pull-up > Ring Row
+
+**Core (hanging)**
+Toes-to-Bar > Hanging Knee Raise > Sit-up
+
+**Squatting (unilateral)**
+Pistol Squat > Pistol Squat to Box > Air Squat
+
+**Jumping rope**
+Double-Under > Single-Under
+
+**Box work**
+Box Jump > Box Step-up (with decreasing heights)
+
+**Burpee variations**
+Bar-facing Burpee > Burpee to Target > Burpee > Bodybuilder
+
+**Lunging**
+Jumping Lunge > Walking Lunge
+
+**Kettlebell swing**
+Kettlebell Swing (Russian, to eye level) with decreasing loads. Standard KB sizes: 6, 8, 12, 16, 20, 24, 28, 32 kg.
+
+**Push-up variations**
+Push-up > Knee Push-up > Box Push-up
+
+**Pressing (vertical)**
+Handstand Push-up > Pike Push-up (feet on box) > Push-up
+
+**Olympic lifting (catch depth)**
+Squat Clean > Power Clean
+
+**Olympic lifting (skill)**
+Power Snatch > Power Clean (when snatch skill is the barrier)
+Clean & Jerk > Power Clean & Push Press (when full lift skill is the barrier)
+
+These chains are not exhaustive. When introducing new movements, establish the difficulty ordering and document it.
 
 ## Rep Schemes
 
@@ -153,22 +232,26 @@ Many workouts use descending, ascending, or custom rep patterns (21-15-9, 1-2-3-
   "movements": [
     {
       "movement": "Kettlebell Swing",
-      "load": { "male": 24, "female": 16 },
+      "load": { "male": 32, "female": 24 },
       "unit": "kg",
       "scaling": {
-        "advanced_plus": { "load": { "male": 24, "female": 16 } },
-        "advanced":      { "load": { "male": 20, "female": 12 } },
-        "intermediate_plus": { "load": { "male": 16, "female": 12 } },
-        "intermediate":  { "load": { "male": 16, "female": 8 } },
-        "beginner_plus": { "sub": "Russian Kettlebell Swing", "load": { "male": 12, "female": 8 } },
-        "beginner":      { "sub": "Russian Kettlebell Swing", "load": { "male": 8, "female": 6 } }
+        "advanced_plus": { "load": { "male": 28, "female": 20 } },
+        "advanced":      { "load": { "male": 24, "female": 16 } },
+        "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+        "intermediate":  { "load": { "male": 16, "female": 12 } },
+        "beginner_plus": { "load": { "male": 12, "female": 8 } },
+        "beginner":      { "load": { "male": 8, "female": 6 } }
       }
     },
     {
       "movement": "Burpee",
       "scaling": {
-        "beginner_plus": { "sub": "Burpee to Target" },
-        "beginner":      { "sub": "Up-Down" }
+        "advanced_plus":     {},
+        "advanced":          {},
+        "intermediate_plus": {},
+        "intermediate":      {},
+        "beginner_plus":     { "sub": "Bodybuilder" },
+        "beginner":          { "sub": "Bodybuilder" }
       }
     }
   ]
@@ -214,15 +297,15 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
     {
       "movement": "Thruster",
       "reps": 15,
-      "load": { "male": 43, "female": 30 },
+      "load": { "male": 50, "female": 35 },
       "unit": "kg",
       "scaling": {
-        "advanced_plus": { "load": { "male": 40, "female": 27 } },
-        "advanced":      { "load": { "male": 34, "female": 25 } },
-        "intermediate_plus": { "load": { "male": 30, "female": 20 } },
-        "intermediate":  { "load": { "male": 25, "female": 18 } },
-        "beginner_plus": { "load": { "male": 20, "female": 15 } },
-        "beginner":      { "load": { "male": 15, "female": 10 } }
+        "advanced_plus": { "load": { "male": 45, "female": 30 } },
+        "advanced":      { "load": { "male": 40, "female": 25 } },
+        "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+        "intermediate":  { "load": { "male": 30, "female": 20 } },
+        "beginner_plus": { "load": { "male": 25, "female": 15 } },
+        "beginner":      { "load": { "male": 20, "female": 15 } }
       }
     },
     {
@@ -230,10 +313,10 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "reps": 12,
       "scaling": {
         "advanced_plus": {},
-        "advanced":      { "sub": "Kipping Pull-up" },
-        "intermediate_plus": { "sub": "Jumping Pull-up" },
+        "advanced":      {},
+        "intermediate_plus": { "reps": 10 },
         "intermediate":  { "sub": "Jumping Pull-up", "reps": 10 },
-        "beginner_plus": { "sub": "Ring Row" },
+        "beginner_plus": { "sub": "Ring Row", "reps": 10 },
         "beginner":      { "sub": "Ring Row", "reps": 8 }
       }
     },
@@ -255,7 +338,7 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
 }
 ```
 
-Note: `advanced_plus` Pull-up has an empty override `{}` — this explicitly confirms the Rx movement carries forward unchanged. Empty overrides are optional but can improve readability for movements with complex substitution chains.
+Note: `advanced_plus` Pull-up has an empty override `{}`. This explicitly confirms the Rx movement and reps carry forward unchanged at that level. All 6 non-Rx levels must be present when a `scaling` object exists.
 
 ### AMRAP
 
@@ -302,14 +385,14 @@ Note: `advanced_plus` Pull-up has an empty override `{}` — this explicitly con
     {
       "movement": "Power Clean",
       "reps": 5,
-      "load": { "male": 61, "female": 43 },
+      "load": { "male": 60, "female": 45 },
       "unit": "kg",
       "scaling": {
-        "advanced_plus": { "load": { "male": 52, "female": 38 } },
-        "advanced":      { "load": { "male": 43, "female": 30 } },
-        "intermediate_plus": { "load": { "male": 38, "female": 27 } },
-        "intermediate":  { "load": { "male": 30, "female": 20 } },
-        "beginner_plus": { "load": { "male": 25, "female": 15 } },
+        "advanced_plus": { "load": { "male": 55, "female": 40 } },
+        "advanced":      { "load": { "male": 50, "female": 35 } },
+        "intermediate_plus": { "load": { "male": 40, "female": 30 } },
+        "intermediate":  { "load": { "male": 35, "female": 25 } },
+        "beginner_plus": { "load": { "male": 25, "female": 20 } },
         "beginner":      { "load": { "male": 20, "female": 15 } }
       }
     }
@@ -341,15 +424,15 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
         {
           "movement": "Power Snatch",
           "reps": 3,
-          "load": { "male": 52, "female": 35 },
+          "load": { "male": 55, "female": 40 },
           "unit": "kg",
           "scaling": {
-            "advanced_plus": { "load": { "male": 48, "female": 32 } },
-            "advanced":      { "load": { "male": 43, "female": 30 } },
+            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
+            "advanced":          { "load": { "male": 45, "female": 30 } },
             "intermediate_plus": { "load": { "male": 35, "female": 25 } },
-            "intermediate":  { "load": { "male": 30, "female": 20 } },
-            "beginner_plus": { "load": { "male": 25, "female": 15 } },
-            "beginner":      { "sub": "Power Clean", "load": { "male": 25, "female": 15 } }
+            "intermediate":      { "load": { "male": 30, "female": 20 } },
+            "beginner_plus":     { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
+            "beginner":          { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
           }
         }
       ]
@@ -360,12 +443,12 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
           "movement": "Bar Muscle-up",
           "reps": 4,
           "scaling": {
-            "advanced_plus": { "sub": "Chest-to-Bar Pull-up", "reps": 5 },
-            "advanced":      { "sub": "Chest-to-Bar Pull-up", "reps": 6 },
-            "intermediate_plus": { "sub": "Pull-up", "reps": 6 },
-            "intermediate":  { "sub": "Pull-up", "reps": 8 },
-            "beginner_plus": { "sub": "Jumping Pull-up", "reps": 8 },
-            "beginner":      { "sub": "Ring Row", "reps": 10 }
+            "advanced_plus":     { "sub": "Chest-to-Bar Pull-up", "reps": 6 },
+            "advanced":          { "sub": "Chest-to-Bar Pull-up", "reps": 5 },
+            "intermediate_plus": { "sub": "Pull-up", "reps": 7 },
+            "intermediate":      { "sub": "Pull-up", "reps": 6 },
+            "beginner_plus":     { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner":          { "sub": "Ring Row", "reps": 10 }
           }
         }
       ]
@@ -417,7 +500,7 @@ Each level (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `b
 | `distance` | Override distance |
 | `calories` | Override calorie target |
 
-If a field is not present in the scaling override, the Rx value carries forward.
+If a field is not present in a level's scaling override, the Rx value carries forward for that field. However, the level entry itself must always be present -- use `{}` to explicitly confirm Rx values are unchanged at that level.
 
 ## Daily Session Structure
 
@@ -437,14 +520,17 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
         "notes": "3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats",
         "durationMinutes": 10
       },
-      "strength": [
-        {
-          "movement": "Back Squat",
-          "scheme": "5x3",
-          "prescription": "Build to a heavy 3",
-          "notes": "Rest 2:00 between sets. Reset at the top of each rep."
-        }
-      ],
+      "strength": {
+        "durationMinutes": 18,
+        "movements": [
+          {
+            "movement": "Back Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00 between sets. Reset at the top of each rep."
+          }
+        ]
+      },
       "metcon": "OP-001",
       "accessory": {
         "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts",
@@ -463,7 +549,7 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 | `title` | string | Yes | Human-readable day title (e.g., "Monday — Push/Pull") |
 | `estimatedMinutes` | number | Yes | Total session duration target (typically 45-60) |
 | `warmup` | object \| null | No | Warmup block |
-| `strength` | array \| null | No | Array of strength movements (prescription-based) |
+| `strength` | object \| null | No | Strength block with movements and duration |
 | `metcon` | string \| null | No | Metcon code reference (e.g., `"OP-005"`) |
 | `accessory` | object \| null | No | Accessory/cool-down block |
 
@@ -476,15 +562,24 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 
 ### Strength Movement Fields
 
-Strength is **prescription-based**, not absolute loads. Athletes use their own benchmark data (tested 1RM or OP level standards) to calculate working weights. This matches how real coaches program — "build to a heavy 3" or "@ 70% 1RM" rather than fixed loads per level.
+Strength is **prescription-based**, not absolute loads. Athletes use their own benchmark data (tested 1RM or OP level standards) to calculate working weights. This matches how real coaches program -- "build to a heavy 3" or "@ 70% 1RM" rather than fixed loads per level.
 
-Strength is **always an array** — even a single lift is `[{ ... }]`. Consistent parsing, no type-checking branching in the renderer.
+The strength block is an object with a `movements` array and a `durationMinutes` field, consistent with warmup and accessory.
+
+### Strength Block Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `movements` | array | Yes | Array of strength movements (even a single lift is `[{ ... }]`) |
+| `durationMinutes` | number | Yes | Total time for the strength block, including rest periods |
+
+### Strength Movement Fields
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `movement` | string | Yes | Movement name (e.g., "Back Squat", "Paused Front Squat") |
 | `scheme` | string | Yes | Human-readable format (e.g., "5x3", "Build to 3RM", "E90S x 8") |
-| `prescription` | string | Yes | Loading intent: "Build to a heavy 3", "@ 70% 1RM", "@ 60% 1RM — 2s pause at bottom" |
+| `prescription` | string | Yes | Loading intent: "Build to a heavy 3", "@ 70% 1RM", "@ 60% 1RM -- 2s pause at bottom" |
 | `notes` | string | No | Additional coach cues: rest periods, tempo, pacing |
 
 **Common prescription patterns:**
@@ -503,14 +598,40 @@ Strength is **always an array** — even a single lift is `[{ ... }]`. Consisten
 | `notes` | string | Yes | Free-text accessory work description. Use `\n` for line breaks between exercises. |
 | `durationMinutes` | number | No | Duration in minutes |
 
+### Session Time Budget
+
+Every session part has a `durationMinutes` field. The session's `estimatedMinutes` must equal the sum of all parts:
+
+```
+estimatedMinutes = warmup.durationMinutes
+                 + strength.durationMinutes
+                 + metcon.timeCap
+                 + accessory.durationMinutes
+```
+
+This ensures strict accountability. No hidden transition buffers or unaccounted time.
+
+**Maximum durations per part:**
+
+| Part | Max Duration | Notes |
+|------|-------------|-------|
+| Warmup | 10 min | General preparation, movement prep |
+| Strength / Skill | 20 min | Includes rest periods between sets |
+| Metcon | 40 min | If metcon is 40 min, strength must be null |
+| Accessory | 15 min | Cool-down and supplementary work |
+
+**Constraint:** When a metcon's `timeCap` exceeds 25 minutes, the strength block should be kept short (skill work, movement practice) or omitted entirely. A 40-minute metcon requires `"strength": null`.
+
+**Exception:** Hero workouts (e.g., Murph) may exceed normal time budgets. These should be explicitly flagged with a note.
+
 ### Session Design Principles
 
-- **Sessions target 45-60 minutes** — warmup + strength + metcon + accessory + transitions should fill a class hour. Short metcons pair with longer strength blocks; long metcons pair with lighter skill work.
-- **All fields are nullable** — pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
-- **Strength is prescription-based** — "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks.
-- **Metcon is a code reference** — `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
-- **Metcons are immutable** — if a coach wants to modify a metcon, it becomes a new metcon with a new code. This keeps the library clean and results comparable.
-- **Warmup and accessory are free-text** — coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
+- **Sessions target 45-60 minutes** -- the sum of warmup + strength + metcon + accessory should fill a class hour.
+- **All fields are nullable** -- pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
+- **Strength is prescription-based** -- "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks.
+- **Metcon is a code reference** -- `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
+- **Metcons are immutable** -- if a coach wants to modify a metcon, it becomes a new metcon with a new code. This keeps the library clean and results comparable.
+- **Warmup and accessory are free-text** -- coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
 
 ## Age Adjustment
 
