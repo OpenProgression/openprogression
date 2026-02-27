@@ -112,7 +112,10 @@ interface Session {
   title: string
   estimatedMinutes: number
   warmup: { notes: string; durationMinutes: number } | null
-  strength: StrengthMovement[] | null
+  strength: {
+    movements: StrengthMovement[]
+    durationMinutes: number
+  } | null
   metcon: string | null
   accessory: { notes: string; durationMinutes?: number } | null
 }
@@ -646,7 +649,7 @@ function DailyView({
           )}
 
           {/* Strength */}
-          {session.strength && session.strength.length > 0 && (
+          {session.strength && session.strength.movements.length > 0 && (
             <div className="rounded-xl border bg-card p-6">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
@@ -655,10 +658,13 @@ function DailyView({
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
                   Strength
                 </h3>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium ml-auto">
+                  {session.strength.durationMinutes} min
+                </span>
               </div>
 
               <div className="flex flex-col gap-5">
-                {session.strength.map((sm, si) => (
+                {session.strength.movements.map((sm, si) => (
                   <div key={si}>
                     <div className="flex items-baseline gap-3 mb-1">
                       <span className="text-lg font-display font-bold tracking-tight">

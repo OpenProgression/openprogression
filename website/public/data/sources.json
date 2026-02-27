@@ -85,6 +85,65 @@
       "citation": "CrossFit Liftoff percentile data (2015). CrossFit Games.",
       "url": "https://games.crossfit.com/article/liftoff-data",
       "type": "official_data"
+    },
+    {
+      "id": "rikli_jones_2013",
+      "citation": "Rikli, R.E. & Jones, C.J. (2013). Senior Fitness Test Manual. 2nd Ed. Human Kinetics.",
+      "url": "https://doi.org/10.1123/9781450460361",
+      "type": "professional_standard",
+      "notes": "Defines the 30-second chair stand test. Used globally in clinical and rehab settings for functional fitness assessment in older adults and deconditioned populations."
+    },
+    {
+      "id": "nsca_essentials_2016",
+      "citation": "Haff, G.G. & Triplett, N.T. (Eds.) (2016). Essentials of Strength Training and Conditioning. 4th Ed. National Strength and Conditioning Association. Human Kinetics.",
+      "type": "professional_standard",
+      "notes": "Standard reference for exercise progression and regression principles, push-up progressions, and foundational movement patterns."
+    },
+    {
+      "id": "who_physical_activity_2020",
+      "citation": "World Health Organization (2020). WHO Guidelines on Physical Activity and Sedentary Behaviour. Geneva: WHO.",
+      "url": "https://www.who.int/publications/i/item/9789240015128",
+      "type": "government_standard",
+      "notes": "Sets global minimum physical activity recommendations. Relevant for walk/run progression baseline thresholds."
+    },
+    {
+      "id": "mcgill_2015",
+      "citation": "McGill, S.M., Belore, M., Crosby, I., & Russell, C. (2015). Clinical tools to quantify torso flexion endurance: normative data from student and firefighter populations. Occupational Ergonomics, 12(2), 59-66.",
+      "type": "peer_reviewed",
+      "notes": "Provides normative plank hold durations for healthy populations. Used to set Foundation Milestone core endurance criteria."
+    },
+    {
+      "id": "bohannon_2019",
+      "citation": "Bohannon, R.W. (2019). Grip Strength: An Indispensable Biomarker For Older Adults. Clinical Interventions in Aging, 14, 1681-1691.",
+      "url": "https://doi.org/10.2147/CIA.S194543",
+      "type": "peer_reviewed",
+      "notes": "Establishes grip strength and hanging capacity as functional health markers. Supports dead hang and farmer's carry as foundation assessments."
+    },
+    {
+      "id": "chodzko_zajko_2009",
+      "citation": "Chodzko-Zajko, W.J. et al. (2009). Exercise and Physical Activity for Older Adults. ACSM Position Stand. Medicine & Science in Sports & Exercise, 41(7), 1510-1530.",
+      "type": "peer_reviewed",
+      "notes": "Foundational clinical guidelines for exercise prescription in older adults. Recommends low initial intensity with gradual progression."
+    },
+    {
+      "id": "fragala_2019",
+      "citation": "Fragala, M.S. et al. (2019). Resistance Training for Older Adults: Position Statement From the National Strength and Conditioning Association. Journal of Strength and Conditioning Research, 33(8).",
+      "type": "peer_reviewed",
+      "notes": "NSCA position statement on resistance training for older adults. Recommends starting with 1 set of 8-10 exercises at low intensity, progressing no more than once every 4 weeks."
+    },
+    {
+      "id": "jones_rikli_1999",
+      "citation": "Jones, C.J., Rikli, R.E., & Beam, W.C. (1999). A 30-s Chair-Stand Test as a Measure of Lower Body Strength in Community-Residing Older Adults. Research Quarterly for Exercise and Sport, 70(2), 113-119.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10380242/",
+      "type": "peer_reviewed",
+      "notes": "Validation study for the 30-second chair stand test. Test-retest reliability r=0.89. Normative data for ages 60-94 across 7,183 participants."
+    },
+    {
+      "id": "strand_2014",
+      "citation": "Strand, S.L., Hjelm, J., Shoepe, T.C., & Fajardo, M.A. (2014). Norms for an Isometric Muscle Endurance Test. Journal of Human Kinetics, 40, 93-102.",
+      "type": "peer_reviewed",
+      "sampleSize": 471,
+      "notes": "Normative plank hold and core endurance data for healthy adults. Provides percentile rankings for isometric endurance tests."
     }
   ]
 }
