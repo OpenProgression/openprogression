@@ -227,10 +227,10 @@
           "movement": "Burpee to Target",
           "scaling": {
             "advanced_plus":     {},
-            "advanced":          { "sub": "Burpee" },
-            "intermediate_plus": { "sub": "Burpee" },
-            "intermediate":      { "sub": "Burpee" },
-            "beginner_plus":     { "sub": "Bodybuilder" },
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      {},
+            "beginner_plus":     { "sub": "Burpee" },
             "beginner":          { "sub": "Bodybuilder" }
           }
         }
@@ -590,10 +590,10 @@
           "reps": 5,
           "scaling": {
             "advanced_plus":     {},
-            "advanced":          { "sub": "Burpee" },
-            "intermediate_plus": { "sub": "Burpee" },
-            "intermediate":      { "sub": "Burpee" },
-            "beginner_plus":     { "sub": "Bodybuilder" },
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      {},
+            "beginner_plus":     { "sub": "Burpee" },
             "beginner":          { "sub": "Bodybuilder" }
           }
         }
