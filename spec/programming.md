@@ -473,6 +473,7 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
 | `interval` | number | No | EMOM only: minutes per interval (1 = EMOM, 2 = E2MOM, 1.5 = E90S). Uses minutes for readability; E90S is the only common fractional case. |
 | `pattern` | string[] | No | EMOM only: rotation pattern, e.g. `["A", "B"]` |
 | `groups` | object | No | EMOM only: named movement groups |
+| `team` | object | No | Team workout descriptor (see Team Metcons below) |
 
 ### Movement Field Reference
 
@@ -501,6 +502,48 @@ Each level (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `b
 | `calories` | Override calorie target |
 
 If a field is not present in a level's scaling override, the Rx value carries forward for that field. However, the level entry itself must always be present -- use `{}` to explicitly confirm Rx values are unchanged at that level.
+
+## Team Metcons
+
+A team metcon is a workout designed for partners (typically Teams of 2). The `team` field describes how the work is divided between partners. Movements, loads, and scaling remain identical to solo metcons. Each partner looks up their own OP level independently, meaning partners at different levels can work together seamlessly.
+
+### Team Field Schema
+
+```json
+{
+  "code": "OP-021",
+  "name": "Sweet Storm",
+  "type": "for_time",
+  "timeCap": 24,
+  "team": {
+    "size": 2,
+    "format": "ygig",
+    "description": "Alternate full rounds. While one partner works, the other rests."
+  },
+  "rounds": 8,
+  "movements": [ ... ]
+}
+```
+
+### Team Field Reference
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `size` | number | Yes | Number of partners (always `2` for Teams of 2) |
+| `format` | string | Yes | `"ygig"`, `"partition"`, or `"sync"` |
+| `description` | string | Yes | Human-readable explanation of how partners split the work |
+
+### Team Formats
+
+| Format | Name | Description |
+|--------|------|-------------|
+| `ygig` | You Go, I Go | Partners alternate rounds or sets. One works while the other rests. |
+| `partition` | Partition | Total work is split between partners however they choose. |
+| `sync` | Synchronized | Partners work simultaneously on different movements or stations. |
+
+### Team Scaling
+
+Each partner resolves their own scaling independently. A team of one Rx athlete and one Intermediate athlete will see different loads and movement substitutions for each partner, but the workout structure (rounds, reps, time cap) stays the same. The renderer shows two columns: "You" and "Partner" with their respective levels.
 
 ## Daily Session Structure
 
@@ -632,6 +675,8 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 - **Metcon is a code reference** -- `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
 - **Metcons are immutable** -- if a coach wants to modify a metcon, it becomes a new metcon with a new code. This keeps the library clean and results comparable.
 - **Warmup and accessory are free-text** -- coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
+- **7 days per week** -- programming runs Monday through Sunday with no gaps or rest days. Every day of the week has a scheduled session.
+- **Tuesday and Saturday are Teams of 2** -- these days always use team metcons (metcons with a `team` field). All other days use solo metcons.
 
 ## Age Adjustment
 
