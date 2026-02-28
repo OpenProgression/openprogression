@@ -13,6 +13,7 @@ import {
   Dumbbell,
   Calendar,
   BookOpen,
+  Users,
 } from "lucide-react"
 
 // ---------------------------------------------------------------------------
@@ -81,6 +82,12 @@ interface EMOMGroup {
   movements: Movement[]
 }
 
+interface TeamInfo {
+  size: number
+  format: string
+  description: string
+}
+
 interface Metcon {
   code: string
   name: string
@@ -91,6 +98,7 @@ interface Metcon {
   interval?: number
   pattern?: string[]
   groups?: Record<string, EMOMGroup>
+  team?: TeamInfo
   stimulus: {
     duration: string
     feel: string
@@ -138,6 +146,12 @@ const TYPE_LABELS: Record<string, string> = {
   emom: "EMOM",
   for_load: "For Load",
   intervals: "Intervals",
+}
+
+const TEAM_FORMAT_LABELS: Record<string, string> = {
+  ygig: "You Go, I Go",
+  partition: "Partition",
+  sync: "Synchronized",
 }
 
 const TYPE_ICONS: Record<string, typeof Clock> = {
@@ -254,20 +268,120 @@ function formatDate(dateStr: string): {
 // ---------------------------------------------------------------------------
 // Metcon Card (shared between Daily + Library)
 // ---------------------------------------------------------------------------
+/** Render a single whiteboard column for a given level */
+function WhiteboardColumn({
+  metcon,
+  levelIdx,
+  levelKey,
+  label,
+}: {
+  metcon: Metcon
+  levelIdx: number
+  levelKey: LevelKey
+  label?: string
+}) {
+  const isEMOM = metcon.type === "emom"
+  return (
+    <div
+      className="rounded-lg p-5 border flex-1"
+      style={{
+        borderColor: `${LEVEL_COLORS[levelIdx]}30`,
+        backgroundColor: `${LEVEL_COLORS[levelIdx]}05`,
+      }}
+    >
+      <div className="flex items-center justify-between mb-4">
+        <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
+          {label ? `${label} - ` : ""}{formatHeader(metcon)}
+        </h4>
+        <span
+          className="text-xs font-bold px-2.5 py-1 rounded-full"
+          style={{
+            backgroundColor: `${LEVEL_COLORS[levelIdx]}20`,
+            color: LEVEL_COLORS[levelIdx],
+          }}
+        >
+          {LEVEL_NAMES[levelIdx]}
+        </span>
+      </div>
+      <p className="text-xs text-muted-foreground mb-3">
+        {metcon.type === "amrap" ? "Time:" : "Time cap:"}{" "}
+        {metcon.timeCap} min
+      </p>
+
+      {isEMOM && metcon.pattern && metcon.groups ? (
+        <div className="space-y-3">
+          {metcon.pattern.map((key) => {
+            const group = metcon.groups![key]
+            return (
+              <div key={key}>
+                <p className="text-xs font-bold text-muted-foreground mb-1">
+                  Minute {key}:
+                </p>
+                {group.movements.map((mov, j) => {
+                  const r = resolveMovement(mov, levelKey)
+                  return (
+                    <p key={j} className="text-base font-medium pl-4">
+                      {r.detail} {displayName(r)}
+                    </p>
+                  )
+                })}
+              </div>
+            )
+          })}
+        </div>
+      ) : metcon.repScheme ? (
+        <div className="space-y-1">
+          <p className="text-xs font-bold text-muted-foreground mb-2">
+            {metcon.repScheme.join("-")}:
+          </p>
+          {metcon.movements?.map((mov, i) => {
+            const r = resolveMovement(mov, levelKey)
+            return (
+              <p key={i} className="text-base font-medium">
+                {displayName(r)}
+                {r.detail && (
+                  <span className="text-muted-foreground text-sm ml-2">
+                    {r.detail}
+                  </span>
+                )}
+              </p>
+            )
+          })}
+        </div>
+      ) : (
+        <div className="space-y-1">
+          {metcon.movements?.map((mov, i) => {
+            const r = resolveMovement(mov, levelKey)
+            return (
+              <p key={i} className="text-base font-medium">
+                {r.detail} {displayName(r)}
+              </p>
+            )
+          })}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function MetconCard({
   metcon,
   level,
   levelKey,
+  partnerLevel,
+  partnerLevelKey,
   defaultExpanded,
 }: {
   metcon: Metcon
   level: number
   levelKey: LevelKey
+  partnerLevel?: number
+  partnerLevelKey?: LevelKey
   defaultExpanded?: boolean
 }) {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded ?? false)
   const TypeIcon = TYPE_ICONS[metcon.type] || Clock
-  const isEMOM = metcon.type === "emom"
+  const isTeam = !!metcon.team
 
   return (
     <div className="rounded-xl border bg-card overflow-hidden transition-all">
@@ -278,12 +392,16 @@ function MetconCard({
       >
         <div
           className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-          style={{ backgroundColor: `${LEVEL_COLORS[level]}15` }}
+          style={{ backgroundColor: isTeam ? "#8B5CF615" : `${LEVEL_COLORS[level]}15` }}
         >
-          <TypeIcon
-            className="w-5 h-5"
-            style={{ color: LEVEL_COLORS[level] }}
-          />
+          {isTeam ? (
+            <Users className="w-5 h-5" style={{ color: "#8B5CF6" }} />
+          ) : (
+            <TypeIcon
+              className="w-5 h-5"
+              style={{ color: LEVEL_COLORS[level] }}
+            />
+          )}
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-0.5">
@@ -293,6 +411,11 @@ function MetconCard({
             <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium">
               {TYPE_LABELS[metcon.type] || metcon.type}
             </span>
+            {isTeam && (
+              <span className="text-xs px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-500 font-bold">
+                Teams of {metcon.team!.size}
+              </span>
+            )}
           </div>
           <h3 className="text-lg font-display font-bold tracking-tight truncate">
             &ldquo;{metcon.name}&rdquo;
@@ -313,87 +436,33 @@ function MetconCard({
       {/* Expanded Detail */}
       {isExpanded && (
         <div className="border-t border-border">
-          {/* Whiteboard */}
-          <div className="px-6 py-5">
-            <div
-              className="rounded-lg p-5 border"
-              style={{
-                borderColor: `${LEVEL_COLORS[level]}30`,
-                backgroundColor: `${LEVEL_COLORS[level]}05`,
-              }}
-            >
-              <div className="flex items-center justify-between mb-4">
-                <h4 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                  {formatHeader(metcon)}
-                </h4>
-                <span
-                  className="text-xs font-bold px-2.5 py-1 rounded-full"
-                  style={{
-                    backgroundColor: `${LEVEL_COLORS[level]}20`,
-                    color: LEVEL_COLORS[level],
-                  }}
-                >
-                  {LEVEL_NAMES[level]}
-                </span>
-              </div>
-              <p className="text-xs text-muted-foreground mb-3">
-                {metcon.type === "amrap" ? "Time:" : "Time cap:"}{" "}
-                {metcon.timeCap} min
-              </p>
-
-              {isEMOM && metcon.pattern && metcon.groups ? (
-                <div className="space-y-3">
-                  {metcon.pattern.map((key) => {
-                    const group = metcon.groups![key]
-                    return (
-                      <div key={key}>
-                        <p className="text-xs font-bold text-muted-foreground mb-1">
-                          Minute {key}:
-                        </p>
-                        {group.movements.map((mov, j) => {
-                          const r = resolveMovement(mov, levelKey)
-                          return (
-                            <p key={j} className="text-base font-medium pl-4">
-                              {r.detail} {displayName(r)}
-                            </p>
-                          )
-                        })}
-                      </div>
-                    )
-                  })}
-                </div>
-              ) : metcon.repScheme ? (
-                <div className="space-y-1">
-                  <p className="text-xs font-bold text-muted-foreground mb-2">
-                    {metcon.repScheme.join("-")}:
+          {/* Team format description */}
+          {isTeam && (
+            <div className="px-6 pt-5">
+              <div className="flex items-center gap-3 p-4 rounded-lg bg-purple-500/5 border border-purple-500/20">
+                <Users className="w-5 h-5 text-purple-500 shrink-0" />
+                <div>
+                  <p className="text-sm font-bold text-purple-500">
+                    {TEAM_FORMAT_LABELS[metcon.team!.format] || metcon.team!.format}
                   </p>
-                  {metcon.movements?.map((mov, i) => {
-                    const r = resolveMovement(mov, levelKey)
-                    return (
-                      <p key={i} className="text-base font-medium">
-                        {displayName(r)}
-                        {r.detail && (
-                          <span className="text-muted-foreground text-sm ml-2">
-                            {r.detail}
-                          </span>
-                        )}
-                      </p>
-                    )
-                  })}
+                  <p className="text-xs text-muted-foreground">
+                    {metcon.team!.description}
+                  </p>
                 </div>
-              ) : (
-                <div className="space-y-1">
-                  {metcon.movements?.map((mov, i) => {
-                    const r = resolveMovement(mov, levelKey)
-                    return (
-                      <p key={i} className="text-base font-medium">
-                        {r.detail} {displayName(r)}
-                      </p>
-                    )
-                  })}
-                </div>
-              )}
+              </div>
             </div>
+          )}
+
+          {/* Whiteboard(s) */}
+          <div className="px-6 py-5">
+            {isTeam && partnerLevel !== undefined && partnerLevelKey ? (
+              <div className="flex flex-col md:flex-row gap-4">
+                <WhiteboardColumn metcon={metcon} levelIdx={level} levelKey={levelKey} label="You" />
+                <WhiteboardColumn metcon={metcon} levelIdx={partnerLevel} levelKey={partnerLevelKey} label="Partner" />
+              </div>
+            ) : (
+              <WhiteboardColumn metcon={metcon} levelIdx={level} levelKey={levelKey} />
+            )}
           </div>
 
           {/* Stimulus + Coach Notes */}
@@ -520,11 +589,15 @@ function DailyView({
   metcons,
   level,
   levelKey,
+  partnerLevel,
+  partnerLevelKey,
 }: {
   sessions: Session[]
   metcons: Metcon[]
   level: number
   levelKey: LevelKey
+  partnerLevel: number
+  partnerLevelKey: LevelKey
 }) {
   const sortedDates = useMemo(
     () => sessions.map((s) => s.date).sort(),
@@ -692,17 +765,23 @@ function DailyView({
           {metcon && (
             <div>
               <div className="flex items-center gap-2 mb-3 px-1">
-                <div className="w-8 h-8 rounded-lg bg-red-500/10 flex items-center justify-center">
-                  <Zap className="w-4 h-4 text-red-500" />
+                <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${metcon.team ? "bg-purple-500/10" : "bg-red-500/10"}`}>
+                  {metcon.team ? (
+                    <Users className="w-4 h-4 text-purple-500" />
+                  ) : (
+                    <Zap className="w-4 h-4 text-red-500" />
+                  )}
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                  Metcon
+                  {metcon.team ? "Team Metcon" : "Metcon"}
                 </h3>
               </div>
               <MetconCard
                 metcon={metcon}
                 level={level}
                 levelKey={levelKey}
+                partnerLevel={metcon.team ? partnerLevel : undefined}
+                partnerLevelKey={metcon.team ? partnerLevelKey : undefined}
                 defaultExpanded
               />
             </div>
@@ -827,12 +906,14 @@ function LibraryView({
 // ---------------------------------------------------------------------------
 export default function ProgrammingPage() {
   const [level, setLevel] = useState<number>(6) // default Rx
+  const [partnerLevel, setPartnerLevel] = useState<number>(3) // default Intermediate+
   const [activeTab, setActiveTab] = useState<"daily" | "library">("daily")
   const [metcons, setMetcons] = useState<Metcon[]>([])
   const [sessions, setSessions] = useState<Session[]>([])
   const [loading, setLoading] = useState(true)
 
   const levelKey = LEVEL_KEYS[level]
+  const partnerLevelKey = LEVEL_KEYS[partnerLevel]
 
   useEffect(() => {
     Promise.all([
@@ -895,8 +976,9 @@ export default function ProgrammingPage() {
               </div>
             </div>
 
-            {/* Row 2: Level */}
-            <div className="flex justify-center">
+            {/* Row 2: Your Level */}
+            <div className="flex flex-col items-center gap-1">
+              <span className="text-xs text-muted-foreground font-medium">Your Level</span>
               <div className="flex bg-secondary rounded-full p-1">
                 {LEVEL_NAMES.map((name, i) => (
                   <button
@@ -917,6 +999,35 @@ export default function ProgrammingPage() {
                 ))}
               </div>
             </div>
+
+            {/* Row 3: Partner Level (shown when team metcons exist) */}
+            {metcons.some((m) => m.team) && (
+              <div className="flex flex-col items-center gap-1">
+                <div className="flex items-center gap-1.5">
+                  <Users className="w-3.5 h-3.5 text-purple-500" />
+                  <span className="text-xs text-purple-500 font-medium">Partner Level</span>
+                </div>
+                <div className="flex bg-secondary rounded-full p-1">
+                  {LEVEL_NAMES.map((name, i) => (
+                    <button
+                      key={i}
+                      className={`px-3 py-2 rounded-full text-xs font-bold transition-colors ${
+                        partnerLevel === i
+                          ? "text-white"
+                          : "text-muted-foreground hover:text-foreground"
+                      }`}
+                      style={{
+                        backgroundColor:
+                          partnerLevel === i ? LEVEL_COLORS[i] : undefined,
+                      }}
+                      onClick={() => setPartnerLevel(i)}
+                    >
+                      {name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -934,6 +1045,8 @@ export default function ProgrammingPage() {
               metcons={metcons}
               level={level}
               levelKey={levelKey}
+              partnerLevel={partnerLevel}
+              partnerLevelKey={partnerLevelKey}
             />
           ) : (
             <LibraryView
