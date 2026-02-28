@@ -1,0 +1,244 @@
+# WOD Generation Playbook
+
+This document is the single source of truth for generating metcons and programming sessions. Read this before generating any WODs. For detailed schema and scaling rules, see `spec/programming.md`.
+
+## Quick Start Checklist
+
+When asked to generate WODs or programming:
+
+1. **Check existing state** (see Step 1 below)
+2. **Confirm scope with user** (overwrite, fill gaps, or new months)
+3. **Design metcons first** (the building blocks)
+4. **Write sessions per week** (the schedule that uses metcons)
+5. **Validate everything**
+6. **Commit, PR, merge to main/test/prod**
+
+## File Locations
+
+| File | Purpose |
+|------|---------|
+| `data/metcons.json` | All metcon definitions (the WOD library) |
+| `data/sessions.json` | Daily programming sessions referencing metcons by code |
+| `spec/programming.md` | Full schema, scaling rules, session structure |
+| `scripts/audit-metcons.mjs` | Automated scaling integrity validation |
+| `scripts/validate-data.mjs` | General data validation (levels, benchmarks, etc.) |
+| `website/app/programming/page.tsx` | Renderer (reads from public/data/) |
+
+## Step 1: Check Existing State
+
+Always run this before generating anything:
+
+```bash
+node -e "
+const m = require('./data/metcons.json');
+const s = require('./data/sessions.json');
+console.log('Metcons:', m.metcons.length, '(codes:', m.metcons[0]?.code, 'to', m.metcons[m.metcons.length-1]?.code + ')');
+console.log('Sessions:', s.sessions.length);
+const dates = s.sessions.map(x => x.date).sort();
+console.log('Date range:', dates[0], 'to', dates[dates.length-1]);
+const months = [...new Set(dates.map(d => d.slice(0,7)))];
+console.log('Months covered:', months.join(', '));
+"
+```
+
+Report findings to the user before proceeding. Ask whether to:
+- **Overwrite** existing months (replace sessions, keep or replace metcons)
+- **Fill gaps** (add sessions for missing days in existing months)
+- **Extend** (add new months only, keeping everything existing)
+
+## Step 2: Design Metcons
+
+Metcons are the building blocks. Create them before sessions.
+
+### How Many
+
+A typical month needs ~22 sessions (5 days/week x 4.5 weeks). Not every session needs a unique metcon. Plan for:
+- ~10-12 new metcons per month
+- Reuse 6-8 existing metcons as retests for progress tracking
+- Target 20 total metcons per month of programming
+
+### Naming Convention
+
+Format: `OP-XXX "Descriptive Noun"`
+
+**Descriptive words** (first word signals the workout character):
+- Quick = short sprint, sub-5 min
+- Long = 20+ min grind
+- Heavy = barbell-forward
+- Light = low/no weight, high rep speed
+- Spicy = high intensity
+- Dark = gymnastics-heavy
+- Thick = grinding, high volume
+- Sharp = interval-based
+- Sweet = balanced, approachable
+- Loud = big movements, explosive
+
+**Noun** = concrete, visual, 1-2 syllables. No repeats across the library.
+
+### Load Calibration
+
+All Rx loads are derived from benchmark 1RM data. The percentage depends on rep volume:
+
+| Rep Volume | % of 1RM | Example |
+|-----------|---------|---------|
+| Low (3-5 reps, EMOM) | 50-55% | Squat Clean 4r EMOM @ 80/55 |
+| Moderate (8-12 reps) | 40-50% | HPC 10r @ 70/50 |
+| High (15+ reps or 21-15-9) | 35-44% | Thruster 15r @ 55/40, DL 21-15-9 @ 100/70 |
+| Long AMRAP (6-10 reps, 20+ min) | 44-50% | PS 6r AMRAP @ 55/40 |
+
+**Reference 1RM benchmarks (Rx level):**
+
+| Movement | Male 1RM | Female 1RM |
+|----------|---------|-----------|
+| Back Squat | 180 | 120 |
+| Front Squat | 153 | 102 |
+| Deadlift | 240 | 170 |
+| Strict Press | 95 | 57 |
+| Power Clean | 135 | 95 |
+| Snatch | 125 | 80 |
+| Clean and Jerk | 150 | 105 |
+
+### Equipment Rules
+
+- **Barbell**: All loads in multiples of 5 kg. Never use imperial-converted numbers (43, 61, etc.)
+- **Kettlebell**: Standard sizes only: 6, 8, 12, 16, 20, 24, 28, 32 kg. Rx male 32, female 24. All KB swings are Russian (to eye level). Never American.
+- **Wall Ball**: Standard sizes only: 3, 4, 6, 9 kg. Rx male 9, female 6.
+- **Box**: Heights: 30, 40, 50, 60 cm. Rx male 60, female 50.
+
+### Scaling Rules
+
+Every scaled movement MUST have all 6 non-Rx levels. Use `{}` for "same as Rx".
+
+**Scaling chains** (hardest to easiest):
+- Pulling: Bar Muscle-up > C2B > Pull-up > Jumping Pull-up > Ring Row
+- Core: TTB > Hanging Knee Raise > Sit-up
+- Squatting: Pistol > Pistol to Box > Air Squat
+- Rope: Double-Under > Single-Under
+- Box: Box Jump > Box Step-up
+- Burpee: Bar-facing Burpee > Burpee to Target > Burpee > Bodybuilder
+- Lunge: Jumping Lunge > Walking Lunge
+- Press: HSPU > Pike Push-up > Push-up > Knee Push-up
+- Olympic: Squat Clean > Power Clean; Power Snatch > Power Clean; C&J > PC & Push Press
+
+**Integrity rules:**
+1. No placeholders ("-", "N/A", empty strings)
+2. Monotonic difficulty (movement subs only get easier going down)
+3. Monotonic load (same movement, load only decreases going down)
+4. Monotonic reps (same movement, reps only decrease going down)
+5. Reps MAY increase when subbing to an easier movement (to preserve stimulus)
+
+### Writing Metcons Incrementally
+
+To avoid output token limits, add metcons in batches of 2-3 using the Edit tool. Insert before the closing `]}` of metcons.json.
+
+**Do NOT rewrite the entire file with Write.** Use Edit to append.
+
+## Step 3: Design Sessions
+
+### Weekly Template
+
+| Day | Focus | Strength | Metcon Style |
+|-----|-------|----------|-------------|
+| Monday | Heavy lower body | Back Squat / Front Squat + accessory pull | Sprint or interval (TC 8-16) |
+| Tuesday | Engine / capacity | Skill work (HS, DU) 10 min | Long AMRAP or moderate effort (TC 20-30) |
+| Wednesday | Press / upper body | Strict Press / Push Press + Rows | Moderate metcon (TC 16-18) |
+| Friday | Pull / posterior chain | Deadlift (build heavy) | Grind (TC 18-22) |
+| Saturday | Olympic lifting | Power Clean / Snatch E90S skill | Weekend grinder (TC 20-25) |
+
+### Time Budget
+
+```
+estimatedMinutes = warmup + strength + metcon.timeCap + accessory
+```
+
+| Part | Max | Typical |
+|------|-----|---------|
+| Warmup | 10 min | 8-10 |
+| Strength | 20 min | 10-18 |
+| Metcon | 40 min | 8-30 |
+| Accessory | 15 min | 5-12 |
+| **Session total** | | **45-58 min** |
+
+**Constraints:**
+- If metcon TC > 25 min, strength must be short (skill work) or null
+- If metcon TC = 40 min, strength must be null
+- estimatedMinutes MUST exactly equal the sum of parts
+
+### Retest Strategy
+
+In a 4-week cycle:
+- Weeks 1-2: Introduce new metcons
+- Weeks 3-4: Retest key metcons from weeks 1-2 (and from previous months) for progress tracking
+- Aim for 6-8 retests per month
+
+### Writing Sessions Incrementally
+
+Sessions can be written per week. Write the full sessions.json using the Write tool (replacing previous content), or build it up incrementally with Edit.
+
+## Step 4: Validate
+
+Run all three validations:
+
+```bash
+# 1. Metcon scaling integrity (loads, levels, chains)
+node scripts/audit-metcons.mjs
+
+# 2. General data validation (levels, benchmarks, sources)
+node scripts/validate-data.mjs
+
+# 3. Session time budget verification
+node -e "
+const m = require('./data/metcons.json');
+const s = require('./data/sessions.json');
+for (const sess of s.sessions) {
+  const w = sess.warmup?.durationMinutes || 0;
+  const st = sess.strength?.durationMinutes || 0;
+  const mc = m.metcons.find(x => x.code === sess.metcon);
+  const tc = mc ? mc.timeCap : 0;
+  const a = sess.accessory?.durationMinutes || 0;
+  const sum = w + st + tc + a;
+  const ok = sum === sess.estimatedMinutes ? 'ok' : 'MISMATCH ' + sum;
+  console.log(sess.date, sess.metcon, 'est:' + sess.estimatedMinutes, ok);
+}
+"
+```
+
+Then copy data to public:
+
+```bash
+cd website && node scripts/copy-data.mjs
+```
+
+## Step 5: Ship
+
+```bash
+# Create branch and commit
+git checkout -b feature/MONTH-programming
+git add data/metcons.json data/sessions.json website/public/data/metcons.json website/public/data/sessions.json website/public/data/openprogression.json
+git commit -m "Add MONTH programming: N new metcons + N sessions"
+
+# Push, PR, merge
+git push -u origin feature/MONTH-programming
+gh pr create --title "Add MONTH programming" --body "..."
+gh pr merge N --merge
+
+# Sync all branches
+git checkout main && git pull
+git checkout test && git merge main --ff-only && git push
+git checkout prod && git merge main --ff-only && git push
+git checkout main
+
+# Release
+gh release create vX.Y.Z --title "vX.Y.Z - MONTH Programming" --notes "..."
+```
+
+## Things to Never Do
+
+- Never use em dashes anywhere
+- Never use imperial units or imperial-converted loads (43, 61, 48, etc.)
+- Never use "American Kettlebell Swing"
+- Never use "Kipping Pull-up" as a scaling sub (Pull-up includes kipping)
+- Never use "Good mornings with bar" (complex exercise, unsuited below Advanced)
+- Never skip levels in scaling (all 6 must be present if scaling exists)
+- Never use "Up-Down" (use "Bodybuilder" instead)
+- Never create sessions where estimatedMinutes does not equal the sum of parts
