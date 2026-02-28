@@ -37,6 +37,15 @@ const LEVEL_NAMES = [
   "Advanced+",
   "Rx",
 ]
+const LEVEL_NAMES_SHORT = [
+  "Beg",
+  "Beg+",
+  "Int",
+  "Int+",
+  "Adv",
+  "Adv+",
+  "Rx",
+]
 const LEVEL_KEYS = [
   "beginner",
   "beginner_plus",
@@ -368,15 +377,11 @@ function MetconCard({
   metcon,
   level,
   levelKey,
-  partnerLevel,
-  partnerLevelKey,
   defaultExpanded,
 }: {
   metcon: Metcon
   level: number
   levelKey: LevelKey
-  partnerLevel?: number
-  partnerLevelKey?: LevelKey
   defaultExpanded?: boolean
 }) {
   const [isExpanded, setIsExpanded] = useState(defaultExpanded ?? false)
@@ -453,16 +458,9 @@ function MetconCard({
             </div>
           )}
 
-          {/* Whiteboard(s) */}
+          {/* Whiteboard */}
           <div className="px-6 py-5">
-            {isTeam && partnerLevel !== undefined && partnerLevelKey ? (
-              <div className="flex flex-col md:flex-row gap-4">
-                <WhiteboardColumn metcon={metcon} levelIdx={level} levelKey={levelKey} label="You" />
-                <WhiteboardColumn metcon={metcon} levelIdx={partnerLevel} levelKey={partnerLevelKey} label="Partner" />
-              </div>
-            ) : (
-              <WhiteboardColumn metcon={metcon} levelIdx={level} levelKey={levelKey} />
-            )}
+            <WhiteboardColumn metcon={metcon} levelIdx={level} levelKey={levelKey} />
           </div>
 
           {/* Stimulus + Coach Notes */}
@@ -503,10 +501,10 @@ function MetconCard({
                     {LEVEL_NAMES.map((name, i) => (
                       <th
                         key={i}
-                        className="text-center py-2 px-2 text-xs font-bold"
+                        className="text-center py-2 px-2 text-xs font-bold whitespace-nowrap"
                         style={{ color: LEVEL_COLORS[i] }}
                       >
-                        {name}
+                        {LEVEL_NAMES_SHORT[i]}
                       </th>
                     ))}
                   </tr>
@@ -589,15 +587,11 @@ function DailyView({
   metcons,
   level,
   levelKey,
-  partnerLevel,
-  partnerLevelKey,
 }: {
   sessions: Session[]
   metcons: Metcon[]
   level: number
   levelKey: LevelKey
-  partnerLevel: number
-  partnerLevelKey: LevelKey
 }) {
   const sortedDates = useMemo(
     () => sessions.map((s) => s.date).sort(),
@@ -780,8 +774,6 @@ function DailyView({
                 metcon={metcon}
                 level={level}
                 levelKey={levelKey}
-                partnerLevel={metcon.team ? partnerLevel : undefined}
-                partnerLevelKey={metcon.team ? partnerLevelKey : undefined}
                 defaultExpanded
               />
             </div>
@@ -906,14 +898,12 @@ function LibraryView({
 // ---------------------------------------------------------------------------
 export default function ProgrammingPage() {
   const [level, setLevel] = useState<number>(6) // default Rx
-  const [partnerLevel, setPartnerLevel] = useState<number>(3) // default Intermediate+
   const [activeTab, setActiveTab] = useState<"daily" | "library">("daily")
   const [metcons, setMetcons] = useState<Metcon[]>([])
   const [sessions, setSessions] = useState<Session[]>([])
   const [loading, setLoading] = useState(true)
 
   const levelKey = LEVEL_KEYS[level]
-  const partnerLevelKey = LEVEL_KEYS[partnerLevel]
 
   useEffect(() => {
     Promise.all([
@@ -983,7 +973,7 @@ export default function ProgrammingPage() {
                 {LEVEL_NAMES.map((name, i) => (
                   <button
                     key={i}
-                    className={`px-3 py-2 rounded-full text-xs font-bold transition-colors ${
+                    className={`px-2 sm:px-3 py-2 rounded-full text-xs font-bold transition-colors whitespace-nowrap ${
                       level === i
                         ? "text-white"
                         : "text-muted-foreground hover:text-foreground"
@@ -994,40 +984,13 @@ export default function ProgrammingPage() {
                     }}
                     onClick={() => setLevel(i)}
                   >
-                    {name}
+                    <span className="sm:hidden">{LEVEL_NAMES_SHORT[i]}</span>
+                    <span className="hidden sm:inline">{name}</span>
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Row 3: Partner Level (shown when team metcons exist) */}
-            {metcons.some((m) => m.team) && (
-              <div className="flex flex-col items-center gap-1">
-                <div className="flex items-center gap-1.5">
-                  <Users className="w-3.5 h-3.5 text-purple-500" />
-                  <span className="text-xs text-purple-500 font-medium">Partner Level</span>
-                </div>
-                <div className="flex bg-secondary rounded-full p-1">
-                  {LEVEL_NAMES.map((name, i) => (
-                    <button
-                      key={i}
-                      className={`px-3 py-2 rounded-full text-xs font-bold transition-colors ${
-                        partnerLevel === i
-                          ? "text-white"
-                          : "text-muted-foreground hover:text-foreground"
-                      }`}
-                      style={{
-                        backgroundColor:
-                          partnerLevel === i ? LEVEL_COLORS[i] : undefined,
-                      }}
-                      onClick={() => setPartnerLevel(i)}
-                    >
-                      {name}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         </div>
       </section>
@@ -1045,8 +1008,6 @@ export default function ProgrammingPage() {
               metcons={metcons}
               level={level}
               levelKey={levelKey}
-              partnerLevel={partnerLevel}
-              partnerLevelKey={partnerLevelKey}
             />
           ) : (
             <LibraryView
