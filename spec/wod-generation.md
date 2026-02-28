@@ -52,10 +52,10 @@ Metcons are the building blocks. Create them before sessions.
 
 ### How Many
 
-A typical month needs ~22 sessions (5 days/week x 4.5 weeks). Not every session needs a unique metcon. Plan for:
-- ~10-12 new metcons per month
-- Reuse 6-8 existing metcons as retests for progress tracking
-- Target 20 total metcons per month of programming
+A typical month needs ~30 sessions (7 days/week x ~4.3 weeks). Not every session needs a unique metcon. Plan for:
+- ~16-20 new metcons per month (solo + team)
+- Reuse 8-10 existing metcons as retests for progress tracking
+- Target ~28 total metcon slots per month of programming
 
 ### Naming Convention
 
@@ -133,17 +133,41 @@ To avoid output token limits, add metcons in batches of 2-3 using the Edit tool.
 
 **Do NOT rewrite the entire file with Write.** Use Edit to append.
 
+### Team Metcons
+
+Team metcons (Teams of 2) use the same movement/scaling structure as solo metcons but add a `team` field. Each partner scales independently to their own OP level. See `spec/programming.md` for the full team schema.
+
+**Design guidelines:**
+- Longer time caps (20-30 min) since partners rest between turns
+- YGIG: Use clear round boundaries. Works great with barbell + bodyweight combos.
+- Partition: Best for high-rep bodyweight or monostructural work (row, run, bike).
+- Sync: Partners work simultaneously on different stations. Good for EMOMs.
+- Each partner can use their own bar with their own load. No need for matching weights.
+- Include a mix of barbell + gymnastics + monostructural movements.
+
+**Format reference:**
+- `"ygig"` = You Go, I Go. Partners alternate rounds. One works, one rests.
+- `"partition"` = Total work split between partners however they choose.
+- `"sync"` = Partners work simultaneously on different movements/stations.
+
 ## Step 3: Design Sessions
 
-### Weekly Template
+### Weekly Template (7 days, no rest days)
 
 | Day | Focus | Strength | Metcon Style |
 |-----|-------|----------|-------------|
 | Monday | Heavy lower body | Back Squat / Front Squat + accessory pull | Sprint or interval (TC 8-16) |
-| Tuesday | Engine / capacity | Skill work (HS, DU) 10 min | Long AMRAP or moderate effort (TC 20-30) |
+| Tuesday | **Teams of 2** | Skill work 10 min | Team YGIG or partition (TC 20-30) |
 | Wednesday | Press / upper body | Strict Press / Push Press + Rows | Moderate metcon (TC 16-18) |
+| Thursday | Gymnastics / conditioning | Gymnastics skill (HS, MU, DU) | Mixed modal (TC 14-20) |
 | Friday | Pull / posterior chain | Deadlift (build heavy) | Grind (TC 18-22) |
-| Saturday | Olympic lifting | Power Clean / Snatch E90S skill | Weekend grinder (TC 20-25) |
+| Saturday | **Teams of 2** | Light skill or null | Team grinder (TC 20-30) |
+| Sunday | Active recovery / engine | None or light skill | Long easy effort or bodyweight (TC 20-30) |
+
+**Permanent rules:**
+- Programming runs 7 days per week (Monday through Sunday). No gaps, no scheduled rest days.
+- Tuesday and Saturday are always Teams of 2 partner workouts.
+- Sunday is intentionally lighter to manage weekly training load.
 
 ### Time Budget
 

@@ -1011,6 +1011,762 @@
           }
         }
       ]
+    },
+    {
+      "code": "OP-021",
+      "name": "Sweet Storm",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 8,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. One partner works while the other rests. Each partner completes 4 rounds."
+      },
+      "stimulus": {
+        "duration": "18-24 min",
+        "feel": "Steady partner grind. Wall balls and running set the pace. TTB should be quick sets. Rest while your partner works, but stay warm.",
+        "intent": "Mixed modal endurance with a partner. Pacing and transitions matter."
+      },
+      "coachNotes": "Each partner does 4 rounds. The rest between rounds should keep you fresh enough to push the pace. Wall balls unbroken every round. TTB in 1-2 sets max. Run should be a consistent effort, not a sprint.",
+      "movements": [
+        {
+          "movement": "Wall Ball",
+          "reps": 12,
+          "load": { "male": 9, "female": 6 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
+            "advanced":          { "load": { "male": 6, "female": 4 } },
+            "intermediate_plus": { "load": { "male": 6, "female": 4 }, "reps": 10 },
+            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 10 },
+            "beginner_plus":     { "load": { "male": 4, "female": 3 }, "reps": 10 },
+            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 8 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        },
+        {
+          "movement": "Toes-to-Bar",
+          "reps": 6,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "sub": "Hanging Knee Raise" },
+            "intermediate_plus": { "sub": "Hanging Knee Raise" },
+            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 5 },
+            "beginner_plus":     { "sub": "Sit-up", "reps": 10 },
+            "beginner":          { "sub": "Sit-up", "reps": 8 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-022",
+      "name": "Loud Waves",
+      "type": "amrap",
+      "timeCap": 24,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. One partner works while the other rests. Score is total rounds + reps for the team."
+      },
+      "stimulus": {
+        "duration": "24 min",
+        "feel": "Moderate pace partner AMRAP. The cleans should be touch-and-go, box jumps fast. Row is recovery. Push the pace knowing you have built-in rest.",
+        "intent": "Barbell cycling and explosiveness with aerobic base, partner format"
+      },
+      "coachNotes": "Each partner should aim for similar round times. HPC should be unbroken or fast doubles. Box jumps controlled but quick. Row is active recovery. Target 10-14 total rounds at Rx.",
+      "movements": [
+        {
+          "movement": "Hang Power Clean",
+          "reps": 8,
+          "load": { "male": 65, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 60, "female": 40 } },
+            "advanced":          { "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "load": { "male": 40, "female": 25 } },
+            "intermediate":      { "load": { "male": 30, "female": 20 } },
+            "beginner_plus":     { "load": { "male": 25, "female": 15 } },
+            "beginner":          { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "reps": 12,
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus":     { "height": { "male": 60, "female": 50 } },
+            "advanced":          { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 }, "reps": 12 },
+            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 }, "reps": 10 },
+            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 }, "reps": 10 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 200,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "code": "OP-023",
+      "name": "Thick Cloud",
+      "type": "for_time",
+      "timeCap": 28,
+      "rounds": 1,
+      "team": {
+        "size": 2,
+        "format": "partition",
+        "description": "Split the total work between partners however you choose. Only one partner works at a time."
+      },
+      "stimulus": {
+        "duration": "20-28 min",
+        "feel": "High-volume partner chipper. Break up the work strategically. KB swings and wall balls should stay in big sets. Burpees are the grind. Row is the finisher.",
+        "intent": "Volume tolerance, work distribution strategy, mixed modal endurance"
+      },
+      "coachNotes": "Partition however you want. Common strategy: alternate every 20-25 reps on wall balls and KB swings, every 10-15 on burpees. One person rows while the other rests. Total reps shown are for the TEAM.",
+      "movements": [
+        {
+          "movement": "Wall Ball",
+          "reps": 100,
+          "load": { "male": 9, "female": 6 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
+            "advanced":          { "load": { "male": 6, "female": 4 }, "reps": 80 },
+            "intermediate_plus": { "load": { "male": 6, "female": 4 }, "reps": 80 },
+            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 60 },
+            "beginner_plus":     { "load": { "male": 4, "female": 3 }, "reps": 60 },
+            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 50 }
+          }
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 80,
+          "load": { "male": 32, "female": 24 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
+            "advanced":          { "load": { "male": 24, "female": 16 }, "reps": 60 },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 }, "reps": 60 },
+            "intermediate":      { "load": { "male": 16, "female": 12 }, "reps": 50 },
+            "beginner_plus":     { "load": { "male": 12, "female": 8 }, "reps": 50 },
+            "beginner":          { "load": { "male": 8, "female": 6 }, "reps": 40 }
+          }
+        },
+        {
+          "movement": "Burpee",
+          "reps": 60,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "reps": 50 },
+            "intermediate_plus": { "reps": 50 },
+            "intermediate":      { "reps": 40 },
+            "beginner_plus":     { "sub": "Bodybuilder", "reps": 40 },
+            "beginner":          { "sub": "Bodybuilder", "reps": 30 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 1500,
+          "unit": "m",
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "distance": 1200 },
+            "intermediate_plus": { "distance": 1200 },
+            "intermediate":      { "distance": 1000 },
+            "beginner_plus":     { "distance": 1000 },
+            "beginner":          { "distance": 800 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-024",
+      "name": "Spicy Thunder",
+      "type": "for_time",
+      "timeCap": 22,
+      "rounds": 10,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. One partner works while the other rests. Each partner completes 5 rounds."
+      },
+      "stimulus": {
+        "duration": "14-22 min",
+        "feel": "Fast barbell cycling with a push. Cleans should be crisp and fast. Push-ups are the recovery movement. Short rounds, high intensity.",
+        "intent": "Power output and barbell cycling speed in a team setting"
+      },
+      "coachNotes": "Quick rounds. Power cleans should be touch-and-go or fast singles. Push-ups unbroken every round. Each round should take 30-50 seconds. Use the rest between rounds to recover and push hard.",
+      "movements": [
+        {
+          "movement": "Power Clean",
+          "reps": 5,
+          "load": { "male": 70, "female": 50 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
+            "advanced":          { "load": { "male": 55, "female": 40 } },
+            "intermediate_plus": { "load": { "male": 45, "female": 30 } },
+            "intermediate":      { "load": { "male": 35, "female": 25 } },
+            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
+            "beginner":          { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Push-up",
+          "reps": 7,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      {},
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" } },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 5 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-025",
+      "name": "Heavy River",
+      "type": "for_time",
+      "timeCap": 28,
+      "rounds": 1,
+      "team": {
+        "size": 2,
+        "format": "partition",
+        "description": "Split the total work between partners however you choose. Only one partner works at a time on the barbell. Both can run simultaneously."
+      },
+      "stimulus": {
+        "duration": "20-28 min",
+        "feel": "Heavy barbell chipper with running. The deadlifts and cleans are the grind. Double-unders test coordination under fatigue. Running is transition and recovery.",
+        "intent": "Strength endurance with barbell cycling, team work distribution"
+      },
+      "coachNotes": "Total reps shown are for the TEAM. Each partner uses their own bar at their own weight. Common split: alternate every 10 reps on barbell movements. DUs can be split however. Run together or alternate laps.",
+      "movements": [
+        {
+          "movement": "Deadlift",
+          "reps": 50,
+          "load": { "male": 90, "female": 65 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 85, "female": 60 } },
+            "advanced":          { "load": { "male": 75, "female": 55 }, "reps": 40 },
+            "intermediate_plus": { "load": { "male": 60, "female": 45 }, "reps": 40 },
+            "intermediate":      { "load": { "male": 50, "female": 35 }, "reps": 40 },
+            "beginner_plus":     { "load": { "male": 40, "female": 25 }, "reps": 30 },
+            "beginner":          { "load": { "male": 30, "female": 20 }, "reps": 30 }
+          }
+        },
+        {
+          "movement": "Hang Power Clean",
+          "reps": 50,
+          "load": { "male": 65, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 60, "female": 40 } },
+            "advanced":          { "load": { "male": 50, "female": 35 }, "reps": 40 },
+            "intermediate_plus": { "load": { "male": 40, "female": 25 }, "reps": 40 },
+            "intermediate":      { "load": { "male": 30, "female": 20 }, "reps": 40 },
+            "beginner_plus":     { "load": { "male": 25, "female": 15 }, "reps": 30 },
+            "beginner":          { "load": { "male": 20, "female": 15 }, "reps": 30 }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 100,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": { "sub": "Single-Under", "reps": 200 },
+            "intermediate":      { "sub": "Single-Under", "reps": 200 },
+            "beginner_plus":     { "sub": "Single-Under", "reps": 150 },
+            "beginner":          { "sub": "Single-Under", "reps": 100 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 800,
+          "unit": "m",
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "distance": 600 },
+            "beginner_plus":     { "distance": 600 },
+            "beginner":          { "distance": 400 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-026",
+      "name": "Sharp Gale",
+      "type": "amrap",
+      "timeCap": 24,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. One partner works while the other rests. Score is total rounds + reps for the team."
+      },
+      "stimulus": {
+        "duration": "24 min",
+        "feel": "Balanced partner AMRAP. Thrusters are the grind, pull-ups test gymnastics under fatigue, row is pacing. Push knowing your partner is resting.",
+        "intent": "Mixed modal capacity in a team format, pacing discipline"
+      },
+      "coachNotes": "Thrusters should be unbroken or quick sets of 4. Pull-ups in 1-2 sets. Row at a strong but sustainable pace. Each round should take 1:30-2:00 at Rx. Target 12-16 total rounds.",
+      "movements": [
+        {
+          "movement": "Thruster",
+          "reps": 8,
+          "load": { "male": 55, "female": 40 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
+            "advanced":          { "load": { "male": 45, "female": 30 } },
+            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+            "intermediate":      { "load": { "male": 30, "female": 20 } },
+            "beginner_plus":     { "load": { "male": 25, "female": 15 } },
+            "beginner":          { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Pull-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": { "reps": 8 },
+            "intermediate":      { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
+            "beginner":          { "sub": "Ring Row", "reps": 8 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 250,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "code": "OP-027",
+      "name": "Dark Ridge",
+      "type": "for_time",
+      "timeCap": 16,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "10-16 min",
+        "feel": "Gymnastics grind. TTB and HSPU are the skill pieces. Running keeps the heart rate up. Should feel technical, not just cardio.",
+        "intent": "Gymnastics skill under fatigue, midline and pressing endurance"
+      },
+      "coachNotes": "TTB in sets of 4-6 at Rx. HSPU strict or kipping, whatever keeps you moving. Scale HSPU aggressively to keep the workout under the cap. Run is recovery pace.",
+      "movements": [
+        {
+          "movement": "Toes-to-Bar",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "sub": "Hanging Knee Raise" },
+            "intermediate_plus": { "sub": "Hanging Knee Raise" },
+            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 8 },
+            "beginner_plus":     { "sub": "Sit-up", "reps": 12 },
+            "beginner":          { "sub": "Sit-up", "reps": 10 }
+          }
+        },
+        {
+          "movement": "Handstand Push-up",
+          "reps": 8,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "reps": 6 },
+            "intermediate_plus": { "sub": "Pike Push-up", "reps": 8 },
+            "intermediate":      { "sub": "Pike Push-up", "reps": 6 },
+            "beginner_plus":     { "sub": "Push-up", "reps": 8 },
+            "beginner":          { "sub": "Knee Push-up", "reps": 8 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "code": "OP-028",
+      "name": "Sweet Willow",
+      "type": "amrap",
+      "timeCap": 18,
+      "stimulus": {
+        "duration": "18 min",
+        "feel": "Balanced mixed modal. KB swings set the pace, box jumps keep you explosive, C2B test your pulling. Should feel sustainable with consistent round times.",
+        "intent": "Mixed modal conditioning, gymnastics pulling under moderate fatigue"
+      },
+      "coachNotes": "KB swings unbroken every round. Box jumps controlled but quick. C2B in 1-2 sets. Find your rhythm by round 3 and hold it. Target 7-10 rounds at Rx.",
+      "movements": [
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 10,
+          "load": { "male": 32, "female": 24 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
+            "advanced":          { "load": { "male": 24, "female": 16 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate":      { "load": { "male": 16, "female": 12 } },
+            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
+            "beginner":          { "load": { "male": 8, "female": 6 } }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "reps": 8,
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus":     { "height": { "male": 60, "female": 50 } },
+            "advanced":          { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+          }
+        },
+        {
+          "movement": "Chest-to-Bar Pull-up",
+          "reps": 6,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          { "sub": "Pull-up" },
+            "intermediate_plus": { "sub": "Pull-up" },
+            "intermediate":      { "sub": "Jumping Pull-up", "reps": 6 },
+            "beginner_plus":     { "sub": "Ring Row", "reps": 8 },
+            "beginner":          { "sub": "Ring Row", "reps": 6 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-029",
+      "name": "Light Feather",
+      "type": "for_time",
+      "timeCap": 14,
+      "rounds": 3,
+      "stimulus": {
+        "duration": "8-14 min",
+        "feel": "Bodyweight sprint. Push-ups and air squats should be unbroken. Burpees are the limiter. Running keeps the heart rate pegged. Fast and simple.",
+        "intent": "Bodyweight conditioning, high turnover, minimal equipment"
+      },
+      "coachNotes": "No barbell, no excuses. Push-ups and air squats unbroken every round. Burpees steady pace, just keep moving. Run at 80% effort. Should feel like a sprint, not a grind.",
+      "movements": [
+        {
+          "movement": "Push-up",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": { "reps": 12 },
+            "intermediate":      { "reps": 10 },
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 10 },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 8 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 20
+        },
+        {
+          "movement": "Burpee",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "reps": 8 },
+            "beginner_plus":     { "sub": "Bodybuilder", "reps": 8 },
+            "beginner":          { "sub": "Bodybuilder", "reps": 6 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "code": "OP-030",
+      "name": "Dark Vine",
+      "type": "emom",
+      "timeCap": 16,
+      "interval": 2,
+      "pattern": ["A", "B"],
+      "stimulus": {
+        "duration": "16 min",
+        "feel": "E2MOM gymnastics intervals. Each 2-minute window has two movements. Work fast, rest within the window. Should have 30-40s rest each round.",
+        "intent": "Gymnastics skill under interval pressure, coordination and midline"
+      },
+      "coachNotes": "E2MOM: 8 rounds alternating A/B (4 of each). Double-unders first to get the heart rate up, then gymnastics. If you can't finish in 80-90 seconds, scale the DU count.",
+      "groups": {
+        "A": {
+          "movements": [
+            {
+              "movement": "Double-Under",
+              "reps": 30,
+              "scaling": {
+                "advanced_plus":     {},
+                "advanced":          {},
+                "intermediate_plus": { "sub": "Single-Under", "reps": 60 },
+                "intermediate":      { "sub": "Single-Under", "reps": 50 },
+                "beginner_plus":     { "sub": "Single-Under", "reps": 40 },
+                "beginner":          { "sub": "Single-Under", "reps": 30 }
+              }
+            },
+            {
+              "movement": "Toes-to-Bar",
+              "reps": 5,
+              "scaling": {
+                "advanced_plus":     {},
+                "advanced":          { "sub": "Hanging Knee Raise" },
+                "intermediate_plus": { "sub": "Hanging Knee Raise" },
+                "intermediate":      { "sub": "Hanging Knee Raise", "reps": 4 },
+                "beginner_plus":     { "sub": "Sit-up", "reps": 8 },
+                "beginner":          { "sub": "Sit-up", "reps": 6 }
+              }
+            }
+          ]
+        },
+        "B": {
+          "movements": [
+            {
+              "movement": "Push-up",
+              "reps": 10,
+              "scaling": {
+                "advanced_plus":     {},
+                "advanced":          {},
+                "intermediate_plus": {},
+                "intermediate":      { "reps": 8 },
+                "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
+                "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+              }
+            },
+            {
+              "movement": "Box Jump",
+              "reps": 5,
+              "height": { "male": 60, "female": 50 },
+              "unit": "cm",
+              "scaling": {
+                "advanced_plus":     { "height": { "male": 60, "female": 50 } },
+                "advanced":          { "height": { "male": 50, "female": 40 } },
+                "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+                "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+                "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+                "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "OP-031",
+      "name": "Long Meadow",
+      "type": "amrap",
+      "timeCap": 30,
+      "stimulus": {
+        "duration": "30 min",
+        "feel": "Sunday easy engine. This is a conversation-pace workout. No movement should gas you. Find a rhythm and hold it for 30 minutes. Active recovery day.",
+        "intent": "Aerobic base building, active recovery, low-intensity steady state"
+      },
+      "coachNotes": "Truly easy pace. You should be able to talk between movements. Run at 60-70% effort. Push-ups and air squats steady and unbroken. Row at a comfortable pace. This is about moving, not competing.",
+      "movements": [
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m",
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "distance": 300 },
+            "beginner_plus":     { "distance": 200 },
+            "beginner":          { "distance": 200 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        },
+        {
+          "movement": "Push-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "reps": 8 },
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 200,
+          "unit": "m"
+        }
+      ]
+    },
+    {
+      "code": "OP-032",
+      "name": "Sweet Pebble",
+      "type": "for_time",
+      "timeCap": 25,
+      "rounds": 5,
+      "stimulus": {
+        "duration": "18-25 min",
+        "feel": "Easy Sunday grind. Low skill, moderate volume. Lunges and sit-ups are the work. Running and ring rows keep things moving. Conversation pace throughout.",
+        "intent": "Active recovery, bodyweight volume, low-intensity movement"
+      },
+      "coachNotes": "Easy pace. Walking lunges controlled and even. Sit-ups at a steady rhythm. Ring rows with good body position. Run is a jog, not a run. No movement should feel hard.",
+      "movements": [
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        },
+        {
+          "movement": "Walking Lunge",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "reps": 12 },
+            "beginner_plus":     { "reps": 12 },
+            "beginner":          { "reps": 10 }
+          }
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 10
+        },
+        {
+          "movement": "Ring Row",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      {},
+            "beginner_plus":     { "reps": 8 },
+            "beginner":          { "reps": 8 }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-033",
+      "name": "Light Dew",
+      "type": "amrap",
+      "timeCap": 25,
+      "stimulus": {
+        "duration": "25 min",
+        "feel": "Light Sunday engine. Row sets the pace. KB swings and step-ups are low-skill, low-impact. Easy day, just move for 25 minutes.",
+        "intent": "Low-intensity aerobic work, active recovery with minimal impact"
+      },
+      "coachNotes": "Easy and steady. Row at conversation pace. KB swings should feel light and easy. Box step-ups controlled, no jumping. This is about blood flow and recovery, not performance.",
+      "movements": [
+        {
+          "movement": "Row",
+          "distance": 250,
+          "unit": "m"
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 10,
+          "load": { "male": 24, "female": 16 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus":     { "load": { "male": 24, "female": 16 } },
+            "advanced":          { "load": { "male": 20, "female": 12 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate":      { "load": { "male": 16, "female": 12 } },
+            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
+            "beginner":          { "load": { "male": 8, "female": 6 } }
+          }
+        },
+        {
+          "movement": "Box Step-up",
+          "reps": 8,
+          "height": { "male": 50, "female": 40 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus":     { "height": { "male": 50, "female": 40 } },
+            "advanced":          { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate":      { "height": { "male": 40, "female": 30 } },
+            "beginner_plus":     { "height": { "male": 40, "female": 30 } },
+            "beginner":          { "height": { "male": 30, "female": 30 } }
+          }
+        }
+      ]
+    },
+    {
+      "code": "OP-034",
+      "name": "Long Drift",
+      "type": "for_time",
+      "timeCap": 25,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "18-25 min",
+        "feel": "Long bodyweight Sunday. Running is the backbone. Air squats, sit-ups, and push-ups fill the rounds. Easy, steady, no equipment needed.",
+        "intent": "Active recovery, aerobic volume, bodyweight endurance"
+      },
+      "coachNotes": "Jog the 400m. Everything else at an easy, steady pace. Air squats unbroken. Sit-ups rhythmic. Push-ups in whatever sets keep you moving. No rushing, no resting. Just move.",
+      "movements": [
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m",
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "distance": 300 },
+            "beginner_plus":     { "distance": 200 },
+            "beginner":          { "distance": 200 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 20
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 15
+        },
+        {
+          "movement": "Push-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus":     {},
+            "advanced":          {},
+            "intermediate_plus": {},
+            "intermediate":      { "reps": 8 },
+            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
+            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+          }
+        }
+      ]
     }
   ]
 }
