@@ -1,0 +1,154 @@
+{
+  "version": "1.1.0",
+  "description": "Foundation Milestones are trackable micro-achievements within the Beginner level. They provide progress feedback for athletes who are below the OP Beginner benchmarks. Milestones are NOT levels -- they are pre-level markers that apps can use to show early progress. Estimated timelines assume a healthy but sedentary adult training 3x/week. For deconditioned, frail, or post-injury individuals, timelines may be 2-3x longer (ICFSR consensus: 3-5 months for meaningful functional improvement).",
+  "milestones": [
+    {
+      "id": "F1",
+      "name": "Foundation",
+      "shortName": "F1",
+      "color": "#86EFAC",
+      "description": "Can perform basic human movements safely. Ready to start a bodyweight exercise program.",
+      "estimatedWeeks": "1-2",
+      "requirements": [
+        {
+          "movement": "chair_sit_to_stand",
+          "name": "Chair Sit-to-Stand",
+          "category": "squatting",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "Stand up from a standard-height chair 10 times without using hands"
+        },
+        {
+          "movement": "wall_push_up",
+          "name": "Wall Push-up",
+          "category": "pressing",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "10 push-ups against a wall with full range of motion"
+        },
+        {
+          "movement": "glute_bridge",
+          "name": "Glute Bridge",
+          "category": "pulling",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "10 glute bridges with full hip extension"
+        },
+        {
+          "movement": "farmers_carry_30s",
+          "name": "Farmer's Carry",
+          "category": "gymnastics",
+          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
+          "description": "Carry two heavy bags or water bottles (approx. 5kg each) while walking for 30 seconds"
+        },
+        {
+          "movement": "walk_1km",
+          "name": "Walk 1km",
+          "category": "monostructural",
+          "criteria": { "type": "completion" },
+          "description": "Walk 1 kilometer without stopping"
+        }
+      ],
+      "sources": ["rikli_jones_2013", "jones_rikli_1999", "nsca_essentials_2016", "bohannon_2019", "who_physical_activity_2020", "chodzko_zajko_2009"]
+    },
+    {
+      "id": "F2",
+      "name": "Moving",
+      "shortName": "F2",
+      "color": "#4ADE80",
+      "description": "Can perform bodyweight exercises with good form. Building functional capacity for daily activities and exercise.",
+      "estimatedWeeks": "2-4",
+      "requirements": [
+        {
+          "movement": "air_squat_partial",
+          "name": "Air Squat (Partial Depth)",
+          "category": "squatting",
+          "criteria": { "type": "reps", "target": 20 },
+          "description": "20 bodyweight squats to approximately parallel"
+        },
+        {
+          "movement": "incline_push_up",
+          "name": "Incline Push-up",
+          "category": "pressing",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "10 push-ups with hands on a bench-height surface"
+        },
+        {
+          "movement": "hip_hinge_pvc",
+          "name": "Hip Hinge (Broomstick)",
+          "category": "pulling",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "10 hip hinges with broomstick along spine maintaining 3 points of contact"
+        },
+        {
+          "movement": "plank_30s",
+          "name": "Plank Hold",
+          "category": "bodyweight",
+          "criteria": { "type": "time", "target": 30, "unit": "seconds" },
+          "description": "Hold a forearm plank for 30 seconds with neutral spine"
+        },
+        {
+          "movement": "walk_run_intervals",
+          "name": "Walk/Run 800m",
+          "category": "monostructural",
+          "criteria": { "type": "completion", "details": "800m of walk/run combination" },
+          "description": "Complete 800 meters of walking and running in any combination"
+        }
+      ],
+      "sources": ["nsca_essentials_2016", "mcgill_2015", "strand_2014", "acsm_guidelines", "fragala_2019"]
+    },
+    {
+      "id": "F3",
+      "name": "Ready",
+      "shortName": "F3",
+      "color": "#22C55E",
+      "description": "Movement quality and base fitness sufficient for structured training with equipment. Ready for gym onboarding and barbell introduction.",
+      "estimatedWeeks": "4-8",
+      "requirements": [
+        {
+          "movement": "air_squat",
+          "name": "Air Squat (Full Depth)",
+          "category": "squatting",
+          "criteria": { "type": "reps", "target": 20 },
+          "description": "20 bodyweight squats below parallel with good form"
+        },
+        {
+          "movement": "push_up_single",
+          "name": "Full Push-up",
+          "category": "pressing",
+          "criteria": { "type": "reps", "target": 1 },
+          "description": "1 full push-up with chest to floor and full lockout"
+        },
+        {
+          "movement": "rdl_bodyweight",
+          "name": "Romanian Deadlift (Bodyweight)",
+          "category": "pulling",
+          "criteria": { "type": "reps", "target": 10 },
+          "description": "10 bodyweight Romanian deadlifts with neutral spine"
+        },
+        {
+          "movement": "dead_hang_or_carry",
+          "name": "Dead Hang OR Farmer's Carry",
+          "category": "gymnastics",
+          "criteria": { "type": "either", "options": [
+            { "movement": "dead_hang_30s", "type": "time", "target": 30, "unit": "seconds" },
+            { "movement": "farmers_carry_60s", "type": "time", "target": 60, "unit": "seconds" }
+          ]},
+          "description": "Hang from a bar for 30 seconds, OR carry two heavy bags (approx. 8kg each) for 60 seconds"
+        },
+        {
+          "movement": "run_mile_any_pace",
+          "name": "Run 1 Mile",
+          "category": "monostructural",
+          "criteria": { "type": "completion" },
+          "description": "Run 1 mile (1609m) without walking breaks, at any pace"
+        },
+        {
+          "movement": "plank_60s",
+          "name": "Plank Hold (60 Seconds)",
+          "category": "bodyweight",
+          "criteria": { "type": "time", "target": 60, "unit": "seconds" },
+          "description": "Hold a forearm plank for 60 seconds with neutral spine"
+        }
+      ],
+      "sources": ["nsca_essentials_2016", "mcgill_2015", "strand_2014", "acsm_guidelines", "bohannon_2019", "runninglevel", "fragala_2019"]
+    }
+  ]
+}
