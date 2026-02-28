@@ -115,7 +115,8 @@ Every scaled movement MUST have all 6 non-Rx levels. Use `{}` for "same as Rx".
 - Squatting: Pistol > Pistol to Box > Air Squat
 - Rope: Double-Under > Single-Under
 - Box: Box Jump > Box Step-up
-- Burpee: Bar-facing Burpee > Burpee to Target > Burpee > Bodybuilder
+- Burpee: Burpee to Target > Burpee > Bodybuilder
+- Bar-facing Burpee: only Beginner scales down to Bodybuilder (all other levels do Bar-facing Burpees)
 - Lunge: Jumping Lunge > Walking Lunge
 - Press: HSPU > Pike Push-up > Push-up > Knee Push-up
 - Olympic: Squat Clean > Power Clean; Power Snatch > Power Clean; C&J > PC & Push Press
