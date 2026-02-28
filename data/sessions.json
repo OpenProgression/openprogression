@@ -2,6 +2,43 @@
   "version": "1.0.0",
   "sessions": [
     {
+      "date": "2026-02-28",
+      "title": "Saturday - Teams of 2",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n10 push-ups\n10 ring rows",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Hang Power Clean",
+            "scheme": "5x3",
+            "prescription": "Light, focus on speed under the bar",
+            "notes": "Build to moderate. Partners alternate sets."
+          }
+        ]
+      },
+      "metcon": "OP-025",
+      "accessory": null
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Sunday - Active Recovery",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "5 min easy bike\nThen 2 rounds:\n10 cat-cows\n10 Samson stretches\n10 air squats\n10 PVC pass-throughs",
+        "durationMinutes": 8
+      },
+      "strength": null,
+      "metcon": "OP-031",
+      "accessory": {
+        "notes": "3x1:00 plank hold\n2x15 banded pull-aparts\nFoam roll 5 min",
+        "durationMinutes": 10
+      }
+    },
+    {
       "date": "2026-03-02",
       "title": "Monday - Squat + Intervals",
       "estimatedMinutes": 52,
