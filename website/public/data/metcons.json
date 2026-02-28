@@ -186,10 +186,10 @@
               "reps": 8,
               "scaling": {
                 "advanced_plus":     {},
-                "advanced":          { "sub": "Burpee to Target" },
-                "intermediate_plus": { "sub": "Burpee to Target", "reps": 7 },
-                "intermediate":      { "sub": "Burpee", "reps": 7 },
-                "beginner_plus":     { "sub": "Burpee", "reps": 6 },
+                "advanced":          {},
+                "intermediate_plus": {},
+                "intermediate":      {},
+                "beginner_plus":     {},
                 "beginner":          { "sub": "Bodybuilder", "reps": 6 }
               }
             }
