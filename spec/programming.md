@@ -120,9 +120,30 @@ Metcons provide scaling for all 7 OP levels. The level keys match the canonical 
 
 **Rx is always the default** -- the top-level values on each movement represent Rx. The `scaling` object provides values for all 6 levels below Rx.
 
-**Every movement with a `scaling` object must include explicit entries for all 6 non-Rx levels** (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `beginner_plus`, `beginner`), even when the values are identical to Rx. This ensures every level is fully self-describing and prevents rendering issues where missing data could produce blank cells or dashes. The trade-off is slightly more verbose data, but the gain is that each level can be read in isolation without resolving an inheritance chain.
+**Every movement with a `scaling` object must include explicit entries for all 6 non-Rx levels** (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `beginner_plus`, `beginner`). Each level entry must be **fully self-describing** -- it must repeat every Rx field value that applies to that level, even when the value is identical to Rx. Never use empty objects `{}` as shorthand for "same as Rx". The reason: external implementations (gyms, apps, partner systems) consume this data directly and should be able to read any single level without resolving an inheritance chain back to Rx.
 
-Movements that are identical across all levels (e.g., Run 200m, Row 1000m) may omit the `scaling` object entirely. The rule is: if `scaling` exists, all 6 levels must be present.
+**Example -- correct (explicit):**
+```json
+"scaling": {
+  "advanced_plus":     { "reps": 12 },
+  "advanced":          { "reps": 12 },
+  "intermediate_plus": { "reps": 10 },
+  "intermediate":      { "sub": "Jumping Pull-up", "reps": 10 },
+  "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
+  "beginner":          { "sub": "Ring Row", "reps": 8 }
+}
+```
+
+**Example -- wrong (empty object):**
+```json
+"scaling": {
+  "advanced_plus":     {},
+  "advanced":          {},
+  ...
+}
+```
+
+Movements that are identical across all levels (e.g., Run 200m, Row 1000m) may omit the `scaling` object entirely. The rule is: if `scaling` exists, all 6 levels must be present with fully explicit values.
 
 ## Level Targeting
 
@@ -246,10 +267,10 @@ Many workouts use descending, ascending, or custom rep patterns (21-15-9, 1-2-3-
     {
       "movement": "Burpee",
       "scaling": {
-        "advanced_plus":     {},
-        "advanced":          {},
-        "intermediate_plus": {},
-        "intermediate":      {},
+        "advanced_plus":     { "sub": "Burpee" },
+        "advanced":          { "sub": "Burpee" },
+        "intermediate_plus": { "sub": "Burpee" },
+        "intermediate":      { "sub": "Burpee" },
         "beginner_plus":     { "sub": "Bodybuilder" },
         "beginner":          { "sub": "Bodybuilder" }
       }
@@ -312,8 +333,8 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
       "movement": "Pull-up",
       "reps": 12,
       "scaling": {
-        "advanced_plus": {},
-        "advanced":      {},
+        "advanced_plus":     { "reps": 12 },
+        "advanced":          { "reps": 12 },
         "intermediate_plus": { "reps": 10 },
         "intermediate":  { "sub": "Jumping Pull-up", "reps": 10 },
         "beginner_plus": { "sub": "Ring Row", "reps": 10 },
@@ -338,7 +359,7 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
 }
 ```
 
-Note: `advanced_plus` Pull-up has an empty override `{}`. This explicitly confirms the Rx movement and reps carry forward unchanged at that level. All 6 non-Rx levels must be present when a `scaling` object exists.
+Note: `advanced_plus` and `advanced` Pull-up entries repeat the Rx reps value explicitly. Every level must be fully self-describing. All 6 non-Rx levels must be present when a `scaling` object exists.
 
 ### AMRAP
 
@@ -374,8 +395,8 @@ Note: `advanced_plus` Pull-up has an empty override `{}`. This explicitly confir
       "movement": "Toes-to-Bar",
       "reps": 10,
       "scaling": {
-        "advanced_plus": {},
-        "advanced":      { "sub": "Hanging Knee Raise" },
+        "advanced_plus": { "reps": 10 },
+        "advanced":      { "sub": "Hanging Knee Raise", "reps": 10 },
         "intermediate_plus": { "sub": "Hanging Knee Raise" },
         "intermediate":  { "sub": "Hanging Knee Raise", "reps": 8 },
         "beginner_plus": { "sub": "Sit-up", "reps": 15 },
@@ -501,7 +522,7 @@ Each level (`advanced_plus`, `advanced`, `intermediate_plus`, `intermediate`, `b
 | `distance` | Override distance |
 | `calories` | Override calorie target |
 
-If a field is not present in a level's scaling override, the Rx value carries forward for that field. However, the level entry itself must always be present -- use `{}` to explicitly confirm Rx values are unchanged at that level.
+Every level entry must include all relevant Rx fields explicitly. Never use empty `{}` objects. If a level is identical to Rx, repeat the Rx values in full. The `sub` field must always be a string, never a gender-specific object. When a movement substitution applies to one gender only, apply it to both genders at that level for simplicity and data consistency.
 
 ## Team Metcons
 
