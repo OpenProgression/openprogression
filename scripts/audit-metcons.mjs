@@ -24,6 +24,22 @@ for (const mc of m.metcons) {
       if (!(lvl in mov.scaling)) issues.push(`${mc.code} ${mov.movement}: missing ${lvl}`)
     }
 
+    // No empty objects - every level must have explicit values
+    for (const lvl of LEVELS) {
+      const s = mov.scaling[lvl]
+      if (s && Object.keys(s).length === 0) {
+        issues.push(`${mc.code} ${mov.movement} ${lvl}: empty {} (must have explicit values)`)
+      }
+    }
+
+    // No gender-specific object subs - sub must be a string
+    for (const lvl of LEVELS) {
+      const s = mov.scaling[lvl]
+      if (s && s.sub && typeof s.sub === "object") {
+        issues.push(`${mc.code} ${mov.movement} ${lvl}: sub is object (must be string)`)
+      }
+    }
+
     // Monotonic male load
     if (mov.load && mov.load.male) {
       let prev = mov.load.male

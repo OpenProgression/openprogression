@@ -107,7 +107,7 @@ All Rx loads are derived from benchmark 1RM data. The percentage depends on rep 
 
 ### Scaling Rules
 
-Every scaled movement MUST have all 6 non-Rx levels. Use `{}` for "same as Rx".
+Every scaled movement MUST have all 6 non-Rx levels. Each level entry MUST be fully explicit with all relevant field values repeated, even when identical to Rx. Never use empty `{}` objects. Never use gender-specific object `sub` fields (always use a string).
 
 **Scaling chains** (hardest to easiest):
 - Pulling: Bar Muscle-up > C2B > Pull-up > Jumping Pull-up > Ring Row
@@ -123,11 +123,13 @@ Every scaled movement MUST have all 6 non-Rx levels. Use `{}` for "same as Rx".
 - Olympic: Squat Clean > Power Clean; Power Snatch > Power Clean; C&J > PC & Push Press
 
 **Integrity rules:**
-1. No placeholders ("-", "N/A", empty strings)
-2. Monotonic difficulty (movement subs only get easier going down)
-3. Monotonic load (same movement, load only decreases going down)
-4. Monotonic reps (same movement, reps only decrease going down)
-5. Reps MAY increase when subbing to an easier movement (to preserve stimulus)
+1. No placeholders ("-", "N/A", empty strings, empty `{}` objects)
+2. Every level must be fully self-describing (repeat Rx values when unchanged)
+3. Monotonic difficulty (movement subs only get easier going down)
+4. Monotonic load (same movement, load only decreases going down)
+5. Monotonic reps (same movement, reps only decrease going down)
+6. Reps MAY increase when subbing to an easier movement (to preserve stimulus)
+7. `sub` must always be a string, never a gender-specific object
 
 ### Writing Metcons Incrementally
 

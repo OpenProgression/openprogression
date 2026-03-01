@@ -17,27 +17,76 @@
         {
           "movement": "Hang Power Clean",
           "reps": 10,
-          "load": { "male": 70, "female": 50 },
+          "load": {
+            "male": 70,
+            "female": 50
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
-            "advanced":          { "load": { "male": 55, "female": 40 } },
-            "intermediate_plus": { "load": { "male": 45, "female": 30 } },
-            "intermediate":      { "load": { "male": 35, "female": 25 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Chest-to-Bar Pull-up",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pull-up" },
-            "intermediate_plus": { "sub": "Pull-up", "reps": 10 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 10 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Pull-up",
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         }
       ]
@@ -62,27 +111,76 @@
         {
           "movement": "Kettlebell Swing",
           "reps": 12,
-          "load": { "male": 32, "female": 24 },
+          "load": {
+            "male": 32,
+            "female": 24
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
-            "advanced":          { "load": { "male": 24, "female": 16 } },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
-            "intermediate":      { "load": { "male": 16, "female": 12 } },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
-            "beginner":          { "load": { "male": 8, "female": 6 }, "reps": 10 }
+            "advanced_plus": {
+              "load": {
+                "male": 28,
+                "female": 20
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              },
+              "reps": 10
+            }
           }
         },
         {
           "movement": "Toes-to-Bar",
           "reps": 9,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Hanging Knee Raise" },
-            "intermediate_plus": { "sub": "Hanging Knee Raise" },
-            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 8 },
-            "beginner_plus":     { "sub": "Sit-up", "reps": 12 },
-            "beginner":          { "sub": "Sit-up", "reps": 10 }
+            "advanced_plus": {
+              "reps": 9
+            },
+            "advanced": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate_plus": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate": {
+              "sub": "Hanging Knee Raise",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Sit-up",
+              "reps": 12
+            },
+            "beginner": {
+              "sub": "Sit-up",
+              "reps": 10
+            }
           }
         }
       ]
@@ -108,41 +206,121 @@
         {
           "movement": "Front Squat",
           "reps": 5,
-          "load": { "male": 70, "female": 50 },
+          "load": {
+            "male": 70,
+            "female": 50
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
-            "advanced":          { "load": { "male": 55, "female": 40 } },
-            "intermediate_plus": { "load": { "male": 45, "female": 30 } },
-            "intermediate":      { "load": { "male": 35, "female": 25 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Push Press",
           "reps": 5,
-          "load": { "male": 70, "female": 50 },
+          "load": {
+            "male": 70,
+            "female": 50
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
-            "advanced":          { "load": { "male": 55, "female": 40 } },
-            "intermediate_plus": { "load": { "male": 45, "female": 30 } },
-            "intermediate":      { "load": { "male": 35, "female": 25 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Push-up",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "reps": 8 },
-            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
-            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Box Push-up" }, "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Box Push-up",
+              "reps": 6
+            }
           }
         }
       ]
@@ -153,7 +331,10 @@
       "type": "emom",
       "timeCap": 16,
       "interval": 1,
-      "pattern": ["A", "B"],
+      "pattern": [
+        "A",
+        "B"
+      ],
       "stimulus": {
         "duration": "16 min",
         "feel": "Interval work. Push hard, recover within the minute. Cleans should be crisp, burpees are the engine piece. Should have 15-20s rest each round at Rx.",
@@ -166,15 +347,52 @@
             {
               "movement": "Squat Clean",
               "reps": 4,
-              "load": { "male": 80, "female": 55 },
+              "load": {
+                "male": 80,
+                "female": 55
+              },
               "unit": "kg",
               "scaling": {
-                "advanced_plus":     { "load": { "male": 75, "female": 50 } },
-                "advanced":          { "load": { "male": 65, "female": 45 } },
-                "intermediate_plus": { "sub": "Power Clean", "load": { "male": 55, "female": 35 } },
-                "intermediate":      { "sub": "Power Clean", "load": { "male": 45, "female": 30 } },
-                "beginner_plus":     { "sub": "Power Clean", "load": { "male": 35, "female": 20 } },
-                "beginner":          { "sub": "Power Clean", "load": { "male": 25, "female": 15 } }
+                "advanced_plus": {
+                  "load": {
+                    "male": 75,
+                    "female": 50
+                  }
+                },
+                "advanced": {
+                  "load": {
+                    "male": 65,
+                    "female": 45
+                  }
+                },
+                "intermediate_plus": {
+                  "sub": "Power Clean",
+                  "load": {
+                    "male": 55,
+                    "female": 35
+                  }
+                },
+                "intermediate": {
+                  "sub": "Power Clean",
+                  "load": {
+                    "male": 45,
+                    "female": 30
+                  }
+                },
+                "beginner_plus": {
+                  "sub": "Power Clean",
+                  "load": {
+                    "male": 35,
+                    "female": 20
+                  }
+                },
+                "beginner": {
+                  "sub": "Power Clean",
+                  "load": {
+                    "male": 25,
+                    "female": 15
+                  }
+                }
               }
             }
           ]
@@ -185,12 +403,25 @@
               "movement": "Bar-facing Burpee",
               "reps": 8,
               "scaling": {
-                "advanced_plus":     {},
-                "advanced":          {},
-                "intermediate_plus": {},
-                "intermediate":      {},
-                "beginner_plus":     {},
-                "beginner":          { "sub": "Bodybuilder", "reps": 6 }
+                "advanced_plus": {
+                  "reps": 8
+                },
+                "advanced": {
+                  "reps": 8
+                },
+                "intermediate_plus": {
+                  "reps": 8
+                },
+                "intermediate": {
+                  "reps": 8
+                },
+                "beginner_plus": {
+                  "reps": 8
+                },
+                "beginner": {
+                  "sub": "Bodybuilder",
+                  "reps": 6
+                }
               }
             }
           ]
@@ -202,7 +433,11 @@
       "name": "Spicy Flint",
       "type": "for_time",
       "timeCap": 12,
-      "repScheme": [21, 15, 9],
+      "repScheme": [
+        21,
+        15,
+        9
+      ],
       "stimulus": {
         "duration": "6-10 min",
         "feel": "High intensity couplet. The descending reps give you hope, but the deadlifts get heavier as your grip fades. Burpees are relentless. Should hurt from round 2 onward.",
@@ -212,26 +447,71 @@
       "movements": [
         {
           "movement": "Deadlift",
-          "load": { "male": 100, "female": 70 },
+          "load": {
+            "male": 100,
+            "female": 70
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 90, "female": 65 } },
-            "advanced":          { "load": { "male": 80, "female": 55 } },
-            "intermediate_plus": { "load": { "male": 65, "female": 45 } },
-            "intermediate":      { "load": { "male": 55, "female": 35 } },
-            "beginner_plus":     { "load": { "male": 40, "female": 25 } },
-            "beginner":          { "load": { "male": 30, "female": 20 } }
+            "advanced_plus": {
+              "load": {
+                "male": 90,
+                "female": 65
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 80,
+                "female": 55
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 55,
+                "female": 35
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            }
           }
         },
         {
           "movement": "Burpee to Target",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee" },
-            "beginner":          { "sub": "Bodybuilder" }
+            "advanced_plus": {
+              "sub": "Burpee to Target"
+            },
+            "advanced": {
+              "sub": "Burpee to Target"
+            },
+            "intermediate_plus": {
+              "sub": "Burpee to Target"
+            },
+            "intermediate": {
+              "sub": "Burpee to Target"
+            },
+            "beginner_plus": {
+              "sub": "Burpee"
+            },
+            "beginner": {
+              "sub": "Bodybuilder"
+            }
           }
         }
       ]
@@ -256,41 +536,128 @@
         {
           "movement": "Wall Ball",
           "reps": 15,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 9, "female": 6 } },
-            "intermediate_plus": { "load": { "male": 9, "female": 6 }, "reps": 12 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 12 },
-            "beginner_plus":     { "load": { "male": 6, "female": 4 }, "reps": 10 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 10 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              },
+              "reps": 12
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 12
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 10
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 10
+            }
           }
         },
         {
           "movement": "Pull-up",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 10 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 10 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Power Snatch",
           "reps": 6,
-          "load": { "male": 55, "female": 40 },
+          "load": {
+            "male": 55,
+            "female": 40
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
-            "advanced":          { "load": { "male": 45, "female": 30 } },
-            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
-            "intermediate":      { "load": { "male": 30, "female": 20 } },
-            "beginner_plus":     { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
-            "beginner":          { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner_plus": {
+              "sub": "Power Clean",
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "sub": "Power Clean",
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         }
       ]
@@ -312,36 +679,82 @@
           "movement": "Handstand Push-up",
           "reps": 6,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pike Push-up" },
-            "intermediate_plus": { "sub": "Pike Push-up" },
-            "intermediate":      { "sub": "Push-up", "reps": 10 },
-            "beginner_plus":     { "sub": "Knee Push-up", "reps": 10 },
-            "beginner":          { "sub": "Knee Push-up", "reps": 8 }
+            "advanced_plus": {
+              "reps": 6
+            },
+            "advanced": {
+              "sub": "Pike Push-up"
+            },
+            "intermediate_plus": {
+              "sub": "Pike Push-up"
+            },
+            "intermediate": {
+              "sub": "Push-up",
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Pistol Squat",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pistol Squat to Box" },
-            "intermediate_plus": { "sub": "Pistol Squat to Box" },
-            "intermediate":      { "sub": "Air Squat", "reps": 20 },
-            "beginner_plus":     { "sub": "Air Squat", "reps": 16 },
-            "beginner":          { "sub": "Air Squat", "reps": 12 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "sub": "Pistol Squat to Box"
+            },
+            "intermediate_plus": {
+              "sub": "Pistol Squat to Box"
+            },
+            "intermediate": {
+              "sub": "Air Squat",
+              "reps": 20
+            },
+            "beginner_plus": {
+              "sub": "Air Squat",
+              "reps": 16
+            },
+            "beginner": {
+              "sub": "Air Squat",
+              "reps": 12
+            }
           }
         },
         {
           "movement": "Toes-to-Bar",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Hanging Knee Raise" },
-            "intermediate_plus": { "sub": "Hanging Knee Raise", "reps": 10 },
-            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 8 },
-            "beginner_plus":     { "sub": "Sit-up", "reps": 15 },
-            "beginner":          { "sub": "Sit-up", "reps": 12 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate_plus": {
+              "sub": "Hanging Knee Raise",
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Hanging Knee Raise",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Sit-up",
+              "reps": 15
+            },
+            "beginner": {
+              "sub": "Sit-up",
+              "reps": 12
+            }
           }
         }
       ]
@@ -363,60 +776,128 @@
           "movement": "Double-Under",
           "reps": 50,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "reps": 40 },
-            "intermediate_plus": { "reps": 30 },
-            "intermediate":      { "sub": "Single-Under", "reps": 100 },
-            "beginner_plus":     { "sub": "Single-Under", "reps": 75 },
-            "beginner":          { "sub": "Single-Under", "reps": 50 }
+            "advanced_plus": {
+              "reps": 50
+            },
+            "advanced": {
+              "reps": 40
+            },
+            "intermediate_plus": {
+              "reps": 30
+            },
+            "intermediate": {
+              "sub": "Single-Under",
+              "reps": 100
+            },
+            "beginner_plus": {
+              "sub": "Single-Under",
+              "reps": 75
+            },
+            "beginner": {
+              "sub": "Single-Under",
+              "reps": 50
+            }
           }
         },
         {
           "movement": "Air Squat",
           "reps": 40,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 35 },
-            "intermediate":      { "reps": 30 },
-            "beginner_plus":     { "reps": 25 },
-            "beginner":          { "reps": 20 }
+            "advanced_plus": {
+              "reps": 40
+            },
+            "advanced": {
+              "reps": 40
+            },
+            "intermediate_plus": {
+              "reps": 35
+            },
+            "intermediate": {
+              "reps": 30
+            },
+            "beginner_plus": {
+              "reps": 25
+            },
+            "beginner": {
+              "reps": 20
+            }
           }
         },
         {
           "movement": "Sit-up",
           "reps": 30,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 25 },
-            "intermediate":      { "reps": 20 },
-            "beginner_plus":     { "reps": 15 },
-            "beginner":          { "reps": 12 }
+            "advanced_plus": {
+              "reps": 30
+            },
+            "advanced": {
+              "reps": 30
+            },
+            "intermediate_plus": {
+              "reps": 25
+            },
+            "intermediate": {
+              "reps": 20
+            },
+            "beginner_plus": {
+              "reps": 15
+            },
+            "beginner": {
+              "reps": 12
+            }
           }
         },
         {
           "movement": "Jumping Lunge",
           "reps": 20,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 16 },
-            "intermediate":      { "sub": "Walking Lunge", "reps": 16 },
-            "beginner_plus":     { "sub": "Walking Lunge", "reps": 12 },
-            "beginner":          { "sub": "Walking Lunge", "reps": 10 }
+            "advanced_plus": {
+              "reps": 20
+            },
+            "advanced": {
+              "reps": 20
+            },
+            "intermediate_plus": {
+              "reps": 16
+            },
+            "intermediate": {
+              "sub": "Walking Lunge",
+              "reps": 16
+            },
+            "beginner_plus": {
+              "sub": "Walking Lunge",
+              "reps": 12
+            },
+            "beginner": {
+              "sub": "Walking Lunge",
+              "reps": 10
+            }
           }
         },
         {
           "movement": "Burpee",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Bodybuilder", "reps": 8 },
-            "beginner":          { "sub": "Bodybuilder", "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Bodybuilder",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Bodybuilder",
+              "reps": 6
+            }
           }
         }
       ]
@@ -442,29 +923,103 @@
         {
           "movement": "Thruster",
           "reps": 15,
-          "load": { "male": 55, "female": 40 },
+          "load": {
+            "male": 55,
+            "female": 40
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
-            "advanced":          { "load": { "male": 45, "female": 30 } },
-            "intermediate_plus": { "load": { "male": 35, "female": 25 }, "reps": 12 },
-            "intermediate":      { "load": { "male": 30, "female": 20 }, "reps": 12 },
-            "beginner_plus":     { "load": { "male": 25, "female": 15 }, "reps": 10 },
-            "beginner":          { "load": { "male": 20, "female": 15 }, "reps": 8 }
+            "advanced_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              },
+              "reps": 12
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              },
+              "reps": 12
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 15
+              },
+              "reps": 10
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              },
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Box Jump",
           "reps": 9,
-          "height": { "male": 60, "female": 50 },
+          "height": {
+            "male": 60,
+            "female": 50
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+            "advanced_plus": {
+              "reps": 9,
+              "height": {
+                "male": 60,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner_plus": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            }
           }
         }
       ]
@@ -489,15 +1044,54 @@
         {
           "movement": "Clean & Jerk",
           "reps": 30,
-          "load": { "male": 75, "female": 55 },
+          "load": {
+            "male": 75,
+            "female": 55
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 70, "female": 50 } },
-            "advanced":          { "load": { "male": 60, "female": 45 } },
-            "intermediate_plus": { "load": { "male": 50, "female": 35 }, "reps": 25 },
-            "intermediate":      { "load": { "male": 40, "female": 30 }, "reps": 25 },
-            "beginner_plus":     { "sub": "Power Clean & Push Press", "load": { "male": 30, "female": 20 }, "reps": 20 },
-            "beginner":          { "sub": "Power Clean & Push Press", "load": { "male": 20, "female": 15 }, "reps": 20 }
+            "advanced_plus": {
+              "load": {
+                "male": 70,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 60,
+                "female": 45
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              },
+              "reps": 25
+            },
+            "intermediate": {
+              "load": {
+                "male": 40,
+                "female": 30
+              },
+              "reps": 25
+            },
+            "beginner_plus": {
+              "sub": "Power Clean & Push Press",
+              "load": {
+                "male": 30,
+                "female": 20
+              },
+              "reps": 20
+            },
+            "beginner": {
+              "sub": "Power Clean & Push Press",
+              "load": {
+                "male": 20,
+                "female": 15
+              },
+              "reps": 20
+            }
           }
         },
         {
@@ -528,27 +1122,75 @@
         {
           "movement": "Push Press",
           "reps": 12,
-          "load": { "male": 55, "female": 40 },
+          "load": {
+            "male": 55,
+            "female": 40
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
-            "advanced":          { "load": { "male": 45, "female": 30 } },
-            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
-            "intermediate":      { "load": { "male": 30, "female": 20 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 15 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Pull-up",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 10 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 10 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         }
       ]
@@ -574,27 +1216,73 @@
         {
           "movement": "Kettlebell Swing",
           "reps": 10,
-          "load": { "male": 32, "female": 24 },
+          "load": {
+            "male": 32,
+            "female": 24
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
-            "advanced":          { "load": { "male": 24, "female": 16 } },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
-            "intermediate":      { "load": { "male": 16, "female": 12 } },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
-            "beginner":          { "load": { "male": 8, "female": 6 }, "reps": 8 }
+            "advanced_plus": {
+              "load": {
+                "male": 28,
+                "female": 20
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              },
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Burpee to Target",
           "reps": 5,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Burpee" },
-            "beginner":          { "sub": "Bodybuilder" }
+            "advanced_plus": {
+              "reps": 5
+            },
+            "advanced": {
+              "reps": 5
+            },
+            "intermediate_plus": {
+              "reps": 5
+            },
+            "intermediate": {
+              "reps": 5
+            },
+            "beginner_plus": {
+              "sub": "Burpee"
+            },
+            "beginner": {
+              "sub": "Bodybuilder"
+            }
           }
         }
       ]
@@ -619,43 +1307,150 @@
         {
           "movement": "Wall Ball",
           "reps": 15,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 9, "female": 6 } },
-            "intermediate_plus": { "load": { "male": 9, "female": 6 }, "reps": 12 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 12 },
-            "beginner_plus":     { "load": { "male": 6, "female": 4 }, "reps": 10 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 10 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              },
+              "reps": 12
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 12
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 10
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 10
+            }
           }
         },
         {
           "movement": "Deadlift",
           "reps": 10,
-          "load": { "male": 70, "female": 50 },
+          "load": {
+            "male": 70,
+            "female": 50
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
-            "advanced":          { "load": { "male": 60, "female": 40 } },
-            "intermediate_plus": { "load": { "male": 50, "female": 35 } },
-            "intermediate":      { "load": { "male": 40, "female": 30 } },
-            "beginner_plus":     { "load": { "male": 30, "female": 20 } },
-            "beginner":          { "load": { "male": 25, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 60,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 40,
+                "female": 30
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Box Jump",
           "reps": 5,
-          "height": { "male": 60, "female": 50 },
+          "height": {
+            "male": 60,
+            "female": 50
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+            "advanced_plus": {
+              "reps": 5,
+              "height": {
+                "male": 60,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner_plus": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            }
           }
         }
       ]
@@ -681,27 +1476,76 @@
         {
           "movement": "Deadlift",
           "reps": 15,
-          "load": { "male": 80, "female": 55 },
+          "load": {
+            "male": 80,
+            "female": 55
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 75, "female": 50 } },
-            "advanced":          { "load": { "male": 65, "female": 45 } },
-            "intermediate_plus": { "load": { "male": 55, "female": 40 } },
-            "intermediate":      { "load": { "male": 45, "female": 30 } },
-            "beginner_plus":     { "load": { "male": 35, "female": 25 } },
-            "beginner":          { "load": { "male": 25, "female": 20 } }
+            "advanced_plus": {
+              "load": {
+                "male": 75,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            }
           }
         },
         {
           "movement": "Toes-to-Bar",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Hanging Knee Raise" },
-            "intermediate_plus": { "sub": "Hanging Knee Raise", "reps": 10 },
-            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 8 },
-            "beginner_plus":     { "sub": "Sit-up", "reps": 15 },
-            "beginner":          { "sub": "Sit-up", "reps": 12 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate_plus": {
+              "sub": "Hanging Knee Raise",
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Hanging Knee Raise",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Sit-up",
+              "reps": 15
+            },
+            "beginner": {
+              "sub": "Sit-up",
+              "reps": 12
+            }
           }
         }
       ]
@@ -726,43 +1570,150 @@
         {
           "movement": "Wall Ball",
           "reps": 30,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 9, "female": 6 } },
-            "intermediate_plus": { "load": { "male": 9, "female": 6 }, "reps": 25 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 25 },
-            "beginner_plus":     { "load": { "male": 6, "female": 4 }, "reps": 20 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 20 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              },
+              "reps": 25
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 25
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 20
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 20
+            }
           }
         },
         {
           "movement": "Power Clean",
           "reps": 20,
-          "load": { "male": 60, "female": 45 },
+          "load": {
+            "male": 60,
+            "female": 45
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 55, "female": 40 } },
-            "advanced":          { "load": { "male": 50, "female": 35 } },
-            "intermediate_plus": { "load": { "male": 40, "female": 30 } },
-            "intermediate":      { "load": { "male": 35, "female": 25 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 40,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Wall Ball",
           "reps": 30,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 9, "female": 6 } },
-            "intermediate_plus": { "load": { "male": 9, "female": 6 }, "reps": 25 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 25 },
-            "beginner_plus":     { "load": { "male": 6, "female": 4 }, "reps": 20 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 20 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              },
+              "reps": 25
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 25
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 20
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 20
+            }
           }
         },
         {
@@ -778,7 +1729,10 @@
       "type": "emom",
       "timeCap": 16,
       "interval": 1,
-      "pattern": ["A", "B"],
+      "pattern": [
+        "A",
+        "B"
+      ],
       "stimulus": {
         "duration": "16 min",
         "feel": "Interval work. Thruster minutes are the grind, toes-to-bar minutes test your midline. Should have 15-20s rest each minute at Rx.",
@@ -791,15 +1745,52 @@
             {
               "movement": "Thruster",
               "reps": 5,
-              "load": { "male": 55, "female": 40 },
+              "load": {
+                "male": 55,
+                "female": 40
+              },
               "unit": "kg",
               "scaling": {
-                "advanced_plus":     { "load": { "male": 50, "female": 35 } },
-                "advanced":          { "load": { "male": 45, "female": 30 } },
-                "intermediate_plus": { "load": { "male": 35, "female": 25 }, "reps": 4 },
-                "intermediate":      { "load": { "male": 30, "female": 20 }, "reps": 4 },
-                "beginner_plus":     { "load": { "male": 25, "female": 15 }, "reps": 3 },
-                "beginner":          { "load": { "male": 20, "female": 15 }, "reps": 3 }
+                "advanced_plus": {
+                  "load": {
+                    "male": 50,
+                    "female": 35
+                  }
+                },
+                "advanced": {
+                  "load": {
+                    "male": 45,
+                    "female": 30
+                  }
+                },
+                "intermediate_plus": {
+                  "load": {
+                    "male": 35,
+                    "female": 25
+                  },
+                  "reps": 4
+                },
+                "intermediate": {
+                  "load": {
+                    "male": 30,
+                    "female": 20
+                  },
+                  "reps": 4
+                },
+                "beginner_plus": {
+                  "load": {
+                    "male": 25,
+                    "female": 15
+                  },
+                  "reps": 3
+                },
+                "beginner": {
+                  "load": {
+                    "male": 20,
+                    "female": 15
+                  },
+                  "reps": 3
+                }
               }
             }
           ]
@@ -810,12 +1801,27 @@
               "movement": "Toes-to-Bar",
               "reps": 8,
               "scaling": {
-                "advanced_plus":     {},
-                "advanced":          { "sub": "Hanging Knee Raise" },
-                "intermediate_plus": { "sub": "Hanging Knee Raise" },
-                "intermediate":      { "sub": "Hanging Knee Raise", "reps": 6 },
-                "beginner_plus":     { "sub": "Sit-up", "reps": 10 },
-                "beginner":          { "sub": "Sit-up", "reps": 8 }
+                "advanced_plus": {
+                  "reps": 8
+                },
+                "advanced": {
+                  "sub": "Hanging Knee Raise"
+                },
+                "intermediate_plus": {
+                  "sub": "Hanging Knee Raise"
+                },
+                "intermediate": {
+                  "sub": "Hanging Knee Raise",
+                  "reps": 6
+                },
+                "beginner_plus": {
+                  "sub": "Sit-up",
+                  "reps": 10
+                },
+                "beginner": {
+                  "sub": "Sit-up",
+                  "reps": 8
+                }
               }
             }
           ]
@@ -843,27 +1849,80 @@
         {
           "movement": "Front Squat",
           "reps": 12,
-          "load": { "male": 60, "female": 45 },
+          "load": {
+            "male": 60,
+            "female": 45
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 55, "female": 40 } },
-            "advanced":          { "load": { "male": 50, "female": 35 } },
-            "intermediate_plus": { "load": { "male": 40, "female": 30 }, "reps": 10 },
-            "intermediate":      { "load": { "male": 35, "female": 25 }, "reps": 10 },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 }, "reps": 8 },
-            "beginner":          { "load": { "male": 20, "female": 15 }, "reps": 8 }
+            "advanced_plus": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 40,
+                "female": 30
+              },
+              "reps": 10
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              },
+              "reps": 10
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              },
+              "reps": 8
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              },
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Chest-to-Bar Pull-up",
           "reps": 12,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pull-up" },
-            "intermediate_plus": { "sub": "Pull-up", "reps": 10 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 10 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Pull-up",
+              "reps": 10
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         },
         {
@@ -893,29 +1952,101 @@
         {
           "movement": "Power Snatch",
           "reps": 8,
-          "load": { "male": 50, "female": 35 },
+          "load": {
+            "male": 50,
+            "female": 35
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 45, "female": 30 } },
-            "advanced":          { "load": { "male": 40, "female": 25 } },
-            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
-            "intermediate":      { "load": { "male": 30, "female": 20 } },
-            "beginner_plus":     { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
-            "beginner":          { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner_plus": {
+              "sub": "Power Clean",
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "sub": "Power Clean",
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Box Jump",
           "reps": 12,
-          "height": { "male": 60, "female": 50 },
+          "height": {
+            "male": 60,
+            "female": 50
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+            "advanced_plus": {
+              "reps": 12,
+              "height": {
+                "male": 60,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner_plus": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            }
           }
         }
       ]
@@ -937,38 +2068,102 @@
           "movement": "Chest-to-Bar Pull-up",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pull-up" },
-            "intermediate_plus": { "sub": "Pull-up", "reps": 8 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 8 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Pull-up",
+              "reps": 8
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         },
         {
           "movement": "Kettlebell Swing",
           "reps": 15,
-          "load": { "male": 32, "female": 24 },
+          "load": {
+            "male": 32,
+            "female": 24
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
-            "advanced":          { "load": { "male": 24, "female": 16 } },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
-            "intermediate":      { "load": { "male": 16, "female": 12 } },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
-            "beginner":          { "load": { "male": 8, "female": 6 }, "reps": 12 }
+            "advanced_plus": {
+              "load": {
+                "male": 28,
+                "female": 20
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              },
+              "reps": 12
+            }
           }
         },
         {
           "movement": "Burpee",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": "Bodybuilder", "reps": 8 },
-            "beginner":          { "sub": "Bodybuilder", "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Bodybuilder",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Bodybuilder",
+              "reps": 6
+            }
           }
         }
       ]
@@ -978,7 +2173,11 @@
       "name": "Quick Salt",
       "type": "for_time",
       "timeCap": 10,
-      "repScheme": [21, 15, 9],
+      "repScheme": [
+        21,
+        15,
+        9
+      ],
       "stimulus": {
         "duration": "5-8 min",
         "feel": "Classic couplet sprint. The descending reps give you hope. Thrusters burn the legs, pull-ups burn the grip. Go fast or go home.",
@@ -988,26 +2187,71 @@
       "movements": [
         {
           "movement": "Thruster",
-          "load": { "male": 45, "female": 30 },
+          "load": {
+            "male": 45,
+            "female": 30
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 40, "female": 25 } },
-            "advanced":          { "load": { "male": 35, "female": 25 } },
-            "intermediate_plus": { "load": { "male": 30, "female": 20 } },
-            "intermediate":      { "load": { "male": 25, "female": 15 } },
-            "beginner_plus":     { "load": { "male": 20, "female": 15 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Pull-up",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "sub": "Jumping Pull-up" },
-            "intermediate":      { "sub": "Jumping Pull-up" },
-            "beginner_plus":     { "sub": "Ring Row" },
-            "beginner":          { "sub": "Ring Row" }
+            "advanced_plus": {
+              "sub": "Pull-up"
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Jumping Pull-up"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up"
+            },
+            "beginner_plus": {
+              "sub": "Ring Row"
+            },
+            "beginner": {
+              "sub": "Ring Row"
+            }
           }
         }
       ]
@@ -1033,15 +2277,52 @@
         {
           "movement": "Wall Ball",
           "reps": 12,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 6, "female": 4 } },
-            "intermediate_plus": { "load": { "male": 6, "female": 4 }, "reps": 10 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 10 },
-            "beginner_plus":     { "load": { "male": 4, "female": 3 }, "reps": 10 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 8 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 6,
+                "female": 4
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 10
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 10
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 10
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 8
+            }
           }
         },
         {
@@ -1053,12 +2334,27 @@
           "movement": "Toes-to-Bar",
           "reps": 6,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Hanging Knee Raise" },
-            "intermediate_plus": { "sub": "Hanging Knee Raise" },
-            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 5 },
-            "beginner_plus":     { "sub": "Sit-up", "reps": 10 },
-            "beginner":          { "sub": "Sit-up", "reps": 8 }
+            "advanced_plus": {
+              "reps": 6
+            },
+            "advanced": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate_plus": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate": {
+              "sub": "Hanging Knee Raise",
+              "reps": 5
+            },
+            "beginner_plus": {
+              "sub": "Sit-up",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Sit-up",
+              "reps": 8
+            }
           }
         }
       ]
@@ -1083,29 +2379,101 @@
         {
           "movement": "Hang Power Clean",
           "reps": 8,
-          "load": { "male": 65, "female": 45 },
+          "load": {
+            "male": 65,
+            "female": 45
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 60, "female": 40 } },
-            "advanced":          { "load": { "male": 50, "female": 35 } },
-            "intermediate_plus": { "load": { "male": 40, "female": 25 } },
-            "intermediate":      { "load": { "male": 30, "female": 20 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 15 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 60,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Box Jump",
           "reps": 12,
-          "height": { "male": 60, "female": 50 },
+          "height": {
+            "male": 60,
+            "female": 50
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     { "height": { "male": 60, "female": 50 } },
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 }, "reps": 12 },
-            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 }, "reps": 10 },
-            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 }, "reps": 10 }
+            "advanced_plus": {
+              "height": {
+                "male": 60,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              },
+              "reps": 12
+            },
+            "beginner_plus": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              },
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 40,
+                "female": 30
+              },
+              "reps": 10
+            }
           }
         },
         {
@@ -1136,41 +2504,131 @@
         {
           "movement": "Wall Ball",
           "reps": 100,
-          "load": { "male": 9, "female": 6 },
+          "load": {
+            "male": 9,
+            "female": 6
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 9, "female": 6 } },
-            "advanced":          { "load": { "male": 6, "female": 4 }, "reps": 80 },
-            "intermediate_plus": { "load": { "male": 6, "female": 4 }, "reps": 80 },
-            "intermediate":      { "load": { "male": 6, "female": 4 }, "reps": 60 },
-            "beginner_plus":     { "load": { "male": 4, "female": 3 }, "reps": 60 },
-            "beginner":          { "load": { "male": 4, "female": 3 }, "reps": 50 }
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 80
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 80
+            },
+            "intermediate": {
+              "load": {
+                "male": 6,
+                "female": 4
+              },
+              "reps": 60
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 60
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              },
+              "reps": 50
+            }
           }
         },
         {
           "movement": "Kettlebell Swing",
           "reps": 80,
-          "load": { "male": 32, "female": 24 },
+          "load": {
+            "male": 32,
+            "female": 24
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
-            "advanced":          { "load": { "male": 24, "female": 16 }, "reps": 60 },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 }, "reps": 60 },
-            "intermediate":      { "load": { "male": 16, "female": 12 }, "reps": 50 },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 }, "reps": 50 },
-            "beginner":          { "load": { "male": 8, "female": 6 }, "reps": 40 }
+            "advanced_plus": {
+              "load": {
+                "male": 28,
+                "female": 20
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 24,
+                "female": 16
+              },
+              "reps": 60
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              },
+              "reps": 60
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              },
+              "reps": 50
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              },
+              "reps": 50
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              },
+              "reps": 40
+            }
           }
         },
         {
           "movement": "Burpee",
           "reps": 60,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "reps": 50 },
-            "intermediate_plus": { "reps": 50 },
-            "intermediate":      { "reps": 40 },
-            "beginner_plus":     { "sub": "Bodybuilder", "reps": 40 },
-            "beginner":          { "sub": "Bodybuilder", "reps": 30 }
+            "advanced_plus": {
+              "reps": 60
+            },
+            "advanced": {
+              "reps": 50
+            },
+            "intermediate_plus": {
+              "reps": 50
+            },
+            "intermediate": {
+              "reps": 40
+            },
+            "beginner_plus": {
+              "sub": "Bodybuilder",
+              "reps": 40
+            },
+            "beginner": {
+              "sub": "Bodybuilder",
+              "reps": 30
+            }
           }
         },
         {
@@ -1178,12 +2636,24 @@
           "distance": 1500,
           "unit": "m",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "distance": 1200 },
-            "intermediate_plus": { "distance": 1200 },
-            "intermediate":      { "distance": 1000 },
-            "beginner_plus":     { "distance": 1000 },
-            "beginner":          { "distance": 800 }
+            "advanced_plus": {
+              "distance": 1500
+            },
+            "advanced": {
+              "distance": 1200
+            },
+            "intermediate_plus": {
+              "distance": 1200
+            },
+            "intermediate": {
+              "distance": 1000
+            },
+            "beginner_plus": {
+              "distance": 1000
+            },
+            "beginner": {
+              "distance": 800
+            }
           }
         }
       ]
@@ -1209,27 +2679,73 @@
         {
           "movement": "Power Clean",
           "reps": 5,
-          "load": { "male": 70, "female": 50 },
+          "load": {
+            "male": 70,
+            "female": 50
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 65, "female": 45 } },
-            "advanced":          { "load": { "male": 55, "female": 40 } },
-            "intermediate_plus": { "load": { "male": 45, "female": 30 } },
-            "intermediate":      { "load": { "male": 35, "female": 25 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 20 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 65,
+                "female": 45
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Push-up",
           "reps": 7,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "sub": { "female": "Knee Push-up" } },
-            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 5 }
+            "advanced_plus": {
+              "reps": 7
+            },
+            "advanced": {
+              "reps": 7
+            },
+            "intermediate_plus": {
+              "reps": 7
+            },
+            "intermediate": {
+              "reps": 7
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up"
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 5
+            }
           }
         }
       ]
@@ -1255,41 +2771,133 @@
         {
           "movement": "Deadlift",
           "reps": 50,
-          "load": { "male": 90, "female": 65 },
+          "load": {
+            "male": 90,
+            "female": 65
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 85, "female": 60 } },
-            "advanced":          { "load": { "male": 75, "female": 55 }, "reps": 40 },
-            "intermediate_plus": { "load": { "male": 60, "female": 45 }, "reps": 40 },
-            "intermediate":      { "load": { "male": 50, "female": 35 }, "reps": 40 },
-            "beginner_plus":     { "load": { "male": 40, "female": 25 }, "reps": 30 },
-            "beginner":          { "load": { "male": 30, "female": 20 }, "reps": 30 }
+            "advanced_plus": {
+              "load": {
+                "male": 85,
+                "female": 60
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 75,
+                "female": 55
+              },
+              "reps": 40
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 60,
+                "female": 45
+              },
+              "reps": 40
+            },
+            "intermediate": {
+              "load": {
+                "male": 50,
+                "female": 35
+              },
+              "reps": 40
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              },
+              "reps": 30
+            },
+            "beginner": {
+              "load": {
+                "male": 30,
+                "female": 20
+              },
+              "reps": 30
+            }
           }
         },
         {
           "movement": "Hang Power Clean",
           "reps": 50,
-          "load": { "male": 65, "female": 45 },
+          "load": {
+            "male": 65,
+            "female": 45
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 60, "female": 40 } },
-            "advanced":          { "load": { "male": 50, "female": 35 }, "reps": 40 },
-            "intermediate_plus": { "load": { "male": 40, "female": 25 }, "reps": 40 },
-            "intermediate":      { "load": { "male": 30, "female": 20 }, "reps": 40 },
-            "beginner_plus":     { "load": { "male": 25, "female": 15 }, "reps": 30 },
-            "beginner":          { "load": { "male": 20, "female": 15 }, "reps": 30 }
+            "advanced_plus": {
+              "load": {
+                "male": 60,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 50,
+                "female": 35
+              },
+              "reps": 40
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              },
+              "reps": 40
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              },
+              "reps": 40
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 15
+              },
+              "reps": 30
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              },
+              "reps": 30
+            }
           }
         },
         {
           "movement": "Double-Under",
           "reps": 100,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "sub": "Single-Under", "reps": 200 },
-            "intermediate":      { "sub": "Single-Under", "reps": 200 },
-            "beginner_plus":     { "sub": "Single-Under", "reps": 150 },
-            "beginner":          { "sub": "Single-Under", "reps": 100 }
+            "advanced_plus": {
+              "reps": 100
+            },
+            "advanced": {
+              "reps": 100
+            },
+            "intermediate_plus": {
+              "sub": "Single-Under",
+              "reps": 200
+            },
+            "intermediate": {
+              "sub": "Single-Under",
+              "reps": 200
+            },
+            "beginner_plus": {
+              "sub": "Single-Under",
+              "reps": 150
+            },
+            "beginner": {
+              "sub": "Single-Under",
+              "reps": 100
+            }
           }
         },
         {
@@ -1297,12 +2905,24 @@
           "distance": 800,
           "unit": "m",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "distance": 600 },
-            "beginner_plus":     { "distance": 600 },
-            "beginner":          { "distance": 400 }
+            "advanced_plus": {
+              "distance": 800
+            },
+            "advanced": {
+              "distance": 800
+            },
+            "intermediate_plus": {
+              "distance": 800
+            },
+            "intermediate": {
+              "distance": 600
+            },
+            "beginner_plus": {
+              "distance": 600
+            },
+            "beginner": {
+              "distance": 400
+            }
           }
         }
       ]
@@ -1327,27 +2947,75 @@
         {
           "movement": "Thruster",
           "reps": 8,
-          "load": { "male": 55, "female": 40 },
+          "load": {
+            "male": 55,
+            "female": 40
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 50, "female": 35 } },
-            "advanced":          { "load": { "male": 45, "female": 30 } },
-            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
-            "intermediate":      { "load": { "male": 30, "female": 20 } },
-            "beginner_plus":     { "load": { "male": 25, "female": 15 } },
-            "beginner":          { "load": { "male": 20, "female": 15 } }
+            "advanced_plus": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 45,
+                "female": 30
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            }
           }
         },
         {
           "movement": "Pull-up",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 8 },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 8 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 10 },
-            "beginner":          { "sub": "Ring Row", "reps": 8 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 8
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 8
+            }
           }
         },
         {
@@ -1374,24 +3042,55 @@
           "movement": "Toes-to-Bar",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Hanging Knee Raise" },
-            "intermediate_plus": { "sub": "Hanging Knee Raise" },
-            "intermediate":      { "sub": "Hanging Knee Raise", "reps": 8 },
-            "beginner_plus":     { "sub": "Sit-up", "reps": 12 },
-            "beginner":          { "sub": "Sit-up", "reps": 10 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate_plus": {
+              "sub": "Hanging Knee Raise"
+            },
+            "intermediate": {
+              "sub": "Hanging Knee Raise",
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Sit-up",
+              "reps": 12
+            },
+            "beginner": {
+              "sub": "Sit-up",
+              "reps": 10
+            }
           }
         },
         {
           "movement": "Handstand Push-up",
           "reps": 8,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "reps": 6 },
-            "intermediate_plus": { "sub": "Pike Push-up", "reps": 8 },
-            "intermediate":      { "sub": "Pike Push-up", "reps": 6 },
-            "beginner_plus":     { "sub": "Push-up", "reps": 8 },
-            "beginner":          { "sub": "Knee Push-up", "reps": 8 }
+            "advanced_plus": {
+              "reps": 8
+            },
+            "advanced": {
+              "reps": 6
+            },
+            "intermediate_plus": {
+              "sub": "Pike Push-up",
+              "reps": 8
+            },
+            "intermediate": {
+              "sub": "Pike Push-up",
+              "reps": 6
+            },
+            "beginner_plus": {
+              "sub": "Push-up",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            }
           }
         },
         {
@@ -1416,41 +3115,125 @@
         {
           "movement": "Kettlebell Swing",
           "reps": 10,
-          "load": { "male": 32, "female": 24 },
+          "load": {
+            "male": 32,
+            "female": 24
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 28, "female": 20 } },
-            "advanced":          { "load": { "male": 24, "female": 16 } },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
-            "intermediate":      { "load": { "male": 16, "female": 12 } },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
-            "beginner":          { "load": { "male": 8, "female": 6 } }
+            "advanced_plus": {
+              "load": {
+                "male": 28,
+                "female": 20
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              }
+            }
           }
         },
         {
           "movement": "Box Jump",
           "reps": 8,
-          "height": { "male": 60, "female": 50 },
+          "height": {
+            "male": 60,
+            "female": 50
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     { "height": { "male": 60, "female": 50 } },
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-            "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+            "advanced_plus": {
+              "height": {
+                "male": 60,
+                "female": 50
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner_plus": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "beginner": {
+              "sub": "Box Step-up",
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            }
           }
         },
         {
           "movement": "Chest-to-Bar Pull-up",
           "reps": 6,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          { "sub": "Pull-up" },
-            "intermediate_plus": { "sub": "Pull-up" },
-            "intermediate":      { "sub": "Jumping Pull-up", "reps": 6 },
-            "beginner_plus":     { "sub": "Ring Row", "reps": 8 },
-            "beginner":          { "sub": "Ring Row", "reps": 6 }
+            "advanced_plus": {
+              "reps": 6
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Pull-up"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up",
+              "reps": 6
+            },
+            "beginner_plus": {
+              "sub": "Ring Row",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Ring Row",
+              "reps": 6
+            }
           }
         }
       ]
@@ -1472,12 +3255,26 @@
           "movement": "Push-up",
           "reps": 15,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": { "reps": 12 },
-            "intermediate":      { "reps": 10 },
-            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 10 },
-            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 8 }
+            "advanced_plus": {
+              "reps": 15
+            },
+            "advanced": {
+              "reps": 15
+            },
+            "intermediate_plus": {
+              "reps": 12
+            },
+            "intermediate": {
+              "reps": 10
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up",
+              "reps": 10
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            }
           }
         },
         {
@@ -1488,12 +3285,26 @@
           "movement": "Burpee",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "reps": 8 },
-            "beginner_plus":     { "sub": "Bodybuilder", "reps": 8 },
-            "beginner":          { "sub": "Bodybuilder", "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Bodybuilder",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Bodybuilder",
+              "reps": 6
+            }
           }
         },
         {
@@ -1509,7 +3320,10 @@
       "type": "emom",
       "timeCap": 16,
       "interval": 2,
-      "pattern": ["A", "B"],
+      "pattern": [
+        "A",
+        "B"
+      ],
       "stimulus": {
         "duration": "16 min",
         "feel": "E2MOM gymnastics intervals. Each 2-minute window has two movements. Work fast, rest within the window. Should have 30-40s rest each round.",
@@ -1523,24 +3337,55 @@
               "movement": "Double-Under",
               "reps": 30,
               "scaling": {
-                "advanced_plus":     {},
-                "advanced":          {},
-                "intermediate_plus": { "sub": "Single-Under", "reps": 60 },
-                "intermediate":      { "sub": "Single-Under", "reps": 50 },
-                "beginner_plus":     { "sub": "Single-Under", "reps": 40 },
-                "beginner":          { "sub": "Single-Under", "reps": 30 }
+                "advanced_plus": {
+                  "reps": 30
+                },
+                "advanced": {
+                  "reps": 30
+                },
+                "intermediate_plus": {
+                  "sub": "Single-Under",
+                  "reps": 60
+                },
+                "intermediate": {
+                  "sub": "Single-Under",
+                  "reps": 50
+                },
+                "beginner_plus": {
+                  "sub": "Single-Under",
+                  "reps": 40
+                },
+                "beginner": {
+                  "sub": "Single-Under",
+                  "reps": 30
+                }
               }
             },
             {
               "movement": "Toes-to-Bar",
               "reps": 5,
               "scaling": {
-                "advanced_plus":     {},
-                "advanced":          { "sub": "Hanging Knee Raise" },
-                "intermediate_plus": { "sub": "Hanging Knee Raise" },
-                "intermediate":      { "sub": "Hanging Knee Raise", "reps": 4 },
-                "beginner_plus":     { "sub": "Sit-up", "reps": 8 },
-                "beginner":          { "sub": "Sit-up", "reps": 6 }
+                "advanced_plus": {
+                  "reps": 5
+                },
+                "advanced": {
+                  "sub": "Hanging Knee Raise"
+                },
+                "intermediate_plus": {
+                  "sub": "Hanging Knee Raise"
+                },
+                "intermediate": {
+                  "sub": "Hanging Knee Raise",
+                  "reps": 4
+                },
+                "beginner_plus": {
+                  "sub": "Sit-up",
+                  "reps": 8
+                },
+                "beginner": {
+                  "sub": "Sit-up",
+                  "reps": 6
+                }
               }
             }
           ]
@@ -1551,26 +3396,76 @@
               "movement": "Push-up",
               "reps": 10,
               "scaling": {
-                "advanced_plus":     {},
-                "advanced":          {},
-                "intermediate_plus": {},
-                "intermediate":      { "reps": 8 },
-                "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
-                "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+                "advanced_plus": {
+                  "reps": 10
+                },
+                "advanced": {
+                  "reps": 10
+                },
+                "intermediate_plus": {
+                  "reps": 10
+                },
+                "intermediate": {
+                  "reps": 8
+                },
+                "beginner_plus": {
+                  "sub": "Knee Push-up",
+                  "reps": 8
+                },
+                "beginner": {
+                  "sub": "Knee Push-up",
+                  "reps": 6
+                }
               }
             },
             {
               "movement": "Box Jump",
               "reps": 5,
-              "height": { "male": 60, "female": 50 },
+              "height": {
+                "male": 60,
+                "female": 50
+              },
               "unit": "cm",
               "scaling": {
-                "advanced_plus":     { "height": { "male": 60, "female": 50 } },
-                "advanced":          { "height": { "male": 50, "female": 40 } },
-                "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-                "intermediate":      { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-                "beginner_plus":     { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
-                "beginner":          { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+                "advanced_plus": {
+                  "height": {
+                    "male": 60,
+                    "female": 50
+                  }
+                },
+                "advanced": {
+                  "height": {
+                    "male": 50,
+                    "female": 40
+                  }
+                },
+                "intermediate_plus": {
+                  "height": {
+                    "male": 50,
+                    "female": 40
+                  }
+                },
+                "intermediate": {
+                  "sub": "Box Step-up",
+                  "height": {
+                    "male": 50,
+                    "female": 40
+                  }
+                },
+                "beginner_plus": {
+                  "sub": "Box Step-up",
+                  "height": {
+                    "male": 50,
+                    "female": 40
+                  }
+                },
+                "beginner": {
+                  "sub": "Box Step-up",
+                  "height": {
+                    "male": 40,
+                    "female": 30
+                  }
+                }
               }
             }
           ]
@@ -1594,12 +3489,24 @@
           "distance": 400,
           "unit": "m",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "distance": 300 },
-            "beginner_plus":     { "distance": 200 },
-            "beginner":          { "distance": 200 }
+            "advanced_plus": {
+              "distance": 400
+            },
+            "advanced": {
+              "distance": 400
+            },
+            "intermediate_plus": {
+              "distance": 400
+            },
+            "intermediate": {
+              "distance": 300
+            },
+            "beginner_plus": {
+              "distance": 200
+            },
+            "beginner": {
+              "distance": 200
+            }
           }
         },
         {
@@ -1610,12 +3517,26 @@
           "movement": "Push-up",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "reps": 8 },
-            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
-            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 6
+            }
           }
         },
         {
@@ -1647,12 +3568,24 @@
           "movement": "Walking Lunge",
           "reps": 15,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "reps": 12 },
-            "beginner_plus":     { "reps": 12 },
-            "beginner":          { "reps": 10 }
+            "advanced_plus": {
+              "reps": 15
+            },
+            "advanced": {
+              "reps": 15
+            },
+            "intermediate_plus": {
+              "reps": 15
+            },
+            "intermediate": {
+              "reps": 12
+            },
+            "beginner_plus": {
+              "reps": 12
+            },
+            "beginner": {
+              "reps": 10
+            }
           }
         },
         {
@@ -1663,12 +3596,24 @@
           "movement": "Ring Row",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      {},
-            "beginner_plus":     { "reps": 8 },
-            "beginner":          { "reps": 8 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 10
+            },
+            "beginner_plus": {
+              "reps": 8
+            },
+            "beginner": {
+              "reps": 8
+            }
           }
         }
       ]
@@ -1693,29 +3638,95 @@
         {
           "movement": "Kettlebell Swing",
           "reps": 10,
-          "load": { "male": 24, "female": 16 },
+          "load": {
+            "male": 24,
+            "female": 16
+          },
           "unit": "kg",
           "scaling": {
-            "advanced_plus":     { "load": { "male": 24, "female": 16 } },
-            "advanced":          { "load": { "male": 20, "female": 12 } },
-            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
-            "intermediate":      { "load": { "male": 16, "female": 12 } },
-            "beginner_plus":     { "load": { "male": 12, "female": 8 } },
-            "beginner":          { "load": { "male": 8, "female": 6 } }
+            "advanced_plus": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 8,
+                "female": 6
+              }
+            }
           }
         },
         {
           "movement": "Box Step-up",
           "reps": 8,
-          "height": { "male": 50, "female": 40 },
+          "height": {
+            "male": 50,
+            "female": 40
+          },
           "unit": "cm",
           "scaling": {
-            "advanced_plus":     { "height": { "male": 50, "female": 40 } },
-            "advanced":          { "height": { "male": 50, "female": 40 } },
-            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
-            "intermediate":      { "height": { "male": 40, "female": 30 } },
-            "beginner_plus":     { "height": { "male": 40, "female": 30 } },
-            "beginner":          { "height": { "male": 30, "female": 30 } }
+            "advanced_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate_plus": {
+              "height": {
+                "male": 50,
+                "female": 40
+              }
+            },
+            "intermediate": {
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            },
+            "beginner_plus": {
+              "height": {
+                "male": 40,
+                "female": 30
+              }
+            },
+            "beginner": {
+              "height": {
+                "male": 30,
+                "female": 30
+              }
+            }
           }
         }
       ]
@@ -1738,12 +3749,24 @@
           "distance": 400,
           "unit": "m",
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "distance": 300 },
-            "beginner_plus":     { "distance": 200 },
-            "beginner":          { "distance": 200 }
+            "advanced_plus": {
+              "distance": 400
+            },
+            "advanced": {
+              "distance": 400
+            },
+            "intermediate_plus": {
+              "distance": 400
+            },
+            "intermediate": {
+              "distance": 300
+            },
+            "beginner_plus": {
+              "distance": 200
+            },
+            "beginner": {
+              "distance": 200
+            }
           }
         },
         {
@@ -1758,12 +3781,26 @@
           "movement": "Push-up",
           "reps": 10,
           "scaling": {
-            "advanced_plus":     {},
-            "advanced":          {},
-            "intermediate_plus": {},
-            "intermediate":      { "reps": 8 },
-            "beginner_plus":     { "sub": { "female": "Knee Push-up" }, "reps": 8 },
-            "beginner":          { "sub": { "male": "Knee Push-up", "female": "Knee Push-up" }, "reps": 6 }
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "reps": 10
+            },
+            "intermediate": {
+              "reps": 8
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up",
+              "reps": 8
+            },
+            "beginner": {
+              "sub": "Knee Push-up",
+              "reps": 6
+            }
           }
         }
       ]
