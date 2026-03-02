@@ -102,7 +102,7 @@ All Rx loads are derived from benchmark 1RM data. The percentage depends on rep 
 
 - **Barbell**: All loads in multiples of 5 kg. Never use imperial-converted numbers (43, 61, etc.)
 - **Kettlebell**: Standard sizes only: 6, 8, 12, 16, 20, 24, 28, 32 kg. Rx male 32, female 24. All KB swings are Russian (to eye level). Never American.
-- **Wall Ball**: Standard sizes only: 3, 4, 6, 9 kg. Rx male 9, female 6.
+- **Wall Ball**: Standard sizes only: 3, 4, 6, 9 kg. Rx male 9, female 6. Int and up always 9/6. Beg+ = 6/4, Beg = 4/3.
 - **Box**: Heights: 30, 40, 50, 60 cm. Rx male 60, female 50.
 
 ### Scaling Rules
