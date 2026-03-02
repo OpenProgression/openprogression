@@ -563,8 +563,8 @@
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 12
             },
@@ -1334,8 +1334,8 @@
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 12
             },
@@ -1597,8 +1597,8 @@
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 25
             },
@@ -1695,8 +1695,8 @@
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 25
             },
@@ -2291,21 +2291,21 @@
             },
             "advanced": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               }
             },
             "intermediate_plus": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 10
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 10
             },
@@ -2518,22 +2518,22 @@
             },
             "advanced": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 80
             },
             "intermediate_plus": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 80
             },
             "intermediate": {
               "load": {
-                "male": 6,
-                "female": 4
+                "male": 9,
+                "female": 6
               },
               "reps": 60
             },

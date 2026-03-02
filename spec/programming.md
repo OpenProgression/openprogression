@@ -384,10 +384,10 @@ Note: `advanced_plus` and `advanced` Pull-up entries repeat the Rx reps value ex
       "unit": "kg",
       "scaling": {
         "advanced_plus": { "load": { "male": 9, "female": 6 } },
-        "advanced":      { "load": { "male": 6, "female": 4 } },
-        "intermediate_plus": { "load": { "male": 6, "female": 4 } },
-        "intermediate":  { "load": { "male": 6, "female": 4 }, "reps": 12 },
-        "beginner_plus": { "load": { "male": 4, "female": 3 }, "reps": 12 },
+        "advanced":      { "load": { "male": 9, "female": 6 } },
+        "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+        "intermediate":  { "load": { "male": 9, "female": 6 }, "reps": 12 },
+        "beginner_plus": { "load": { "male": 6, "female": 4 }, "reps": 12 },
         "beginner":      { "load": { "male": 4, "female": 3 }, "reps": 10 }
       }
     },
