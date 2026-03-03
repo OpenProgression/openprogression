@@ -195,10 +195,10 @@ When a movement substitution occurs (e.g., Toes-to-Bar becomes Sit-up), reps may
 When substituting movements, follow these established difficulty orderings. Movements are listed hardest to easiest.
 
 **Pulling (gymnastics)**
-Bar Muscle-up > Chest-to-Bar Pull-up > Pull-up > Jumping Pull-up > Ring Row
+Bar Muscle-up > Chest-to-Bar Pull-up > Pull-up > Jumping Chest-to-Bar > Jumping Pull-up > Ring Row
 
 **Core (hanging)**
-Toes-to-Bar > Hanging Knee Raise > Sit-up
+Toes-to-Bar > Hanging Leg Raise > Hanging Knee Raise > Laying Knee Raise
 
 **Squatting (unilateral)**
 Pistol Squat > Pistol Squat to Box > Air Squat
@@ -222,7 +222,7 @@ Kettlebell Swing (Russian, to eye level) with decreasing loads. Standard KB size
 Push-up > Knee Push-up > Box Push-up
 
 **Pressing (vertical)**
-Handstand Push-up > Pike Push-up (feet on box) > Push-up
+Handstand Push-up > Pike Push-up (feet on box) > Dumbbell Push Press
 
 **Olympic lifting (catch depth)**
 Squat Clean > Power Clean
@@ -396,11 +396,11 @@ Note: `advanced_plus` and `advanced` Pull-up entries repeat the Rx reps value ex
       "reps": 10,
       "scaling": {
         "advanced_plus": { "reps": 10 },
-        "advanced":      { "sub": "Hanging Knee Raise", "reps": 10 },
-        "intermediate_plus": { "sub": "Hanging Knee Raise" },
-        "intermediate":  { "sub": "Hanging Knee Raise", "reps": 8 },
-        "beginner_plus": { "sub": "Sit-up", "reps": 15 },
-        "beginner":      { "sub": "Sit-up", "reps": 12 }
+        "advanced":      { "reps": 10 },
+        "intermediate_plus": { "sub": "Hanging Leg Raise" },
+        "intermediate":  { "sub": "Hanging Leg Raise", "reps": 8 },
+        "beginner_plus": { "sub": "Hanging Knee Raise" },
+        "beginner":      { "sub": "Laying Knee Raise" }
       }
     },
     {

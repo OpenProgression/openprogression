@@ -110,8 +110,8 @@ All Rx loads are derived from benchmark 1RM data. The percentage depends on rep 
 Every scaled movement MUST have all 6 non-Rx levels. Each level entry MUST be fully explicit with all relevant field values repeated, even when identical to Rx. Never use empty `{}` objects. Never use gender-specific object `sub` fields (always use a string).
 
 **Scaling chains** (hardest to easiest):
-- Pulling: Bar Muscle-up > C2B > Pull-up > Jumping Pull-up > Ring Row
-- Core: TTB > Hanging Knee Raise > Sit-up
+- Pulling: Bar Muscle-up > C2B > Pull-up > Jumping C2B > Jumping Pull-up > Ring Row
+- Core (hanging): TTB > Hanging Leg Raise > Hanging Knee Raise > Laying Knee Raise
 - Squatting: Pistol > Pistol to Box > Air Squat
 - Rope: Double-Under > Single-Under
 - Box: Box Jump > Box Step-up
@@ -119,7 +119,8 @@ Every scaled movement MUST have all 6 non-Rx levels. Each level entry MUST be fu
 - Bar-facing Burpee: Beg = Bodybuilder (all other levels do Bar-facing Burpees)
 - Burpee: Beg = Bodybuilder (all other levels do Burpees)
 - Lunge: Jumping Lunge > Walking Lunge
-- Press: HSPU > Pike Push-up > Push-up > Knee Push-up
+- Press (vertical): HSPU > Pike Push-up > Dumbbell Push Press
+- Push-up: Push-up > Knee Push-up > Box Push-up
 - Olympic: Squat Clean > Power Clean; Power Snatch > Power Clean; C&J > PC & Push Press
 
 **Integrity rules:**
