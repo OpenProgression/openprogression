@@ -72,20 +72,17 @@
               "sub": "Pull-up"
             },
             "intermediate_plus": {
-              "sub": "Pull-up",
-              "reps": 10
+              "sub": "Jumping Chest-to-Bar"
             },
             "intermediate": {
-              "sub": "Jumping Pull-up",
-              "reps": 10
+              "sub": "Jumping Pull-up"
             },
             "beginner_plus": {
-              "sub": "Ring Row",
-              "reps": 10
+              "sub": "Ring Row"
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 10
             }
           }
         }
@@ -164,22 +161,20 @@
               "reps": 9
             },
             "advanced": {
-              "sub": "Hanging Knee Raise"
+              "reps": 9
             },
             "intermediate_plus": {
-              "sub": "Hanging Knee Raise"
+              "sub": "Hanging Leg Raise"
             },
             "intermediate": {
-              "sub": "Hanging Knee Raise",
-              "reps": 8
+              "sub": "Hanging Leg Raise",
+              "reps": 7
             },
             "beginner_plus": {
-              "sub": "Sit-up",
-              "reps": 12
+              "sub": "Hanging Knee Raise"
             },
             "beginner": {
-              "sub": "Sit-up",
-              "reps": 10
+              "sub": "Laying Knee Raise"
             }
           }
         }
@@ -683,22 +678,23 @@
               "reps": 6
             },
             "advanced": {
-              "sub": "Pike Push-up"
+              "reps": 6
             },
             "intermediate_plus": {
               "sub": "Pike Push-up"
             },
             "intermediate": {
-              "sub": "Push-up",
-              "reps": 10
+              "sub": "Pike Push-up"
             },
             "beginner_plus": {
-              "sub": "Knee Push-up",
-              "reps": 10
+              "sub": "Dumbbell Push Press",
+              "load": { "male": 10, "female": 7 },
+              "unit": "kg"
             },
             "beginner": {
-              "sub": "Knee Push-up",
-              "reps": 8
+              "sub": "Dumbbell Push Press",
+              "load": { "male": 7, "female": 5 },
+              "unit": "kg"
             }
           }
         },
@@ -737,23 +733,20 @@
               "reps": 12
             },
             "advanced": {
-              "sub": "Hanging Knee Raise"
+              "reps": 12
             },
             "intermediate_plus": {
-              "sub": "Hanging Knee Raise",
-              "reps": 10
+              "sub": "Hanging Leg Raise"
             },
             "intermediate": {
-              "sub": "Hanging Knee Raise",
-              "reps": 8
+              "sub": "Hanging Leg Raise",
+              "reps": 10
             },
             "beginner_plus": {
-              "sub": "Sit-up",
-              "reps": 15
+              "sub": "Hanging Knee Raise"
             },
             "beginner": {
-              "sub": "Sit-up",
-              "reps": 12
+              "sub": "Laying Knee Raise"
             }
           }
         }
@@ -1528,23 +1521,20 @@
               "reps": 12
             },
             "advanced": {
-              "sub": "Hanging Knee Raise"
+              "reps": 12
             },
             "intermediate_plus": {
-              "sub": "Hanging Knee Raise",
-              "reps": 10
+              "sub": "Hanging Leg Raise"
             },
             "intermediate": {
-              "sub": "Hanging Knee Raise",
-              "reps": 8
+              "sub": "Hanging Leg Raise",
+              "reps": 10
             },
             "beginner_plus": {
-              "sub": "Sit-up",
-              "reps": 15
+              "sub": "Hanging Knee Raise"
             },
             "beginner": {
-              "sub": "Sit-up",
-              "reps": 12
+              "sub": "Laying Knee Raise"
             }
           }
         }
@@ -1805,22 +1795,20 @@
                   "reps": 8
                 },
                 "advanced": {
-                  "sub": "Hanging Knee Raise"
+                  "reps": 8
                 },
                 "intermediate_plus": {
-                  "sub": "Hanging Knee Raise"
+                  "sub": "Hanging Leg Raise"
                 },
                 "intermediate": {
-                  "sub": "Hanging Knee Raise",
+                  "sub": "Hanging Leg Raise",
                   "reps": 6
                 },
                 "beginner_plus": {
-                  "sub": "Sit-up",
-                  "reps": 10
+                  "sub": "Hanging Knee Raise"
                 },
                 "beginner": {
-                  "sub": "Sit-up",
-                  "reps": 8
+                  "sub": "Laying Knee Raise"
                 }
               }
             }
@@ -1908,20 +1896,17 @@
               "sub": "Pull-up"
             },
             "intermediate_plus": {
-              "sub": "Pull-up",
-              "reps": 10
+              "sub": "Jumping Chest-to-Bar"
             },
             "intermediate": {
-              "sub": "Jumping Pull-up",
-              "reps": 10
+              "sub": "Jumping Pull-up"
             },
             "beginner_plus": {
-              "sub": "Ring Row",
-              "reps": 10
+              "sub": "Ring Row"
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 10
             }
           }
         },
@@ -2075,16 +2060,13 @@
               "sub": "Pull-up"
             },
             "intermediate_plus": {
-              "sub": "Pull-up",
-              "reps": 8
+              "sub": "Jumping Chest-to-Bar"
             },
             "intermediate": {
-              "sub": "Jumping Pull-up",
-              "reps": 8
+              "sub": "Jumping Pull-up"
             },
             "beginner_plus": {
-              "sub": "Ring Row",
-              "reps": 10
+              "sub": "Ring Row"
             },
             "beginner": {
               "sub": "Ring Row",
@@ -2338,22 +2320,20 @@
               "reps": 6
             },
             "advanced": {
-              "sub": "Hanging Knee Raise"
+              "reps": 6
             },
             "intermediate_plus": {
-              "sub": "Hanging Knee Raise"
+              "sub": "Hanging Leg Raise"
             },
             "intermediate": {
-              "sub": "Hanging Knee Raise",
+              "sub": "Hanging Leg Raise",
               "reps": 5
             },
             "beginner_plus": {
-              "sub": "Sit-up",
-              "reps": 10
+              "sub": "Hanging Knee Raise"
             },
             "beginner": {
-              "sub": "Sit-up",
-              "reps": 8
+              "sub": "Laying Knee Raise"
             }
           }
         }
@@ -2743,7 +2723,7 @@
               "sub": "Knee Push-up"
             },
             "beginner": {
-              "sub": "Knee Push-up",
+              "sub": "Box Push-up",
               "reps": 5
             }
           }
@@ -3046,22 +3026,20 @@
               "reps": 10
             },
             "advanced": {
-              "sub": "Hanging Knee Raise"
+              "reps": 10
             },
             "intermediate_plus": {
-              "sub": "Hanging Knee Raise"
+              "sub": "Hanging Leg Raise"
             },
             "intermediate": {
-              "sub": "Hanging Knee Raise",
+              "sub": "Hanging Leg Raise",
               "reps": 8
             },
             "beginner_plus": {
-              "sub": "Sit-up",
-              "reps": 12
+              "sub": "Hanging Knee Raise"
             },
             "beginner": {
-              "sub": "Sit-up",
-              "reps": 10
+              "sub": "Laying Knee Raise"
             }
           }
         },
@@ -3073,23 +3051,23 @@
               "reps": 8
             },
             "advanced": {
-              "reps": 6
+              "reps": 8
             },
             "intermediate_plus": {
-              "sub": "Pike Push-up",
-              "reps": 8
+              "sub": "Pike Push-up"
             },
             "intermediate": {
-              "sub": "Pike Push-up",
-              "reps": 6
+              "sub": "Pike Push-up"
             },
             "beginner_plus": {
-              "sub": "Push-up",
-              "reps": 8
+              "sub": "Dumbbell Push Press",
+              "load": { "male": 10, "female": 7 },
+              "unit": "kg"
             },
             "beginner": {
-              "sub": "Knee Push-up",
-              "reps": 8
+              "sub": "Dumbbell Push Press",
+              "load": { "male": 7, "female": 5 },
+              "unit": "kg"
             }
           }
         },
@@ -3220,15 +3198,13 @@
               "sub": "Pull-up"
             },
             "intermediate_plus": {
-              "sub": "Pull-up"
+              "sub": "Jumping Chest-to-Bar"
             },
             "intermediate": {
-              "sub": "Jumping Pull-up",
-              "reps": 6
+              "sub": "Jumping Pull-up"
             },
             "beginner_plus": {
-              "sub": "Ring Row",
-              "reps": 8
+              "sub": "Ring Row"
             },
             "beginner": {
               "sub": "Ring Row",
@@ -3272,7 +3248,7 @@
               "reps": 10
             },
             "beginner": {
-              "sub": "Knee Push-up",
+              "sub": "Box Push-up",
               "reps": 8
             }
           }
@@ -3369,22 +3345,20 @@
                   "reps": 5
                 },
                 "advanced": {
-                  "sub": "Hanging Knee Raise"
+                  "reps": 5
                 },
                 "intermediate_plus": {
-                  "sub": "Hanging Knee Raise"
+                  "sub": "Hanging Leg Raise"
                 },
                 "intermediate": {
-                  "sub": "Hanging Knee Raise",
+                  "sub": "Hanging Leg Raise",
                   "reps": 4
                 },
                 "beginner_plus": {
-                  "sub": "Sit-up",
-                  "reps": 8
+                  "sub": "Hanging Knee Raise"
                 },
                 "beginner": {
-                  "sub": "Sit-up",
-                  "reps": 6
+                  "sub": "Laying Knee Raise"
                 }
               }
             }
@@ -3413,7 +3387,7 @@
                   "reps": 8
                 },
                 "beginner": {
-                  "sub": "Knee Push-up",
+                  "sub": "Box Push-up",
                   "reps": 6
                 }
               }
@@ -3534,7 +3508,7 @@
               "reps": 8
             },
             "beginner": {
-              "sub": "Knee Push-up",
+              "sub": "Box Push-up",
               "reps": 6
             }
           }
@@ -3798,7 +3772,7 @@
               "reps": 8
             },
             "beginner": {
-              "sub": "Knee Push-up",
+              "sub": "Box Push-up",
               "reps": 6
             }
           }
