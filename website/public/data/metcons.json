@@ -86,7 +86,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 4-6 min",
+        "scaleDown": "If you hit the 8 min cap, the barbell is too heavy or pull-ups are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0002",
@@ -178,7 +182,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "7+ rounds",
+        "scaleDown": "Fewer than 5 rounds means the KB or toes-to-bar are slowing you too much. Drop one level."
+      }
     },
     {
       "code": "OP-0003",
@@ -318,7 +326,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 13-18 min",
+        "scaleDown": "If you hit the 22 min cap, the barbell is too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0004",
@@ -421,6 +433,10 @@
             }
           ]
         }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 15+ seconds rest each round",
+        "scaleDown": "If you regularly finish after the 45 second mark, reduce load or reps by one level."
       }
     },
     {
@@ -509,7 +525,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 6-9 min",
+        "scaleDown": "If you hit the 12 min cap, the deadlifts are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0006",
@@ -655,7 +675,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "5+ rounds",
+        "scaleDown": "Fewer than 3 rounds means the snatches or pull-ups are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0007",
@@ -756,7 +780,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 11-15 min",
+        "scaleDown": "If you hit the 18 min cap, the gymnastics movements are too demanding. Drop one level."
+      }
     },
     {
       "code": "OP-0008",
@@ -899,7 +927,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 12-16 min",
+        "scaleDown": "If you hit the 18 min cap, the volume is too high. Drop one level."
+      }
     },
     {
       "code": "OP-0009",
@@ -1021,7 +1053,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 14-19 min",
+        "scaleDown": "If you hit the 22 min cap, the thrusters are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0010",
@@ -1098,7 +1134,11 @@
           "distance": 1000,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 14-19 min",
+        "scaleDown": "If you hit the 22 min cap, the clean and jerks are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0011",
@@ -1192,7 +1232,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 16 min cap, the push press is too heavy or pull-ups are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0012",
@@ -1284,7 +1328,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 6-9 min",
+        "scaleDown": "If you hit the 10 min cap, the pace is unsustainable at your level. Drop one level."
+      }
     },
     {
       "code": "OP-0013",
@@ -1452,7 +1500,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "6+ rounds",
+        "scaleDown": "Fewer than 4 rounds means the deadlifts are slowing you too much. Drop one level."
+      }
     },
     {
       "code": "OP-0014",
@@ -1544,7 +1596,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 13-17 min",
+        "scaleDown": "If you hit the 20 min cap, the deadlifts are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0015",
@@ -1717,7 +1773,11 @@
           "distance": 1000,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 14-18 min",
+        "scaleDown": "If you hit the 20 min cap, the power cleans are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0016",
@@ -1820,6 +1880,10 @@
             }
           ]
         }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 20+ seconds rest each round",
+        "scaleDown": "If you regularly finish after the 40 second mark, reduce load or reps by one level."
       }
     },
     {
@@ -1921,7 +1985,11 @@
           "distance": 200,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 16-22 min",
+        "scaleDown": "If you hit the 25 min cap, the front squats or chest-to-bar are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0018",
@@ -2040,7 +2108,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "4+ rounds",
+        "scaleDown": "Fewer than 3 rounds means the snatches or box jumps are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0019",
@@ -2154,7 +2226,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 11-15 min",
+        "scaleDown": "If you hit the 18 min cap, the chest-to-bar pull-ups are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0020",
@@ -2242,7 +2318,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 4-7 min",
+        "scaleDown": "If you hit the 10 min cap, the thrusters are too heavy or pull-ups are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0021",
@@ -2343,7 +2423,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 17-22 min",
+        "scaleDown": "If you hit the 24 min cap as a team, one or both partners should drop one level."
+      }
     },
     {
       "code": "OP-0022",
@@ -2467,7 +2551,11 @@
           "distance": 200,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "9+ rounds (team total)",
+        "scaleDown": "Fewer than 7 rounds as a team means the hang cleans are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0023",
@@ -2642,7 +2730,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 20-26 min",
+        "scaleDown": "If you hit the 28 min cap, the volume is too high at your current level. Drop one level."
+      }
     },
     {
       "code": "OP-0024",
@@ -2734,7 +2826,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 12-18 min",
+        "scaleDown": "If you hit the 22 min cap, the power cleans are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0025",
@@ -2911,7 +3007,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 18-25 min",
+        "scaleDown": "If you hit the 28 min cap, the barbell loads are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0026",
@@ -3009,7 +3109,11 @@
           "distance": 250,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "9+ rounds (team total)",
+        "scaleDown": "Fewer than 6 rounds as a team means the thrusters are too heavy. Drop one level."
+      }
     },
     {
       "code": "OP-0027",
@@ -3088,7 +3192,11 @@
           "distance": 200,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 16 min cap, the HSPU or toes-to-bar are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0028",
@@ -3224,7 +3332,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "9+ rounds",
+        "scaleDown": "Fewer than 7 rounds means the chest-to-bar or box jumps are limiting you. Drop one level."
+      }
     },
     {
       "code": "OP-0029",
@@ -3300,7 +3412,11 @@
           "distance": 200,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 9-12 min",
+        "scaleDown": "If you hit the 14 min cap, the bodyweight volume is too demanding. Drop one level."
+      }
     },
     {
       "code": "OP-0030",
@@ -3456,6 +3572,10 @@
             }
           ]
         }
+      },
+      "goal": {
+        "target": "Complete all 8 rounds with 60+ seconds rest per 2 min window",
+        "scaleDown": "If you regularly finish after the 75 second mark, reduce reps by one level."
       }
     },
     {
@@ -3530,7 +3650,11 @@
           "distance": 200,
           "unit": "m"
         }
-      ]
+      ],
+      "goal": {
+        "target": "6+ rounds",
+        "scaleDown": "Fewer than 4 rounds means the running is eating too much time. Drop one level for push-ups if needed."
+      }
     },
     {
       "code": "OP-0032",
@@ -3602,7 +3726,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 15-21 min",
+        "scaleDown": "If you hit the 25 min cap, the volume is too high. Drop one level."
+      }
     },
     {
       "code": "OP-0033",
@@ -3715,7 +3843,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "10+ rounds",
+        "scaleDown": "Fewer than 8 rounds means the KB or step-ups are slowing you. Drop one level."
+      }
     },
     {
       "code": "OP-0034",
@@ -3789,7 +3921,11 @@
             }
           }
         }
-      ]
+      ],
+      "goal": {
+        "target": "Finish in 17-23 min",
+        "scaleDown": "If you hit the 25 min cap, the running volume may be limiting you. Drop one level."
+      }
     }
   ]
 }
