@@ -101,7 +101,7 @@ The WOD library. Each metcon follows the [Programming Spec v0.4.0](../spec/progr
   "version": "0.4.0",
   "metcons": [
     {
-      "code": "OP-001",
+      "code": "OP-0001",
       "name": "Quick Ember",
       "type": "for_time",
       "timeCap": 14,
@@ -176,7 +176,7 @@ Daily programming that assembles complete class sessions. Each session reference
           "notes": "Rest 2:00 between sets."
         }
       ],
-      "metcon": "OP-001",
+      "metcon": "OP-0001",
       "accessory": { "notes": "3x15 GHD hip extensions\n3x20 banded pull-aparts", "durationMinutes": 10 }
     }
   ]
@@ -192,7 +192,7 @@ Daily programming that assembles complete class sessions. Each session reference
 | `estimatedMinutes` | number | Total session duration target (45-60) |
 | `warmup` | object \| null | `{ notes, durationMinutes }` — free text, `\n` for line breaks |
 | `strength` | array \| null | `[{ movement, scheme, prescription, notes }]` — prescription-based |
-| `metcon` | string \| null | Metcon code reference (e.g., `"OP-005"`) |
+| `metcon` | string \| null | Metcon code reference (e.g., `"OP-0005"`) |
 | `accessory` | object \| null | `{ notes, durationMinutes? }` — free text, `\n` for line breaks |
 
 **Strength is prescription-based** — "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks. Strength is always an array — even a single lift is `[{ ... }]`.
@@ -213,7 +213,7 @@ To display a metcon for a specific athlete:
    - If `sub` is present in the override, replace the movement name
 4. Select `male` or `female` from any `load`/`height` objects
 
-**Example:** OP-009 "Thick Smoke" for a female Intermediate athlete:
+**Example:** OP-0009 "Thick Smoke" for a female Intermediate athlete:
 - Thruster: 18kg (from `scaling.intermediate.load.female`)
 - Jumping Pull-up x 10 (from `scaling.intermediate.sub` + `reps`)
 - Box Step-up at 40cm (from `scaling.intermediate.sub` + `height.female`)

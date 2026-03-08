@@ -2,7 +2,7 @@
   "version": "0.4.0",
   "metcons": [
     {
-      "code": "OP-001",
+      "code": "OP-0001",
       "name": "Quick Spark",
       "type": "for_time",
       "timeCap": 8,
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "code": "OP-002",
+      "code": "OP-0002",
       "name": "Sweet Breeze",
       "type": "amrap",
       "timeCap": 20,
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "code": "OP-003",
+      "code": "OP-0003",
       "name": "Heavy Slate",
       "type": "for_time",
       "timeCap": 22,
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "code": "OP-004",
+      "code": "OP-0004",
       "name": "Sharp Cedar",
       "type": "emom",
       "timeCap": 16,
@@ -424,7 +424,7 @@
       }
     },
     {
-      "code": "OP-005",
+      "code": "OP-0005",
       "name": "Spicy Flint",
       "type": "for_time",
       "timeCap": 12,
@@ -512,7 +512,7 @@
       ]
     },
     {
-      "code": "OP-006",
+      "code": "OP-0006",
       "name": "Long Tide",
       "type": "amrap",
       "timeCap": 25,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "code": "OP-007",
+      "code": "OP-0007",
       "name": "Dark Granite",
       "type": "for_time",
       "timeCap": 18,
@@ -688,12 +688,18 @@
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "load": { "male": 10, "female": 7 },
+              "load": {
+                "male": 10,
+                "female": 7
+              },
               "unit": "kg"
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "load": { "male": 7, "female": 5 },
+              "load": {
+                "male": 7,
+                "female": 5
+              },
               "unit": "kg"
             }
           }
@@ -753,7 +759,7 @@
       ]
     },
     {
-      "code": "OP-008",
+      "code": "OP-0008",
       "name": "Light Moss",
       "type": "for_time",
       "timeCap": 18,
@@ -896,7 +902,7 @@
       ]
     },
     {
-      "code": "OP-009",
+      "code": "OP-0009",
       "name": "Thick Chalk",
       "type": "for_time",
       "timeCap": 22,
@@ -1018,7 +1024,7 @@
       ]
     },
     {
-      "code": "OP-010",
+      "code": "OP-0010",
       "name": "Loud Steel",
       "type": "for_time",
       "timeCap": 22,
@@ -1095,7 +1101,7 @@
       ]
     },
     {
-      "code": "OP-011",
+      "code": "OP-0011",
       "name": "Sweet Rust",
       "type": "for_time",
       "timeCap": 16,
@@ -1189,7 +1195,7 @@
       ]
     },
     {
-      "code": "OP-012",
+      "code": "OP-0012",
       "name": "Quick Birch",
       "type": "for_time",
       "timeCap": 10,
@@ -1281,7 +1287,7 @@
       ]
     },
     {
-      "code": "OP-013",
+      "code": "OP-0013",
       "name": "Long Copper",
       "type": "amrap",
       "timeCap": 30,
@@ -1449,7 +1455,7 @@
       ]
     },
     {
-      "code": "OP-014",
+      "code": "OP-0014",
       "name": "Thick Iron",
       "type": "for_time",
       "timeCap": 20,
@@ -1541,7 +1547,7 @@
       ]
     },
     {
-      "code": "OP-015",
+      "code": "OP-0015",
       "name": "Spicy Gravel",
       "type": "for_time",
       "timeCap": 20,
@@ -1714,7 +1720,7 @@
       ]
     },
     {
-      "code": "OP-016",
+      "code": "OP-0016",
       "name": "Sharp Frost",
       "type": "emom",
       "timeCap": 16,
@@ -1817,7 +1823,7 @@
       }
     },
     {
-      "code": "OP-017",
+      "code": "OP-0017",
       "name": "Heavy Brick",
       "type": "for_time",
       "timeCap": 25,
@@ -1918,7 +1924,7 @@
       ]
     },
     {
-      "code": "OP-018",
+      "code": "OP-0018",
       "name": "Sweet Ash",
       "type": "amrap",
       "timeCap": 20,
@@ -2037,7 +2043,7 @@
       ]
     },
     {
-      "code": "OP-019",
+      "code": "OP-0019",
       "name": "Dark Ember",
       "type": "for_time",
       "timeCap": 18,
@@ -2151,7 +2157,7 @@
       ]
     },
     {
-      "code": "OP-020",
+      "code": "OP-0020",
       "name": "Quick Salt",
       "type": "for_time",
       "timeCap": 10,
@@ -2239,7 +2245,7 @@
       ]
     },
     {
-      "code": "OP-021",
+      "code": "OP-0021",
       "name": "Sweet Storm",
       "type": "for_time",
       "timeCap": 24,
@@ -2340,7 +2346,7 @@
       ]
     },
     {
-      "code": "OP-022",
+      "code": "OP-0022",
       "name": "Loud Waves",
       "type": "amrap",
       "timeCap": 24,
@@ -2464,7 +2470,7 @@
       ]
     },
     {
-      "code": "OP-023",
+      "code": "OP-0023",
       "name": "Thick Cloud",
       "type": "for_time",
       "timeCap": 28,
@@ -2639,7 +2645,7 @@
       ]
     },
     {
-      "code": "OP-024",
+      "code": "OP-0024",
       "name": "Spicy Thunder",
       "type": "for_time",
       "timeCap": 22,
@@ -2731,7 +2737,7 @@
       ]
     },
     {
-      "code": "OP-025",
+      "code": "OP-0025",
       "name": "Heavy River",
       "type": "for_time",
       "timeCap": 28,
@@ -2908,7 +2914,7 @@
       ]
     },
     {
-      "code": "OP-026",
+      "code": "OP-0026",
       "name": "Sharp Gale",
       "type": "amrap",
       "timeCap": 24,
@@ -3006,7 +3012,7 @@
       ]
     },
     {
-      "code": "OP-027",
+      "code": "OP-0027",
       "name": "Dark Ridge",
       "type": "for_time",
       "timeCap": 16,
@@ -3061,12 +3067,18 @@
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "load": { "male": 10, "female": 7 },
+              "load": {
+                "male": 10,
+                "female": 7
+              },
               "unit": "kg"
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "load": { "male": 7, "female": 5 },
+              "load": {
+                "male": 7,
+                "female": 5
+              },
               "unit": "kg"
             }
           }
@@ -3079,7 +3091,7 @@
       ]
     },
     {
-      "code": "OP-028",
+      "code": "OP-0028",
       "name": "Sweet Willow",
       "type": "amrap",
       "timeCap": 18,
@@ -3215,7 +3227,7 @@
       ]
     },
     {
-      "code": "OP-029",
+      "code": "OP-0029",
       "name": "Light Feather",
       "type": "for_time",
       "timeCap": 14,
@@ -3291,7 +3303,7 @@
       ]
     },
     {
-      "code": "OP-030",
+      "code": "OP-0030",
       "name": "Dark Vine",
       "type": "emom",
       "timeCap": 16,
@@ -3447,7 +3459,7 @@
       }
     },
     {
-      "code": "OP-031",
+      "code": "OP-0031",
       "name": "Long Meadow",
       "type": "amrap",
       "timeCap": 30,
@@ -3521,7 +3533,7 @@
       ]
     },
     {
-      "code": "OP-032",
+      "code": "OP-0032",
       "name": "Sweet Pebble",
       "type": "for_time",
       "timeCap": 25,
@@ -3593,7 +3605,7 @@
       ]
     },
     {
-      "code": "OP-033",
+      "code": "OP-0033",
       "name": "Light Dew",
       "type": "amrap",
       "timeCap": 25,
@@ -3706,7 +3718,7 @@
       ]
     },
     {
-      "code": "OP-034",
+      "code": "OP-0034",
       "name": "Long Drift",
       "type": "for_time",
       "timeCap": 25,

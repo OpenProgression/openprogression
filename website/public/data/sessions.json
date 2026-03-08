@@ -20,7 +20,7 @@
           }
         ]
       },
-      "metcon": "OP-025",
+      "metcon": "OP-0025",
       "accessory": null
     },
     {
@@ -32,7 +32,7 @@
         "durationMinutes": 8
       },
       "strength": null,
-      "metcon": "OP-031",
+      "metcon": "OP-0031",
       "accessory": {
         "notes": "3x1:00 plank hold\n2x15 banded pull-aparts\nFoam roll 5 min",
         "durationMinutes": 10
@@ -47,26 +47,20 @@
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 18,
+        "durationMinutes": 15,
         "movements": [
           {
             "movement": "Back Squat",
             "scheme": "5x5",
             "prescription": "@ 70% 1RM",
             "notes": "Same weight all sets. Rest 2:00 between sets."
-          },
-          {
-            "movement": "Strict Pull-up",
-            "scheme": "3x8",
-            "prescription": "Bodyweight or add weight if unbroken",
-            "notes": "Rest 1:30 between sets. Scale to banded pull-ups."
           }
         ]
       },
-      "metcon": "OP-004",
+      "metcon": "OP-0004",
       "accessory": {
-        "notes": "3x15 GHD hip extensions\n2x20 banded pull-aparts",
-        "durationMinutes": 8
+        "notes": "Strict Pull-up 3x8 Bodyweight or add weight if unbroken\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
+        "durationMinutes": 11
       }
     },
     {
@@ -88,7 +82,7 @@
           }
         ]
       },
-      "metcon": "OP-021",
+      "metcon": "OP-0021",
       "accessory": {
         "notes": "3x20 hollow rocks\n2x30s L-sit hold",
         "durationMinutes": 8
@@ -103,26 +97,20 @@
         "durationMinutes": 8
       },
       "strength": {
-        "durationMinutes": 16,
+        "durationMinutes": 12,
         "movements": [
           {
             "movement": "Strict Press",
             "scheme": "4x5",
             "prescription": "@ 72% 1RM",
             "notes": "Same weight across. Rest 1:30 between sets."
-          },
-          {
-            "movement": "Pendlay Row",
-            "scheme": "3x8",
-            "prescription": "@ moderate weight, controlled reps",
-            "notes": "Strict from the floor each rep. No bounce. Rest 1:30."
           }
         ]
       },
-      "metcon": "OP-011",
+      "metcon": "OP-0011",
       "accessory": {
-        "notes": "3x15 tricep dips\n2x20 banded face pulls",
-        "durationMinutes": 8
+        "notes": "Pendlay Row 3x8 @ moderate weight, controlled reps\n3x15 tricep dips\n2x20 banded face pulls",
+        "durationMinutes": 12
       }
     },
     {
@@ -144,7 +132,7 @@
           }
         ]
       },
-      "metcon": "OP-027",
+      "metcon": "OP-0027",
       "accessory": {
         "notes": "3x15 GHD sit-ups\n2x30s side plank each side",
         "durationMinutes": 8
@@ -169,7 +157,7 @@
           }
         ]
       },
-      "metcon": "OP-005",
+      "metcon": "OP-0005",
       "accessory": {
         "notes": "2x30s side plank each side\n3x20 banded pull-aparts",
         "durationMinutes": 8
@@ -194,7 +182,7 @@
           }
         ]
       },
-      "metcon": "OP-022",
+      "metcon": "OP-0022",
       "accessory": {
         "notes": "3x20 banded face pulls\n2x30s dead hang",
         "durationMinutes": 8
@@ -209,7 +197,7 @@
         "durationMinutes": 10
       },
       "strength": null,
-      "metcon": "OP-031",
+      "metcon": "OP-0031",
       "accessory": {
         "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
         "durationMinutes": 8
@@ -224,48 +212,42 @@
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 18,
+        "durationMinutes": 15,
         "movements": [
           {
             "movement": "Front Squat",
             "scheme": "4x5",
             "prescription": "Build to a heavy 5",
             "notes": "Rest 2:00 between sets. Start at ~60% and add weight each set."
-          },
-          {
-            "movement": "Weighted Ring Dip",
-            "scheme": "3x5",
-            "prescription": "Build across",
-            "notes": "Add weight each set. Scale to strict ring dips or box dips."
           }
         ]
       },
-      "metcon": "OP-012",
+      "metcon": "OP-0012",
       "accessory": {
-        "notes": "3x15 GHD sit-ups\n3x20 banded pull-aparts\n2x30s dead hang",
-        "durationMinutes": 12
+        "notes": "Weighted Ring Dip 3x5 Build across\n3x15 GHD sit-ups\n3x20 banded pull-aparts\n2x30s dead hang",
+        "durationMinutes": 15
       }
     },
     {
       "date": "2026-03-10",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
-        "notes": "5 min easy bike or row\nThen 2 rounds:\n10 KB swings (light)\n10 wall ball (light)\n200m run",
+        "notes": "5 min easy bike or row\nThen 2 rounds:\n10 empty barbell thrusters\n10 leg swings each side\n200m run",
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 8,
+        "durationMinutes": 10,
         "movements": [
           {
             "movement": "Double-Under Practice",
-            "scheme": "Skill: 8 min",
+            "scheme": "Skill: 10 min",
             "prescription": "Accumulate reps. Focus on timing and rhythm.",
             "notes": "Not for score. Singles to doubles transitions for beginners."
           }
         ]
       },
-      "metcon": "OP-023",
+      "metcon": "OP-0026",
       "accessory": null
     },
     {
@@ -277,26 +259,20 @@
         "durationMinutes": 8
       },
       "strength": {
-        "durationMinutes": 16,
+        "durationMinutes": 12,
         "movements": [
           {
             "movement": "Strict Press",
             "scheme": "5x3",
             "prescription": "Build to a heavy 3",
             "notes": "Rest 2:00 between sets."
-          },
-          {
-            "movement": "Supinated Barbell Row",
-            "scheme": "3x8",
-            "prescription": "@ moderate weight",
-            "notes": "Underhand grip. Control the eccentric. Rest 1:30."
           }
         ]
       },
-      "metcon": "OP-007",
+      "metcon": "OP-0007",
       "accessory": {
-        "notes": "3x12 GHD sit-ups\n2x20 banded face pulls",
-        "durationMinutes": 8
+        "notes": "Supinated Barbell Row 3x8 @ moderate weight\n3x12 GHD sit-ups\n2x20 banded face pulls",
+        "durationMinutes": 12
       }
     },
     {
@@ -318,7 +294,7 @@
           }
         ]
       },
-      "metcon": "OP-028",
+      "metcon": "OP-0028",
       "accessory": {
         "notes": "3x20 hollow rocks\n2x30s L-sit hold",
         "durationMinutes": 8
@@ -343,7 +319,7 @@
           }
         ]
       },
-      "metcon": "OP-014",
+      "metcon": "OP-0014",
       "accessory": {
         "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
         "durationMinutes": 5
@@ -368,7 +344,7 @@
           }
         ]
       },
-      "metcon": "OP-024",
+      "metcon": "OP-0024",
       "accessory": {
         "notes": "3x15 GHD hip extensions\n2x30s dead hang",
         "durationMinutes": 8
@@ -383,7 +359,7 @@
         "durationMinutes": 10
       },
       "strength": null,
-      "metcon": "OP-032",
+      "metcon": "OP-0032",
       "accessory": {
         "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
         "durationMinutes": 10
@@ -398,26 +374,20 @@
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 18,
+        "durationMinutes": 15,
         "movements": [
           {
             "movement": "Back Squat",
             "scheme": "5x3",
             "prescription": "Build to a heavy 3",
             "notes": "Rest 2:00 between sets. Start at ~60% and add weight each set."
-          },
-          {
-            "movement": "Strict Weighted Pull-up",
-            "scheme": "4x3",
-            "prescription": "Build across",
-            "notes": "Add weight each set. Scale to strict pull-ups if needed."
           }
         ]
       },
-      "metcon": "OP-001",
+      "metcon": "OP-0001",
       "accessory": {
-        "notes": "3x15 GHD hip extensions\n3x20 banded pull-aparts\n2x30s dead hang",
-        "durationMinutes": 12
+        "notes": "Strict Weighted Pull-up 4x3 Build across\n3x15 GHD hip extensions\n3x20 banded pull-aparts\n2x30s dead hang",
+        "durationMinutes": 15
       }
     },
     {
@@ -439,7 +409,7 @@
           }
         ]
       },
-      "metcon": "OP-025",
+      "metcon": "OP-0025",
       "accessory": null
     },
     {
@@ -451,26 +421,20 @@
         "durationMinutes": 8
       },
       "strength": {
-        "durationMinutes": 16,
+        "durationMinutes": 12,
         "movements": [
           {
             "movement": "Push Press",
             "scheme": "5x3",
             "prescription": "Build to a heavy 3",
             "notes": "Rest 2:00. Start at ~60% and build."
-          },
-          {
-            "movement": "Pendlay Row",
-            "scheme": "3x8",
-            "prescription": "@ moderate weight, controlled reps",
-            "notes": "Strict from floor. No bounce. Rest 1:30."
           }
         ]
       },
-      "metcon": "OP-016",
+      "metcon": "OP-0016",
       "accessory": {
-        "notes": "3x15 tricep dips\n2x20 banded face pulls",
-        "durationMinutes": 8
+        "notes": "Pendlay Row 3x8 @ moderate weight, controlled reps\n3x15 tricep dips\n2x20 banded face pulls",
+        "durationMinutes": 12
       }
     },
     {
@@ -492,7 +456,7 @@
           }
         ]
       },
-      "metcon": "OP-029",
+      "metcon": "OP-0029",
       "accessory": {
         "notes": "3x15 GHD hip extensions\n3x20 banded face pulls",
         "durationMinutes": 10
@@ -517,7 +481,7 @@
           }
         ]
       },
-      "metcon": "OP-009",
+      "metcon": "OP-0009",
       "accessory": {
         "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
         "durationMinutes": 5
@@ -542,7 +506,7 @@
           }
         ]
       },
-      "metcon": "OP-026",
+      "metcon": "OP-0026",
       "accessory": {
         "notes": "3x20 banded face pulls\n2x30s side plank each side",
         "durationMinutes": 8
@@ -557,7 +521,7 @@
         "durationMinutes": 10
       },
       "strength": null,
-      "metcon": "OP-033",
+      "metcon": "OP-0033",
       "accessory": {
         "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
         "durationMinutes": 10
@@ -572,26 +536,20 @@
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 18,
+        "durationMinutes": 15,
         "movements": [
           {
             "movement": "Back Squat",
             "scheme": "5x5",
             "prescription": "@ 72% 1RM",
             "notes": "Same weight all sets. Rest 2:00 between sets."
-          },
-          {
-            "movement": "Strict Pull-up",
-            "scheme": "3x8",
-            "prescription": "Bodyweight or add weight if unbroken",
-            "notes": "Rest 1:30. Scale to banded pull-ups."
           }
         ]
       },
-      "metcon": "OP-004",
+      "metcon": "OP-0004",
       "accessory": {
-        "notes": "3x15 GHD hip extensions\n2x20 banded pull-aparts",
-        "durationMinutes": 8
+        "notes": "Strict Pull-up 3x8 Bodyweight or add weight if unbroken\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
+        "durationMinutes": 11
       }
     },
     {
@@ -613,7 +571,7 @@
           }
         ]
       },
-      "metcon": "OP-021",
+      "metcon": "OP-0021",
       "accessory": {
         "notes": "3x20 hollow rocks\n2x30s L-sit hold",
         "durationMinutes": 8
@@ -628,26 +586,20 @@
         "durationMinutes": 8
       },
       "strength": {
-        "durationMinutes": 16,
+        "durationMinutes": 12,
         "movements": [
           {
             "movement": "Strict Press",
             "scheme": "4x5",
             "prescription": "@ 75% 1RM",
             "notes": "Same weight across. Rest 1:30."
-          },
-          {
-            "movement": "Pendlay Row",
-            "scheme": "4x6",
-            "prescription": "@ moderate-heavy weight",
-            "notes": "Strict from floor. Rest 1:30."
           }
         ]
       },
-      "metcon": "OP-008",
+      "metcon": "OP-0008",
       "accessory": {
-        "notes": "3x15 tricep dips\n2x20 banded face pulls",
-        "durationMinutes": 8
+        "notes": "Pendlay Row 4x6 @ moderate-heavy weight\n3x15 tricep dips\n2x20 banded face pulls",
+        "durationMinutes": 12
       }
     },
     {
@@ -669,7 +621,7 @@
           }
         ]
       },
-      "metcon": "OP-030",
+      "metcon": "OP-0030",
       "accessory": {
         "notes": "3x15 GHD sit-ups\n2x30s side plank each side",
         "durationMinutes": 8
@@ -694,7 +646,7 @@
           }
         ]
       },
-      "metcon": "OP-019",
+      "metcon": "OP-0019",
       "accessory": {
         "notes": "3x15 GHD hip extensions\n2x30s dead hang",
         "durationMinutes": 8
@@ -703,23 +655,23 @@
     {
       "date": "2026-03-28",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 strict pull-ups",
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 8,
+        "durationMinutes": 10,
         "movements": [
           {
-            "movement": "Power Clean",
-            "scheme": "E90S x 5",
-            "prescription": "2 reps per set, build across",
-            "notes": "Every 90 seconds for 5 sets. Quick skill work before the team WOD."
+            "movement": "Handstand Walk Practice",
+            "scheme": "Skill: 10 min",
+            "prescription": "Wall walks, shoulder taps, or free attempts. Work your level.",
+            "notes": "Focus on control. Beginners hold wall-facing handstand."
           }
         ]
       },
-      "metcon": "OP-023",
+      "metcon": "OP-0022",
       "accessory": null
     },
     {
@@ -731,7 +683,7 @@
         "durationMinutes": 10
       },
       "strength": null,
-      "metcon": "OP-034",
+      "metcon": "OP-0034",
       "accessory": {
         "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
         "durationMinutes": 10
@@ -746,26 +698,20 @@
         "durationMinutes": 10
       },
       "strength": {
-        "durationMinutes": 18,
+        "durationMinutes": 15,
         "movements": [
           {
             "movement": "Front Squat",
             "scheme": "5x3",
             "prescription": "Build to a heavy 3",
             "notes": "Rest 2:00 between sets."
-          },
-          {
-            "movement": "Weighted Ring Dip",
-            "scheme": "3x5",
-            "prescription": "Build across",
-            "notes": "Add weight each set. Scale to strict ring dips or box dips."
           }
         ]
       },
-      "metcon": "OP-020",
+      "metcon": "OP-0020",
       "accessory": {
-        "notes": "3x15 GHD sit-ups\n3x20 banded pull-aparts\n2x30s dead hang",
-        "durationMinutes": 12
+        "notes": "Weighted Ring Dip 3x5 Build across\n3x15 GHD sit-ups\n3x20 banded pull-aparts\n2x30s dead hang",
+        "durationMinutes": 15
       }
     },
     {
@@ -787,7 +733,7 @@
           }
         ]
       },
-      "metcon": "OP-024",
+      "metcon": "OP-0024",
       "accessory": {
         "notes": "3x20 hollow rocks\n2x30s L-sit hold",
         "durationMinutes": 8

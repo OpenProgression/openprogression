@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo, useEffect, useCallback } from "react"
+import { useState, useMemo, useEffect, useCallback, useRef } from "react"
 import {
   Search,
   ChevronDown,
@@ -272,6 +272,58 @@ function formatDate(dateStr: string): {
   const dayNum = d.getDate().toString()
   const month = d.toLocaleDateString("en-US", { month: "short" })
   return { dayName, dayNum, month }
+}
+
+/** Get ISO week number */
+function getWeekNumber(date: Date): number {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()))
+  const dayNum = d.getUTCDay() || 7
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum)
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
+  return Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7)
+}
+
+/** Get Monday of the week containing a given date string */
+function getMonday(dateStr: string): Date {
+  const d = new Date(dateStr + "T12:00:00")
+  const day = d.getDay()
+  const diff = day === 0 ? -6 : 1 - day
+  const monday = new Date(d)
+  monday.setDate(d.getDate() + diff)
+  return monday
+}
+
+/** Generate YYYY-MM-DD strings for Mon-Sun of a week starting at monday */
+function getWeekDates(monday: Date): string[] {
+  return Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(monday)
+    d.setDate(monday.getDate() + i)
+    return d.toISOString().split("T")[0]
+  })
+}
+
+/** Get all days in a calendar month grid (6 rows x 7 cols, Mon-start) */
+function getCalendarGrid(year: number, month: number): (string | null)[][] {
+  const firstDay = new Date(year, month, 1)
+  const startDay = firstDay.getDay()
+  const offset = startDay === 0 ? -6 : 1 - startDay
+  const gridStart = new Date(year, month, 1 + offset)
+
+  const rows: (string | null)[][] = []
+  for (let r = 0; r < 6; r++) {
+    const row: (string | null)[] = []
+    for (let c = 0; c < 7; c++) {
+      const d = new Date(gridStart)
+      d.setDate(gridStart.getDate() + r * 7 + c)
+      if (d.getMonth() === month) {
+        row.push(d.toISOString().split("T")[0])
+      } else {
+        row.push(null)
+      }
+    }
+    if (row.some((d) => d !== null)) rows.push(row)
+  }
+  return rows
 }
 
 // ---------------------------------------------------------------------------
@@ -598,6 +650,8 @@ function DailyView({
     [sessions]
   )
 
+  const dateSet = useMemo(() => new Set(sortedDates), [sortedDates])
+
   const defaultDate = useMemo(() => {
     if (sortedDates.length === 0) return ""
     const today = new Date().toISOString().split("T")[0]
@@ -607,20 +661,92 @@ function DailyView({
   const [selectedDate, setSelectedDate] = useState("")
   const activeDate = selectedDate || defaultDate
 
+  // Week navigation
+  const currentMonday = useMemo(() => getMonday(activeDate), [activeDate])
+  const weekDates = useMemo(() => getWeekDates(currentMonday), [currentMonday])
+  const weekLabel = useMemo(() => {
+    const mon = new Date(weekDates[0] + "T12:00:00")
+    const sun = new Date(weekDates[6] + "T12:00:00")
+    const monMonth = mon.toLocaleDateString("en-US", { month: "short" })
+    const sunMonth = sun.toLocaleDateString("en-US", { month: "short" })
+    const year = mon.getFullYear()
+    const week = getWeekNumber(mon)
+    if (monMonth === sunMonth) {
+      return `${monMonth} ${year}, Week ${week}`
+    }
+    return `${monMonth}/${sunMonth} ${year}, Week ${week}`
+  }, [weekDates])
+
+  const goToPrevWeek = useCallback(() => {
+    const prev = new Date(currentMonday)
+    prev.setDate(prev.getDate() - 7)
+    const prevWeek = getWeekDates(prev)
+    const match = prevWeek.reverse().find((d) => dateSet.has(d))
+    if (match) setSelectedDate(match)
+  }, [currentMonday, dateSet])
+
+  const goToNextWeek = useCallback(() => {
+    const next = new Date(currentMonday)
+    next.setDate(next.getDate() + 7)
+    const nextWeek = getWeekDates(next)
+    const match = nextWeek.find((d) => dateSet.has(d))
+    if (match) setSelectedDate(match)
+  }, [currentMonday, dateSet])
+
+  // Check if prev/next weeks have sessions
+  const hasPrevWeek = useMemo(() => {
+    const prev = new Date(currentMonday)
+    prev.setDate(prev.getDate() - 7)
+    return getWeekDates(prev).some((d) => dateSet.has(d))
+  }, [currentMonday, dateSet])
+
+  const hasNextWeek = useMemo(() => {
+    const next = new Date(currentMonday)
+    next.setDate(next.getDate() + 7)
+    return getWeekDates(next).some((d) => dateSet.has(d))
+  }, [currentMonday, dateSet])
+
+  // Calendar popover
+  const [calOpen, setCalOpen] = useState(false)
+  const [calYear, setCalYear] = useState(() => new Date(activeDate + "T12:00:00").getFullYear())
+  const [calMonth, setCalMonth] = useState(() => new Date(activeDate + "T12:00:00").getMonth())
+  const calRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (calRef.current && !calRef.current.contains(e.target as Node)) {
+        setCalOpen(false)
+      }
+    }
+    if (calOpen) document.addEventListener("mousedown", handleClick)
+    return () => document.removeEventListener("mousedown", handleClick)
+  }, [calOpen])
+
+  const calGrid = useMemo(() => getCalendarGrid(calYear, calMonth), [calYear, calMonth])
+  const calMonthLabel = new Date(calYear, calMonth).toLocaleDateString("en-US", { month: "long", year: "numeric" })
+
+  const openCalendar = useCallback(() => {
+    const d = new Date(activeDate + "T12:00:00")
+    setCalYear(d.getFullYear())
+    setCalMonth(d.getMonth())
+    setCalOpen(true)
+  }, [activeDate])
+
+  const calPrevMonth = useCallback(() => {
+    if (calMonth === 0) { setCalMonth(11); setCalYear(calYear - 1) }
+    else setCalMonth(calMonth - 1)
+  }, [calMonth, calYear])
+
+  const calNextMonth = useCallback(() => {
+    if (calMonth === 11) { setCalMonth(0); setCalYear(calYear + 1) }
+    else setCalMonth(calMonth + 1)
+  }, [calMonth, calYear])
+
   const session = sessions.find((s) => s.date === activeDate)
-  const currentIdx = sortedDates.indexOf(activeDate)
   const metcon = session?.metcon
     ? metcons.find((m) => m.code === session.metcon)
     : null
-
-  const goToPrev = useCallback(() => {
-    if (currentIdx > 0) setSelectedDate(sortedDates[currentIdx - 1])
-  }, [currentIdx, sortedDates])
-
-  const goToNext = useCallback(() => {
-    if (currentIdx < sortedDates.length - 1)
-      setSelectedDate(sortedDates[currentIdx + 1])
-  }, [currentIdx, sortedDates])
+  const today = new Date().toISOString().split("T")[0]
 
   if (sortedDates.length === 0) {
     return (
@@ -632,47 +758,119 @@ function DailyView({
 
   return (
     <div className="flex flex-col gap-6">
-      {/* Date Navigation */}
-      <div className="flex items-center justify-center gap-2">
-        <button
-          onClick={goToPrev}
-          disabled={currentIdx <= 0}
-          className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          <ChevronLeft className="w-5 h-5" />
-        </button>
+      {/* Week Navigation */}
+      <div className="flex flex-col items-center gap-3">
+        {/* Week label + calendar button */}
+        <div className="flex items-center gap-3">
+          <button
+            onClick={goToPrevWeek}
+            disabled={!hasPrevWeek}
+            className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <span className="text-sm font-medium text-muted-foreground min-w-[180px] text-center">
+            {weekLabel}
+          </span>
+          <button
+            onClick={goToNextWeek}
+            disabled={!hasNextWeek}
+            className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+          <div className="relative" ref={calRef}>
+            <button
+              onClick={openCalendar}
+              className="p-2 rounded-lg hover:bg-secondary transition-colors text-muted-foreground hover:text-foreground"
+              title="Jump to date"
+            >
+              <Calendar className="w-5 h-5" />
+            </button>
 
-        <div className="flex gap-1 overflow-x-auto px-2">
-          {sortedDates.map((date) => {
-            const { dayName, dayNum, month } = formatDate(date)
+            {/* Calendar Popover */}
+            {calOpen && (
+              <div className="absolute right-0 top-full mt-2 z-50 bg-card border rounded-xl shadow-lg p-4 w-[280px]">
+                <div className="flex items-center justify-between mb-3">
+                  <button onClick={calPrevMonth} className="p-1 rounded hover:bg-secondary transition-colors">
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  <span className="text-sm font-bold">{calMonthLabel}</span>
+                  <button onClick={calNextMonth} className="p-1 rounded hover:bg-secondary transition-colors">
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+                <div className="grid grid-cols-7 gap-0 text-center">
+                  {["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"].map((d) => (
+                    <div key={d} className="text-[10px] font-bold text-muted-foreground py-1">
+                      {d}
+                    </div>
+                  ))}
+                  {calGrid.flat().map((date, i) => {
+                    if (!date) return <div key={i} />
+                    const hasSession = dateSet.has(date)
+                    const isActive = date === activeDate
+                    const isToday = date === today
+                    return (
+                      <button
+                        key={i}
+                        disabled={!hasSession}
+                        onClick={() => {
+                          setSelectedDate(date)
+                          setCalOpen(false)
+                        }}
+                        className={`relative text-xs py-1.5 rounded transition-colors ${
+                          isActive
+                            ? "bg-primary text-primary-foreground font-bold"
+                            : hasSession
+                              ? "hover:bg-secondary text-foreground font-medium"
+                              : "text-muted-foreground/30 cursor-default"
+                        }`}
+                      >
+                        {new Date(date + "T12:00:00").getDate()}
+                        {isToday && !isActive && (
+                          <span className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary" />
+                        )}
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Week day pills */}
+        <div className="flex gap-1">
+          {weekDates.map((date) => {
+            const { dayName, dayNum } = formatDate(date)
             const isSelected = date === activeDate
+            const hasSession = dateSet.has(date)
+            const isToday = date === today
             return (
               <button
                 key={date}
+                disabled={!hasSession}
                 onClick={() => setSelectedDate(date)}
-                className={`flex flex-col items-center px-4 py-2 rounded-lg text-xs font-medium transition-colors min-w-[60px] ${
+                className={`relative flex flex-col items-center px-3 sm:px-4 py-2 rounded-lg text-xs font-medium transition-colors min-w-[48px] sm:min-w-[60px] ${
                   isSelected
                     ? "bg-primary text-primary-foreground"
-                    : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                    : hasSession
+                      ? "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                      : "text-muted-foreground/30 cursor-default"
                 }`}
               >
                 <span className="font-bold">{dayName}</span>
                 <span className="text-lg font-display font-black leading-tight">
                   {dayNum}
                 </span>
-                <span>{month}</span>
+                {isToday && !isSelected && (
+                  <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary" />
+                )}
               </button>
             )
           })}
         </div>
-
-        <button
-          onClick={goToNext}
-          disabled={currentIdx >= sortedDates.length - 1}
-          className="p-2 rounded-lg hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          <ChevronRight className="w-5 h-5" />
-        </button>
       </div>
 
       {/* Session Title */}
@@ -723,7 +921,7 @@ function DailyView({
                   <Dumbbell className="w-4 h-4 text-blue-500" />
                 </div>
                 <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">
-                  Strength
+                  Strength / Skill
                 </h3>
                 <span className="text-xs px-2 py-0.5 rounded-full bg-secondary text-muted-foreground font-medium ml-auto">
                   {session.strength.durationMinutes} min
