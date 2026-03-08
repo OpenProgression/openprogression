@@ -59,7 +59,7 @@ A typical month needs ~30 sessions (7 days/week x ~4.3 weeks). Not every session
 
 ### Naming Convention
 
-Format: `OP-XXX "Descriptive Noun"`
+Format: `OP-XXXX "Descriptive Noun"`
 
 **Descriptive words** (first word signals the workout character):
 - Quick = short sprint, sub-5 min
@@ -121,6 +121,9 @@ Every scaled movement MUST have all 6 non-Rx levels. Each level entry MUST be fu
 - Lunge: Jumping Lunge > Walking Lunge
 - Press (vertical): HSPU > Pike Push-up > Dumbbell Push Press
 - Push-up: Push-up > Knee Push-up > Box Push-up
+- Wall Walk: Wall Walk (full) > Wall Walk (partial) > Inch Worm
+- Rope Climb: Rope Climb (15ft) > Rope Climb (12ft) > 4 Strict Pull-ups (Rx through Adv). Not programmed below Intermediate+.
+- Core (GHD): GHD Sit-up > Butterfly Sit-up > Sit-up. GHD only at Rx/Adv+, Butterfly from Advanced down.
 - Olympic: Squat Clean > Power Clean; Power Snatch > Power Clean; C&J > PC & Push Press
 
 **Integrity rules:**
@@ -173,6 +176,8 @@ Team metcons (Teams of 2) use the same movement/scaling structure as solo metcon
 - Programming runs 7 days per week (Monday through Sunday). No gaps, no scheduled rest days.
 - Tuesday and Saturday are always Teams of 2 partner workouts.
 - Sunday is intentionally lighter to manage weekly training load.
+- **Single-focus strength:** Each strength block has exactly one primary movement. No pairing two heavy compounds in one block. Put secondary work in accessories.
+- **Consecutive-day variety:** Back-to-back days must not repeat more than one movement. If Monday has KB Swings, Burpees, and Rowing, Tuesday should share at most one of those. Plan the weekly schedule holistically.
 
 ### Time Budget
 

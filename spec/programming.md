@@ -10,7 +10,7 @@ A standard OP session follows four parts:
 |------|---------|---------|
 | **Warmup** | Prepare for the session's demands | 3 rounds: 200m row, 10 PVC pass-throughs, 10 air squats |
 | **Strength / Skill** | Build capacity in a specific domain | 5x3 Weighted Ring Dips, building |
-| **Metcon** | The named workout — metabolic conditioning | OP-047 "Thick Smoke" |
+| **Metcon** | The named workout — metabolic conditioning | OP-0047 "Thick Smoke" |
 | **Extras** | Optional accessory / cool-down work | 3x12 GHD sit-ups, 3x20 banded pull-aparts |
 
 The metcon is the only part that carries a name and code. Warmup, strength, and extras are described but not named.
@@ -21,12 +21,12 @@ Every metcon has two identifiers:
 
 ### 1. Code (canonical reference)
 
-Format: `OP-XXX` (zero-padded, three digits)
+Format: `OP-XXXX` (zero-padded, four digits)
 
 - Sequential, never reused
 - The permanent, unambiguous identifier
 - Used in data, APIs, tracking, and leaderboards
-- Example: `OP-001`, `OP-047`, `OP-312`
+- Example: `OP-0001`, `OP-0047`, `OP-0312`
 
 ### 2. Name (two words)
 
@@ -68,7 +68,7 @@ Examples: Rain, Smoke, Honey, Lemon, Pretzel, Thunder, Copper, Frost, Ember, Sal
 ### Full Format Example
 
 ```
-OP-047 "Thick Smoke"
+OP-0047 "Thick Smoke"
 3 Rounds For Time:
   15 Thrusters (50/35kg)
   12 Pull-ups
@@ -76,7 +76,7 @@ OP-047 "Thick Smoke"
 ```
 
 ```
-OP-112 "Quick Honey"
+OP-0112 "Quick Honey"
 For Time:
   21-15-9
   Kettlebell Swings (32/24kg)
@@ -84,7 +84,7 @@ For Time:
 ```
 
 ```
-OP-203 "Long Oatmeal"
+OP-0203 "Long Oatmeal"
 30min AMRAP:
   400m Run
   15 Wall Balls (9/6kg)
@@ -224,6 +224,15 @@ Push-up > Knee Push-up > Box Push-up
 **Pressing (vertical)**
 Handstand Push-up > Pike Push-up (feet on box) > Dumbbell Push Press
 
+**Wall Walk**
+Wall Walk (full) > Wall Walk (partial, walk halfway) > Inch Worm
+
+**Rope Climb**
+Rope Climb (15ft) > Rope Climb (12ft) > 4 Strict Pull-ups (Rx through Advanced). Intermediate+ and below do not program Rope Climb.
+
+**Core (GHD)**
+GHD Sit-up > Butterfly Sit-up > Sit-up. GHD Sit-up should only appear at Rx and Advanced+ levels. GHD is uncommon equipment, so Butterfly Sit-up is the default from Advanced down.
+
 **Olympic lifting (catch depth)**
 Squat Clean > Power Clean
 
@@ -239,7 +248,7 @@ Many workouts use descending, ascending, or custom rep patterns (21-15-9, 1-2-3-
 
 ```json
 {
-  "code": "OP-112",
+  "code": "OP-0112",
   "name": "Quick Honey",
   "type": "for_time",
   "timeCap": 8,
@@ -303,7 +312,7 @@ Each metcon in the library follows this schema. Top-level values are always Rx. 
 
 ```json
 {
-  "code": "OP-047",
+  "code": "OP-0047",
   "name": "Thick Smoke",
   "type": "for_time",
   "timeCap": 14,
@@ -365,7 +374,7 @@ Note: `advanced_plus` and `advanced` Pull-up entries repeat the Rx reps value ex
 
 ```json
 {
-  "code": "OP-203",
+  "code": "OP-0203",
   "name": "Long Oatmeal",
   "type": "amrap",
   "timeCap": 30,
@@ -427,7 +436,7 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
 
 ```json
 {
-  "code": "OP-088",
+  "code": "OP-0088",
   "name": "Sharp Frost",
   "type": "emom",
   "timeCap": 16,
@@ -532,7 +541,7 @@ A team metcon is a workout designed for partners (typically Teams of 2). The `te
 
 ```json
 {
-  "code": "OP-021",
+  "code": "OP-0021",
   "name": "Sweet Storm",
   "type": "for_time",
   "timeCap": 24,
@@ -595,7 +604,7 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
           }
         ]
       },
-      "metcon": "OP-001",
+      "metcon": "OP-0001",
       "accessory": {
         "notes": "3x15 GHD hip extensions, 3x20 banded pull-aparts",
         "durationMinutes": 10
@@ -614,7 +623,7 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 | `estimatedMinutes` | number | Yes | Total session duration target (typically 45-60) |
 | `warmup` | object \| null | No | Warmup block |
 | `strength` | object \| null | No | Strength block with movements and duration |
-| `metcon` | string \| null | No | Metcon code reference (e.g., `"OP-005"`) |
+| `metcon` | string \| null | No | Metcon code reference (e.g., `"OP-0005"`) |
 | `accessory` | object \| null | No | Accessory/cool-down block |
 
 ### Warmup Fields
@@ -627,6 +636,8 @@ A daily session assembles a complete class hour: warmup, strength, metcon, and a
 ### Strength Movement Fields
 
 Strength is **prescription-based**, not absolute loads. Athletes use their own benchmark data (tested 1RM or OP level standards) to calculate working weights. This matches how real coaches program -- "build to a heavy 3" or "@ 70% 1RM" rather than fixed loads per level.
+
+**Single-focus rule:** Each strength block has exactly **one primary movement**. Moving equipment, warming up, and building to heavy loads takes real time. Combining two heavy compounds (e.g., Front Squat + Weighted Ring Dips) in 16-18 minutes is not realistic. If a secondary pulling or pressing movement is desired, place it in the accessory block instead.
 
 The strength block is an object with a `movements` array and a `durationMinutes` field, consistent with warmup and accessory.
 
@@ -693,11 +704,12 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 - **Sessions target 45-60 minutes** -- the sum of warmup + strength + metcon + accessory should fill a class hour.
 - **All fields are nullable** -- pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
 - **Strength is prescription-based** -- "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks.
-- **Metcon is a code reference** -- `"metcon": "OP-005"` points to the metcon library. The session never duplicates metcon data.
+- **Metcon is a code reference** -- `"metcon": "OP-0005"` points to the metcon library. The session never duplicates metcon data.
 - **Metcons are immutable** -- if a coach wants to modify a metcon, it becomes a new metcon with a new code. This keeps the library clean and results comparable.
 - **Warmup and accessory are free-text** -- coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
 - **7 days per week** -- programming runs Monday through Sunday with no gaps or rest days. Every day of the week has a scheduled session.
 - **Tuesday and Saturday are Teams of 2** -- these days always use team metcons (metcons with a `team` field). All other days use solo metcons.
+- **Consecutive-day variety** -- avoid repeating more than one movement across back-to-back days. Athletes who attend consecutive classes should not feel like they did the same workout twice. If Monday's metcon has KB Swings, Burpees, and Rowing, Tuesday's metcon should share at most one of those movements. Plan the weekly schedule holistically, not metcon by metcon.
 
 ## Age Adjustment
 
