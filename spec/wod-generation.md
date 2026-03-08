@@ -135,6 +135,29 @@ Every scaled movement MUST have all 6 non-Rx levels. Each level entry MUST be fu
 6. Reps MAY increase when subbing to an easier movement (to preserve stimulus)
 7. `sub` must always be a string, never a gender-specific object
 
+### Performance Goals
+
+Every metcon MUST include a `goal` object with `target` and `scaleDown` fields. The goal is metcon-level (not per-level) because proper scaling produces the same stimulus across all levels.
+
+**How to calculate goals:**
+
+1. Estimate per-round or total work time using movement speeds from `spec/programming.md`
+2. Add transition time (~5-8s per movement change)
+3. Apply fatigue factor: sprint 1.05x, moderate 1.10x, long 1.15x, ultra 1.20x
+4. For heavy barbell, add extra rest time (5-15s per set for breathing)
+5. For team YGIG, add ~10s per partner transition
+
+**For Time:** Target = realistic completion time range. Scale-down trigger = hitting the time cap.
+**AMRAP:** Target = minimum rounds. Scale-down trigger = falling well below target rounds.
+**EMOM:** Target = rest quality per round. Scale-down trigger = can't finish in time.
+
+```json
+"goal": {
+  "target": "Finish in 8-12 min",
+  "scaleDown": "If you hit the 16 min cap, the barbell is too heavy. Drop one level."
+}
+```
+
 ### Writing Metcons Incrementally
 
 To avoid output token limits, add metcons in batches of 2-3 using the Edit tool. Insert before the closing `]}` of metcons.json.

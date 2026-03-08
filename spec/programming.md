@@ -491,7 +491,7 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `code` | string | Yes | `OP-XXX` format identifier |
+| `code` | string | Yes | `OP-XXXX` format identifier |
 | `name` | string | Yes | Two-word name: `"Descriptive Noun"` |
 | `type` | string | Yes | `for_time`, `amrap`, `emom`, `for_load`, `intervals` |
 | `timeCap` | number | Yes | Time in minutes (cap for For Time, duration for AMRAP/EMOM) |
@@ -504,6 +504,76 @@ EMOMs use `pattern` and `groups` to support alternating formats (A/B, A/B/C, etc
 | `pattern` | string[] | No | EMOM only: rotation pattern, e.g. `["A", "B"]` |
 | `groups` | object | No | EMOM only: named movement groups |
 | `team` | object | No | Team workout descriptor (see Team Metcons below) |
+| `goal` | object | Yes | `{ target, scaleDown }` -- performance goal and level validation |
+
+### Goal Field
+
+Every metcon includes a `goal` object that serves as a **level validation tool**. If an athlete at the correct scaling level hits the target, their level is appropriate. If they miss it, they should consider dropping one level next time.
+
+The goal is **metcon-level, not per-level**. Proper scaling produces the same time domain and stimulus regardless of level. An Rx athlete and an Intermediate athlete should both be able to hit the target if their level is correct.
+
+```json
+"goal": {
+  "target": "5+ rounds",
+  "scaleDown": "Fewer than 3 rounds means the snatches or pull-ups are limiting you. Drop one level."
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `target` | string | Yes | The performance target for a properly scaled athlete |
+| `scaleDown` | string | Yes | What it means when the target is missed and what to do |
+
+**Goal calculation by type:**
+
+| Type | Target format | How to estimate |
+|------|--------------|-----------------|
+| **For Time** | Completion time range (e.g., "Finish in 8-12 min") | Calculate total work time from movement speeds, add transition time (~5-8s per movement change), apply fatigue factor, add rest/breathing breaks for heavy barbell work |
+| **AMRAP** | Minimum rounds (e.g., "5+ rounds") | Estimate round duration from movement speeds + transitions, apply fatigue factor, divide time cap by adjusted round time |
+| **EMOM** | Rest quality (e.g., "15+ seconds rest each round") | Estimate work time per minute. Athletes should finish well within the interval. |
+
+**Movement speed reference (at properly scaled load, per rep):**
+
+| Category | Movement | Speed |
+|----------|----------|-------|
+| Barbell (moderate) | Hang Power Clean, Power Clean | ~3.5-4s |
+| Barbell (moderate) | Thruster, Front Squat | ~4s |
+| Barbell (moderate) | Push Press | ~3s |
+| Barbell (moderate) | Deadlift (touch-and-go) | ~3s |
+| Barbell (moderate) | Power Snatch | ~5s |
+| Barbell (heavy) | Squat Clean, Clean & Jerk | ~6-8s |
+| Gymnastics | Pull-up (kipping) | ~3s |
+| Gymnastics | C2B, Toes-to-Bar | ~3.5s |
+| Gymnastics | HSPU | ~5s |
+| Gymnastics | Pistol Squat (alternating) | ~4s |
+| Gymnastics | Ring Row, Jumping Pull-up | ~3s |
+| Bodyweight | Burpee | ~5s |
+| Bodyweight | Bar-facing Burpee, Burpee to Target | ~5.5-6s |
+| Bodyweight | Push-up | ~2.5s |
+| Bodyweight | Air Squat, Sit-up | ~2s |
+| Bodyweight | Walking/Jumping Lunge | ~3s |
+| Bodyweight | Box Jump | ~4s |
+| Bodyweight | Double-Under | ~0.8s |
+| Mono | Row 250m | ~52s |
+| Mono | Row 500m | ~110s |
+| Mono | Row 1000m | ~225s |
+| Mono | Run 200m | ~48s |
+| Mono | Run 400m | ~120s |
+
+**Transition time:** ~5-8s between movements (picking up equipment, getting to the bar, chalk, etc.)
+
+**Fatigue factors** (multiply raw estimated time):
+
+| Duration | Factor | Notes |
+|----------|--------|-------|
+| Sprint (<8 min) | 1.05x | Minimal degradation |
+| Moderate (8-15 min) | 1.10x | Some movement quality loss |
+| Long (15-25 min) | 1.15x | Pacing becomes critical |
+| Ultra (25+ min) | 1.20x | Significant slowdown over time |
+
+For heavy barbell work (>50% 1RM for the rep range), add additional rest time: 5-15s per set for breathing and grip recovery.
+
+For team YGIG workouts, add ~10s per partner transition. Each partner gets built-in rest, so individual round fatigue is lower but total workout time includes all transitions.
 
 ### Movement Field Reference
 
