@@ -213,7 +213,7 @@ estimatedMinutes = warmup + strength + metcon.timeCap + accessory
 | Warmup | 10 min | 8-10 |
 | Strength | 20 min | 10-18 |
 | Metcon | 40 min | 8-30 |
-| Accessory | 15 min | 5-12 |
+| Accessory | 15 min | 5-12 (max 3 exercises) |
 | **Session total** | | **45-58 min** |
 
 **Constraints:**

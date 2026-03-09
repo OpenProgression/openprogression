@@ -736,11 +736,9 @@ The strength block is an object with a `movements` array and a `durationMinutes`
 
 ### Accessory Fields
 
-### Accessory Fields
-
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `notes` | string | Yes | Free-text accessory work description. Use `\n` for line breaks between exercises. |
+| `notes` | string | Yes | Free-text accessory work description. Use `\n` for line breaks between exercises. Maximum 3 exercises. |
 | `durationMinutes` | number | No | Duration in minutes |
 
 ### Session Time Budget
@@ -763,7 +761,7 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 | Warmup | 10 min | General preparation, movement prep |
 | Strength / Skill | 20 min | Includes rest periods between sets |
 | Metcon | 40 min | If metcon is 40 min, strength must be null |
-| Accessory | 15 min | Cool-down and supplementary work |
+| Accessory | 15 min | Cool-down and supplementary work. Maximum 3 exercises. |
 
 **Constraint:** When a metcon's `timeCap` exceeds 25 minutes, the strength block should be kept short (skill work, movement practice) or omitted entirely. A 40-minute metcon requires `"strength": null`.
 
