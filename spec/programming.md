@@ -542,25 +542,40 @@ The goal is **metcon-level, not per-level**. Proper scaling produces the same ti
 | Barbell (moderate) | Deadlift (touch-and-go) | ~3s |
 | Barbell (moderate) | Power Snatch | ~5s |
 | Barbell (heavy) | Squat Clean, Clean & Jerk | ~6-8s |
-| Gymnastics | Pull-up (kipping) | ~3s |
-| Gymnastics | C2B, Toes-to-Bar | ~3.5s |
-| Gymnastics | HSPU | ~5s |
-| Gymnastics | Pistol Squat (alternating) | ~4s |
-| Gymnastics | Ring Row, Jumping Pull-up | ~3s |
-| Bodyweight | Burpee | ~5s |
-| Bodyweight | Bar-facing Burpee, Burpee to Target | ~5.5-6s |
-| Bodyweight | Push-up | ~2.5s |
-| Bodyweight | Air Squat, Sit-up | ~2s |
-| Bodyweight | Walking/Jumping Lunge | ~3s |
-| Bodyweight | Box Jump | ~4s |
-| Bodyweight | Double-Under | ~0.8s |
+| Gymnastics (kipping) | Pull-up | ~2s |
+| Gymnastics (kipping) | C2B, Toes-to-Bar | ~2.5s |
+| Gymnastics (kipping) | HSPU | ~3.5s |
+| Gymnastics (strict) | HSPU (strict) | ~5s |
+| Gymnastics | Pistol Squat (alternating) | ~3.5s |
+| Gymnastics | Pistol Squat to Box | ~3s |
+| Gymnastics | Ring Row, Jumping Pull-up | ~2.5s |
+| Gymnastics | Hanging Leg/Knee Raise | ~2.5s |
+| Gymnastics | Laying Knee Raise | ~2s |
+| Bodyweight | Burpee | ~4s |
+| Bodyweight | Bar-facing Burpee, Burpee to Target | ~5s |
+| Bodyweight | Push-up | ~2s |
+| Bodyweight | Knee/Box Push-up | ~1.5s |
+| Bodyweight | Air Squat, Sit-up | ~1.5s |
+| Bodyweight | Walking/Jumping Lunge | ~2.5s |
+| Bodyweight | Box Jump | ~3s |
+| Bodyweight | Box Step-up | ~3.5s |
+| Bodyweight | Double-Under | ~0.7s |
+| Bodyweight | Single-Under | ~0.4s |
+| Bodyweight | Wall Walk | ~8s |
+| Bodyweight | Pike Push-up | ~3s |
+| Bodyweight | Bodybuilder | ~3s |
+| KB/DB | Kettlebell Swing | ~2.5s |
+| KB/DB | Dumbbell Push Press | ~3s |
+| KB/DB | Wall Ball | ~2.5s |
 | Mono | Row 250m | ~52s |
 | Mono | Row 500m | ~110s |
 | Mono | Row 1000m | ~225s |
 | Mono | Run 200m | ~48s |
 | Mono | Run 400m | ~120s |
 
-**Transition time:** ~5-8s between movements (picking up equipment, getting to the bar, chalk, etc.)
+**Transition time:**
+- Bodyweight/gymnastics-only workouts: ~4-6s between movements (just move to the next station)
+- Workouts with barbell/equipment changes: ~6-8s between movements (load changes, chalk, positioning)
 
 **Fatigue factors** (multiply raw estimated time):
 
@@ -574,6 +589,16 @@ The goal is **metcon-level, not per-level**. Proper scaling produces the same ti
 For heavy barbell work (>50% 1RM for the rep range), add additional rest time: 5-15s per set for breathing and grip recovery.
 
 For team YGIG workouts, add ~10s per partner transition. Each partner gets built-in rest, so individual round fatigue is lower but total workout time includes all transitions.
+
+**Time cap formula (For Time workouts):**
+
+1. Calculate raw work time from the speed table above
+2. Add transition time per the rules above
+3. Apply the fatigue factor
+4. The result is the **goal target range** (also used for `stimulus.duration`)
+5. **Time cap** = goal target high end x 1.25-1.30, rounded to whole minutes
+
+The time cap should be tight. It exists so athletes know when to scale down, not as a generous safety net. If an athlete at the correct level hits the cap, their scaling is wrong.
 
 ### Movement Field Reference
 
@@ -769,7 +794,7 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 
 ### Session Design Principles
 
-- **Sessions target 45-60 minutes** -- the sum of warmup + strength + metcon + accessory should fill a class hour.
+- **Sessions target 50 minutes ±5** -- the sum of warmup + strength + metcon + accessory should land between 45-55 minutes. 60 minutes is the absolute maximum. Real-world prep time (fetching gear, setting up stations, trying movements) is not tracked but is always present.
 - **All fields are nullable** -- pure engine days have `"strength": null`, long metcon days may have `"accessory": null`, rest days have no session entry.
 - **Strength is prescription-based** -- "build to heavy", "@ 70% 1RM", "paused @ 60%" rather than absolute loads. Athletes calculate from their tested 1RM or OP level benchmarks.
 - **Metcon is a code reference** -- `"metcon": "OP-0005"` points to the metcon library. The session never duplicates metcon data.
