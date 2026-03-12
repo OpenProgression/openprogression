@@ -8,7 +8,7 @@
       "timeCap": 8,
       "rounds": 3,
       "stimulus": {
-        "duration": "4-7 min",
+        "duration": "4-6 min",
         "feel": "Short sprint. Hang cleans should be fast touch-and-go. Chest-to-bar pull-ups in quick sets or unbroken.",
         "intent": "Barbell cycling speed, pulling under fatigue, short-duration intensity"
       },
@@ -184,7 +184,7 @@
         }
       ],
       "goal": {
-        "target": "7+ rounds",
+        "target": "8+ rounds",
         "scaleDown": "Fewer than 5 rounds means the KB or toes-to-bar are slowing you too much. Drop one level."
       }
     },
@@ -192,10 +192,10 @@
       "code": "OP-0003",
       "name": "Heavy Slate",
       "type": "for_time",
-      "timeCap": 22,
+      "timeCap": 18,
       "rounds": 5,
       "stimulus": {
-        "duration": "15-20 min",
+        "duration": "10-14 min",
         "feel": "Heavy barbell complex with running. Low reps but challenging loads. The 200m between rounds stops you from resting too long. Push-ups accumulate under shoulder fatigue.",
         "intent": "Strength endurance across barbell movements, pacing heavy loads with bodyweight volume"
       },
@@ -328,8 +328,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 13-18 min",
-        "scaleDown": "If you hit the 22 min cap, the barbell is too heavy. Drop one level."
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 18 min cap, the barbell is too heavy. Drop one level."
       }
     },
     {
@@ -443,14 +443,14 @@
       "code": "OP-0005",
       "name": "Spicy Flint",
       "type": "for_time",
-      "timeCap": 12,
+      "timeCap": 10,
       "repScheme": [
         21,
         15,
         9
       ],
       "stimulus": {
-        "duration": "6-10 min",
+        "duration": "5-8 min",
         "feel": "High intensity couplet. The descending reps give you hope, but the deadlifts get heavier as your grip fades. Burpees are relentless. Should hurt from round 2 onward.",
         "intent": "High-intensity hip hinge under fatigue, mental toughness through descending reps"
       },
@@ -527,8 +527,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 6-9 min",
-        "scaleDown": "If you hit the 12 min cap, the deadlifts are too heavy. Drop one level."
+        "target": "Finish in 5-8 min",
+        "scaleDown": "If you hit the 10 min cap, the deadlifts are too heavy. Drop one level."
       }
     },
     {
@@ -685,10 +685,10 @@
       "code": "OP-0007",
       "name": "Dark Granite",
       "type": "for_time",
-      "timeCap": 18,
+      "timeCap": 12,
       "rounds": 4,
       "stimulus": {
-        "duration": "12-17 min",
+        "duration": "5-9 min",
         "feel": "Gymnastics grinder. Four rounds means you need to pace the handstand push-ups from round 1. Pistols demand control. Toes-to-bar test your grip and midline when everything is tired.",
         "intent": "Gymnastics skill under sustained fatigue, unilateral strength, coordination"
       },
@@ -782,18 +782,18 @@
         }
       ],
       "goal": {
-        "target": "Finish in 11-15 min",
-        "scaleDown": "If you hit the 18 min cap, the gymnastics movements are too demanding. Drop one level."
+        "target": "Finish in 5-9 min",
+        "scaleDown": "If you hit the 12 min cap, the gymnastics movements are too demanding. Drop one level."
       }
     },
     {
       "code": "OP-0008",
       "name": "Light Moss",
       "type": "for_time",
-      "timeCap": 18,
+      "timeCap": 14,
       "rounds": 2,
       "stimulus": {
-        "duration": "12-17 min",
+        "duration": "7-11 min",
         "feel": "Bodyweight grinder. Two rounds of the descending chipper. No equipment, no excuses. The second round is where character shows.",
         "intent": "Bodyweight conditioning, sustained effort, mental toughness through repeated volume"
       },
@@ -929,18 +929,18 @@
         }
       ],
       "goal": {
-        "target": "Finish in 12-16 min",
-        "scaleDown": "If you hit the 18 min cap, the volume is too high. Drop one level."
+        "target": "Finish in 7-11 min",
+        "scaleDown": "If you hit the 14 min cap, the volume is too high. Drop one level."
       }
     },
     {
       "code": "OP-0009",
       "name": "Thick Chalk",
       "type": "for_time",
-      "timeCap": 22,
+      "timeCap": 18,
       "rounds": 3,
       "stimulus": {
-        "duration": "15-22 min",
+        "duration": "10-14 min",
         "feel": "Classic mixed modal grind with running. The 400m gives you a moment to breathe before hitting the thrusters. Your legs won't thank you after the box jumps. Find a pace and hold it.",
         "intent": "Mixed modal capacity, barbell cycling under fatigue, pacing with running"
       },
@@ -1055,17 +1055,17 @@
         }
       ],
       "goal": {
-        "target": "Finish in 14-19 min",
-        "scaleDown": "If you hit the 22 min cap, the thrusters are too heavy. Drop one level."
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 18 min cap, the thrusters are too heavy. Drop one level."
       }
     },
     {
       "code": "OP-0010",
       "name": "Loud Steel",
       "type": "for_time",
-      "timeCap": 22,
+      "timeCap": 18,
       "stimulus": {
-        "duration": "15-22 min",
+        "duration": "10-14 min",
         "feel": "Big and explosive. The rows bookend the barbell work. You'll need to find your pace on the erg knowing 30 clean and jerks are waiting. The second row is where mental toughness shows.",
         "intent": "Engine capacity, explosive barbell cycling, pacing strategy"
       },
@@ -1136,18 +1136,18 @@
         }
       ],
       "goal": {
-        "target": "Finish in 14-19 min",
-        "scaleDown": "If you hit the 22 min cap, the clean and jerks are too heavy. Drop one level."
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 18 min cap, the clean and jerks are too heavy. Drop one level."
       }
     },
     {
       "code": "OP-0011",
       "name": "Sweet Rust",
       "type": "for_time",
-      "timeCap": 16,
+      "timeCap": 14,
       "rounds": 4,
       "stimulus": {
-        "duration": "10-15 min",
+        "duration": "8-11 min",
         "feel": "Balanced pressing and pulling with running. Push press should be touch-and-go. Pull-ups in quick sets. The run is active recovery.",
         "intent": "Upper body push/pull endurance, pacing with running"
       },
@@ -1234,18 +1234,18 @@
         }
       ],
       "goal": {
-        "target": "Finish in 10-14 min",
-        "scaleDown": "If you hit the 16 min cap, the push press is too heavy or pull-ups are limiting you. Drop one level."
+        "target": "Finish in 8-11 min",
+        "scaleDown": "If you hit the 14 min cap, the push press is too heavy or pull-ups are limiting you. Drop one level."
       }
     },
     {
       "code": "OP-0012",
       "name": "Quick Birch",
       "type": "for_time",
-      "timeCap": 10,
+      "timeCap": 12,
       "rounds": 5,
       "stimulus": {
-        "duration": "6-9 min",
+        "duration": "7-10 min",
         "feel": "Fast sprint. Row sets the pace, swings should be unbroken, burpees just keep moving. Transitions matter.",
         "intent": "Short-duration power output, fast transitions"
       },
@@ -1330,8 +1330,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 6-9 min",
-        "scaleDown": "If you hit the 10 min cap, the pace is unsustainable at your level. Drop one level."
+        "target": "Finish in 7-10 min",
+        "scaleDown": "If you hit the 12 min cap, the pace is unsustainable at your level. Drop one level."
       }
     },
     {
@@ -1510,10 +1510,10 @@
       "code": "OP-0014",
       "name": "Thick Iron",
       "type": "for_time",
-      "timeCap": 20,
+      "timeCap": 18,
       "rounds": 3,
       "stimulus": {
-        "duration": "14-19 min",
+        "duration": "10-14 min",
         "feel": "Heavy posterior chain grind. The run gives you time to breathe before the next round of deadlifts. Toes-to-bar test your grip after heavy pulling.",
         "intent": "Posterior chain endurance, midline under fatigue, pacing heavy loads"
       },
@@ -1598,17 +1598,17 @@
         }
       ],
       "goal": {
-        "target": "Finish in 13-17 min",
-        "scaleDown": "If you hit the 20 min cap, the deadlifts are too heavy. Drop one level."
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 18 min cap, the deadlifts are too heavy. Drop one level."
       }
     },
     {
       "code": "OP-0015",
       "name": "Spicy Gravel",
       "type": "for_time",
-      "timeCap": 20,
+      "timeCap": 18,
       "stimulus": {
-        "duration": "15-20 min",
+        "duration": "11-14 min",
         "feel": "Chipper. Each piece builds on the last. The power cleans in the middle are the separator. Second set of wall balls feels different from the first.",
         "intent": "Sustained output across varied movements, mental toughness through a long chipper"
       },
@@ -1775,8 +1775,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 14-18 min",
-        "scaleDown": "If you hit the 20 min cap, the power cleans are too heavy. Drop one level."
+        "target": "Finish in 11-14 min",
+        "scaleDown": "If you hit the 18 min cap, the power cleans are too heavy. Drop one level."
       }
     },
     {
@@ -1890,10 +1890,10 @@
       "code": "OP-0017",
       "name": "Heavy Brick",
       "type": "for_time",
-      "timeCap": 25,
+      "timeCap": 22,
       "rounds": 3,
       "stimulus": {
-        "duration": "18-24 min",
+        "duration": "12-17 min",
         "feel": "Heavy and long. The row sets the tempo. Front squats are the challenge. C2B pull-ups test your grip when your legs are shot. The short run at the end flushes the legs before the next round.",
         "intent": "Strength endurance, heavy barbell under fatigue, mixed modal capacity"
       },
@@ -1987,8 +1987,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 16-22 min",
-        "scaleDown": "If you hit the 25 min cap, the front squats or chest-to-bar are limiting you. Drop one level."
+        "target": "Finish in 12-17 min",
+        "scaleDown": "If you hit the 22 min cap, the front squats or chest-to-bar are limiting you. Drop one level."
       }
     },
     {
@@ -2118,10 +2118,10 @@
       "code": "OP-0019",
       "name": "Dark Ember",
       "type": "for_time",
-      "timeCap": 18,
+      "timeCap": 12,
       "rounds": 4,
       "stimulus": {
-        "duration": "12-17 min",
+        "duration": "6-9 min",
         "feel": "Pulling and hinging grinder. C2B pull-ups tax the grip, KB swings tax the posterior chain, burpees are the engine. Four rounds means you need to pace.",
         "intent": "Pulling endurance, hip hinge capacity, bodyweight conditioning"
       },
@@ -2228,22 +2228,22 @@
         }
       ],
       "goal": {
-        "target": "Finish in 11-15 min",
-        "scaleDown": "If you hit the 18 min cap, the chest-to-bar pull-ups are limiting you. Drop one level."
+        "target": "Finish in 6-9 min",
+        "scaleDown": "If you hit the 12 min cap, the chest-to-bar pull-ups are limiting you. Drop one level."
       }
     },
     {
       "code": "OP-0020",
       "name": "Quick Salt",
       "type": "for_time",
-      "timeCap": 10,
+      "timeCap": 8,
       "repScheme": [
         21,
         15,
         9
       ],
       "stimulus": {
-        "duration": "5-8 min",
+        "duration": "4-6 min",
         "feel": "Classic couplet sprint. The descending reps give you hope. Thrusters burn the legs, pull-ups burn the grip. Go fast or go home.",
         "intent": "High-intensity sprint, thruster cycling, pulling under fatigue"
       },
@@ -2320,15 +2320,15 @@
         }
       ],
       "goal": {
-        "target": "Finish in 4-7 min",
-        "scaleDown": "If you hit the 10 min cap, the thrusters are too heavy or pull-ups are limiting you. Drop one level."
+        "target": "Finish in 4-6 min",
+        "scaleDown": "If you hit the 8 min cap, the thrusters are too heavy or pull-ups are limiting you. Drop one level."
       }
     },
     {
       "code": "OP-0021",
       "name": "Sweet Storm",
       "type": "for_time",
-      "timeCap": 24,
+      "timeCap": 22,
       "rounds": 8,
       "team": {
         "size": 2,
@@ -2336,7 +2336,7 @@
         "description": "Alternate full rounds. One partner works while the other rests. Each partner completes 4 rounds."
       },
       "stimulus": {
-        "duration": "18-24 min",
+        "duration": "13-17 min",
         "feel": "Steady partner grind. Wall balls and running set the pace. TTB should be quick sets. Rest while your partner works, but stay warm.",
         "intent": "Mixed modal endurance with a partner. Pacing and transitions matter."
       },
@@ -2425,8 +2425,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 17-22 min",
-        "scaleDown": "If you hit the 24 min cap as a team, one or both partners should drop one level."
+        "target": "Finish in 13-17 min",
+        "scaleDown": "If you hit the 22 min cap as a team, one or both partners should drop one level."
       }
     },
     {
@@ -2553,7 +2553,7 @@
         }
       ],
       "goal": {
-        "target": "9+ rounds (team total)",
+        "target": "8+ rounds",
         "scaleDown": "Fewer than 7 rounds as a team means the hang cleans are too heavy. Drop one level."
       }
     },
@@ -2561,7 +2561,7 @@
       "code": "OP-0023",
       "name": "Thick Cloud",
       "type": "for_time",
-      "timeCap": 28,
+      "timeCap": 24,
       "rounds": 1,
       "team": {
         "size": 2,
@@ -2569,7 +2569,7 @@
         "description": "Split the total work between partners however you choose. Only one partner works at a time."
       },
       "stimulus": {
-        "duration": "20-28 min",
+        "duration": "16-20 min",
         "feel": "High-volume partner chipper. Break up the work strategically. KB swings and wall balls should stay in big sets. Burpees are the grind. Row is the finisher.",
         "intent": "Volume tolerance, work distribution strategy, mixed modal endurance"
       },
@@ -2732,15 +2732,15 @@
         }
       ],
       "goal": {
-        "target": "Finish in 20-26 min",
-        "scaleDown": "If you hit the 28 min cap, the volume is too high at your current level. Drop one level."
+        "target": "Finish in 16-20 min",
+        "scaleDown": "If you hit the 24 min cap, the volume is too high at your current level. Drop one level."
       }
     },
     {
       "code": "OP-0024",
       "name": "Spicy Thunder",
       "type": "for_time",
-      "timeCap": 22,
+      "timeCap": 16,
       "rounds": 10,
       "team": {
         "size": 2,
@@ -2748,7 +2748,7 @@
         "description": "Alternate full rounds. One partner works while the other rests. Each partner completes 5 rounds."
       },
       "stimulus": {
-        "duration": "14-22 min",
+        "duration": "8-12 min",
         "feel": "Fast barbell cycling with a push. Cleans should be crisp and fast. Push-ups are the recovery movement. Short rounds, high intensity.",
         "intent": "Power output and barbell cycling speed in a team setting"
       },
@@ -2828,15 +2828,15 @@
         }
       ],
       "goal": {
-        "target": "Finish in 12-18 min",
-        "scaleDown": "If you hit the 22 min cap, the power cleans are too heavy. Drop one level."
+        "target": "Finish in 8-12 min",
+        "scaleDown": "If you hit the 16 min cap, the power cleans are too heavy. Drop one level."
       }
     },
     {
       "code": "OP-0025",
       "name": "Heavy River",
       "type": "for_time",
-      "timeCap": 28,
+      "timeCap": 20,
       "rounds": 1,
       "team": {
         "size": 2,
@@ -2844,7 +2844,7 @@
         "description": "Split the total work between partners however you choose. Only one partner works at a time on the barbell. Both can run simultaneously."
       },
       "stimulus": {
-        "duration": "20-28 min",
+        "duration": "12-16 min",
         "feel": "Heavy barbell chipper with running. The deadlifts and cleans are the grind. Double-unders test coordination under fatigue. Running is transition and recovery.",
         "intent": "Strength endurance with barbell cycling, team work distribution"
       },
@@ -3009,8 +3009,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 18-25 min",
-        "scaleDown": "If you hit the 28 min cap, the barbell loads are too heavy. Drop one level."
+        "target": "Finish in 12-16 min",
+        "scaleDown": "If you hit the 20 min cap, the barbell loads are too heavy. Drop one level."
       }
     },
     {
@@ -3111,7 +3111,7 @@
         }
       ],
       "goal": {
-        "target": "9+ rounds (team total)",
+        "target": "9+ rounds",
         "scaleDown": "Fewer than 6 rounds as a team means the thrusters are too heavy. Drop one level."
       }
     },
@@ -3119,10 +3119,10 @@
       "code": "OP-0027",
       "name": "Dark Ridge",
       "type": "for_time",
-      "timeCap": 16,
+      "timeCap": 12,
       "rounds": 4,
       "stimulus": {
-        "duration": "10-16 min",
+        "duration": "6-9 min",
         "feel": "Gymnastics grind. TTB and HSPU are the skill pieces. Running keeps the heart rate up. Should feel technical, not just cardio.",
         "intent": "Gymnastics skill under fatigue, midline and pressing endurance"
       },
@@ -3194,8 +3194,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 10-14 min",
-        "scaleDown": "If you hit the 16 min cap, the HSPU or toes-to-bar are limiting you. Drop one level."
+        "target": "Finish in 6-9 min",
+        "scaleDown": "If you hit the 12 min cap, the HSPU or toes-to-bar are limiting you. Drop one level."
       }
     },
     {
@@ -3334,7 +3334,7 @@
         }
       ],
       "goal": {
-        "target": "9+ rounds",
+        "target": "10+ rounds",
         "scaleDown": "Fewer than 7 rounds means the chest-to-bar or box jumps are limiting you. Drop one level."
       }
     },
@@ -3345,7 +3345,7 @@
       "timeCap": 14,
       "rounds": 3,
       "stimulus": {
-        "duration": "8-14 min",
+        "duration": "7-11 min",
         "feel": "Bodyweight sprint. Push-ups and air squats should be unbroken. Burpees are the limiter. Running keeps the heart rate pegged. Fast and simple.",
         "intent": "Bodyweight conditioning, high turnover, minimal equipment"
       },
@@ -3414,7 +3414,7 @@
         }
       ],
       "goal": {
-        "target": "Finish in 9-12 min",
+        "target": "Finish in 7-11 min",
         "scaleDown": "If you hit the 14 min cap, the bodyweight volume is too demanding. Drop one level."
       }
     },
@@ -3660,10 +3660,10 @@
       "code": "OP-0032",
       "name": "Sweet Pebble",
       "type": "for_time",
-      "timeCap": 25,
+      "timeCap": 20,
       "rounds": 5,
       "stimulus": {
-        "duration": "18-25 min",
+        "duration": "10-15 min",
         "feel": "Easy Sunday grind. Low skill, moderate volume. Lunges and sit-ups are the work. Running and ring rows keep things moving. Conversation pace throughout.",
         "intent": "Active recovery, bodyweight volume, low-intensity movement"
       },
@@ -3728,8 +3728,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 15-21 min",
-        "scaleDown": "If you hit the 25 min cap, the volume is too high. Drop one level."
+        "target": "Finish in 10-15 min",
+        "scaleDown": "If you hit the 20 min cap, the volume is too high. Drop one level."
       }
     },
     {
@@ -3853,10 +3853,10 @@
       "code": "OP-0034",
       "name": "Long Drift",
       "type": "for_time",
-      "timeCap": 25,
+      "timeCap": 22,
       "rounds": 4,
       "stimulus": {
-        "duration": "18-25 min",
+        "duration": "12-17 min",
         "feel": "Long bodyweight Sunday. Running is the backbone. Air squats, sit-ups, and push-ups fill the rounds. Easy, steady, no equipment needed.",
         "intent": "Active recovery, aerobic volume, bodyweight endurance"
       },
@@ -3923,8 +3923,8 @@
         }
       ],
       "goal": {
-        "target": "Finish in 17-23 min",
-        "scaleDown": "If you hit the 25 min cap, the running volume may be limiting you. Drop one level."
+        "target": "Finish in 12-17 min",
+        "scaleDown": "If you hit the 22 min cap, the running volume may be limiting you. Drop one level."
       }
     }
   ]

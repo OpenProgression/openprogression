@@ -214,12 +214,18 @@ estimatedMinutes = warmup + strength + metcon.timeCap + accessory
 | Strength | 20 min | 10-18 |
 | Metcon | 40 min | 8-30 |
 | Accessory | 15 min | 5-12 (max 3 exercises) |
-| **Session total** | | **45-58 min** |
+| **Session total** | | **45-55 min (max 60)** |
 
 **Constraints:**
 - If metcon TC > 25 min, strength must be short (skill work) or null
 - If metcon TC = 40 min, strength must be null
 - estimatedMinutes MUST exactly equal the sum of parts
+
+**Accessory frequency (3x per week):**
+- **Monday, Wednesday, Friday:** Include accessory block (complements the strength work)
+- **Tuesday, Saturday (Teams of 2):** No accessory. Use longer AMRAPs/metcons instead.
+- **Thursday, Sunday:** No accessory. Thursday has gymnastics focus, Sunday is recovery.
+- If metcon timeCap > 20 min on any day, skip accessory regardless of the day.
 
 ### Retest Strategy
 

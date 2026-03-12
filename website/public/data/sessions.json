@@ -4,10 +4,10 @@
     {
       "date": "2026-02-28",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n10 push-ups\n10 ring rows",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
         "durationMinutes": 10,
@@ -26,17 +26,14 @@
     {
       "date": "2026-03-01",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "5 min easy bike\nThen 2 rounds:\n10 cat-cows\n10 Samson stretches\n10 air squats\n10 PVC pass-throughs",
         "durationMinutes": 8
       },
       "strength": null,
       "metcon": "OP-0031",
-      "accessory": {
-        "notes": "3x1:00 plank hold\n2x15 banded pull-aparts\nFoam roll 5 min",
-        "durationMinutes": 10
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-02",
@@ -66,7 +63,7 @@
     {
       "date": "2026-03-03",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
         "durationMinutes": 10
@@ -83,15 +80,12 @@
         ]
       },
       "metcon": "OP-0021",
-      "accessory": {
-        "notes": "3x20 hollow rocks\n2x30s L-sit hold",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-04",
       "title": "Wednesday - Press + Grind",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 push-ups\n10 ring rows\n15 band pull-aparts\n10 PVC strict press",
         "durationMinutes": 8
@@ -116,13 +110,13 @@
     {
       "date": "2026-03-05",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 leg swings each side\n30s plank hold",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
-        "durationMinutes": 14,
+        "durationMinutes": 18,
         "movements": [
           {
             "movement": "Strict Muscle-up / Transition Drill",
@@ -133,15 +127,12 @@
         ]
       },
       "metcon": "OP-0027",
-      "accessory": {
-        "notes": "3x15 GHD sit-ups\n2x30s side plank each side",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-06",
       "title": "Friday - Deadlift + Sprint",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -166,7 +157,7 @@
     {
       "date": "2026-03-07",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 strict pull-ups",
         "durationMinutes": 10
@@ -183,30 +174,24 @@
         ]
       },
       "metcon": "OP-0022",
-      "accessory": {
-        "notes": "3x20 banded face pulls\n2x30s dead hang",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-08",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy bike or row\nThen 2 rounds:\n10 leg swings each side\n10 Cossack squats\n10 PVC pass-throughs",
         "durationMinutes": 10
       },
       "strength": null,
       "metcon": "OP-0031",
-      "accessory": {
-        "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-09",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 52,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 Cossack squats (alternating)\n10 PVC pass-throughs\n5 box jumps",
         "durationMinutes": 10
@@ -253,7 +238,7 @@
     {
       "date": "2026-03-11",
       "title": "Wednesday - Press + Gymnastics",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 leg swings each side\n30s plank hold",
         "durationMinutes": 8
@@ -278,10 +263,10 @@
     {
       "date": "2026-03-12",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 air squats\n10 leg swings each side\n5 inchworms",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
         "durationMinutes": 12,
@@ -295,15 +280,12 @@
         ]
       },
       "metcon": "OP-0028",
-      "accessory": {
-        "notes": "3x20 hollow rocks\n2x30s L-sit hold",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-13",
       "title": "Friday - Posterior Chain",
-      "estimatedMinutes": 53,
+      "estimatedMinutes": 51,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -328,13 +310,13 @@
     {
       "date": "2026-03-14",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 wall balls (light)",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
-        "durationMinutes": 10,
+        "durationMinutes": 14,
         "movements": [
           {
             "movement": "Hang Power Snatch",
@@ -345,25 +327,19 @@
         ]
       },
       "metcon": "OP-0024",
-      "accessory": {
-        "notes": "3x15 GHD hip extensions\n2x30s dead hang",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-15",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 45,
+      "estimatedMinutes": 32,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 leg swings each side\n10 air squats\n5 inchworms",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": null,
       "metcon": "OP-0032",
-      "accessory": {
-        "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
-        "durationMinutes": 10
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-16",
@@ -393,13 +369,13 @@
     {
       "date": "2026-03-17",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
-        "durationMinutes": 8,
+        "durationMinutes": 10,
         "movements": [
           {
             "movement": "Handstand Hold / Walk",
@@ -440,13 +416,13 @@
     {
       "date": "2026-03-19",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "3 rounds:\n10 push-ups\n10 air squats\n10 PVC pass-throughs\n30s plank hold",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
-        "durationMinutes": 14,
+        "durationMinutes": 16,
         "movements": [
           {
             "movement": "Rope Climb / Pull-up Progression",
@@ -457,15 +433,12 @@
         ]
       },
       "metcon": "OP-0029",
-      "accessory": {
-        "notes": "3x15 GHD hip extensions\n3x20 banded face pulls",
-        "durationMinutes": 10
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-20",
       "title": "Friday - Deadlift + Grind",
-      "estimatedMinutes": 55,
+      "estimatedMinutes": 51,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -490,7 +463,7 @@
     {
       "date": "2026-03-21",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 strict pull-ups",
         "durationMinutes": 10
@@ -507,25 +480,19 @@
         ]
       },
       "metcon": "OP-0026",
-      "accessory": {
-        "notes": "3x20 banded face pulls\n2x30s side plank each side",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-22",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 45,
+      "estimatedMinutes": 35,
       "warmup": {
         "notes": "5 min easy bike or row\nThen 2 rounds:\n10 Cossack squats\n10 leg swings each side\n10 PVC pass-throughs",
         "durationMinutes": 10
       },
       "strength": null,
       "metcon": "OP-0033",
-      "accessory": {
-        "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
-        "durationMinutes": 10
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-23",
@@ -555,7 +522,7 @@
     {
       "date": "2026-03-24",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy bike or row\nThen 2 rounds:\n10 KB swings (light)\n10 wall ball (light)\n200m run",
         "durationMinutes": 10
@@ -572,15 +539,12 @@
         ]
       },
       "metcon": "OP-0021",
-      "accessory": {
-        "notes": "3x20 hollow rocks\n2x30s L-sit hold",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-25",
       "title": "Wednesday - Press + Bodyweight",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 push-ups\n10 ring rows\n15 band pull-aparts\n10 PVC strict press",
         "durationMinutes": 8
@@ -605,10 +569,10 @@
     {
       "date": "2026-03-26",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 air squats\n30s plank hold",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
         "durationMinutes": 14,
@@ -622,15 +586,12 @@
         ]
       },
       "metcon": "OP-0030",
-      "accessory": {
-        "notes": "3x15 GHD sit-ups\n2x30s side plank each side",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-27",
       "title": "Friday - Pull + Grind",
-      "estimatedMinutes": 54,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -677,22 +638,19 @@
     {
       "date": "2026-03-29",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 45,
+      "estimatedMinutes": 34,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 leg swings each side\n10 Cossack squats\n5 inchworms",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": null,
       "metcon": "OP-0034",
-      "accessory": {
-        "notes": "5 min easy stretching\n2x30s pigeon pose each side\n2x30s couch stretch each side",
-        "durationMinutes": 10
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-30",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n10 push-up to down dog",
         "durationMinutes": 10
@@ -717,13 +675,13 @@
     {
       "date": "2026-03-31",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
-        "durationMinutes": 10
+        "durationMinutes": 12
       },
       "strength": {
-        "durationMinutes": 10,
+        "durationMinutes": 14,
         "movements": [
           {
             "movement": "Handstand Hold / Walk",
@@ -734,10 +692,7 @@
         ]
       },
       "metcon": "OP-0024",
-      "accessory": {
-        "notes": "3x20 hollow rocks\n2x30s L-sit hold",
-        "durationMinutes": 8
-      }
+      "accessory": null
     }
   ]
 }
