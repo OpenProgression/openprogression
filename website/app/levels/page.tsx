@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "The 7 Levels",
   description:
-    "Explore the 7 progression levels of the OpenProgression standard, from Beginner to Rx. Research-backed benchmarks for every stage of fitness development.",
+    "Explore the 7 progression levels of the OpenProgression standard, from Foundation milestones through Beginner to Rx. Research-backed benchmarks for every stage of fitness development.",
   openGraph: {
     images: [{ url: "/og-levels.png", width: 1200, height: 630 }],
   },
@@ -43,6 +43,14 @@ const faqJsonLd = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "The 8 categories are: Squatting (Back Squat, Front Squat, Overhead Squat), Pulling (Deadlift), Pressing (Strict Press, Bench Press), Olympic Lifting (Power Clean, Snatch, Clean & Jerk), Gymnastics (Pull-ups, HSPU, Toes-to-Bar, Muscle-ups), Monostructural (500m Row, 2000m Row, 1 Mile Run, 5K Run), Bodyweight (Push-ups, Double-Unders, Pistol Squats), and Endurance (Fran, Grace, Murph, Cindy).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What are Foundation Milestones in OpenProgression?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Foundation Milestones (F1, F2, F3) are pre-level stepping stones for people new to training. They bridge the gap between zero experience and Level 1 (Beginner). F1 (Foundation) covers basic standing movements like chair sit-to-stands and wall push-ups. F2 (Moving) introduces floor work and bodyweight exercises. F3 (Ready) prepares you for gym onboarding with movements like knee push-ups, dead hangs, and jogging 1500m. No gym membership is needed for F1 and F2.",
       },
     },
   ],
@@ -166,6 +174,53 @@ const LEVELS = [
       "Rapid cycling of advanced gymnastics under fatigue",
       "Elite Olympic lifting numbers",
       "Can compete at national or international level",
+    ],
+  },
+]
+
+const FOUNDATION_MILESTONES = [
+  {
+    id: "F1",
+    name: "Foundation",
+    color: "#86EFAC",
+    estimatedWeeks: "1-2",
+    description:
+      "Can perform basic human movements safely. Standing movements only, no floor work. A chair and household items are all you need.",
+    requirements: [
+      { category: "Squatting", movement: "Chair Sit-to-Stand", criteria: "10 reps" },
+      { category: "Pressing", movement: "Wall Push-up", criteria: "10 reps" },
+      { category: "Carrying", movement: "Farmer's Carry", criteria: "30 seconds" },
+      { category: "Monostructural", movement: "Walk 500m", criteria: "Complete" },
+    ],
+  },
+  {
+    id: "F2",
+    name: "Moving",
+    color: "#4ADE80",
+    estimatedWeeks: "2-4",
+    description:
+      "Can perform bodyweight exercises with good form. Floor work introduced, still no gym needed.",
+    requirements: [
+      { category: "Squatting", movement: "Air Squat (Partial)", criteria: "15 reps" },
+      { category: "Pressing", movement: "Incline Push-up", criteria: "10 reps" },
+      { category: "Pulling", movement: "Standing Hip Hinge", criteria: "10 reps" },
+      { category: "Core", movement: "Forearm Plank", criteria: "30 seconds" },
+      { category: "Monostructural", movement: "Walk 1km", criteria: "Complete" },
+    ],
+  },
+  {
+    id: "F3",
+    name: "Ready",
+    color: "#22C55E",
+    estimatedWeeks: "4-8",
+    description:
+      "Movement quality and base fitness sufficient for structured training. Ready for gym onboarding and barbell introduction.",
+    requirements: [
+      { category: "Squatting", movement: "Air Squat (Full Depth)", criteria: "20 reps" },
+      { category: "Pressing", movement: "Knee Push-up", criteria: "10 reps" },
+      { category: "Pulling", movement: "Dead Hang", criteria: "15 seconds" },
+      { category: "Core", movement: "Forearm Plank", criteria: "60 seconds" },
+      { category: "Monostructural", movement: "Jog 1500m", criteria: "Any pace" },
     ],
   },
 ]
@@ -388,6 +443,122 @@ export default function LevelsPage() {
               weakest link. Balanced development is essential for progression.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Foundation Milestones */}
+      <section id="foundations" className="py-20 px-6">
+        <div className="container max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="section-tag section-tag-teal justify-center mb-6">
+              Pre-Level Milestones
+            </div>
+            <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
+              New to Training?
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
+              Foundation Milestones bridge the gap between zero training
+              experience and Level 1 (Beginner). Three stepping stones that
+              require no gym, no equipment, and no experience.
+            </p>
+          </div>
+
+          {/* Progression path visual */}
+          <div className="flex items-center justify-center gap-2 mb-10">
+            {FOUNDATION_MILESTONES.map((ms, i) => (
+              <div key={ms.id} className="flex items-center gap-2">
+                <div
+                  className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white"
+                  style={{ backgroundColor: ms.color }}
+                >
+                  {ms.id}
+                </div>
+                {i < FOUNDATION_MILESTONES.length - 1 && (
+                  <div className="w-6 h-0.5 bg-border" />
+                )}
+              </div>
+            ))}
+            <div className="w-6 h-0.5 bg-border" />
+            <div
+              className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white"
+              style={{ backgroundColor: "#4ADE80" }}
+            >
+              1
+            </div>
+            <span className="text-xs text-muted-foreground ml-1">Beginner</span>
+          </div>
+
+          {/* Milestone Cards */}
+          <div className="space-y-5">
+            {FOUNDATION_MILESTONES.map((ms) => (
+              <div
+                key={ms.id}
+                className="bg-card rounded-xl border border-border"
+                style={{ borderLeftWidth: "4px", borderLeftColor: ms.color }}
+              >
+                <div className="p-5 md:p-6">
+                  {/* Header */}
+                  <div className="flex flex-wrap items-start gap-3 mb-3">
+                    <div
+                      className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-display font-bold text-sm"
+                      style={{ backgroundColor: ms.color }}
+                    >
+                      {ms.id}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex flex-wrap items-baseline gap-2">
+                        <h3 className="text-xl md:text-2xl font-display font-bold tracking-tight">
+                          {ms.name}
+                        </h3>
+                        <span className="text-xs text-muted-foreground">
+                          ~{ms.estimatedWeeks} weeks
+                        </span>
+                      </div>
+                      <p className="text-sm text-muted-foreground mt-0.5">
+                        {ms.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Requirements */}
+                  <div className="border-t border-border pt-4 mt-3">
+                    <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+                      Requirements
+                    </h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                      {ms.requirements.map((req) => (
+                        <div
+                          key={req.movement}
+                          className="flex items-center gap-2 text-sm"
+                        >
+                          <span
+                            className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                            style={{ backgroundColor: ms.color }}
+                          />
+                          <span className="text-muted-foreground">
+                            {req.category}:
+                          </span>
+                          <span className="text-card-foreground font-medium">
+                            {req.movement}
+                          </span>
+                          <span className="text-muted-foreground text-xs">
+                            {req.criteria}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Bottom note */}
+          <p className="text-center text-sm text-muted-foreground mt-8">
+            Foundation Milestones follow the same weakest-link principle.
+            Complete all requirements at a milestone before moving to the next.
+            No gym membership required for F1 and F2.
+          </p>
         </div>
       </section>
     </>
