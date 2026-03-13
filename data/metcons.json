@@ -459,44 +459,44 @@
         {
           "movement": "Deadlift",
           "load": {
-            "male": 100,
-            "female": 70
+            "male": 105,
+            "female": 75
           },
           "unit": "kg",
           "scaling": {
             "advanced_plus": {
               "load": {
-                "male": 90,
+                "male": 95,
                 "female": 65
               }
             },
             "advanced": {
               "load": {
-                "male": 80,
-                "female": 55
+                "male": 85,
+                "female": 60
               }
             },
             "intermediate_plus": {
               "load": {
-                "male": 65,
-                "female": 45
+                "male": 70,
+                "female": 50
               }
             },
             "intermediate": {
               "load": {
-                "male": 55,
-                "female": 35
+                "male": 60,
+                "female": 40
               }
             },
             "beginner_plus": {
               "load": {
-                "male": 40,
-                "female": 25
+                "male": 45,
+                "female": 30
               }
             },
             "beginner": {
               "load": {
-                "male": 30,
+                "male": 35,
                 "female": 20
               }
             }
@@ -1406,45 +1406,45 @@
           "movement": "Deadlift",
           "reps": 10,
           "load": {
-            "male": 70,
-            "female": 50
+            "male": 90,
+            "female": 65
           },
           "unit": "kg",
           "scaling": {
             "advanced_plus": {
               "load": {
-                "male": 65,
-                "female": 45
+                "male": 85,
+                "female": 60
               }
             },
             "advanced": {
               "load": {
-                "male": 60,
-                "female": 40
+                "male": 75,
+                "female": 55
               }
             },
             "intermediate_plus": {
+              "load": {
+                "male": 60,
+                "female": 45
+              }
+            },
+            "intermediate": {
               "load": {
                 "male": 50,
                 "female": 35
               }
             },
-            "intermediate": {
-              "load": {
-                "male": 40,
-                "female": 30
-              }
-            },
             "beginner_plus": {
               "load": {
-                "male": 30,
-                "female": 20
+                "male": 35,
+                "female": 25
               }
             },
             "beginner": {
               "load": {
                 "male": 25,
-                "female": 15
+                "female": 20
               }
             }
           }
@@ -1528,44 +1528,44 @@
           "movement": "Deadlift",
           "reps": 15,
           "load": {
-            "male": 80,
-            "female": 55
+            "male": 105,
+            "female": 75
           },
           "unit": "kg",
           "scaling": {
             "advanced_plus": {
               "load": {
-                "male": 75,
-                "female": 50
+                "male": 95,
+                "female": 65
               }
             },
             "advanced": {
               "load": {
-                "male": 65,
-                "female": 45
+                "male": 85,
+                "female": 60
               }
             },
             "intermediate_plus": {
+              "load": {
+                "male": 70,
+                "female": 50
+              }
+            },
+            "intermediate": {
               "load": {
                 "male": 55,
                 "female": 40
               }
             },
-            "intermediate": {
-              "load": {
-                "male": 45,
-                "female": 30
-              }
-            },
             "beginner_plus": {
               "load": {
-                "male": 35,
-                "female": 25
+                "male": 40,
+                "female": 30
               }
             },
             "beginner": {
               "load": {
-                "male": 25,
+                "male": 30,
                 "female": 20
               }
             }
@@ -2854,42 +2854,42 @@
           "movement": "Deadlift",
           "reps": 50,
           "load": {
-            "male": 90,
-            "female": 65
+            "male": 105,
+            "female": 75
           },
           "unit": "kg",
           "scaling": {
             "advanced_plus": {
               "load": {
-                "male": 85,
-                "female": 60
+                "male": 95,
+                "female": 65
               }
             },
             "advanced": {
               "load": {
-                "male": 75,
-                "female": 55
+                "male": 85,
+                "female": 60
               },
               "reps": 40
             },
             "intermediate_plus": {
               "load": {
-                "male": 60,
-                "female": 45
+                "male": 70,
+                "female": 50
               },
               "reps": 40
             },
             "intermediate": {
               "load": {
-                "male": 50,
-                "female": 35
+                "male": 55,
+                "female": 40
               },
               "reps": 40
             },
             "beginner_plus": {
               "load": {
                 "male": 40,
-                "female": 25
+                "female": 30
               },
               "reps": 30
             },
