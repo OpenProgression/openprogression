@@ -186,7 +186,7 @@ if (progressions) {
 console.log("Validating milestones.json...")
 const milestones = loadJSON(join(dataDir, "milestones.json"))
 if (milestones) {
-  assert(milestones.version === "1.1.0", "milestones.json version should be 1.1.0")
+  assert(milestones.version === "1.2.0", "milestones.json version should be 1.2.0")
   assert(Array.isArray(milestones.milestones), "milestones.milestones should be an array")
   assert(milestones.milestones.length === 3, `Expected 3 milestones, got ${milestones.milestones.length}`)
 
