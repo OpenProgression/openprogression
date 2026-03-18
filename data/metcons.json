@@ -3340,82 +3340,70 @@
     },
     {
       "code": "OP-0029",
-      "name": "Light Feather",
+      "name": "Dark Vine",
       "type": "for_time",
-      "timeCap": 14,
-      "rounds": 3,
+      "timeCap": 20,
+      "repScheme": [21, 18, 15, 12, 9, 6, 3],
       "stimulus": {
-        "duration": "7-11 min",
-        "feel": "Bodyweight sprint. Push-ups and air squats should be unbroken. Burpees are the limiter. Running keeps the heart rate pegged. Fast and simple.",
-        "intent": "Bodyweight conditioning, high turnover, minimal equipment"
+        "duration": "11-15 min",
+        "feel": "Descending ladder. Each round gets shorter so the workout accelerates. Pull-ups are the limiter. Air squats and burpees should be unbroken throughout.",
+        "intent": "Gymnastics endurance, bodyweight conditioning, mental engagement through changing rep targets"
       },
-      "coachNotes": "No barbell, no excuses. Push-ups and air squats unbroken every round. Burpees steady pace, just keep moving. Run at 80% effort. Should feel like a sprint, not a grind.",
+      "coachNotes": "The descending reps reward staying composed. Pull-ups will be the bottleneck for most. Break early in the 21s and 18s (sets of 7-9), then try to go unbroken from the 12s onward. Air squats and burpees should never break. The last three rounds are a sprint.",
       "movements": [
         {
-          "movement": "Push-up",
-          "reps": 15,
+          "movement": "Pull-up",
           "scaling": {
             "advanced_plus": {
-              "reps": 15
+              "sub": "Pull-up"
             },
             "advanced": {
-              "reps": 15
+              "sub": "Pull-up"
             },
             "intermediate_plus": {
-              "reps": 12
+              "sub": "Jumping Pull-up"
             },
             "intermediate": {
-              "reps": 10
+              "sub": "Jumping Pull-up"
             },
             "beginner_plus": {
-              "sub": "Knee Push-up",
-              "reps": 10
+              "sub": "Ring Row"
             },
             "beginner": {
-              "sub": "Box Push-up",
-              "reps": 8
+              "sub": "Ring Row"
             }
           }
         },
         {
-          "movement": "Air Squat",
-          "reps": 20
+          "movement": "Air Squat"
         },
         {
           "movement": "Burpee",
-          "reps": 10,
           "scaling": {
             "advanced_plus": {
-              "reps": 10
+              "sub": "Burpee"
             },
             "advanced": {
-              "reps": 10
+              "sub": "Burpee"
             },
             "intermediate_plus": {
-              "reps": 10
+              "sub": "Burpee"
             },
             "intermediate": {
-              "reps": 8
+              "sub": "Burpee"
             },
             "beginner_plus": {
-              "sub": "Bodybuilder",
-              "reps": 8
+              "sub": "Bodybuilder"
             },
             "beginner": {
-              "sub": "Bodybuilder",
-              "reps": 6
+              "sub": "Bodybuilder"
             }
           }
-        },
-        {
-          "movement": "Run",
-          "distance": 200,
-          "unit": "m"
         }
       ],
       "goal": {
-        "target": "Finish in 7-11 min",
-        "scaleDown": "If you hit the 14 min cap, the bodyweight volume is too demanding. Drop one level."
+        "target": "Finish in 11-15 min",
+        "scaleDown": "If you hit the 20 min cap, the pull-ups are limiting you. Drop one level for a faster sub."
       }
     },
     {

@@ -49,3 +49,9 @@ jobs:
 
       - name: Validate JSON files
         run: node scripts/validate-data.mjs
+
+      - name: Audit metcon scaling
+        run: node scripts/audit-metcons.mjs
+
+      - name: Audit session integrity
+        run: node scripts/audit-sessions.mjs

@@ -783,7 +783,7 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 
 | Part | Max Duration | Notes |
 |------|-------------|-------|
-| Warmup | 10 min | General preparation, movement prep |
+| Warmup | 12 min | General preparation, movement prep (10 min typical, 12 for team days) |
 | Strength / Skill | 20 min | Includes rest periods between sets |
 | Metcon | 40 min | If metcon is 40 min, strength must be null |
 | Accessory | 15 min | Cool-down and supplementary work. Maximum 3 exercises. |

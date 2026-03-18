@@ -416,9 +416,9 @@
     {
       "date": "2026-03-19",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 48,
       "warmup": {
-        "notes": "3 rounds:\n10 push-ups\n10 air squats\n10 PVC pass-throughs\n30s plank hold",
+        "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n10 PVC pass-throughs",
         "durationMinutes": 12
       },
       "strength": {
@@ -428,7 +428,7 @@
             "movement": "Rope Climb / Pull-up Progression",
             "scheme": "Skill: 14 min",
             "prescription": "Work on rope climbs or strict pull-up progressions",
-            "notes": "Rope climbs for advanced. Strict pull-up sets for intermediates. Ring row negatives for beginners."
+            "notes": "Rope climbs for advanced athletes. Strict pull-up sets of 3-5 for intermediates. Ring row negatives for beginners. Save the kipping for the metcon."
           }
         ]
       },
