@@ -132,7 +132,7 @@
     {
       "date": "2026-03-06",
       "title": "Friday - Deadlift + Sprint",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -149,10 +149,7 @@
         ]
       },
       "metcon": "OP-0005",
-      "accessory": {
-        "notes": "2x30s side plank each side\n3x20 banded pull-aparts",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-07",
@@ -285,7 +282,7 @@
     {
       "date": "2026-03-13",
       "title": "Friday - Posterior Chain",
-      "estimatedMinutes": 51,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -302,10 +299,7 @@
         ]
       },
       "metcon": "OP-0014",
-      "accessory": {
-        "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
-        "durationMinutes": 5
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-14",
@@ -438,7 +432,7 @@
     {
       "date": "2026-03-20",
       "title": "Friday - Deadlift + Grind",
-      "estimatedMinutes": 51,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -455,10 +449,7 @@
         ]
       },
       "metcon": "OP-0009",
-      "accessory": {
-        "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
-        "durationMinutes": 5
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-21",
@@ -591,7 +582,7 @@
     {
       "date": "2026-03-27",
       "title": "Friday - Pull + Grind",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -608,10 +599,7 @@
         ]
       },
       "metcon": "OP-0019",
-      "accessory": {
-        "notes": "3x15 GHD hip extensions\n2x30s dead hang",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-28",

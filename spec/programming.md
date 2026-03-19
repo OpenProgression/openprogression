@@ -802,6 +802,7 @@ This ensures strict accountability. No hidden transition buffers or unaccounted 
 - **Warmup and accessory are free-text** -- coach flavor that doesn't need per-level scaling. Use `\n` line breaks between exercises for readability. Both support `durationMinutes` for display.
 - **7 days per week** -- programming runs Monday through Sunday with no gaps or rest days. Every day of the week has a scheduled session.
 - **Tuesday and Saturday are Teams of 2** -- these days always use team metcons (metcons with a `team` field). All other days use solo metcons.
+- **Friday is all-out metcon day** -- no accessory on Friday. Use the extra time for a longer or more demanding metcon before the weekend.
 - **Consecutive-day variety** -- avoid repeating more than one movement across back-to-back days. Athletes who attend consecutive classes should not feel like they did the same workout twice. If Monday's metcon has KB Swings, Burpees, and Rowing, Tuesday's metcon should share at most one of those movements. Plan the weekly schedule holistically, not metcon by metcon.
 
 ## Age Adjustment

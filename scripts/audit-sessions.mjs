@@ -62,14 +62,14 @@ for (const sess of s.sessions) {
   }
 }
 
-// === 6. Accessory only on Mon/Wed/Fri, and not when metcon TC > 20 ===
+// === 6. Accessory only on Mon/Wed, and not when metcon TC > 20 ===
 for (const sess of s.sessions) {
   const dow = new Date(sess.date).getDay() // 0=Sun, 1=Mon, ..., 6=Sat
   const hasAccessory = sess.accessory !== null && sess.accessory !== undefined
-  const accessoryDays = [1, 3, 5] // Mon, Wed, Fri
+  const accessoryDays = [1, 3] // Mon, Wed
 
   if (hasAccessory && !accessoryDays.includes(dow)) {
-    issues.push(`${sess.date}: has accessory but is not Mon/Wed/Fri`)
+    issues.push(`${sess.date}: has accessory but is not Mon/Wed`)
   }
 
   if (hasAccessory && sess.metcon) {

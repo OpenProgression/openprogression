@@ -191,7 +191,7 @@ Team metcons (Teams of 2) use the same movement/scaling structure as solo metcon
 | Tuesday | **Teams of 2** | Skill work 10 min | Team YGIG or partition (TC 20-30) |
 | Wednesday | Press / upper body | Strict Press / Push Press + Rows | Moderate metcon (TC 16-18) |
 | Thursday | Gymnastics / conditioning | Gymnastics skill (HS, MU, DU) | Mixed modal (TC 14-20) |
-| Friday | Pull / posterior chain | Deadlift (build heavy) | Grind (TC 18-22) |
+| Friday | Pull / posterior chain | Deadlift (build heavy) | All-out metcon (TC 14-22), no accessory |
 | Saturday | **Teams of 2** | Light skill or null | Team grinder (TC 20-30) |
 | Sunday | Active recovery / engine | None or light skill | Long easy effort or bodyweight (TC 20-30) |
 
@@ -221,8 +221,9 @@ estimatedMinutes = warmup + strength + metcon.timeCap + accessory
 - If metcon TC = 40 min, strength must be null
 - estimatedMinutes MUST exactly equal the sum of parts
 
-**Accessory frequency (3x per week):**
-- **Monday, Wednesday, Friday:** Include accessory block (complements the strength work)
+**Accessory frequency (2x per week):**
+- **Monday, Wednesday:** Include accessory block (complements the strength work)
+- **Friday:** No accessory. All-out metcon day before the weekend.
 - **Tuesday, Saturday (Teams of 2):** No accessory. Use longer AMRAPs/metcons instead.
 - **Thursday, Sunday:** No accessory. Thursday has gymnastics focus, Sunday is recovery.
 - If metcon timeCap > 20 min on any day, skip accessory regardless of the day.
