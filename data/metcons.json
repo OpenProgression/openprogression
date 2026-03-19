@@ -3408,7 +3408,7 @@
     },
     {
       "code": "OP-0030",
-      "name": "Dark Vine",
+      "name": "Dark Thistle",
       "type": "emom",
       "timeCap": 16,
       "interval": 2,
@@ -3913,6 +3913,1597 @@
       "goal": {
         "target": "Finish in 12-17 min",
         "scaleDown": "If you hit the 22 min cap, the running volume may be limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0035",
+      "name": "Sharp Oak",
+      "type": "emom",
+      "timeCap": 16,
+      "interval": 1,
+      "pattern": ["A", "B"],
+      "stimulus": {
+        "duration": "16 min",
+        "feel": "Alternating intervals. Push press minutes are the strength test, TTB minutes are the midline check. Should have 20+ seconds rest each minute.",
+        "intent": "Pressing power and midline stability under repeating time pressure"
+      },
+      "coachNotes": "Push press should be touch-and-go, no re-racking. If you can't finish in 35 seconds, drop weight. TTB in 1-2 quick sets, kip aggressively.",
+      "groups": {
+        "A": {
+          "movements": [
+            {
+              "movement": "Push Press",
+              "reps": 5,
+              "load": { "male": 50, "female": 35 },
+              "unit": "kg",
+              "scaling": {
+                "advanced_plus": { "load": { "male": 45, "female": 30 } },
+                "advanced": { "load": { "male": 40, "female": 25 } },
+                "intermediate_plus": { "load": { "male": 35, "female": 25 }, "reps": 4 },
+                "intermediate": { "load": { "male": 30, "female": 20 }, "reps": 4 },
+                "beginner_plus": { "load": { "male": 25, "female": 15 }, "reps": 3 },
+                "beginner": { "load": { "male": 20, "female": 15 }, "reps": 3 }
+              }
+            }
+          ]
+        },
+        "B": {
+          "movements": [
+            {
+              "movement": "Toes-to-Bar",
+              "reps": 8,
+              "scaling": {
+                "advanced_plus": { "reps": 8 },
+                "advanced": { "reps": 8 },
+                "intermediate_plus": { "sub": "Hanging Leg Raise", "reps": 8 },
+                "intermediate": { "sub": "Hanging Leg Raise", "reps": 6 },
+                "beginner_plus": { "sub": "Hanging Knee Raise", "reps": 6 },
+                "beginner": { "sub": "Laying Knee Raise", "reps": 8 }
+              }
+            }
+          ]
+        }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 20+ seconds rest each round",
+        "scaleDown": "If you regularly finish after the 40 second mark, reduce load or reps by one level."
+      }
+    },
+    {
+      "code": "OP-0036",
+      "name": "Dark Fern",
+      "type": "amrap",
+      "timeCap": 18,
+      "stimulus": {
+        "duration": "18 min",
+        "feel": "Gymnastics grind. Wall walks are the pacer. Double-unders and air squats are active recovery between them. Steady rhythm, not a sprint.",
+        "intent": "Shoulder endurance, midline stability, gymnastic stamina"
+      },
+      "coachNotes": "Wall walks are the limiting factor. Go at a pace you can maintain for 18 minutes. Don't rush the descent. DU should be unbroken. Air squats are easy reps to keep moving.",
+      "movements": [
+        {
+          "movement": "Wall Walk",
+          "reps": 3,
+          "scaling": {
+            "advanced_plus": { "reps": 3 },
+            "advanced": { "reps": 3 },
+            "intermediate_plus": { "sub": "Wall Walk (partial)", "reps": 3 },
+            "intermediate": { "sub": "Wall Walk (partial)", "reps": 3 },
+            "beginner_plus": { "sub": "Inch Worm", "reps": 4 },
+            "beginner": { "sub": "Inch Worm", "reps": 4 }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus": { "reps": 15 },
+            "advanced": { "reps": 15 },
+            "intermediate_plus": { "reps": 10 },
+            "intermediate": { "sub": "Single-Under", "reps": 45 },
+            "beginner_plus": { "sub": "Single-Under", "reps": 30 },
+            "beginner": { "sub": "Single-Under", "reps": 30 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 12
+        }
+      ],
+      "goal": {
+        "target": "12+ rounds",
+        "scaleDown": "Fewer than 8 rounds means the wall walks are taking too long. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0037",
+      "name": "Loud Flame",
+      "type": "for_time",
+      "timeCap": 20,
+      "rounds": 3,
+      "stimulus": {
+        "duration": "12-16 min",
+        "feel": "Heavy grind with a running kicker. Deadlifts should be touch-and-go but heavy enough to demand focus. Bar-facing burpees punish you for going too fast on the deads. The run resets your breathing.",
+        "intent": "Posterior chain under fatigue, mixed modal capacity"
+      },
+      "coachNotes": "Deadlifts in sets of 6 if needed, but try to go unbroken. Bar-facing burpees at a steady pace. Don't sprint the run. Use it to recover for the next round of deadlifts.",
+      "movements": [
+        {
+          "movement": "Deadlift",
+          "reps": 12,
+          "load": { "male": 80, "female": 55 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 70, "female": 50 } },
+            "advanced": { "load": { "male": 60, "female": 45 } },
+            "intermediate_plus": { "load": { "male": 50, "female": 35 } },
+            "intermediate": { "load": { "male": 40, "female": 30 } },
+            "beginner_plus": { "load": { "male": 35, "female": 25 } },
+            "beginner": { "load": { "male": 30, "female": 20 } }
+          }
+        },
+        {
+          "movement": "Bar-facing Burpee",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus": { "reps": 15 },
+            "advanced": { "reps": 15 },
+            "intermediate_plus": { "reps": 15 },
+            "intermediate": { "reps": 15 },
+            "beginner_plus": { "reps": 15 },
+            "beginner": { "sub": "Bodybuilder", "reps": 12 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 12-16 min",
+        "scaleDown": "If you hit the 20 min cap, the deadlift is too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0038",
+      "name": "Sweet Creek",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 6,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. 3 rounds each. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "18-22 min",
+        "feel": "Partner grind. Each partner does 3 rounds with built-in rest. KB swings and wall balls keep the heart rate up. The run forces you outside your comfort zone between rounds.",
+        "intent": "Mixed modal conditioning with a partner, high sustained effort"
+      },
+      "coachNotes": "Each partner does 3 full rounds, alternating. Built-in rest while your partner works. KB swings unbroken. Wall balls in 1-2 sets max. Run at 85% effort. Partners can use different loads.",
+      "movements": [
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 12,
+          "load": { "male": 32, "female": 24 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 28, "female": 20 } },
+            "advanced": { "load": { "male": 24, "female": 16 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate": { "load": { "male": 16, "female": 12 } },
+            "beginner_plus": { "load": { "male": 12, "female": 8 } },
+            "beginner": { "load": { "male": 8, "female": 6 } }
+          }
+        },
+        {
+          "movement": "Wall Ball",
+          "reps": 15,
+          "load": { "male": 9, "female": 6 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 9, "female": 6 } },
+            "advanced": { "load": { "male": 9, "female": 6 } },
+            "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+            "intermediate": { "load": { "male": 9, "female": 6 }, "reps": 12 },
+            "beginner_plus": { "load": { "male": 6, "female": 4 }, "reps": 12 },
+            "beginner": { "load": { "male": 4, "female": 3 }, "reps": 10 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 18-22 min",
+        "scaleDown": "If you hit the 24 min cap, the KB swings or wall balls are slowing you down. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0039",
+      "name": "Light Rain",
+      "type": "amrap",
+      "timeCap": 25,
+      "stimulus": {
+        "duration": "25 min",
+        "feel": "Sunday recovery engine. Low intensity, no barbell. Rowing is the anchor. Walking lunges open the hips. Box step-ups keep the legs moving. Conversational pace throughout.",
+        "intent": "Active recovery, aerobic base, low-impact movement"
+      },
+      "coachNotes": "This is not a race. Keep a steady, sustainable pace. Row at 60-65% effort. Walking lunges should feel like a stretch, not a burn. Box step-ups controlled and deliberate.",
+      "movements": [
+        {
+          "movement": "Row",
+          "distance": 500,
+          "unit": "m"
+        },
+        {
+          "movement": "Walking Lunge",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": { "reps": 12 },
+            "advanced": { "reps": 12 },
+            "intermediate_plus": { "reps": 12 },
+            "intermediate": { "reps": 10 },
+            "beginner_plus": { "reps": 10 },
+            "beginner": { "reps": 8 }
+          }
+        },
+        {
+          "movement": "Box Step-up",
+          "reps": 8,
+          "height": { "male": 50, "female": 40 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 50, "female": 40 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "height": { "male": 40, "female": 30 } },
+            "beginner_plus": { "height": { "male": 40, "female": 30 } },
+            "beginner": { "height": { "male": 30, "female": 30 }, "reps": 6 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "7+ rounds at a conversational pace",
+        "scaleDown": "Fewer than 5 rounds means the row or lunges are too challenging. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0040",
+      "name": "Quick Stone",
+      "type": "for_time",
+      "timeCap": 12,
+      "repScheme": [15, 12, 9],
+      "stimulus": {
+        "duration": "6-9 min",
+        "feel": "Fast barbell couplet. Front squats should be unbroken at Rx. C2B in quick sets. This is a sprint, not a grind.",
+        "intent": "Squatting under fatigue, high-skill pulling, fast turnover"
+      },
+      "coachNotes": "Front squats unbroken every round at the right weight. C2B in sets of 5+ minimum. If you break either movement into singles, the weight is too heavy or the movement is too hard. Scale down.",
+      "movements": [
+        {
+          "movement": "Front Squat",
+          "reps": 15,
+          "load": { "male": 50, "female": 35 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 45, "female": 30 } },
+            "advanced": { "load": { "male": 40, "female": 25 } },
+            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+            "intermediate": { "load": { "male": 30, "female": 20 } },
+            "beginner_plus": { "load": { "male": 25, "female": 15 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Chest-to-Bar Pull-up",
+          "scaling": {
+            "advanced_plus": { "sub": "Chest-to-Bar Pull-up" },
+            "advanced": { "sub": "Pull-up" },
+            "intermediate_plus": { "sub": "Pull-up" },
+            "intermediate": { "sub": "Jumping Pull-up" },
+            "beginner_plus": { "sub": "Ring Row" },
+            "beginner": { "sub": "Ring Row" }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 6-9 min",
+        "scaleDown": "If you hit the 12 min cap, the front squat is too heavy or the pull-ups are limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0041",
+      "name": "Spicy Hawk",
+      "type": "amrap",
+      "timeCap": 24,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "24 min",
+        "feel": "Heavy partner AMRAP. Power cleans set the pace. Box jumps keep intensity high. Row is the engine check. Built-in rest between rounds.",
+        "intent": "Power output and mixed modal stamina with a partner"
+      },
+      "coachNotes": "Each partner works a full round then rests. Power cleans should be touch-and-go or quick singles. Box jumps are rebounding at Rx, step-up for scaled. Row hard but not all-out. Partners can use different bars.",
+      "movements": [
+        {
+          "movement": "Power Clean",
+          "reps": 10,
+          "load": { "male": 60, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 55, "female": 40 } },
+            "advanced": { "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "load": { "male": 40, "female": 30 } },
+            "intermediate": { "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "load": { "male": 25, "female": 20 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "reps": 12,
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 60, "female": 50 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner_plus": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner": { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 250,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "8+ total rounds (4 each partner)",
+        "scaleDown": "Fewer than 6 total rounds means the power cleans are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0042",
+      "name": "Heavy Dust",
+      "type": "for_time",
+      "timeCap": 16,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "10-14 min",
+        "feel": "Barbell cycling with a bodyweight chaser. Power snatches demand precision under fatigue. Push-ups and double-unders keep the pace honest.",
+        "intent": "Olympic lifting endurance, pressing stamina, coordination"
+      },
+      "coachNotes": "Power snatches should be touch-and-go or very quick singles. Reset grip between reps if needed but don't rest. Push-ups strict and unbroken. DU unbroken every round.",
+      "movements": [
+        {
+          "movement": "Power Snatch",
+          "reps": 8,
+          "load": { "male": 45, "female": 30 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 40, "female": 25 } },
+            "advanced": { "load": { "male": 35, "female": 25 } },
+            "intermediate_plus": { "sub": "Power Clean", "load": { "male": 35, "female": 25 } },
+            "intermediate": { "sub": "Power Clean", "load": { "male": 30, "female": 20 } },
+            "beginner_plus": { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
+            "beginner": { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Push-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 8 },
+            "intermediate": { "reps": 8 },
+            "beginner_plus": { "sub": "Knee Push-up", "reps": 8 },
+            "beginner": { "sub": "Box Push-up", "reps": 8 }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 20,
+          "scaling": {
+            "advanced_plus": { "reps": 20 },
+            "advanced": { "reps": 20 },
+            "intermediate_plus": { "reps": 15 },
+            "intermediate": { "sub": "Single-Under", "reps": 60 },
+            "beginner_plus": { "sub": "Single-Under", "reps": 40 },
+            "beginner": { "sub": "Single-Under", "reps": 40 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 16 min cap, the snatches are too heavy or too technical. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0043",
+      "name": "Sweet Sage",
+      "type": "amrap",
+      "timeCap": 15,
+      "stimulus": {
+        "duration": "15 min",
+        "feel": "Classic bodyweight triplet. Pull-ups test your grip. Air squats keep the legs burning. Burpees are the constant. Simple, balanced, approachable.",
+        "intent": "Bodyweight conditioning, grip endurance, steady state effort"
+      },
+      "coachNotes": "Pull-ups in quick sets of 5+. Air squats unbroken every round. Burpees at a consistent pace. Find a rhythm in round 2 and hold it for the rest.",
+      "movements": [
+        {
+          "movement": "Pull-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 8 },
+            "intermediate": { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner_plus": { "sub": "Ring Row", "reps": 10 },
+            "beginner": { "sub": "Ring Row", "reps": 8 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        },
+        {
+          "movement": "Burpee",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 10 },
+            "intermediate": { "reps": 8 },
+            "beginner_plus": { "sub": "Bodybuilder", "reps": 8 },
+            "beginner": { "sub": "Bodybuilder", "reps": 6 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "8+ rounds",
+        "scaleDown": "Fewer than 5 rounds means the pull-ups are limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0044",
+      "name": "Thick Coal",
+      "type": "amrap",
+      "timeCap": 20,
+      "stimulus": {
+        "duration": "20 min",
+        "feel": "Friday all-out grinder. Deadlifts punish the grip and posterior chain. Handstand push-ups test inverted pressing under fatigue. Rowing is the recovery movement. Long enough to demand pacing.",
+        "intent": "Posterior chain and pressing endurance, sustained high output"
+      },
+      "coachNotes": "Deadlifts touch-and-go or quick singles. HSPU in sets of 3-5 at Rx. Row at 85% effort. This is 20 minutes of sustained work. Don't go all-out in round 1. Find your pace by round 3.",
+      "movements": [
+        {
+          "movement": "Deadlift",
+          "reps": 15,
+          "load": { "male": 80, "female": 55 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 70, "female": 50 } },
+            "advanced": { "load": { "male": 60, "female": 45 } },
+            "intermediate_plus": { "load": { "male": 50, "female": 35 } },
+            "intermediate": { "load": { "male": 40, "female": 30 } },
+            "beginner_plus": { "load": { "male": 35, "female": 25 } },
+            "beginner": { "load": { "male": 30, "female": 20 } }
+          }
+        },
+        {
+          "movement": "Handstand Push-up",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "sub": "Pike Push-up", "reps": 10 },
+            "intermediate_plus": { "sub": "Pike Push-up", "reps": 8 },
+            "intermediate": { "sub": "Dumbbell Push Press", "reps": 10 },
+            "beginner_plus": { "sub": "Dumbbell Push Press", "reps": 8 },
+            "beginner": { "sub": "Dumbbell Push Press", "reps": 6 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 500,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "4+ rounds",
+        "scaleDown": "Fewer than 3 rounds means the deadlift or HSPU is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0045",
+      "name": "Loud Sand",
+      "type": "for_time",
+      "timeCap": 28,
+      "team": {
+        "size": 2,
+        "format": "partition",
+        "description": "Split the work however you choose. Only one partner works at a time."
+      },
+      "stimulus": {
+        "duration": "20-26 min",
+        "feel": "Big volume team chipper. Partition the reps however you want. Wall balls and sit-ups are high-rep grinders. KB swings keep the posterior chain engaged. Rowing is the engine test.",
+        "intent": "High volume partner work, strategy and communication"
+      },
+      "coachNotes": "Plan your split before starting. Common strategy: alternate every 20-25 reps. Keep transitions fast. Wall balls are the bottleneck. KB swings should be unbroken in sets of 15-20. Row in 250-500m chunks.",
+      "movements": [
+        {
+          "movement": "Wall Ball",
+          "reps": 100,
+          "load": { "male": 9, "female": 6 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 9, "female": 6 } },
+            "advanced": { "load": { "male": 9, "female": 6 } },
+            "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+            "intermediate": { "load": { "male": 9, "female": 6 }, "reps": 80 },
+            "beginner_plus": { "load": { "male": 6, "female": 4 }, "reps": 80 },
+            "beginner": { "load": { "male": 4, "female": 3 }, "reps": 60 }
+          }
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 80,
+          "scaling": {
+            "advanced_plus": { "reps": 80 },
+            "advanced": { "reps": 80 },
+            "intermediate_plus": { "reps": 60 },
+            "intermediate": { "reps": 60 },
+            "beginner_plus": { "reps": 50 },
+            "beginner": { "reps": 40 }
+          }
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 60,
+          "load": { "male": 32, "female": 24 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 28, "female": 20 } },
+            "advanced": { "load": { "male": 24, "female": 16 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate": { "load": { "male": 16, "female": 12 } },
+            "beginner_plus": { "load": { "male": 12, "female": 8 }, "reps": 50 },
+            "beginner": { "load": { "male": 8, "female": 6 }, "reps": 40 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 2000,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 20-26 min",
+        "scaleDown": "If you hit the 28 min cap, reduce reps or load by one level."
+      }
+    },
+    {
+      "code": "OP-0046",
+      "name": "Light Clover",
+      "type": "amrap",
+      "timeCap": 25,
+      "stimulus": {
+        "duration": "25 min",
+        "feel": "Easy Sunday. Running, lunges, ring rows, and box step-ups. No barbell, no high-skill movements. Just move well for 25 minutes.",
+        "intent": "Active recovery, aerobic base, joint-friendly movement"
+      },
+      "coachNotes": "Conversational pace. Run at 60% effort. Lunges slow and controlled. Ring rows strict with a full squeeze at the top. Box step-ups deliberate. This is about moving, not racing.",
+      "movements": [
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m"
+        },
+        {
+          "movement": "Walking Lunge",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": { "reps": 12 },
+            "advanced": { "reps": 12 },
+            "intermediate_plus": { "reps": 12 },
+            "intermediate": { "reps": 10 },
+            "beginner_plus": { "reps": 10 },
+            "beginner": { "reps": 8 }
+          }
+        },
+        {
+          "movement": "Ring Row",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 10 },
+            "intermediate": { "reps": 8 },
+            "beginner_plus": { "reps": 8 },
+            "beginner": { "reps": 6 }
+          }
+        },
+        {
+          "movement": "Box Step-up",
+          "reps": 8,
+          "height": { "male": 50, "female": 40 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 50, "female": 40 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "height": { "male": 40, "female": 30 } },
+            "beginner_plus": { "height": { "male": 40, "female": 30 } },
+            "beginner": { "height": { "male": 30, "female": 30 }, "reps": 6 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "6+ rounds at a conversational pace",
+        "scaleDown": "Fewer than 4 rounds means the volume is too much. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0047",
+      "name": "Spicy Thorn",
+      "type": "for_time",
+      "timeCap": 14,
+      "rounds": 5,
+      "stimulus": {
+        "duration": "8-12 min",
+        "feel": "Fast barbell couplet. Thrusters are light enough to go unbroken but heavy enough to burn. TTB test the midline between sets. Quick transitions, no standing around.",
+        "intent": "Barbell cycling speed, midline under fatigue"
+      },
+      "coachNotes": "Thrusters unbroken every round at the right weight. If you break, go lighter. TTB in 1-2 sets. The workout should speed up, not slow down. Last two rounds should be the fastest.",
+      "movements": [
+        {
+          "movement": "Thruster",
+          "reps": 5,
+          "load": { "male": 55, "female": 40 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 50, "female": 35 } },
+            "advanced": { "load": { "male": 45, "female": 30 } },
+            "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+            "intermediate": { "load": { "male": 30, "female": 20 } },
+            "beginner_plus": { "load": { "male": 25, "female": 15 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Toes-to-Bar",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "sub": "Hanging Leg Raise", "reps": 10 },
+            "intermediate": { "sub": "Hanging Leg Raise", "reps": 8 },
+            "beginner_plus": { "sub": "Hanging Knee Raise", "reps": 8 },
+            "beginner": { "sub": "Laying Knee Raise", "reps": 10 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 8-12 min",
+        "scaleDown": "If you hit the 14 min cap, the thrusters are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0048",
+      "name": "Sharp Timber",
+      "type": "for_time",
+      "timeCap": 22,
+      "rounds": 8,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. 4 rounds each. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "16-20 min",
+        "feel": "Barbell and gymnastics partner sprint. Hang power cleans are moderate weight, fast cycling. Burpees to target keep the intensity up. Double-unders test coordination under fatigue.",
+        "intent": "Barbell cycling and coordination with a partner"
+      },
+      "coachNotes": "Each partner does 4 rounds. HPC should be touch-and-go. Burpees to target at a steady pace. DU unbroken if possible. Transitions between partners should be fast.",
+      "movements": [
+        {
+          "movement": "Hang Power Clean",
+          "reps": 8,
+          "load": { "male": 60, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 55, "female": 40 } },
+            "advanced": { "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "load": { "male": 40, "female": 30 } },
+            "intermediate": { "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "load": { "male": 25, "female": 20 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Burpee to Target",
+          "reps": 6,
+          "scaling": {
+            "advanced_plus": { "reps": 6 },
+            "advanced": { "reps": 6 },
+            "intermediate_plus": { "reps": 6 },
+            "intermediate": { "reps": 6 },
+            "beginner_plus": { "sub": "Burpee", "reps": 6 },
+            "beginner": { "sub": "Bodybuilder", "reps": 6 }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus": { "reps": 15 },
+            "advanced": { "reps": 15 },
+            "intermediate_plus": { "reps": 10 },
+            "intermediate": { "sub": "Single-Under", "reps": 45 },
+            "beginner_plus": { "sub": "Single-Under", "reps": 30 },
+            "beginner": { "sub": "Single-Under", "reps": 30 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 16-20 min",
+        "scaleDown": "If you hit the 22 min cap, the hang power cleans are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0049",
+      "name": "Dark Quartz",
+      "type": "emom",
+      "timeCap": 16,
+      "interval": 1,
+      "pattern": ["A", "B"],
+      "stimulus": {
+        "duration": "16 min",
+        "feel": "Alternating pressing and gymnastics intervals. Push press minutes test overhead strength. Pistol squat minutes test balance and single-leg control. Should have 15-20 seconds rest each minute.",
+        "intent": "Overhead pressing endurance, unilateral leg strength under fatigue"
+      },
+      "coachNotes": "Push press unbroken every minute. Pistols alternating legs. If you can't finish pistols in time, use the box. Don't rush the pistols. Quality reps over speed.",
+      "groups": {
+        "A": {
+          "movements": [
+            {
+              "movement": "Push Press",
+              "reps": 5,
+              "load": { "male": 45, "female": 30 },
+              "unit": "kg",
+              "scaling": {
+                "advanced_plus": { "load": { "male": 40, "female": 25 } },
+                "advanced": { "load": { "male": 35, "female": 25 } },
+                "intermediate_plus": { "load": { "male": 30, "female": 20 } },
+                "intermediate": { "load": { "male": 25, "female": 15 } },
+                "beginner_plus": { "load": { "male": 20, "female": 15 } },
+                "beginner": { "load": { "male": 20, "female": 15 }, "reps": 4 }
+              }
+            }
+          ]
+        },
+        "B": {
+          "movements": [
+            {
+              "movement": "Pistol Squat",
+              "reps": 10,
+              "scaling": {
+                "advanced_plus": { "reps": 10 },
+                "advanced": { "reps": 8 },
+                "intermediate_plus": { "sub": "Pistol Squat to Box", "reps": 8 },
+                "intermediate": { "sub": "Pistol Squat to Box", "reps": 6 },
+                "beginner_plus": { "sub": "Air Squat", "reps": 15 },
+                "beginner": { "sub": "Air Squat", "reps": 12 }
+              }
+            }
+          ]
+        }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 15+ seconds rest each round",
+        "scaleDown": "If you regularly can't finish within the minute, reduce load or reps by one level."
+      }
+    },
+    {
+      "code": "OP-0050",
+      "name": "Quick Fog",
+      "type": "for_time",
+      "timeCap": 16,
+      "repScheme": [21, 15, 9],
+      "stimulus": {
+        "duration": "8-12 min",
+        "feel": "Classic descending triplet. Pull-ups and burpees are the grind. 200m run between rounds clears the head. Each round gets shorter and faster.",
+        "intent": "Gymnastics pulling endurance, bodyweight conditioning"
+      },
+      "coachNotes": "Pull-ups in big sets. Burpees at a consistent pace. The runs are short. Sprint them. You should finish faster each round. If the 15s feel harder than the 21s, you went too fast.",
+      "movements": [
+        {
+          "movement": "Pull-up",
+          "scaling": {
+            "advanced_plus": { "sub": "Pull-up" },
+            "advanced": { "sub": "Pull-up" },
+            "intermediate_plus": { "sub": "Jumping Pull-up" },
+            "intermediate": { "sub": "Jumping Pull-up" },
+            "beginner_plus": { "sub": "Ring Row" },
+            "beginner": { "sub": "Ring Row" }
+          }
+        },
+        {
+          "movement": "Burpee",
+          "scaling": {
+            "advanced_plus": { "sub": "Burpee" },
+            "advanced": { "sub": "Burpee" },
+            "intermediate_plus": { "sub": "Burpee" },
+            "intermediate": { "sub": "Burpee" },
+            "beginner_plus": { "sub": "Bodybuilder" },
+            "beginner": { "sub": "Bodybuilder" }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 8-12 min",
+        "scaleDown": "If you hit the 16 min cap, the pull-ups are limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0051",
+      "name": "Loud Lava",
+      "type": "for_time",
+      "timeCap": 18,
+      "rounds": 5,
+      "stimulus": {
+        "duration": "12-15 min",
+        "feel": "Friday all-out. Squat cleans demand power and precision. Double-unders test coordination when fatigued. HSPU finish each round with pressing under blood flow. Heavy, explosive, demanding.",
+        "intent": "Olympic lifting under fatigue, mixed gymnastics capacity"
+      },
+      "coachNotes": "Squat cleans should be singles or quick doubles. Don't try to touch-and-go at this weight. DU unbroken. HSPU in sets of 3-5 at Rx. Rest between squat cleans if needed, but keep the rest short.",
+      "movements": [
+        {
+          "movement": "Squat Clean",
+          "reps": 5,
+          "load": { "male": 70, "female": 50 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 65, "female": 45 } },
+            "advanced": { "sub": "Power Clean", "load": { "male": 55, "female": 40 } },
+            "intermediate_plus": { "sub": "Power Clean", "load": { "male": 45, "female": 30 } },
+            "intermediate": { "sub": "Power Clean", "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "sub": "Power Clean", "load": { "male": 30, "female": 20 } },
+            "beginner": { "sub": "Power Clean", "load": { "male": 25, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 30,
+          "scaling": {
+            "advanced_plus": { "reps": 30 },
+            "advanced": { "reps": 25 },
+            "intermediate_plus": { "reps": 20 },
+            "intermediate": { "sub": "Single-Under", "reps": 60 },
+            "beginner_plus": { "sub": "Single-Under", "reps": 50 },
+            "beginner": { "sub": "Single-Under", "reps": 40 }
+          }
+        },
+        {
+          "movement": "Handstand Push-up",
+          "reps": 8,
+          "scaling": {
+            "advanced_plus": { "reps": 7 },
+            "advanced": { "sub": "Pike Push-up", "reps": 8 },
+            "intermediate_plus": { "sub": "Pike Push-up", "reps": 6 },
+            "intermediate": { "sub": "Dumbbell Push Press", "reps": 8 },
+            "beginner_plus": { "sub": "Dumbbell Push Press", "reps": 6 },
+            "beginner": { "sub": "Dumbbell Push Press", "reps": 5 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 12-15 min",
+        "scaleDown": "If you hit the 18 min cap, the squat cleans or HSPU are limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0052",
+      "name": "Sweet Coral",
+      "type": "amrap",
+      "timeCap": 24,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "24 min",
+        "feel": "Approachable partner AMRAP. Power snatches are moderate. Box jumps keep the heart rate high. Air squats are active filler. Built-in rest between rounds.",
+        "intent": "Power output and conditioning with a partner"
+      },
+      "coachNotes": "Power snatches should be quick singles or touch-and-go. Box jumps rebounding at Rx, step-up for scaled. Air squats fast and unbroken. Keep transitions between partners under 10 seconds.",
+      "movements": [
+        {
+          "movement": "Power Snatch",
+          "reps": 10,
+          "load": { "male": 45, "female": 30 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 40, "female": 25 } },
+            "advanced": { "load": { "male": 35, "female": 25 } },
+            "intermediate_plus": { "sub": "Power Clean", "load": { "male": 35, "female": 25 } },
+            "intermediate": { "sub": "Power Clean", "load": { "male": 30, "female": 20 } },
+            "beginner_plus": { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
+            "beginner": { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "reps": 12,
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 60, "female": 50 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner_plus": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner": { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        }
+      ],
+      "goal": {
+        "target": "8+ total rounds (4 each partner)",
+        "scaleDown": "Fewer than 6 total rounds means the snatches are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0053",
+      "name": "Light Honey",
+      "type": "amrap",
+      "timeCap": 25,
+      "stimulus": {
+        "duration": "25 min",
+        "feel": "Easy Sunday effort. Row, KB swings, and push-ups. No high skill, no barbell. Just keep moving at a pace you can hold for 25 minutes.",
+        "intent": "Active recovery, aerobic base, posterior chain maintenance"
+      },
+      "coachNotes": "Row at 60% effort. KB swings should feel easy. Push-ups strict and controlled. If you're breathing hard, slow down. This is active recovery, not a test.",
+      "movements": [
+        {
+          "movement": "Row",
+          "distance": 500,
+          "unit": "m"
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 15,
+          "load": { "male": 24, "female": 16 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 24, "female": 16 } },
+            "advanced": { "load": { "male": 24, "female": 16 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate": { "load": { "male": 16, "female": 12 } },
+            "beginner_plus": { "load": { "male": 12, "female": 8 } },
+            "beginner": { "load": { "male": 8, "female": 6 } }
+          }
+        },
+        {
+          "movement": "Push-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 8 },
+            "intermediate": { "reps": 8 },
+            "beginner_plus": { "sub": "Knee Push-up", "reps": 8 },
+            "beginner": { "sub": "Box Push-up", "reps": 6 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "7+ rounds at an easy pace",
+        "scaleDown": "Fewer than 5 rounds means the volume is too much for recovery. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0054",
+      "name": "Sharp Bone",
+      "type": "emom",
+      "timeCap": 16,
+      "interval": 1,
+      "pattern": ["A", "B"],
+      "stimulus": {
+        "duration": "16 min",
+        "feel": "Alternating barbell and bodyweight intervals. Front squat minutes demand leg drive. Burpee minutes keep the heart rate pegged. Should have 15-20 seconds rest each minute.",
+        "intent": "Squatting power under time pressure, sustained conditioning"
+      },
+      "coachNotes": "Front squats from the rack. Unbroken every round. If you can't finish in 35-40 seconds, drop weight. Burpees at a steady pace. Don't sprint them. Save energy for the next squat minute.",
+      "groups": {
+        "A": {
+          "movements": [
+            {
+              "movement": "Front Squat",
+              "reps": 8,
+              "load": { "male": 50, "female": 35 },
+              "unit": "kg",
+              "scaling": {
+                "advanced_plus": { "load": { "male": 45, "female": 30 } },
+                "advanced": { "load": { "male": 40, "female": 25 } },
+                "intermediate_plus": { "load": { "male": 35, "female": 25 } },
+                "intermediate": { "load": { "male": 30, "female": 20 }, "reps": 6 },
+                "beginner_plus": { "load": { "male": 25, "female": 15 }, "reps": 6 },
+                "beginner": { "load": { "male": 20, "female": 15 }, "reps": 5 }
+              }
+            }
+          ]
+        },
+        "B": {
+          "movements": [
+            {
+              "movement": "Burpee",
+              "reps": 8,
+              "scaling": {
+                "advanced_plus": { "reps": 8 },
+                "advanced": { "reps": 8 },
+                "intermediate_plus": { "reps": 7 },
+                "intermediate": { "reps": 6 },
+                "beginner_plus": { "sub": "Bodybuilder", "reps": 6 },
+                "beginner": { "sub": "Bodybuilder", "reps": 5 }
+              }
+            }
+          ]
+        }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 15+ seconds rest each round",
+        "scaleDown": "If you regularly can't finish within the minute, reduce load or reps by one level."
+      }
+    },
+    {
+      "code": "OP-0055",
+      "name": "Thick Maple",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 6,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. 3 rounds each. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "18-22 min",
+        "feel": "Partner grind. Wall balls are the pacer. TTB test the midline. Running adds conditioning. 3 rounds each with built-in rest.",
+        "intent": "Mixed modal stamina, sustained effort with a partner"
+      },
+      "coachNotes": "Wall balls in sets of 10+. TTB in sets of 5+. Run at 85% effort. Each partner does 3 rounds. Use the rest between rounds to recover, not to stand around.",
+      "movements": [
+        {
+          "movement": "Wall Ball",
+          "reps": 15,
+          "load": { "male": 9, "female": 6 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 9, "female": 6 } },
+            "advanced": { "load": { "male": 9, "female": 6 } },
+            "intermediate_plus": { "load": { "male": 9, "female": 6 } },
+            "intermediate": { "load": { "male": 9, "female": 6 }, "reps": 12 },
+            "beginner_plus": { "load": { "male": 6, "female": 4 }, "reps": 12 },
+            "beginner": { "load": { "male": 4, "female": 3 }, "reps": 10 }
+          }
+        },
+        {
+          "movement": "Toes-to-Bar",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "sub": "Hanging Leg Raise", "reps": 10 },
+            "intermediate": { "sub": "Hanging Leg Raise", "reps": 8 },
+            "beginner_plus": { "sub": "Hanging Knee Raise", "reps": 8 },
+            "beginner": { "sub": "Laying Knee Raise", "reps": 10 }
+          }
+        },
+        {
+          "movement": "Run",
+          "distance": 200,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 18-22 min",
+        "scaleDown": "If you hit the 24 min cap, the TTB are slowing you down. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0056",
+      "name": "Heavy Soot",
+      "type": "for_time",
+      "timeCap": 16,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "10-14 min",
+        "feel": "Heavy barbell couplet with a pulling chaser. Clean and jerks are the main event. Pull-ups keep the upper body engaged. Air squats flush the legs between rounds.",
+        "intent": "Olympic lifting endurance, full-body power output"
+      },
+      "coachNotes": "C&J should be singles at Rx weight. Don't rush between reps. Pull-ups in quick sets. Air squats fast and unbroken. Rest only between rounds if needed, not between movements.",
+      "movements": [
+        {
+          "movement": "Clean & Jerk",
+          "reps": 6,
+          "load": { "male": 65, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 60, "female": 40 } },
+            "advanced": { "sub": "Power Clean & Push Press", "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "sub": "Power Clean & Push Press", "load": { "male": 40, "female": 30 } },
+            "intermediate": { "sub": "Power Clean & Push Press", "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "sub": "Power Clean & Push Press", "load": { "male": 25, "female": 20 } },
+            "beginner": { "sub": "Power Clean & Push Press", "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Pull-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 10 },
+            "intermediate_plus": { "reps": 8 },
+            "intermediate": { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner_plus": { "sub": "Ring Row", "reps": 10 },
+            "beginner": { "sub": "Ring Row", "reps": 8 }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        }
+      ],
+      "goal": {
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 16 min cap, the clean and jerks are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0057",
+      "name": "Dark Pearl",
+      "type": "amrap",
+      "timeCap": 18,
+      "stimulus": {
+        "duration": "18 min",
+        "feel": "Gymnastics-heavy AMRAP. C2B test the pull. Pistol squats test balance and single-leg strength. Sit-ups are active recovery between the skill movements.",
+        "intent": "High-skill gymnastics endurance, unilateral leg strength"
+      },
+      "coachNotes": "C2B in sets of 3-5 at Rx. Pistol squats alternating legs, controlled tempo. Sit-ups fast and unbroken. This is about skill under fatigue, not speed. Quality reps count more than round count.",
+      "movements": [
+        {
+          "movement": "Chest-to-Bar Pull-up",
+          "reps": 5,
+          "scaling": {
+            "advanced_plus": { "reps": 5 },
+            "advanced": { "sub": "Pull-up", "reps": 7 },
+            "intermediate_plus": { "sub": "Pull-up", "reps": 5 },
+            "intermediate": { "sub": "Jumping Pull-up", "reps": 7 },
+            "beginner_plus": { "sub": "Ring Row", "reps": 8 },
+            "beginner": { "sub": "Ring Row", "reps": 6 }
+          }
+        },
+        {
+          "movement": "Pistol Squat",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": { "reps": 10 },
+            "advanced": { "reps": 8 },
+            "intermediate_plus": { "sub": "Pistol Squat to Box", "reps": 8 },
+            "intermediate": { "sub": "Pistol Squat to Box", "reps": 6 },
+            "beginner_plus": { "sub": "Air Squat", "reps": 15 },
+            "beginner": { "sub": "Air Squat", "reps": 12 }
+          }
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus": { "reps": 15 },
+            "advanced": { "reps": 15 },
+            "intermediate_plus": { "reps": 12 },
+            "intermediate": { "reps": 12 },
+            "beginner_plus": { "reps": 10 },
+            "beginner": { "reps": 10 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "7+ rounds",
+        "scaleDown": "Fewer than 4 rounds means the C2B or pistols are too demanding. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0058",
+      "name": "Spicy Bark",
+      "type": "for_time",
+      "timeCap": 16,
+      "repScheme": [21, 15, 9],
+      "stimulus": {
+        "duration": "8-12 min",
+        "feel": "Friday all-out classic triplet. Heavy deadlifts with burpees and box jumps. Fast descending reps. Each round gets heavier relative to fatigue. Sprint to the finish.",
+        "intent": "Posterior chain power, explosive capacity, all-out effort"
+      },
+      "coachNotes": "Deadlifts touch-and-go in the 21s, quick singles allowed in the 9s when fatigued. Burpees at a steady pace. Box jumps fast, rebound if you can. The 9s should be a sprint.",
+      "movements": [
+        {
+          "movement": "Deadlift",
+          "load": { "male": 100, "female": 70 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 90, "female": 60 } },
+            "advanced": { "load": { "male": 80, "female": 55 } },
+            "intermediate_plus": { "load": { "male": 60, "female": 40 } },
+            "intermediate": { "load": { "male": 50, "female": 35 } },
+            "beginner_plus": { "load": { "male": 40, "female": 25 } },
+            "beginner": { "load": { "male": 30, "female": 20 } }
+          }
+        },
+        {
+          "movement": "Burpee",
+          "scaling": {
+            "advanced_plus": { "sub": "Burpee" },
+            "advanced": { "sub": "Burpee" },
+            "intermediate_plus": { "sub": "Burpee" },
+            "intermediate": { "sub": "Burpee" },
+            "beginner_plus": { "sub": "Bodybuilder" },
+            "beginner": { "sub": "Bodybuilder" }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 60, "female": 50 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner_plus": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner": { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 8-12 min",
+        "scaleDown": "If you hit the 16 min cap, the deadlift is too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0059",
+      "name": "Sweet Pine",
+      "type": "amrap",
+      "timeCap": 24,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "24 min",
+        "feel": "Balanced partner AMRAP. Rowing sets the pace. Thrusters keep the legs and shoulders working. Pull-ups test the grip. Good variety, approachable intensity.",
+        "intent": "Full-body conditioning with a partner, sustained effort"
+      },
+      "coachNotes": "Row at 85% effort. Thrusters unbroken at the right weight. Pull-ups in quick sets. Partners can use different bars and loads. Keep transitions under 10 seconds.",
+      "movements": [
+        {
+          "movement": "Row",
+          "distance": 250,
+          "unit": "m"
+        },
+        {
+          "movement": "Thruster",
+          "reps": 10,
+          "load": { "male": 45, "female": 30 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 40, "female": 25 } },
+            "advanced": { "load": { "male": 35, "female": 25 } },
+            "intermediate_plus": { "load": { "male": 30, "female": 20 } },
+            "intermediate": { "load": { "male": 25, "female": 15 } },
+            "beginner_plus": { "load": { "male": 20, "female": 15 } },
+            "beginner": { "load": { "male": 20, "female": 15 }, "reps": 8 }
+          }
+        },
+        {
+          "movement": "Pull-up",
+          "reps": 8,
+          "scaling": {
+            "advanced_plus": { "reps": 8 },
+            "advanced": { "reps": 8 },
+            "intermediate_plus": { "reps": 6 },
+            "intermediate": { "sub": "Jumping Pull-up", "reps": 8 },
+            "beginner_plus": { "sub": "Ring Row", "reps": 8 },
+            "beginner": { "sub": "Ring Row", "reps": 6 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "8+ total rounds (4 each partner)",
+        "scaleDown": "Fewer than 6 total rounds means the thrusters or pull-ups are too demanding. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0060",
+      "name": "Long Hemp",
+      "type": "amrap",
+      "timeCap": 30,
+      "stimulus": {
+        "duration": "30 min",
+        "feel": "Long Sunday engine builder. Running, KB swings, air squats, and burpees to target. Simple movements, long duration. Find a pace and hold it for 30 minutes.",
+        "intent": "Aerobic endurance, pacing discipline, mental toughness"
+      },
+      "coachNotes": "This is a 30-minute effort. Do not sprint. Run at 65-70% effort. KB swings light and unbroken. Air squats fast. Burpees to target at a steady, sustainable pace. If you're gasping, slow down.",
+      "movements": [
+        {
+          "movement": "Run",
+          "distance": 400,
+          "unit": "m"
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 10,
+          "load": { "male": 24, "female": 16 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 24, "female": 16 } },
+            "advanced": { "load": { "male": 24, "female": 16 } },
+            "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+            "intermediate": { "load": { "male": 16, "female": 12 } },
+            "beginner_plus": { "load": { "male": 12, "female": 8 } },
+            "beginner": { "load": { "male": 8, "female": 6 } }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        },
+        {
+          "movement": "Burpee to Target",
+          "reps": 5,
+          "scaling": {
+            "advanced_plus": { "reps": 5 },
+            "advanced": { "reps": 5 },
+            "intermediate_plus": { "reps": 5 },
+            "intermediate": { "reps": 5 },
+            "beginner_plus": { "sub": "Burpee", "reps": 5 },
+            "beginner": { "sub": "Bodybuilder", "reps": 5 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "8+ rounds at a steady pace",
+        "scaleDown": "Fewer than 5 rounds means the pace is unsustainable. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0061",
+      "name": "Quick Flax",
+      "type": "for_time",
+      "timeCap": 14,
+      "repScheme": [15, 12, 9],
+      "stimulus": {
+        "duration": "7-10 min",
+        "feel": "Fast barbell couplet. Hang power cleans are moderate weight, fast cycling. Box jumps keep the legs working. Descending reps, sprint the last round.",
+        "intent": "Barbell cycling speed, explosive leg power"
+      },
+      "coachNotes": "HPC should be unbroken every round. If you break, go lighter. Box jumps fast, rebound at Rx. Step-up for scaled athletes. The 9s should take under 90 seconds.",
+      "movements": [
+        {
+          "movement": "Hang Power Clean",
+          "load": { "male": 60, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 55, "female": 40 } },
+            "advanced": { "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "load": { "male": 40, "female": 30 } },
+            "intermediate": { "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "load": { "male": 25, "female": 20 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Box Jump",
+          "height": { "male": 60, "female": 50 },
+          "unit": "cm",
+          "scaling": {
+            "advanced_plus": { "height": { "male": 60, "female": 50 } },
+            "advanced": { "height": { "male": 50, "female": 40 } },
+            "intermediate_plus": { "height": { "male": 50, "female": 40 } },
+            "intermediate": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner_plus": { "sub": "Box Step-up", "height": { "male": 50, "female": 40 } },
+            "beginner": { "sub": "Box Step-up", "height": { "male": 40, "female": 30 } }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 7-10 min",
+        "scaleDown": "If you hit the 14 min cap, the hang power cleans are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0062",
+      "name": "Thick Horn",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 8,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. 4 rounds each. While one partner works, the other rests."
+      },
+      "stimulus": {
+        "duration": "18-22 min",
+        "feel": "Barbell and engine partner grind. Power cleans demand power. Burpees are the constant. Rowing flushes the legs. 4 rounds each with built-in rest.",
+        "intent": "Power output and conditioning with a partner"
+      },
+      "coachNotes": "Power cleans touch-and-go or quick singles. Burpees at a steady pace. Row at 85% effort. Each partner does 4 rounds. Keep transitions fast.",
+      "movements": [
+        {
+          "movement": "Power Clean",
+          "reps": 10,
+          "load": { "male": 60, "female": 45 },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": { "load": { "male": 55, "female": 40 } },
+            "advanced": { "load": { "male": 50, "female": 35 } },
+            "intermediate_plus": { "load": { "male": 40, "female": 30 } },
+            "intermediate": { "load": { "male": 35, "female": 25 } },
+            "beginner_plus": { "load": { "male": 25, "female": 20 } },
+            "beginner": { "load": { "male": 20, "female": 15 } }
+          }
+        },
+        {
+          "movement": "Burpee",
+          "reps": 8,
+          "scaling": {
+            "advanced_plus": { "reps": 8 },
+            "advanced": { "reps": 8 },
+            "intermediate_plus": { "reps": 8 },
+            "intermediate": { "reps": 6 },
+            "beginner_plus": { "sub": "Bodybuilder", "reps": 6 },
+            "beginner": { "sub": "Bodybuilder", "reps": 5 }
+          }
+        },
+        {
+          "movement": "Row",
+          "distance": 250,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 18-22 min",
+        "scaleDown": "If you hit the 24 min cap, the power cleans are too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0063",
+      "name": "Sharp Wool",
+      "type": "emom",
+      "timeCap": 16,
+      "interval": 1,
+      "pattern": ["A", "B"],
+      "stimulus": {
+        "duration": "16 min",
+        "feel": "Alternating Olympic lifting and KB intervals. Power snatch minutes demand precision. KB swing minutes keep the posterior chain engaged. Should have 20+ seconds rest each minute.",
+        "intent": "Olympic lifting skill under fatigue, hip hinge endurance"
+      },
+      "coachNotes": "Power snatches as singles with a quick reset. Don't rush the setup. KB swings Russian, to eye level, unbroken every round. Both movements are hip-dominant. Focus on hinge quality.",
+      "groups": {
+        "A": {
+          "movements": [
+            {
+              "movement": "Power Snatch",
+              "reps": 3,
+              "load": { "male": 50, "female": 35 },
+              "unit": "kg",
+              "scaling": {
+                "advanced_plus": { "load": { "male": 45, "female": 30 } },
+                "advanced": { "load": { "male": 40, "female": 25 } },
+                "intermediate_plus": { "sub": "Power Clean", "load": { "male": 35, "female": 25 } },
+                "intermediate": { "sub": "Power Clean", "load": { "male": 30, "female": 20 } },
+                "beginner_plus": { "sub": "Power Clean", "load": { "male": 25, "female": 15 } },
+                "beginner": { "sub": "Power Clean", "load": { "male": 20, "female": 15 } }
+              }
+            }
+          ]
+        },
+        "B": {
+          "movements": [
+            {
+              "movement": "Kettlebell Swing",
+              "reps": 12,
+              "load": { "male": 32, "female": 24 },
+              "unit": "kg",
+              "scaling": {
+                "advanced_plus": { "load": { "male": 28, "female": 20 } },
+                "advanced": { "load": { "male": 24, "female": 16 } },
+                "intermediate_plus": { "load": { "male": 20, "female": 12 } },
+                "intermediate": { "load": { "male": 16, "female": 12 } },
+                "beginner_plus": { "load": { "male": 12, "female": 8 } },
+                "beginner": { "load": { "male": 8, "female": 6 } }
+              }
+            }
+          ]
+        }
+      },
+      "goal": {
+        "target": "Complete all 16 minutes with 20+ seconds rest each round",
+        "scaleDown": "If you can't finish within the minute, the snatch is too heavy. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0064",
+      "name": "Dark Claw",
+      "type": "for_time",
+      "timeCap": 18,
+      "rounds": 3,
+      "stimulus": {
+        "duration": "10-14 min",
+        "feel": "Gymnastics chipper per round. Rope climbs are the skill test. Double-unders keep the heart rate up. Walking lunges burn the legs between climbs. Technical and physical.",
+        "intent": "Rope climbing endurance, coordination under fatigue, leg stamina"
+      },
+      "coachNotes": "Rope climbs with a controlled descent. Don't slide down. DU unbroken if possible. Walking lunges slow and deliberate. For athletes who can't rope climb, 4 strict pull-ups is the sub.",
+      "movements": [
+        {
+          "movement": "Rope Climb",
+          "reps": 3,
+          "scaling": {
+            "advanced_plus": { "reps": 3 },
+            "advanced": { "reps": 2 },
+            "intermediate_plus": { "sub": "Strict Pull-up", "reps": 4 },
+            "intermediate": { "sub": "Strict Pull-up", "reps": 3 },
+            "beginner_plus": { "sub": "Ring Row", "reps": 8 },
+            "beginner": { "sub": "Ring Row", "reps": 6 }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 30,
+          "scaling": {
+            "advanced_plus": { "reps": 30 },
+            "advanced": { "reps": 25 },
+            "intermediate_plus": { "reps": 20 },
+            "intermediate": { "sub": "Single-Under", "reps": 60 },
+            "beginner_plus": { "sub": "Single-Under", "reps": 50 },
+            "beginner": { "sub": "Single-Under", "reps": 40 }
+          }
+        },
+        {
+          "movement": "Walking Lunge",
+          "reps": 16,
+          "scaling": {
+            "advanced_plus": { "reps": 16 },
+            "advanced": { "reps": 16 },
+            "intermediate_plus": { "reps": 14 },
+            "intermediate": { "reps": 12 },
+            "beginner_plus": { "reps": 12 },
+            "beginner": { "reps": 10 }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 10-14 min",
+        "scaleDown": "If you hit the 18 min cap, the rope climbs or DU are limiting you. Drop one level."
       }
     }
   ]
