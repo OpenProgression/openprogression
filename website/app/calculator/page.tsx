@@ -46,6 +46,11 @@ const AGE_MULTIPLIERS: Record<AgeRange, number> = {
   "50+":   0.81,
 }
 
+// Reference bodyweights the absolute standards are anchored to.
+const REFERENCE_BW: Record<Gender, number> = { male: 80, female: 60 }
+// Suggest bodyweight-relative scoring once an athlete is this far off reference.
+const BW_DEVIATION_THRESHOLD = 0.10
+
 // ---------------------------------------------------------------------------
 // Calculator movements — one representative per category
 // ---------------------------------------------------------------------------
@@ -59,6 +64,10 @@ const MOVEMENTS = [
       male: [40, 60, 80, 105, 130, 155, 180],
       female: [25, 40, 55, 70, 85, 100, 120],
     },
+    bwMultiplier: {
+      male: [0.5, 0.75, 1, 1.31, 1.63, 1.94, 2.25],
+      female: [0.42, 0.67, 0.92, 1.17, 1.42, 1.67, 2],
+    },
     higherIsBetter: true,
   },
   {
@@ -69,6 +78,10 @@ const MOVEMENTS = [
     thresholds: {
       male: [60, 90, 120, 150, 180, 210, 240],
       female: [35, 55, 80, 100, 120, 145, 170],
+    },
+    bwMultiplier: {
+      male: [0.75, 1.13, 1.5, 1.88, 2.25, 2.63, 3],
+      female: [0.58, 0.92, 1.33, 1.67, 2, 2.42, 2.83],
     },
     higherIsBetter: true,
   },
@@ -81,6 +94,10 @@ const MOVEMENTS = [
       male: [20, 30, 45, 55, 68, 80, 95],
       female: [12, 20, 30, 38, 45, 52, 57],
     },
+    bwMultiplier: {
+      male: [0.25, 0.38, 0.56, 0.69, 0.85, 1, 1.19],
+      female: [0.2, 0.33, 0.5, 0.63, 0.75, 0.87, 0.95],
+    },
     higherIsBetter: true,
   },
   {
@@ -91,6 +108,10 @@ const MOVEMENTS = [
     thresholds: {
       male: [35, 50, 72, 95, 115, 130, 150],
       female: [22, 35, 50, 65, 80, 92, 105],
+    },
+    bwMultiplier: {
+      male: [0.44, 0.63, 0.9, 1.19, 1.44, 1.63, 1.88],
+      female: [0.37, 0.58, 0.83, 1.08, 1.33, 1.53, 1.75],
     },
     higherIsBetter: true,
   },
@@ -206,12 +227,34 @@ function adjustThresholds(
 ): number[] {
   if (ageMultiplier === 1.00) return thresholds
   if (higherIsBetter) {
-    // Strength/reps: lower the threshold (easier to reach)
-    return thresholds.map((t) => Math.round(t * ageMultiplier))
+    // Strength/reps: lower the threshold (easier to reach). Guard against the
+    // multiplier collapsing a real low-rep skill standard to a meaningless
+    // sub-1 value: a positive standard never discounts below 1.
+    return thresholds.map((t) => (t > 0 ? Math.max(1, Math.round(t * ageMultiplier)) : 0))
   } else {
     // Time: raise the threshold (more time allowed)
     return thresholds.map((t) => Math.round(t / ageMultiplier))
   }
+}
+
+// Resolve the comparison thresholds for a movement, applying bodyweight-relative
+// scoring (when enabled for a strength lift) before the age adjustment.
+type Movement = (typeof MOVEMENTS)[number]
+
+function effectiveThresholds(
+  m: Movement,
+  gender: Gender,
+  ageMultiplier: number,
+  bodyweight: number | null,
+  useBwScoring: boolean
+): number[] {
+  let base: number[] = m.thresholds[gender]
+  if (useBwScoring && "bwMultiplier" in m && m.bwMultiplier && bodyweight !== null) {
+    // Scale the BW-multiplier standard by the athlete's actual bodyweight,
+    // rounded to the nearest 0.5 kg.
+    base = m.bwMultiplier[gender].map((x) => Math.round(x * bodyweight * 2) / 2)
+  }
+  return adjustThresholds(base, ageMultiplier, m.higherIsBetter)
 }
 
 // ---------------------------------------------------------------------------
@@ -220,15 +263,29 @@ function adjustThresholds(
 export default function CalculatorPage() {
   const [gender, setGender] = useState<Gender>("male")
   const [ageRange, setAgeRange] = useState<AgeRange>("18-29")
+  const [bodyweightInput, setBodyweightInput] = useState<string>("")
+  const [useBwScoring, setUseBwScoring] = useState<boolean>(false)
   const [inputs, setInputs] = useState<Record<string, string>>({})
 
   const ageMultiplier = AGE_MULTIPLIERS[ageRange]
+
+  const bodyweight = (() => {
+    const n = parseFloat(bodyweightInput.trim())
+    return !isNaN(n) && n > 0 ? n : null
+  })()
+  // Only score relative to bodyweight when we actually have a bodyweight.
+  const bwScoringActive = useBwScoring && bodyweight !== null
+  // Nudge the athlete toward BW-relative scoring once they're materially off
+  // the 80/60 kg reference the absolute standards are anchored to.
+  const bwDeviates =
+    bodyweight !== null &&
+    Math.abs(bodyweight - REFERENCE_BW[gender]) / REFERENCE_BW[gender] > BW_DEVIATION_THRESHOLD
 
   const results = MOVEMENTS.map((m) => {
     const raw = inputs[m.category] || ""
     const value = parseInput(raw, m.inputType)
     if (value === null) return { ...m, level: null }
-    const adjusted = adjustThresholds(m.thresholds[gender], ageMultiplier, m.higherIsBetter)
+    const adjusted = effectiveThresholds(m, gender, ageMultiplier, bodyweight, bwScoringActive)
     const level = determineLevel(value, adjusted, m.higherIsBetter)
     return { ...m, level }
   })
@@ -304,12 +361,66 @@ export default function CalculatorPage() {
             </div>
           </div>
 
+          {/* Bodyweight + Scoring Mode */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+            {/* Bodyweight input */}
+            <div className="relative">
+              <input
+                type="text"
+                inputMode="numeric"
+                placeholder={`Bodyweight (ref ${REFERENCE_BW[gender]})`}
+                value={bodyweightInput}
+                onChange={(e) => setBodyweightInput(e.target.value)}
+                className="w-52 px-4 py-2 rounded-full border border-border bg-background text-sm font-medium tabular-nums text-center focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-colors"
+              />
+              <span className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-muted-foreground pointer-events-none">
+                kg
+              </span>
+            </div>
+
+            {/* Scoring Mode Toggle */}
+            <div className="flex bg-secondary rounded-full p-1">
+              <button
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                  !useBwScoring
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+                onClick={() => setUseBwScoring(false)}
+              >
+                Absolute
+              </button>
+              <button
+                disabled={bodyweight === null}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+                  useBwScoring && bodyweight !== null
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+                onClick={() => setUseBwScoring(true)}
+                title={bodyweight === null ? "Enter your bodyweight first" : undefined}
+              >
+                × Bodyweight
+              </button>
+            </div>
+          </div>
+
+          {/* Off-reference nudge */}
+          {bwDeviates && !useBwScoring && (
+            <p className="text-center text-xs text-muted-foreground mb-8 max-w-md mx-auto">
+              You&apos;re {bodyweight! > REFERENCE_BW[gender] ? "heavier" : "lighter"} than the{" "}
+              {REFERENCE_BW[gender]} kg reference. Switch to{" "}
+              <span className="font-medium text-foreground">× Bodyweight</span> for a fairer
+              score on the strength lifts.
+            </p>
+          )}
+
           {/* Input Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {MOVEMENTS.map((m) => {
               const raw = inputs[m.category] || ""
               const value = parseInput(raw, m.inputType)
-              const adjusted = adjustThresholds(m.thresholds[gender], ageMultiplier, m.higherIsBetter)
+              const adjusted = effectiveThresholds(m, gender, ageMultiplier, bodyweight, bwScoringActive)
               const level = value !== null
                 ? determineLevel(value, adjusted, m.higherIsBetter)
                 : null
@@ -517,11 +628,15 @@ export default function CalculatorPage() {
               How It Works
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Each category uses one representative movement. Your level is determined by
-              comparing your result against benchmarks for a ~80 kg male / ~60 kg female
-              reference athlete. Selecting an age range adjusts all benchmarks with a flat
-              multiplier (30-39: 0.96x, 40-49: 0.89x, 50+: 0.81x). Your overall level
-              follows the{" "}
+              Each category uses one representative movement. By default your level is
+              determined by comparing your result against absolute benchmarks for a ~80 kg
+              male / ~60 kg female reference athlete. Enter your bodyweight and switch to{" "}
+              <span className="font-medium text-foreground">× Bodyweight</span> to score the
+              strength lifts on bodyweight-relative standards instead, which is fairer for
+              lighter and heavier athletes. Selecting an age range adjusts all benchmarks with
+              a flat multiplier (30-39: 0.96x, 40-49: 0.89x, 50+: 0.81x); this is an interim
+              approximation pending per-decade, per-category tables. Your overall level follows
+              the{" "}
               <span className="font-medium text-foreground">weakest-link principle</span>:
               it equals your lowest category level.
             </p>

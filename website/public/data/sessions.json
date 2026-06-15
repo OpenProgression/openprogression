@@ -132,7 +132,7 @@
     {
       "date": "2026-03-06",
       "title": "Friday - Deadlift + Sprint",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -149,10 +149,7 @@
         ]
       },
       "metcon": "OP-0005",
-      "accessory": {
-        "notes": "2x30s side plank each side\n3x20 banded pull-aparts",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-07",
@@ -285,7 +282,7 @@
     {
       "date": "2026-03-13",
       "title": "Friday - Posterior Chain",
-      "estimatedMinutes": 51,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -302,10 +299,7 @@
         ]
       },
       "metcon": "OP-0014",
-      "accessory": {
-        "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
-        "durationMinutes": 5
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-14",
@@ -416,9 +410,9 @@
     {
       "date": "2026-03-19",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 48,
       "warmup": {
-        "notes": "3 rounds:\n10 push-ups\n10 air squats\n10 PVC pass-throughs\n30s plank hold",
+        "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n10 PVC pass-throughs",
         "durationMinutes": 12
       },
       "strength": {
@@ -428,7 +422,7 @@
             "movement": "Rope Climb / Pull-up Progression",
             "scheme": "Skill: 14 min",
             "prescription": "Work on rope climbs or strict pull-up progressions",
-            "notes": "Rope climbs for advanced. Strict pull-up sets for intermediates. Ring row negatives for beginners."
+            "notes": "Rope climbs for advanced athletes. Strict pull-up sets of 3-5 for intermediates. Ring row negatives for beginners. Save the kipping for the metcon."
           }
         ]
       },
@@ -438,7 +432,7 @@
     {
       "date": "2026-03-20",
       "title": "Friday - Deadlift + Grind",
-      "estimatedMinutes": 51,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -455,10 +449,7 @@
         ]
       },
       "metcon": "OP-0009",
-      "accessory": {
-        "notes": "2x30s side plank each side\n2x20 banded pull-aparts",
-        "durationMinutes": 5
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-21",
@@ -591,7 +582,7 @@
     {
       "date": "2026-03-27",
       "title": "Friday - Pull + Grind",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -608,10 +599,7 @@
         ]
       },
       "metcon": "OP-0019",
-      "accessory": {
-        "notes": "3x15 GHD hip extensions\n2x30s dead hang",
-        "durationMinutes": 8
-      }
+      "accessory": null
     },
     {
       "date": "2026-03-28",
@@ -692,6 +680,653 @@
         ]
       },
       "metcon": "OP-0024",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Wednesday - Press + Intervals",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n5 push press with empty bar\n10 PVC pass-throughs\n10 hanging scap retractions\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Strict Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00. Start at ~60% and build each set."
+          }
+        ]
+      },
+      "metcon": "OP-0035",
+      "accessory": {
+        "notes": "3x12 Pendlay Row @ moderate weight\n3x15 tricep dips",
+        "durationMinutes": 7
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Thursday - Gymnastics + Conditioning",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n5 wall walk to halfway\n10 PVC pass-throughs\n10 air squats\n20 single-unders",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 20,
+        "movements": [
+          {
+            "movement": "Handstand Walk / Hold",
+            "scheme": "Skill: 18 min",
+            "prescription": "Work on handstand walks or freestanding holds",
+            "notes": "Walk for distance if advanced. Kick-up holds for intermediates. Wall-facing holds for beginners."
+          }
+        ]
+      },
+      "metcon": "OP-0036",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Friday - Deadlift + All-Out",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n5 broad jumps\n10 bar-facing burpees (slow)",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 18,
+        "movements": [
+          {
+            "movement": "Deadlift",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Reset between reps. Start at ~60% and add weight each set."
+          }
+        ]
+      },
+      "metcon": "OP-0037",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Saturday - Teams of 2",
+      "estimatedMinutes": 46,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds with partner:\n10 KB deadlifts\n10 wall balls (light)\n10 leg swings each side",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Kettlebell Swing",
+            "scheme": "5x6",
+            "prescription": "Practice swing mechanics at working weight",
+            "notes": "Partners alternate sets. Focus on hip snap and float."
+          }
+        ]
+      },
+      "metcon": "OP-0038",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Sunday - Active Recovery",
+      "estimatedMinutes": 35,
+      "warmup": {
+        "notes": "5 min easy row\nThen 2 rounds:\n10 cat-cows\n10 Samson stretches\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": null,
+      "metcon": "OP-0039",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-06",
+      "title": "Monday - Squat + Sprint",
+      "estimatedMinutes": 49,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n5 front squat with empty bar",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Back Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00. Start at ~60% and build each set."
+          }
+        ]
+      },
+      "metcon": "OP-0040",
+      "accessory": {
+        "notes": "3x10 Bulgarian split squat (each leg, bodyweight)\n3x15 GHD hip extensions",
+        "durationMinutes": 12
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Tuesday - Teams of 2",
+      "estimatedMinutes": 46,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n5 power clean with empty bar\n10 box step-ups\n10 ring rows",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Power Clean",
+            "scheme": "5x3",
+            "prescription": "Light, focus on speed under the bar",
+            "notes": "Partners alternate sets. Build to moderate."
+          }
+        ]
+      },
+      "metcon": "OP-0041",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Wednesday - Press + Conditioning",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n5 snatch grip push press with empty bar\n10 PVC pass-throughs\n10 push-ups\n20 single-unders",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Push Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00. Start at ~60%. Drive through the legs."
+          }
+        ]
+      },
+      "metcon": "OP-0042",
+      "accessory": {
+        "notes": "3x8 strict pull-ups (weighted if possible)\n3x20 banded face pulls",
+        "durationMinutes": 7
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Thursday - Gymnastics + Conditioning",
+      "estimatedMinutes": 39,
+      "warmup": {
+        "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n30s plank hold",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 14,
+        "movements": [
+          {
+            "movement": "Bar Muscle-up / Pull-up Progression",
+            "scheme": "Skill: 12 min",
+            "prescription": "Work on bar muscle-ups or strict pull-up progressions",
+            "notes": "Muscle-up transitions for advanced. Strict pull-up sets for intermediates. Banded strict pull-ups for beginners."
+          }
+        ]
+      },
+      "metcon": "OP-0043",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Friday - Deadlift + All-Out",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 inchworms",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 18,
+        "movements": [
+          {
+            "movement": "Deadlift",
+            "scheme": "Build to 3RM",
+            "prescription": "Build to a 3-rep max",
+            "notes": "Reset between reps. Start at ~50%, add 5-10% per set. 5-6 working sets total."
+          }
+        ]
+      },
+      "metcon": "OP-0044",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Saturday - Teams of 2",
+      "estimatedMinutes": 50,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n10 KB swings (light)\n10 sit-ups\n10 wall balls (light)\n200m run",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Wall Ball",
+            "scheme": "3x15",
+            "prescription": "Working weight practice",
+            "notes": "Partners alternate sets. Focus on hip drive and target accuracy."
+          }
+        ]
+      },
+      "metcon": "OP-0045",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Sunday - Active Recovery",
+      "estimatedMinutes": 35,
+      "warmup": {
+        "notes": "5 min easy bike\nThen 2 rounds:\n10 walking lunges\n10 PVC pass-throughs\n10 ring rows",
+        "durationMinutes": 10
+      },
+      "strength": null,
+      "metcon": "OP-0046",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Monday - Squat + Sprint",
+      "estimatedMinutes": 49,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 air squats\n5 front squat with empty bar\n10 PVC pass-throughs",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Front Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00. Keep elbows high. Start at ~60% and build."
+          }
+        ]
+      },
+      "metcon": "OP-0047",
+      "accessory": {
+        "notes": "3x10 GHD sit-ups (or butterfly sit-ups)\n3x15 GHD hip extensions",
+        "durationMinutes": 10
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Tuesday - Teams of 2",
+      "estimatedMinutes": 44,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n5 hang power clean with empty bar\n10 burpees (slow)\n20 single-unders",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Hang Power Clean",
+            "scheme": "5x3",
+            "prescription": "Light, focus on hip extension and catch",
+            "notes": "Partners alternate sets. Build to moderate."
+          }
+        ]
+      },
+      "metcon": "OP-0048",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Wednesday - Press + Intervals",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n5 push press with empty bar\n10 PVC pass-throughs\n10 air squats\n5 pistol squat attempts each leg",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Strict Press",
+            "scheme": "5x5",
+            "prescription": "@ 70% 1RM",
+            "notes": "Rest 2:00. Consistent weight across all 5 sets."
+          }
+        ]
+      },
+      "metcon": "OP-0049",
+      "accessory": {
+        "notes": "3x12 dumbbell bench press\n3x20 banded pull-aparts",
+        "durationMinutes": 7
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Thursday - Gymnastics + Conditioning",
+      "estimatedMinutes": 40,
+      "warmup": {
+        "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n5 strict pull-ups",
+        "durationMinutes": 8
+      },
+      "strength": {
+        "durationMinutes": 16,
+        "movements": [
+          {
+            "movement": "Rope Climb / Pull-up Progression",
+            "scheme": "Skill: 14 min",
+            "prescription": "Work on rope climbs or strict pull-up progressions",
+            "notes": "Rope climbs for advanced. Strict pull-up sets for intermediates. Ring row negatives for beginners."
+          }
+        ]
+      },
+      "metcon": "OP-0050",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-17",
+      "title": "Friday - Pull + All-Out",
+      "estimatedMinutes": 46,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n5 squat clean with empty bar\n10 PVC pass-throughs\n5 wall walks to halfway",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 18,
+        "movements": [
+          {
+            "movement": "Deadlift",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Reset between reps. Start at ~60% and add weight each set."
+          }
+        ]
+      },
+      "metcon": "OP-0051",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Saturday - Teams of 2",
+      "estimatedMinutes": 44,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n5 power snatch with empty bar\n10 box step-ups\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Power Snatch",
+            "scheme": "5x3",
+            "prescription": "Light, focus on overhead position",
+            "notes": "Partners alternate sets. Keep it light and fast."
+          }
+        ]
+      },
+      "metcon": "OP-0052",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-19",
+      "title": "Sunday - Active Recovery",
+      "estimatedMinutes": 35,
+      "warmup": {
+        "notes": "5 min easy row\nThen 2 rounds:\n10 cat-cows\n10 Samson stretches\n10 push-ups",
+        "durationMinutes": 10
+      },
+      "strength": null,
+      "metcon": "OP-0053",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Monday - Squat + Intervals",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 air squats\n5 front squat with empty bar\n5 burpees",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Back Squat",
+            "scheme": "5x5",
+            "prescription": "@ 70% 1RM",
+            "notes": "Rest 2:00. Consistent weight across all 5 sets."
+          }
+        ]
+      },
+      "metcon": "OP-0054",
+      "accessory": {
+        "notes": "3x12 Romanian deadlift @ moderate weight\n3x15 GHD hip extensions",
+        "durationMinutes": 7
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "title": "Tuesday - Teams of 2",
+      "estimatedMinutes": 46,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n10 wall balls (light)\n10 hanging knee raises\n200m run",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Wall Ball",
+            "scheme": "3x15",
+            "prescription": "Working weight, focus on depth and target",
+            "notes": "Partners alternate sets."
+          }
+        ]
+      },
+      "metcon": "OP-0055",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Wednesday - Press + Conditioning",
+      "estimatedMinutes": 48,
+      "warmup": {
+        "notes": "3 rounds:\n5 clean with empty bar\n10 PVC pass-throughs\n10 ring rows\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Push Press",
+            "scheme": "Build to 3RM",
+            "prescription": "Build to a 3-rep max",
+            "notes": "Start at ~50%, add weight each set. 5-6 working sets."
+          }
+        ]
+      },
+      "metcon": "OP-0056",
+      "accessory": {
+        "notes": "3x8 Pendlay Row @ moderate weight\n3x20 banded face pulls",
+        "durationMinutes": 7
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Thursday - Gymnastics + Conditioning",
+      "estimatedMinutes": 42,
+      "warmup": {
+        "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n5 pistol squat attempts each leg\n10 sit-ups",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 14,
+        "movements": [
+          {
+            "movement": "Ring Muscle-up / Chest-to-Bar Progression",
+            "scheme": "Skill: 12 min",
+            "prescription": "Work on ring muscle-up transitions or C2B kipping",
+            "notes": "Muscle-up transitions for advanced. C2B kipping drills for intermediates. Banded C2B for beginners."
+          }
+        ]
+      },
+      "metcon": "OP-0057",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-24",
+      "title": "Friday - Deadlift + All-Out",
+      "estimatedMinutes": 44,
+      "warmup": {
+        "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n5 broad jumps\n5 burpees",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 18,
+        "movements": [
+          {
+            "movement": "Deadlift",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Reset between reps. Start at ~60% and add weight each set."
+          }
+        ]
+      },
+      "metcon": "OP-0058",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-25",
+      "title": "Saturday - Teams of 2",
+      "estimatedMinutes": 44,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n5 thruster with empty bar\n10 ring rows\n200m easy run",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Thruster",
+            "scheme": "5x3",
+            "prescription": "Light, focus on full depth and lockout",
+            "notes": "Partners alternate sets. Build to moderate."
+          }
+        ]
+      },
+      "metcon": "OP-0059",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Sunday - Active Recovery",
+      "estimatedMinutes": 40,
+      "warmup": {
+        "notes": "5 min easy bike\nThen 2 rounds:\n10 walking lunges\n10 Samson stretches\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": null,
+      "metcon": "OP-0060",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Monday - Squat + Sprint",
+      "estimatedMinutes": 49,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n5 hang power clean with empty bar",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Front Squat",
+            "scheme": "Build to 3RM",
+            "prescription": "Build to a 3-rep max",
+            "notes": "Start at ~50%, add 5-10% per set. Keep elbows high."
+          }
+        ]
+      },
+      "metcon": "OP-0061",
+      "accessory": {
+        "notes": "3x10 Bulgarian split squat (each leg, bodyweight)\n3x10 strict toes-to-bar (or hanging knee raise)",
+        "durationMinutes": 10
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "title": "Tuesday - Teams of 2",
+      "estimatedMinutes": 46,
+      "warmup": {
+        "notes": "5 min easy row or bike\nThen 2 rounds:\n5 power clean with empty bar\n10 burpees (slow)\n10 ring rows",
+        "durationMinutes": 12
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Power Clean",
+            "scheme": "5x3",
+            "prescription": "Light, focus on speed under the bar",
+            "notes": "Partners alternate sets. Build to moderate."
+          }
+        ]
+      },
+      "metcon": "OP-0062",
+      "accessory": null
+    },
+    {
+      "date": "2026-04-29",
+      "title": "Wednesday - Press + Intervals",
+      "estimatedMinutes": 49,
+      "warmup": {
+        "notes": "3 rounds:\n5 snatch grip push press with empty bar\n10 PVC pass-throughs\n10 KB swings (light)\n10 air squats",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Strict Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy 3",
+            "notes": "Rest 2:00. Start at ~60% and build each set."
+          }
+        ]
+      },
+      "metcon": "OP-0063",
+      "accessory": {
+        "notes": "3x12 dumbbell bench press\n3x15 tricep dips",
+        "durationMinutes": 8
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Thursday - Gymnastics + Conditioning",
+      "estimatedMinutes": 42,
+      "warmup": {
+        "notes": "3 rounds:\n5 scap pull-ups\n10 air squats\n10 walking lunges\n20 single-unders",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 14,
+        "movements": [
+          {
+            "movement": "Rope Climb / Pull-up Progression",
+            "scheme": "Skill: 12 min",
+            "prescription": "Work on rope climbs or strict pull-up progressions",
+            "notes": "Rope climbs for advanced. Strict pull-up sets for intermediates. Ring row negatives for beginners."
+          }
+        ]
+      },
+      "metcon": "OP-0064",
       "accessory": null
     }
   ]

@@ -218,8 +218,8 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full gu
 - [x] **[Level Calculator](https://openprogression.org/calculator)** -- Instant level assessment across all 8 categories
 - [x] **[Scaled Programming](https://openprogression.org/programming)** -- WOD library and daily sessions with 7-level scaling
 - [x] **[Movement Progressions & Foundation Milestones](spec/progressions.md)** -- Regression chains and pre-Beginner progress markers for untrained populations
-- [ ] **Age-adjusted benchmarks** -- Current standards target ~18-40 year-olds. Future versions may include age brackets.
-- [ ] **Expanded bodyweight scaling** -- Enhanced BW-relative benchmarks beyond the current reference weights.
+- [~] **Age-adjusted benchmarks** -- The calculator applies an interim flat age multiplier (30-39: 0.96x, 40-49: 0.89x, 50+: 0.81x). Per-decade, per-category age-graded tables (50-59 / 60-69 / 70+) are the planned research-backed replacement.
+- [~] **Expanded bodyweight scaling** -- The calculator scores strength lifts on bodyweight-relative standards (the `bwMultiplier` data) when a bodyweight is entered. Rep-based gymnastics/bodyweight scaling is still to come.
 - [ ] **Additional movements** -- Expanding the movement library within existing categories.
 
 ## License
