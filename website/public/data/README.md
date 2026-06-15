@@ -92,6 +92,30 @@ Each file covers one category. Structure:
 
 **Determining an athlete's level:** Compare their result to the standards. Their level is the highest one where they meet or exceed the threshold (or fall within the range for `max_reps`).
 
+### Schema contract for consumers (typed / native parsers)
+
+If you deserialize this data into a typed model (Swift `Codable`, Kotlin, etc.), the shape of `standards` and the presence of some fields **depend on `testType`**. Branch on `testType` rather than assuming a single shape:
+
+| `testType` | `unit` | `standards` value per gender | Direction |
+|------------|--------|------------------------------|-----------|
+| `1rm` | `kg` | scalar number (e.g. `80`) | higher is better |
+| `max_reps` | `reps` | `[min, max]` array (e.g. `[4, 8]`); top level uses an open sentinel like `[26, 99]` | higher is better |
+| `time` | `seconds` | scalar number (e.g. `600`) | lower is better |
+| `amrap` | `rounds` | scalar number (e.g. `20`) | higher is better |
+
+**Optional / conditional fields** — declare these nullable:
+- `bwMultiplier` — present **only** on strength (`1rm`, `unit: kg`) benchmarks. Absent on `max_reps`, `time`, and `amrap`.
+- `lowerIsBetter` — present **only** on `time` benchmarks (always `true` there). When absent, derive direction from `testType` using the table above. Do not assume it is always present.
+- `attribution` — present on some benchmark-WOD entries only.
+
+**Per-benchmark units, not per-category.** A single category file can mix units across its benchmarks — e.g. `endurance.json` holds `time` (Fran/Grace/Murph) and `amrap` (Cindy, in `rounds`). Always read `unit`/`testType` per benchmark, never per category.
+
+**Stable ids vs display strings.** `levels`, `categories`, and benchmark `movement` values are stable snake_case ids — key on these. Note `metcons.json` currently identifies movements by display name (`"Hang Power Clean"`) and metcons by `code` (`"OP-0001"`, not `id`); a stable `movementId` for metcon movements is planned (see `tickets/RM-011`). `categories.json` `keyMovements` is a **superset** of benchmarked movements — some (e.g. `wall_ball`, `push_press`) have no benchmark entry, so resolve them defensively.
+
+**Calculator logic** (age multipliers, reference bodyweights, bodyweight-scoring rules, and the category-to-representative-movement map) is published separately in [`calculator.json`](calculator.json) so consumers can reproduce identical level results.
+
+> **Version note:** file `version` fields currently drift (most are `1.0.0`; `metcons.json` is `0.4.0`, `progressions.json` `1.1.0`, `milestones.json` `1.2.0`). A single version manifest and reconciliation is planned (see `tickets/RM-011`). Pin defensively until then.
+
 ## metcons.json
 
 The WOD library. Each metcon follows the [Programming Spec v0.4.0](../spec/programming.md).

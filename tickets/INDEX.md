@@ -4,7 +4,7 @@ Generated from a 20-coach field review (15/20 would adopt) filtered through OP's
 
 **Core values:** Open · Research-backed · Gym-agnostic · Community-driven.
 
-**Status:** 3 done · 16 open · 19 total
+**Status:** 3 done · 17 open · 20 total
 
 ## Near-term
 
@@ -25,10 +25,11 @@ Generated from a 20-coach field review (15/20 would adopt) filtered through OP's
 |----|-------|:------:|:---:|:------:|------------|
 | [RM-009](RM-009-ship-per-decade-per-category-age-graded-benchmark-.md) | Ship per-decade, per-category age-graded benchmark tables (data) | ⬜ | P1 | L | Research-backed + Community-driven (masters) |
 | [RM-010](RM-010-add-bike-erg-and-ski-erg-benchmarks-to-monostructu.md) | Add bike-erg and ski-erg benchmarks to Monostructural | ⬜ | P2 | M | Gym-agnostic + Research-backed |
-| [RM-011](RM-011-publish-a-versioned-json-schema-contract-changelog.md) | Publish a versioned JSON schema contract + changelog | ⬜ | P1 | M | Open (the defining differentiator) + Community-driven |
+| [RM-011](RM-011-publish-a-versioned-json-schema-contract-manifest-.md) | Publish a versioned JSON schema contract + manifest (iOS-ready) | ⬜ | P0 | M | Open (the defining differentiator) + Community-driven |
 | [RM-012](RM-012-add-an-i18n-locale-layer-non-80kg-worked-examples.md) | Add an i18n / locale layer + non-80kg worked examples | ⬜ | P2 | M | Open + Community-driven |
 | [RM-013](RM-013-define-a-minimal-equipment-core-6-triage-assessmen.md) | Define a minimal-equipment / core-6 triage assessment path | ⬜ | P1 | L | Gym-agnostic + Community-driven |
 | [RM-014](RM-014-add-a-permanent-limitation-n-a-category-exclusion-.md) | Add a permanent-limitation N/A category-exclusion flag to the rollup | ⬜ | P1 | M | Open / Community-driven (inclusion) — protects the weakest-link model |
+| [RM-020](RM-020-single-source-of-truth-calculator-reads-thresholds.md) | Single source of truth: calculator reads thresholds + constants from JSON | ⬜ | P1 | M | Research-backed (no drift) + Open |
 
 ## Long-term
 

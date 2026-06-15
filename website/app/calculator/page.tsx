@@ -50,6 +50,9 @@ const AGE_MULTIPLIERS: Record<AgeRange, number> = {
 const REFERENCE_BW: Record<Gender, number> = { male: 80, female: 60 }
 // Suggest bodyweight-relative scoring once an athlete is this far off reference.
 const BW_DEVIATION_THRESHOLD = 0.10
+// Plausible bodyweight bounds. Outside this range, multiplier-scaled thresholds
+// collapse into meaningless near-ties, so we ignore the input for scoring.
+const PLAUSIBLE_BW = { min: 30, max: 300 }
 
 // ---------------------------------------------------------------------------
 // Calculator movements — one representative per category
@@ -223,14 +226,17 @@ function formatTime(seconds: number): string {
 function adjustThresholds(
   thresholds: number[],
   ageMultiplier: number,
-  higherIsBetter: boolean
+  higherIsBetter: boolean,
+  isReps: boolean
 ): number[] {
   if (ageMultiplier === 1.00) return thresholds
   if (higherIsBetter) {
-    // Strength/reps: lower the threshold (easier to reach). Guard against the
-    // multiplier collapsing a real low-rep skill standard to a meaningless
-    // sub-1 value: a positive standard never discounts below 1.
-    return thresholds.map((t) => (t > 0 ? Math.max(1, Math.round(t * ageMultiplier)) : 0))
+    // Strength/reps: lower the threshold (easier to reach). For rep standards,
+    // guard against the multiplier collapsing a real low-rep skill standard to a
+    // meaningless sub-1 value: a positive rep standard never discounts below 1.
+    // Load (kg) standards take no floor so age scaling stays proportional.
+    const floor = isReps ? 1 : 0
+    return thresholds.map((t) => (t > 0 ? Math.max(floor, Math.round(t * ageMultiplier)) : 0))
   } else {
     // Time: raise the threshold (more time allowed)
     return thresholds.map((t) => Math.round(t / ageMultiplier))
@@ -254,7 +260,7 @@ function effectiveThresholds(
     // rounded to the nearest 0.5 kg.
     base = m.bwMultiplier[gender].map((x) => Math.round(x * bodyweight * 2) / 2)
   }
-  return adjustThresholds(base, ageMultiplier, m.higherIsBetter)
+  return adjustThresholds(base, ageMultiplier, m.higherIsBetter, m.inputType === "reps")
 }
 
 // ---------------------------------------------------------------------------
@@ -271,8 +277,10 @@ export default function CalculatorPage() {
 
   const bodyweight = (() => {
     const n = parseFloat(bodyweightInput.trim())
-    return !isNaN(n) && n > 0 ? n : null
+    return !isNaN(n) && n >= PLAUSIBLE_BW.min && n <= PLAUSIBLE_BW.max ? n : null
   })()
+  // Input present but not a usable bodyweight (junk or out of plausible range).
+  const bodyweightInvalid = bodyweightInput.trim() !== "" && bodyweight === null
   // Only score relative to bodyweight when we actually have a bodyweight.
   const bwScoringActive = useBwScoring && bodyweight !== null
   // Nudge the athlete toward BW-relative scoring once they're materially off
@@ -404,6 +412,14 @@ export default function CalculatorPage() {
               </button>
             </div>
           </div>
+
+          {/* Invalid bodyweight hint */}
+          {bodyweightInvalid && (
+            <p className="text-center text-xs text-muted-foreground mb-8 max-w-md mx-auto">
+              Enter a bodyweight between {PLAUSIBLE_BW.min} and {PLAUSIBLE_BW.max} kg to score
+              relative to bodyweight.
+            </p>
+          )}
 
           {/* Off-reference nudge */}
           {bwDeviates && !useBwScoring && (
