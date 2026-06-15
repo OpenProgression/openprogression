@@ -9329,6 +9329,938 @@
         "target": "10+ rounds",
         "scaleDown": "If you fall well short of 10 rounds, drop a level."
       }
+    },
+    {
+      "code": "OP-0089",
+      "name": "Sweet Marsh",
+      "type": "amrap",
+      "timeCap": 16,
+      "stimulus": {
+        "duration": "16 min AMRAP",
+        "feel": "Run, swings, wall balls at a steady, repeatable clip.",
+        "intent": "Balanced aerobic mixed-modal"
+      },
+      "coachNotes": "Conversational run pace, unbroken swings, smooth wall balls. Settle in.",
+      "movements": [
+        {
+          "movement": "Run",
+          "reps": 200,
+          "unit": "m"
+        },
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 15,
+          "load": {
+            "male": 24,
+            "female": 16
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            }
+          }
+        },
+        {
+          "movement": "Wall Ball",
+          "reps": 12,
+          "load": {
+            "male": 9,
+            "female": 6
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              }
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "7+ rounds",
+        "scaleDown": "If you fall well short of 7 rounds, drop a level."
+      }
+    },
+    {
+      "code": "OP-0090",
+      "name": "Thick Reed",
+      "type": "for_time",
+      "timeCap": 18,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "13-17 min",
+        "feel": "Swings, push-ups, row. Grind a steady, sustainable pace.",
+        "intent": "Posterior and pressing endurance"
+      },
+      "coachNotes": "Swings unbroken, push-ups in 2 sets, hold a strong row split each round.",
+      "movements": [
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 15,
+          "load": {
+            "male": 24,
+            "female": 16
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            }
+          }
+        },
+        {
+          "movement": "Push-up",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "reps": 12
+            },
+            "intermediate": {
+              "reps": 12
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up"
+            },
+            "beginner": {
+              "sub": "Box Push-up"
+            }
+          }
+        },
+        {
+          "movement": "Row",
+          "reps": 250,
+          "unit": "m"
+        }
+      ],
+      "goal": {
+        "target": "Finish in 13-17 min",
+        "scaleDown": "If you hit the 18 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0091",
+      "name": "Dark Husk",
+      "type": "for_time",
+      "timeCap": 18,
+      "rounds": 4,
+      "stimulus": {
+        "duration": "12-16 min",
+        "feel": "Inverted pressing and chest-to-bar pulling. Manage the shoulders.",
+        "intent": "Gymnastics push and pull under fatigue"
+      },
+      "coachNotes": "Break HSPU before failure, chest-to-bar in quick sets. Quality positions.",
+      "movements": [
+        {
+          "movement": "Strict Handstand Push-up",
+          "reps": 6,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 6
+            },
+            "advanced": {
+              "reps": 6
+            },
+            "intermediate_plus": {
+              "sub": "Pike Push-up"
+            },
+            "intermediate": {
+              "sub": "Pike Push-up"
+            },
+            "beginner_plus": {
+              "sub": "Dumbbell Push Press"
+            },
+            "beginner": {
+              "sub": "Dumbbell Push Press"
+            }
+          }
+        },
+        {
+          "movement": "Chest-to-Bar Pull-up",
+          "reps": 9,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 9
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Jumping Chest-to-Bar"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up"
+            },
+            "beginner_plus": {
+              "sub": "Ring Row"
+            },
+            "beginner": {
+              "sub": "Ring Row"
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 12-16 min",
+        "scaleDown": "If you hit the 18 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0092",
+      "name": "Sharp Knot",
+      "type": "amrap",
+      "timeCap": 18,
+      "stimulus": {
+        "duration": "18 min AMRAP",
+        "feel": "Run, pull-ups, wall balls. Hold a strong but repeatable effort.",
+        "intent": "Mixed-modal pulling and engine"
+      },
+      "coachNotes": "Pull-ups before failure, wall balls unbroken, steady run. Keep transitions tight.",
+      "movements": [
+        {
+          "movement": "Run",
+          "reps": 200,
+          "unit": "m"
+        },
+        {
+          "movement": "Pull-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "reps": 10
+            },
+            "intermediate_plus": {
+              "sub": "Jumping Pull-up"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up"
+            },
+            "beginner_plus": {
+              "sub": "Ring Row"
+            },
+            "beginner": {
+              "sub": "Ring Row"
+            }
+          }
+        },
+        {
+          "movement": "Wall Ball",
+          "reps": 15,
+          "load": {
+            "male": 9,
+            "female": 6
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              }
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "6+ rounds",
+        "scaleDown": "If you fall well short of 6 rounds, drop a level."
+      }
+    },
+    {
+      "code": "OP-0093",
+      "name": "Spicy Brine",
+      "type": "for_time",
+      "timeCap": 16,
+      "rounds": 5,
+      "stimulus": {
+        "duration": "11-15 min",
+        "feel": "Thrusters and pull-ups, classic burner. Empty the tank.",
+        "intent": "High-intensity squat-to-overhead and pulling"
+      },
+      "coachNotes": "Thrusters in 1-2 sets, pull-ups before failure. Push the pace throughout.",
+      "movements": [
+        {
+          "movement": "Thruster",
+          "reps": 9,
+          "load": {
+            "male": 45,
+            "female": 30
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 15,
+                "female": 10
+              }
+            }
+          }
+        },
+        {
+          "movement": "Pull-up",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "sub": "Jumping Pull-up"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up"
+            },
+            "beginner_plus": {
+              "sub": "Ring Row"
+            },
+            "beginner": {
+              "sub": "Ring Row"
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 11-15 min",
+        "scaleDown": "If you hit the 16 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0094",
+      "name": "Long Basin",
+      "type": "amrap",
+      "timeCap": 26,
+      "stimulus": {
+        "duration": "26 min AMRAP",
+        "feel": "Long, easy row-and-midline flow. Move at a recovery pace.",
+        "intent": "Aerobic base and active recovery"
+      },
+      "coachNotes": "Recovery effort. Nose-breathing pace, never redline. Smooth and steady.",
+      "movements": [
+        {
+          "movement": "Row",
+          "reps": 400,
+          "unit": "m"
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 15
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 15
+        }
+      ],
+      "goal": {
+        "target": "7+ rounds",
+        "scaleDown": "If you fall well short of 7 rounds, drop a level."
+      }
+    },
+    {
+      "code": "OP-0095",
+      "name": "Light Mist",
+      "type": "amrap",
+      "timeCap": 24,
+      "stimulus": {
+        "duration": "24 min AMRAP",
+        "feel": "No barbell. Gentle bodyweight flush for the legs and lungs.",
+        "intent": "Low-intensity recovery"
+      },
+      "coachNotes": "Keep the heart rate low. Walk the run if needed. Quality over speed.",
+      "movements": [
+        {
+          "movement": "Run",
+          "reps": 200,
+          "unit": "m"
+        },
+        {
+          "movement": "Push-up",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "reps": 12
+            },
+            "intermediate": {
+              "reps": 12
+            },
+            "beginner_plus": {
+              "sub": "Knee Push-up"
+            },
+            "beginner": {
+              "sub": "Box Push-up"
+            }
+          }
+        },
+        {
+          "movement": "Walking Lunge",
+          "reps": 15,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 15
+            },
+            "advanced": {
+              "reps": 15
+            },
+            "intermediate_plus": {
+              "reps": 15
+            },
+            "intermediate": {
+              "reps": 15
+            },
+            "beginner_plus": {
+              "reps": 15
+            },
+            "beginner": {
+              "reps": 15
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "8+ rounds",
+        "scaleDown": "If you fall well short of 8 rounds, drop a level."
+      }
+    },
+    {
+      "code": "OP-0096",
+      "name": "Loud Gorge",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 8,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. Each partner completes 4 rounds."
+      },
+      "stimulus": {
+        "duration": "16-20 min",
+        "feel": "Cleans and burpees, partner style. Sprint your round, then rest.",
+        "intent": "Barbell power partner couplet"
+      },
+      "coachNotes": "Each partner does 4 rounds. Cleans in small sets, burpees relentless.",
+      "movements": [
+        {
+          "movement": "Power Clean",
+          "reps": 10,
+          "load": {
+            "male": 60,
+            "female": 40
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 55,
+                "female": 40
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 50,
+                "female": 35
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 40,
+                "female": 30
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            }
+          }
+        },
+        {
+          "movement": "Burpee",
+          "reps": 12,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 12
+            },
+            "advanced": {
+              "reps": 12
+            },
+            "intermediate_plus": {
+              "reps": 12
+            },
+            "intermediate": {
+              "reps": 12
+            },
+            "beginner_plus": {
+              "reps": 12
+            },
+            "beginner": {
+              "sub": "Bodybuilder"
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 16-20 min",
+        "scaleDown": "If you hit the 24 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0097",
+      "name": "Sweet Bluff",
+      "type": "for_time",
+      "timeCap": 22,
+      "team": {
+        "size": 2,
+        "format": "partition",
+        "description": "Split all reps between partners however you like. Only one works at a time."
+      },
+      "stimulus": {
+        "duration": "15-19 min",
+        "feel": "Shared row-and-squat volume. Break it up and keep moving.",
+        "intent": "Partner engine and capacity"
+      },
+      "coachNotes": "Partition the row by distance and the wall balls and squats by sets. Trade often.",
+      "movements": [
+        {
+          "movement": "Row",
+          "reps": 1500,
+          "unit": "m"
+        },
+        {
+          "movement": "Wall Ball",
+          "reps": 80,
+          "load": {
+            "male": 9,
+            "female": 6
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 9,
+                "female": 6
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 6,
+                "female": 4
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 4,
+                "female": 3
+              }
+            }
+          }
+        },
+        {
+          "movement": "Air Squat",
+          "reps": 80
+        }
+      ],
+      "goal": {
+        "target": "Finish in 15-19 min",
+        "scaleDown": "If you hit the 22 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0098",
+      "name": "Spicy Crater",
+      "type": "for_time",
+      "timeCap": 24,
+      "rounds": 10,
+      "team": {
+        "size": 2,
+        "format": "ygig",
+        "description": "Alternate full rounds. Each partner completes 5 rounds."
+      },
+      "stimulus": {
+        "duration": "17-21 min",
+        "feel": "Thruster and chest-to-bar couplet. Empty the tank each turn.",
+        "intent": "High-intensity partner couplet"
+      },
+      "coachNotes": "Each partner does 5 rounds. Thrusters before failure, chest-to-bar in quick sets.",
+      "movements": [
+        {
+          "movement": "Thruster",
+          "reps": 10,
+          "load": {
+            "male": 40,
+            "female": 30
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 40,
+                "female": 25
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 35,
+                "female": 25
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 30,
+                "female": 20
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 25,
+                "female": 15
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 20,
+                "female": 15
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 15,
+                "female": 10
+              }
+            }
+          }
+        },
+        {
+          "movement": "Chest-to-Bar Pull-up",
+          "reps": 10,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 10
+            },
+            "advanced": {
+              "sub": "Pull-up"
+            },
+            "intermediate_plus": {
+              "sub": "Jumping Chest-to-Bar"
+            },
+            "intermediate": {
+              "sub": "Jumping Pull-up"
+            },
+            "beginner_plus": {
+              "sub": "Ring Row"
+            },
+            "beginner": {
+              "sub": "Ring Row"
+            }
+          }
+        }
+      ],
+      "goal": {
+        "target": "Finish in 17-21 min",
+        "scaleDown": "If you hit the 24 min cap, the load or skill is limiting you. Drop one level."
+      }
+    },
+    {
+      "code": "OP-0099",
+      "name": "Thick Cobalt",
+      "type": "for_time",
+      "timeCap": 26,
+      "team": {
+        "size": 2,
+        "format": "partition",
+        "description": "Split all reps between partners however you like. Only one works at a time."
+      },
+      "stimulus": {
+        "duration": "19-24 min",
+        "feel": "Big low-skill totals. Chip away together and keep the pace honest.",
+        "intent": "Partner grind and midline volume"
+      },
+      "coachNotes": "Break swings and double-unders into manageable sets and trade often. Steady wins.",
+      "movements": [
+        {
+          "movement": "Kettlebell Swing",
+          "reps": 120,
+          "load": {
+            "male": 24,
+            "female": 16
+          },
+          "unit": "kg",
+          "scaling": {
+            "advanced_plus": {
+              "load": {
+                "male": 24,
+                "female": 16
+              }
+            },
+            "advanced": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate_plus": {
+              "load": {
+                "male": 20,
+                "female": 12
+              }
+            },
+            "intermediate": {
+              "load": {
+                "male": 16,
+                "female": 12
+              }
+            },
+            "beginner_plus": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            },
+            "beginner": {
+              "load": {
+                "male": 12,
+                "female": 8
+              }
+            }
+          }
+        },
+        {
+          "movement": "Double-Under",
+          "reps": 120,
+          "scaling": {
+            "advanced_plus": {
+              "reps": 120
+            },
+            "advanced": {
+              "reps": 120
+            },
+            "intermediate_plus": {
+              "reps": 120
+            },
+            "intermediate": {
+              "reps": 120
+            },
+            "beginner_plus": {
+              "sub": "Single-Under"
+            },
+            "beginner": {
+              "sub": "Single-Under"
+            }
+          }
+        },
+        {
+          "movement": "Sit-up",
+          "reps": 60
+        }
+      ],
+      "goal": {
+        "target": "Finish in 19-24 min",
+        "scaleDown": "If you hit the 26 min cap, the load or skill is limiting you. Drop one level."
+      }
     }
   ]
 }
