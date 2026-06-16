@@ -30,6 +30,22 @@ struct SessionDetailView: View {
     @State private var shownMetcon: Metcon?
     @State private var showLog = false
     @State private var showRunner = false
+    @State private var showCoach = false
+
+    private var coachContext: String {
+        var s = session.title
+        if let mc = store.metcon(session.metcon) {
+            s += ". Metcon \(mc.name): \(typeLabel(mc.type)), cap \(mc.timeCap) min"
+            let movs = (mc.movements ?? []).map { mv -> String in
+                let r = mv.resolved(levelNumber: level, gender: gender)
+                return "\(r.reps ?? 0) \(r.name)\(r.load.map { " at \(Int($0))kg" } ?? "")"
+            }.joined(separator: ", ")
+            if !movs.isEmpty { s += ", movements: \(movs)" }
+        }
+        if let st = session.strength?.movements.first { s += ". Strength: \(st.movement) \(st.scheme ?? "")" }
+        s += ". Athlete level: \(levelShort[max(1, min(7, level)) - 1])."
+        return s
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -50,6 +66,12 @@ struct SessionDetailView: View {
                             .frame(maxWidth: .infinity).padding(.vertical, 15)
                             .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                     }.buttonStyle(.plain)
+                    Button { Haptics.tap(); showCoach = true } label: {
+                        Image(systemName: "sparkles").font(.system(size: 17, weight: .semibold)).foregroundStyle(Theme.primary)
+                            .frame(width: 54, height: 52)
+                            .background(Theme.surface2, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Theme.stroke))
+                    }.buttonStyle(.plain)
                     Button { Haptics.tap(); showLog = true } label: {
                         Image(systemName: "square.and.pencil").font(.system(size: 17, weight: .semibold)).foregroundStyle(Theme.text)
                             .frame(width: 54, height: 52)
@@ -59,6 +81,7 @@ struct SessionDetailView: View {
                 }
             }
         }
+        .sheet(isPresented: $showCoach) { CoachView(context: coachContext) }
         .fullScreenCover(isPresented: $showRunner) {
             if let mc = store.metcon(session.metcon) {
                 WorkoutRunnerView(metcon: mc, level: level, gender: gender)
