@@ -14,6 +14,11 @@ enum Haptics {
         UISelectionFeedbackGenerator().selectionChanged()
         #endif
     }
+    static func success() {
+        #if canImport(UIKit)
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
+        #endif
+    }
 }
 
 /// Renders a full session (warm-up, strength, metcon, accessory) with a level + gender selector.
@@ -24,6 +29,7 @@ struct SessionDetailView: View {
     @AppStorage("op.gender") private var gender: Gender = .male
     @State private var shownMetcon: Metcon?
     @State private var showLog = false
+    @State private var showRunner = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -37,12 +43,25 @@ struct SessionDetailView: View {
             }
             if let a = session.accessory { BlockCard(label: "Accessory", minutes: a.durationMinutes, content: a.notes, accent: Theme.textDim) }
             if store.metcon(session.metcon) != nil {
-                Button { Haptics.tap(); showLog = true } label: {
-                    Label("Log result", systemImage: "square.and.pencil")
-                        .font(.body(15, .semibold)).foregroundStyle(Color.black)
-                        .frame(maxWidth: .infinity).padding(.vertical, 14)
-                        .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                }.buttonStyle(.plain)
+                HStack(spacing: 12) {
+                    Button { Haptics.tap(); showRunner = true } label: {
+                        Label("Start workout", systemImage: "play.fill")
+                            .font(.body(16, .bold)).foregroundStyle(Color.black)
+                            .frame(maxWidth: .infinity).padding(.vertical, 15)
+                            .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    }.buttonStyle(.plain)
+                    Button { Haptics.tap(); showLog = true } label: {
+                        Image(systemName: "square.and.pencil").font(.system(size: 17, weight: .semibold)).foregroundStyle(Theme.text)
+                            .frame(width: 54, height: 52)
+                            .background(Theme.surface2, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Theme.stroke))
+                    }.buttonStyle(.plain)
+                }
+            }
+        }
+        .fullScreenCover(isPresented: $showRunner) {
+            if let mc = store.metcon(session.metcon) {
+                WorkoutRunnerView(metcon: mc, level: level, gender: gender)
             }
         }
         .sheet(item: $shownMetcon) { mc in
