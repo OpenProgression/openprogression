@@ -71,7 +71,12 @@ struct CoachChat: View {
                                 .frame(maxWidth: .infinity, alignment: .leading)
                         }.padding(16).background(Theme.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                     }
-                    if let errored { Text(errored).font(.body(13)).foregroundStyle(Color(hex: "#EF4444")) }
+                    if let errored {
+                        HStack(alignment: .top, spacing: 8) {
+                            Image(systemName: "info.circle").font(.system(size: 13, weight: .bold)).foregroundStyle(Theme.textFaint).padding(.top, 1)
+                            Text(errored).font(.body(13)).foregroundStyle(Theme.textDim)
+                        }.padding(14).background(Theme.surface2, in: RoundedRectangle(cornerRadius: 12)).frame(maxWidth: .infinity, alignment: .leading)
+                    }
                     FlowChips(items: suggestions) { ask($0) }
                 }.padding(20)
             }
@@ -89,17 +94,22 @@ struct CoachChat: View {
     private func ask(_ q: String) {
         let question = q.trimmingCharacters(in: .whitespaces)
         guard !question.isEmpty, !busy else { return }
-        Haptics.tap(); prompt = ""; answer = ""; errored = nil; busy = true
+        Haptics.tap(); prompt = ""; answer = ""; errored = nil
+        #if targetEnvironment(simulator)
+        // The on-device model reports available but cannot generate in the Simulator.
+        errored = "The on-device model runs only on a real iPhone with Apple Intelligence, not in the Simulator. On device, this answers your question fully on-device, nothing leaves the phone."
+        #else
+        busy = true
         Task {
             do {
                 let session = LanguageModelSession(instructions: instructions)
-                let response = try await session.respond(to: question)
-                answer = response.content
+                answer = try await session.respond(to: question).content
             } catch {
-                errored = "Couldn't reach the on-device model: \(error.localizedDescription)"
+                errored = "The coach is unavailable right now. Make sure Apple Intelligence is on in Settings, then try again."
             }
             busy = false
         }
+        #endif
     }
 
     private var instructions: String {
