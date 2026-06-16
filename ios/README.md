@@ -16,11 +16,11 @@ xcodebuild -scheme OpenProgression -sdk iphonesimulator -destination 'platform=i
 
 ## Structure
 
-- `App/` — entry point + tab navigation
-- `DesignSystem/` — brand theme (dark + teal, the 7-level gradient), reusable components
-- `Models/` — Codable models matching the data contract (handles the polymorphic `standards` shape)
-- `Data/` — `DataStore` loads the bundled JSON
-- `Features/` — Today (daily session), Calculator (bodyweight-relative scoring + weakest-link), Benchmarks, Levels
-- `Resources/data/` — generated; copied from `/data` (gitignored)
+- `App/` - entry point + tab navigation
+- `DesignSystem/` - brand theme (dark + teal, the 7-level gradient), reusable components
+- `Models/` - Codable models matching the data contract (handles the polymorphic `standards` shape)
+- `Data/` - `DataStore` loads the bundled JSON
+- `Features/` - Today (daily session), Calculator (bodyweight-relative scoring + weakest-link), Benchmarks, Levels
+- `Resources/data/` - generated; copied from `/data` (gitignored)
 
-The `.xcodeproj` is generated and gitignored — edit `project.yml` and re-run `xcodegen generate`.
+The `.xcodeproj` is generated and gitignored. Edit `project.yml` and re-run `xcodegen generate`.
