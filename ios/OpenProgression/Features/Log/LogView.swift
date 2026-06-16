@@ -2,9 +2,12 @@ import SwiftUI
 import SwiftData
 import Charts
 
+private struct ShareTarget: Identifiable { let id = UUID(); let card: ResultCard }
+
 struct LogView: View {
     @Environment(\.modelContext) private var ctx
     @Query(sort: \LogEntry.date, order: .reverse) private var entries: [LogEntry]
+    @State private var shareTarget: ShareTarget?
 
     var body: some View {
         NavigationStack {
@@ -48,6 +51,7 @@ struct LogView: View {
         }
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
+        .sheet(item: $shareTarget) { t in ShareResultView(card: t.card).presentationDragIndicator(.visible) }
     }
 
     // MARK: stats
@@ -79,24 +83,33 @@ struct LogView: View {
     }
 
     private func row(_ e: LogEntry) -> some View {
-        HStack(spacing: 12) {
-            Circle().fill(Theme.levelColor(e.level)).frame(width: 8, height: 8)
-            VStack(alignment: .leading, spacing: 2) {
-                HStack(spacing: 6) {
-                    Text(e.name).font(.body(15, .semibold)).foregroundStyle(Theme.text)
-                    if prIDs.contains(e.persistentModelID) {
-                        Text("PR").font(.system(size: 9, weight: .black)).foregroundStyle(.black)
-                            .padding(.horizontal, 5).padding(.vertical, 2).background(Theme.primary, in: Capsule())
+        Button {
+            Haptics.tap()
+            shareTarget = ShareTarget(card: ResultCard(
+                name: e.name, result: e.result,
+                subtitle: "\(e.type) · \(levelShort[max(1, min(7, e.level)) - 1])", levelNumber: e.level))
+        } label: {
+            HStack(spacing: 12) {
+                Circle().fill(Theme.levelColor(e.level)).frame(width: 8, height: 8)
+                VStack(alignment: .leading, spacing: 2) {
+                    HStack(spacing: 6) {
+                        Text(e.name).font(.body(15, .semibold)).foregroundStyle(Theme.text)
+                        if prIDs.contains(e.persistentModelID) {
+                            Text("PR").font(.system(size: 9, weight: .black)).foregroundStyle(.black)
+                                .padding(.horizontal, 5).padding(.vertical, 2).background(Theme.primary, in: Capsule())
+                        }
                     }
+                    Text("\(e.type) · \(prettyDate(e.date))\(e.notes.map { " · \($0)" } ?? "")")
+                        .font(.body(12)).foregroundStyle(Theme.textFaint).lineLimit(1)
                 }
-                Text("\(e.type) · \(prettyDate(e.date))\(e.notes.map { " · \($0)" } ?? "")")
-                    .font(.body(12)).foregroundStyle(Theme.textFaint).lineLimit(1)
+                Spacer()
+                Text(e.result).font(.display(16, .bold)).foregroundStyle(Theme.primary)
+                Image(systemName: "square.and.arrow.up").font(.system(size: 12, weight: .semibold)).foregroundStyle(Theme.textFaint)
             }
-            Spacer()
-            Text(e.result).font(.display(16, .bold)).foregroundStyle(Theme.primary)
-        }
-        .padding(.vertical, 11)
-        .overlay(alignment: .bottom) { Rectangle().fill(Theme.stroke).frame(height: 1) }
+            .padding(.vertical, 11)
+            .contentShape(Rectangle())
+            .overlay(alignment: .bottom) { Rectangle().fill(Theme.stroke).frame(height: 1) }
+        }.buttonStyle(.plain)
     }
 
     // MARK: derived
