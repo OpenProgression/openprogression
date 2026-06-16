@@ -8,6 +8,7 @@ private struct SelectedBenchmark: Identifiable {
 struct BenchmarksView: View {
     @Environment(DataStore.self) private var store
     @AppStorage("op.gender") private var gender: Gender = .male
+    @AppStorage("op.level") private var level: Int = 7
     @State private var selected: SelectedBenchmark?
 
     private let catOrder = ["squatting","pulling","pressing","olympic_lifting","gymnastics","monostructural","bodyweight","endurance"]
@@ -15,11 +16,20 @@ struct BenchmarksView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 10) {
                     SectionLabel(text: "The Standard")
                     Text("Benchmarks").font(.display(28)).foregroundStyle(Theme.text)
                     Picker("", selection: $gender) { Text("Male").tag(Gender.male); Text("Female").tag(Gender.female) }
-                        .pickerStyle(.segmented).padding(.top, 2)
+                        .pickerStyle(.segmented)
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(store.levels) { lv in
+                                Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
+                                    LevelPill(name: lv.shortName, number: lv.number, selected: level == lv.number)
+                                }.buttonStyle(.plain)
+                            }
+                        }
+                    }
                 }
                 ForEach(catOrder, id: \.self) { catId in
                     if let cat = store.categories.first(where: { $0.id == catId }),
@@ -48,12 +58,13 @@ struct BenchmarksView: View {
     }
 
     private func benchmarkRow(_ b: Benchmark) -> some View {
-        HStack {
+        let lid = Levels.order[max(1, min(7, level)) - 1]
+        return HStack {
             Text(b.name).font(.body(14, .medium)).foregroundStyle(Theme.text)
             Spacer()
             HStack(spacing: 6) {
-                Text("Rx").font(.system(size: 11, weight: .bold)).foregroundStyle(Theme.levelColor(7))
-                Text(benchmarkValueText(b.standards["rx"]?[gender.rawValue], b.unit)).font(.body(14, .semibold)).foregroundStyle(Theme.textDim)
+                Text(store.level(number: level)?.shortName ?? "").font(.system(size: 11, weight: .bold)).foregroundStyle(Theme.levelColor(level))
+                Text(benchmarkValueText(b.standards[lid]?[gender.rawValue], b.unit)).font(.body(14, .semibold)).foregroundStyle(Theme.textDim)
                 Image(systemName: "chevron.right").font(.system(size: 10, weight: .bold)).foregroundStyle(Theme.textFaint)
             }
         }
