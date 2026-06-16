@@ -7,6 +7,8 @@ const m = JSON.parse(readFileSync(join(__dirname, "..", "data", "metcons.json"),
 const LEVELS = ["advanced_plus","advanced","intermediate_plus","intermediate","beginner_plus","beginner"]
 const KB_SIZES = [6, 8, 12, 16, 20, 24, 28, 32]
 const WB_SIZES = [3, 4, 6, 9]
+// Kettlebell-loaded movements use standard KB sizes (not 5kg multiples).
+const KB_MOVES = new Set(["Kettlebell Swing","Goblet Squat","Kettlebell Clean","Kettlebell Snatch","Kettlebell Clean and Jerk"])
 let issues = []
 
 for (const mc of m.metcons) {
@@ -65,7 +67,7 @@ for (const mc of m.metcons) {
     }
 
     // Barbell loads multiples of 5 (skip KB and WB - they use standard sizes)
-    const isKBorWB = mov.movement === "Kettlebell Swing" || mov.movement === "Wall Ball"
+    const isKBorWB = KB_MOVES.has(mov.movement) || mov.movement === "Wall Ball"
     if (mov.unit === "kg" && mov.load && mov.load.male > 10 && !isKBorWB) {
       const allLoads = [{ lvl: "rx", ...mov.load }]
       for (const lvl of LEVELS) {
@@ -79,7 +81,7 @@ for (const mc of m.metcons) {
     }
 
     // KB standard sizes
-    if (mov.movement === "Kettlebell Swing") {
+    if (KB_MOVES.has(mov.movement)) {
       const allLoads = [{ lvl: "rx", ...mov.load }]
       for (const lvl of LEVELS) {
         const s = mov.scaling[lvl]
