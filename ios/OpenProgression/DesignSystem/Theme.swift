@@ -40,12 +40,15 @@ enum Theme {
     }
 }
 
-// MARK: - Typography (SF Pro, premium weights). Rounded for display/brand.
+// MARK: - Typography (brand fonts: Inter Tight display, Space Grotesk brand, Outfit body)
 extension Font {
     static func display(_ size: CGFloat, _ weight: Weight = .heavy) -> Font {
-        .system(size: size, weight: weight, design: .rounded)
+        .custom("Inter Tight", size: size).weight(weight)
     }
-    static func brand(_ size: CGFloat) -> Font { .system(size: size, weight: .black, design: .rounded) }
+    static func brand(_ size: CGFloat) -> Font { .custom("Space Grotesk", size: size).weight(.bold) }
+    static func body(_ size: CGFloat, _ weight: Weight = .regular) -> Font {
+        .custom("Outfit", size: size).weight(weight)
+    }
 }
 
 // MARK: - Reusable view modifiers

@@ -27,15 +27,21 @@ targets:
           - "Resources/data"
       - path: OpenProgression/Resources/data
         type: folder
+    info:
+      path: OpenProgression/Info.plist
+      properties:
+        CFBundleDisplayName: OpenProgression
+        UIUserInterfaceStyle: Dark
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIAppFonts:
+          - SpaceGrotesk.ttf
+          - InterTight.ttf
+          - Outfit.ttf
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: org.openprogression.app
         PRODUCT_NAME: OpenProgression
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_CFBundleDisplayName: OpenProgression
-        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
-        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         TARGETED_DEVICE_FAMILY: "1"

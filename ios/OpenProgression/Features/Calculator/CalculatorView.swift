@@ -9,7 +9,7 @@ private struct CatInput: Identifiable {
 
 struct CalculatorView: View {
     @Environment(DataStore.self) private var store
-    @State private var gender: Gender = .male
+    @AppStorage("op.gender") private var gender: Gender = .male
     @State private var ageBand: String = "18-29"
     @State private var bodyweight: String = ""
     @State private var useBW = false
@@ -38,11 +38,12 @@ struct CalculatorView: View {
                     Text("Enter one movement per category. Overall = your weakest link.").font(.system(size: 14)).foregroundStyle(Theme.textDim)
                 }
                 controls
-                results
+                results.animation(.snappy, value: inputs)
                 ForEach(cats) { c in inputRow(c) }
                 Spacer(minLength: 24)
             }
             .padding(.horizontal, 18).padding(.top, 8)
+            .animation(.snappy, value: useBW)
         }
         .background(Theme.bg.ignoresSafeArea())
     }
