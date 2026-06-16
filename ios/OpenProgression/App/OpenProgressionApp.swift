@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct OpenProgressionApp: App {
@@ -10,5 +11,6 @@ struct OpenProgressionApp: App {
                 .preferredColorScheme(.dark)
                 .tint(Theme.primary)
         }
+        .modelContainer(for: LogEntry.self)
     }
 }

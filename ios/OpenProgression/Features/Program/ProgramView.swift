@@ -36,6 +36,13 @@ struct ProgramView: View {
             .padding(.horizontal, 18).padding(.top, 8)
         }
         .background(Theme.bg.ignoresSafeArea())
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 24).onEnded { v in
+                guard abs(v.translation.width) > 60, abs(v.translation.width) > abs(v.translation.height) * 1.4 else { return }
+                Haptics.select()
+                withAnimation(.snappy) { shift(v.translation.width < 0 ? 1 : -1) }
+            }
+        )
     }
 
     private var header: some View {

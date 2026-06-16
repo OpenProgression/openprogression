@@ -1,8 +1,14 @@
 import SwiftUI
 
+private struct SelectedBenchmark: Identifiable {
+    let benchmark: Benchmark; let category: String
+    var id: String { benchmark.movement }
+}
+
 struct BenchmarksView: View {
     @Environment(DataStore.self) private var store
-    @State private var gender: Gender = .male
+    @AppStorage("op.gender") private var gender: Gender = .male
+    @State private var selected: SelectedBenchmark?
 
     private let catOrder = ["squatting","pulling","pressing","olympic_lifting","gymnastics","monostructural","bodyweight","endurance"]
 
@@ -18,12 +24,16 @@ struct BenchmarksView: View {
                 ForEach(catOrder, id: \.self) { catId in
                     if let cat = store.categories.first(where: { $0.id == catId }),
                        let bms = store.benchmarksByCategory[catId] {
-                        VStack(alignment: .leading, spacing: 10) {
+                        VStack(alignment: .leading, spacing: 4) {
                             HStack(spacing: 8) {
                                 Text(cat.icon)
-                                Text(cat.name).font(.system(size: 16, weight: .bold)).foregroundStyle(Theme.text)
+                                Text(cat.name).font(.display(16, .bold)).foregroundStyle(Theme.text)
+                            }.padding(.bottom, 6)
+                            ForEach(bms) { b in
+                                Button { Haptics.tap(); selected = SelectedBenchmark(benchmark: b, category: cat.name) } label: {
+                                    benchmarkRow(b)
+                                }.buttonStyle(.plain)
                             }
-                            ForEach(bms) { b in benchmarkRow(b) }
                         }.frame(maxWidth: .infinity, alignment: .leading).card(padding: 16)
                     }
                 }
@@ -32,29 +42,22 @@ struct BenchmarksView: View {
             .padding(.horizontal, 18).padding(.top, 8)
         }
         .background(Theme.bg.ignoresSafeArea())
+        .sheet(item: $selected) { sel in
+            BenchmarkDetailView(benchmark: sel.benchmark, categoryName: sel.category).presentationDragIndicator(.visible)
+        }
     }
 
     private func benchmarkRow(_ b: Benchmark) -> some View {
-        let rx = b.standards["rx"]?[gender.rawValue]
-        return HStack {
-            Text(b.name).font(.system(size: 14, weight: .medium)).foregroundStyle(Theme.text)
+        HStack {
+            Text(b.name).font(.body(14, .medium)).foregroundStyle(Theme.text)
             Spacer()
             HStack(spacing: 6) {
                 Text("Rx").font(.system(size: 11, weight: .bold)).foregroundStyle(Theme.levelColor(7))
-                Text(rxText(rx, b.unit)).font(.system(size: 14, weight: .semibold)).foregroundStyle(Theme.textDim)
+                Text(benchmarkValueText(b.standards["rx"]?[gender.rawValue], b.unit)).font(.body(14, .semibold)).foregroundStyle(Theme.textDim)
+                Image(systemName: "chevron.right").font(.system(size: 10, weight: .bold)).foregroundStyle(Theme.textFaint)
             }
         }
-        .padding(.vertical, 7)
+        .padding(.vertical, 8)
         .overlay(alignment: .bottom) { Rectangle().fill(Theme.stroke).frame(height: 1) }
-    }
-
-    private func rxText(_ v: StandardValue?, _ unit: String) -> String {
-        guard let v else { return "-" }
-        switch v {
-        case .scalar(let d):
-            if unit == "seconds" { let s = Int(d); return String(format: "%d:%02d", s/60, s%60) }
-            return "\(Int(d)) \(unit == "kg" ? "kg" : unit == "rounds" ? "rds" : unit)"
-        case .range(let lo, _): return "\(lo)+ \(unit)"
-        }
     }
 }

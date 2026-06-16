@@ -23,6 +23,7 @@ struct SessionDetailView: View {
     @AppStorage("op.level") private var level: Int = 3
     @AppStorage("op.gender") private var gender: Gender = .male
     @State private var shownMetcon: Metcon?
+    @State private var showLog = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -35,9 +36,24 @@ struct SessionDetailView: View {
                     .buttonStyle(.plain)
             }
             if let a = session.accessory { BlockCard(label: "Accessory", minutes: a.durationMinutes, content: a.notes, accent: Theme.textDim) }
+            if store.metcon(session.metcon) != nil {
+                Button { Haptics.tap(); showLog = true } label: {
+                    Label("Log result", systemImage: "square.and.pencil")
+                        .font(.body(15, .semibold)).foregroundStyle(Color.black)
+                        .frame(maxWidth: .infinity).padding(.vertical, 14)
+                        .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                }.buttonStyle(.plain)
+            }
         }
         .sheet(item: $shownMetcon) { mc in
             MetconDetailView(metcon: mc, level: $level, gender: $gender).presentationDragIndicator(.visible)
+        }
+        .sheet(isPresented: $showLog) {
+            if let mc = store.metcon(session.metcon) {
+                LogEntrySheet(type: "Metcon", name: mc.name, code: mc.code, level: level, gender: gender,
+                              resultPlaceholder: mc.type == "amrap" ? "e.g. 6 rounds + 12 reps" : "e.g. 12:34")
+                    .presentationDetents([.medium])
+            }
         }
     }
 
