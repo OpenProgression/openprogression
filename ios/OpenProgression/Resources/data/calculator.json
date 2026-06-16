@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "_description": "Machine-readable constants and rules the OpenProgression level calculator applies on top of the benchmark data. Lets any consumer (web, iOS, integrations) reproduce identical level results. Threshold and bwMultiplier values live in data/benchmarks/*.json; this file holds only the calculator-layer logic.",
+  "referenceBodyweightKg": {
+    "male": 80,
+    "female": 60
+  },
+  "bodyweightScoring": {
+    "description": "Optional. When an athlete's bodyweight is provided, strength (kg / 1rm) movements may be scored against bwMultiplier x bodyweight instead of the absolute standard. Round scaled thresholds to the nearest 0.5 kg.",
+    "roundToKg": 0.5,
+    "plausibleBodyweightKg": { "min": 30, "max": 300 },
+    "suggestRelativeWhenDeviationOver": 0.10,
+    "appliesToTestTypes": ["1rm"]
+  },
+  "ageAdjustment": {
+    "description": "Interim flat multiplier applied to all benchmarks for athletes outside the 18-29 prime range. Coarse and the same across domains; per-decade, per-category tables are the planned research-backed replacement (see RM-009).",
+    "interim": true,
+    "multipliers": {
+      "18-29": 1.0,
+      "30-39": 0.96,
+      "40-49": 0.89,
+      "50+": 0.81
+    },
+    "rules": [
+      "higherIsBetter (1rm, max_reps): multiply the threshold by the multiplier.",
+      "lowerIsBetter (time): divide the threshold by the multiplier (more time allowed).",
+      "Rep standards are floored at 1: a positive rep threshold never discounts below 1 rep.",
+      "Load (kg) standards take no floor so scaling stays proportional."
+    ]
+  },
+  "overall": {
+    "principle": "weakest_link",
+    "description": "Overall level = the lowest category level. An official overall requires all 8 categories."
+  },
+  "representativeMovements": {
+    "_description": "One representative movement per category used by the calculator. Each references a movement id in the named benchmark file. Direction/unit are taken from that benchmark.",
+    "squatting": { "movement": "back_squat", "file": "benchmarks/squatting.json" },
+    "pulling": { "movement": "deadlift", "file": "benchmarks/pulling.json" },
+    "pressing": { "movement": "strict_press", "file": "benchmarks/pressing.json" },
+    "olympic_lifting": { "movement": "clean_and_jerk", "file": "benchmarks/olympic_lifting.json" },
+    "gymnastics": { "movement": "strict_pull_up", "file": "benchmarks/gymnastics.json" },
+    "monostructural": { "movement": "row_2000m", "file": "benchmarks/monostructural.json" },
+    "bodyweight": { "movement": "push_up", "file": "benchmarks/bodyweight.json" },
+    "endurance": { "movement": "fran", "file": "benchmarks/endurance.json" }
+  }
+}

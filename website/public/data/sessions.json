@@ -3317,8 +3317,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -3382,8 +3382,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -3433,8 +3433,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -3481,8 +3481,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -3546,8 +3546,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -3597,8 +3597,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -3645,8 +3645,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -3710,8 +3710,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -3761,8 +3761,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -3809,8 +3809,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -3874,8 +3874,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -3925,8 +3925,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -3973,8 +3973,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -4038,8 +4038,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -4089,8 +4089,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -4137,8 +4137,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -4202,8 +4202,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -4253,8 +4253,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -4301,8 +4301,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -4366,8 +4366,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -4417,8 +4417,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -4465,8 +4465,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -4530,8 +4530,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -4581,8 +4581,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -4629,8 +4629,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -4694,8 +4694,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -4745,8 +4745,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -4793,8 +4793,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -4858,8 +4858,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -4909,8 +4909,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -4957,8 +4957,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -5022,8 +5022,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -5073,8 +5073,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -5121,8 +5121,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -5186,8 +5186,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -5237,8 +5237,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -5285,8 +5285,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -5350,8 +5350,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -5401,8 +5401,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -5449,8 +5449,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -5514,8 +5514,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -5565,8 +5565,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -5613,8 +5613,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -5678,8 +5678,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -5729,8 +5729,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -5777,8 +5777,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -5842,8 +5842,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -5893,8 +5893,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -5941,8 +5941,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -6006,8 +6006,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -6057,8 +6057,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -6105,8 +6105,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -6170,8 +6170,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -6221,8 +6221,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -6269,8 +6269,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -6334,8 +6334,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -6385,8 +6385,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -6433,8 +6433,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -6498,8 +6498,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -6549,8 +6549,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -6597,8 +6597,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -6662,8 +6662,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -6713,8 +6713,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -6761,8 +6761,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -6826,8 +6826,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -6877,8 +6877,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -6925,8 +6925,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -6990,8 +6990,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -7041,8 +7041,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -7089,8 +7089,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -7154,8 +7154,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -7205,8 +7205,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -7253,8 +7253,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -7318,8 +7318,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -7369,8 +7369,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -7417,8 +7417,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -7482,8 +7482,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -7533,8 +7533,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -7581,8 +7581,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -7646,8 +7646,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -7697,8 +7697,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -7745,8 +7745,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -7810,8 +7810,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -7861,8 +7861,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -7909,8 +7909,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -7974,8 +7974,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -8025,8 +8025,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -8073,8 +8073,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -8138,8 +8138,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -8189,8 +8189,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -8237,8 +8237,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -8302,8 +8302,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -8353,8 +8353,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -8401,8 +8401,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -8466,8 +8466,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -8517,8 +8517,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -8565,8 +8565,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -8630,8 +8630,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -8681,8 +8681,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -8729,8 +8729,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -8794,8 +8794,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -8845,8 +8845,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -8893,8 +8893,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -8958,8 +8958,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -9009,8 +9009,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -9057,8 +9057,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -9122,8 +9122,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -9173,8 +9173,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -9221,8 +9221,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -9286,8 +9286,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -9337,8 +9337,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -9385,8 +9385,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -9450,8 +9450,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -9501,8 +9501,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -9549,8 +9549,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -9614,8 +9614,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -9665,8 +9665,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -9713,8 +9713,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -9778,8 +9778,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -9829,8 +9829,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -9877,8 +9877,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -9942,8 +9942,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -9993,8 +9993,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -10041,8 +10041,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -10106,8 +10106,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -10157,8 +10157,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -10205,8 +10205,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -10270,8 +10270,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -10321,8 +10321,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -10369,8 +10369,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -10434,8 +10434,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -10485,8 +10485,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -10533,8 +10533,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -10598,8 +10598,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -10649,8 +10649,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -10697,8 +10697,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -10762,8 +10762,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -10813,8 +10813,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -10861,8 +10861,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -10926,8 +10926,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -10977,8 +10977,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -11025,8 +11025,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -11090,8 +11090,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -11141,8 +11141,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -11189,8 +11189,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -11254,8 +11254,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -11305,8 +11305,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -11353,8 +11353,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -11418,8 +11418,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },
@@ -11469,8 +11469,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -11517,8 +11517,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -11582,8 +11582,8 @@
           {
             "movement": "Handstand Hold / Walk",
             "scheme": "Skill: 10 min",
-            "pres": "Accumulate 2-3 min inverted",
-            "notes": "Wall walks for beginners, freestanding for advanced. Not for score."
+            "notes": "Wall walks for beginners, freestanding for advanced. Not for score.",
+            "prescription": "Accumulate 2-3 min inverted"
           }
         ]
       },
@@ -11633,8 +11633,8 @@
           {
             "movement": "Handstand Push-up Progression",
             "scheme": "Skill: 18 min",
-            "pres": "Negatives and box pike work",
-            "notes": "Build the inverted press safely. Quality reps."
+            "notes": "Build the inverted press safely. Quality reps.",
+            "prescription": "Negatives and box pike work"
           }
         ]
       },
@@ -11681,8 +11681,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -11746,8 +11746,8 @@
           {
             "movement": "Muscle-up Progression",
             "scheme": "Skill: 10 min",
-            "pres": "Transitions and drills",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score."
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
           }
         ]
       },
@@ -11797,8 +11797,8 @@
           {
             "movement": "Strict Pull-up / Bar Work",
             "scheme": "Skill: 18 min",
-            "pres": "5x3-5 strict, add load if able",
-            "notes": "Bands or ring rows to scale. Build pulling strength."
+            "notes": "Bands or ring rows to scale. Build pulling strength.",
+            "prescription": "5x3-5 strict, add load if able"
           }
         ]
       },
@@ -11845,8 +11845,8 @@
           {
             "movement": "Double-Under Practice",
             "scheme": "Skill: 10 min",
-            "pres": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
+            "notes": "Single-unders and timing drills for beginners. Not for score.",
+            "prescription": "Sets of 20-40"
           }
         ]
       },

@@ -1,0 +1,33 @@
+{
+  "category": "pulling",
+  "version": "1.0.0",
+  "benchmarks": [
+    {
+      "movement": "deadlift",
+      "name": "Deadlift",
+      "testType": "1rm",
+      "unit": "kg",
+      "description": "Maximum single repetition conventional deadlift",
+      "standards": {
+        "beginner":          { "male": 60,  "female": 35 },
+        "beginner_plus":     { "male": 90,  "female": 55 },
+        "intermediate":      { "male": 120, "female": 80 },
+        "intermediate_plus": { "male": 150, "female": 100 },
+        "advanced":          { "male": 180, "female": 120 },
+        "advanced_plus":     { "male": 210, "female": 145 },
+        "rx":                { "male": 240, "female": 170 }
+      },
+      "bwMultiplier": {
+        "beginner":          { "male": 0.75, "female": 0.58 },
+        "beginner_plus":     { "male": 1.13, "female": 0.92 },
+        "intermediate":      { "male": 1.50, "female": 1.33 },
+        "intermediate_plus": { "male": 1.88, "female": 1.67 },
+        "advanced":          { "male": 2.25, "female": 2.00 },
+        "advanced_plus":     { "male": 2.63, "female": 2.42 },
+        "rx":                { "male": 3.00, "female": 2.83 }
+      },
+      "notes": "Values based on ~80kg male / ~60kg female. Adjust proportionally for bodyweight.",
+      "sources": ["van_den_hoek_2024", "kilgore_2023"]
+    }
+  ]
+}
