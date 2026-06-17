@@ -74,19 +74,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -173,19 +173,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -325,11 +325,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -623,15 +623,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -715,11 +715,11 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
@@ -728,7 +728,7 @@
                 "female": 7
               },
               "unit": "kg",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
@@ -737,7 +737,7 @@
                 "female": 5
               },
               "unit": "kg",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -754,19 +754,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol Squat to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -782,19 +782,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -832,15 +832,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 40
+              "reps": 50
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 35
+              "reps": 50
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 30
+              "reps": 50
             }
           }
         },
@@ -907,15 +907,15 @@
             },
             "intermediate": {
               "sub": "Walking Lunge",
-              "reps": 16
+              "reps": 20
             },
             "beginner_plus": {
               "sub": "Walking Lunge",
-              "reps": 14
+              "reps": 20
             },
             "beginner": {
               "sub": "Walking Lunge",
-              "reps": 12
+              "reps": 20
             }
           }
         },
@@ -937,11 +937,11 @@
             },
             "beginner_plus": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -1056,7 +1056,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -1064,7 +1064,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -1072,7 +1072,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -1243,15 +1243,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -1345,11 +1345,11 @@
             },
             "beginner_plus": {
               "sub": "Burpee",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 3
+              "reps": 5
             }
           }
         }
@@ -1512,7 +1512,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -1520,7 +1520,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -1528,7 +1528,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 3
+              "reps": 5
             }
           }
         }
@@ -1615,19 +1615,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -2007,19 +2007,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -2136,7 +2136,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -2144,7 +2144,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -2152,7 +2152,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -2188,19 +2188,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -2270,11 +2270,11 @@
             },
             "beginner_plus": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -2464,19 +2464,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -2586,7 +2586,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -2594,7 +2594,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -2602,7 +2602,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -2758,11 +2758,11 @@
             },
             "beginner_plus": {
               "sub": "Bodybuilder",
-              "reps": 42
+              "reps": 60
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 36
+              "reps": 60
             }
           }
         },
@@ -2880,11 +2880,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 4
+              "reps": 7
             }
           }
         }
@@ -3028,19 +3028,19 @@
             },
             "intermediate_plus": {
               "sub": "Single-Under",
-              "reps": 90
+              "reps": 100
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 80
+              "reps": 100
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 70
+              "reps": 100
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 60
+              "reps": 100
             }
           }
         },
@@ -3154,15 +3154,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -3202,19 +3202,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -3230,11 +3230,11 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
@@ -3243,7 +3243,7 @@
                 "female": 7
               },
               "unit": "kg",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
@@ -3252,7 +3252,7 @@
                 "female": 5
               },
               "unit": "kg",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -3362,7 +3362,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -3370,7 +3370,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -3378,7 +3378,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -3395,19 +3395,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -3732,11 +3732,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -4074,11 +4074,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -4226,15 +4226,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -4253,15 +4253,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -4376,7 +4376,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -4813,7 +4813,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -4821,7 +4821,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -4829,7 +4829,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -4926,11 +4926,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -4949,15 +4949,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 16
+              "reps": 20
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 14
+              "reps": 20
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 12
+              "reps": 20
             }
           }
         }
@@ -4994,15 +4994,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -5048,11 +5048,11 @@
             },
             "beginner_plus": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -5134,19 +5134,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Dumbbell Push Press",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -5511,19 +5511,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -5616,11 +5616,11 @@
             },
             "beginner_plus": {
               "sub": "Burpee",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -5639,15 +5639,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -5918,15 +5918,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 24
+              "reps": 30
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 30
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 18
+              "reps": 30
             }
           }
         },
@@ -5943,19 +5943,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Dumbbell Push Press",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -6069,7 +6069,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Box Step-up",
@@ -6077,7 +6077,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -6085,7 +6085,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -6201,11 +6201,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -6405,19 +6405,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -6512,15 +6512,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -6583,15 +6583,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -6607,19 +6607,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol Squat to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Pistol Squat to Box",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -6879,15 +6879,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -7003,11 +7003,11 @@
             },
             "beginner_plus": {
               "sub": "Burpee",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 3
+              "reps": 5
             }
           }
         }
@@ -7218,11 +7218,11 @@
             },
             "beginner_plus": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -7395,15 +7395,15 @@
             },
             "intermediate": {
               "sub": "Strict Pull-up",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -7422,15 +7422,15 @@
             },
             "intermediate": {
               "sub": "Single-Under",
-              "reps": 24
+              "reps": 30
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 30
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 18
+              "reps": 30
             }
           }
         },
@@ -7545,7 +7545,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 4
+              "reps": 7
             }
           }
         }
@@ -7627,19 +7627,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -7727,11 +7727,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -7842,11 +7842,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 30
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 18
+              "reps": 30
             }
           }
         }
@@ -7928,19 +7928,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 14
+              "reps": 15
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -8032,11 +8032,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -8123,19 +8123,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -8288,19 +8288,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -8316,19 +8316,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -8363,19 +8363,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -8471,15 +8471,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -8495,19 +8495,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -8645,7 +8645,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -8855,7 +8855,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -8942,19 +8942,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -9023,11 +9023,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -9286,19 +9286,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -9498,7 +9498,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -9585,19 +9585,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -9695,11 +9695,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 140
+              "reps": 200
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 120
+              "reps": 200
             }
           }
         },
@@ -9715,19 +9715,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 54
+              "reps": 60
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 48
+              "reps": 60
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 42
+              "reps": 60
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 36
+              "reps": 60
             }
           }
         }
@@ -10066,11 +10066,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -10110,19 +10110,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -10139,19 +10139,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -10190,19 +10190,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -10337,19 +10337,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -10465,11 +10465,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -10589,7 +10589,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -10782,19 +10782,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -10886,11 +10886,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 84
+              "reps": 120
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 72
+              "reps": 120
             }
           }
         },
@@ -10952,15 +10952,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -10982,11 +10982,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -11097,19 +11097,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -11224,7 +11224,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 30
+              "reps": 50
             }
           }
         }
@@ -11368,11 +11368,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 16
             }
           }
         },
@@ -11483,11 +11483,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 45
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 45
             }
           }
         }
@@ -11650,19 +11650,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -11682,15 +11682,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -11734,15 +11734,15 @@
             },
             "intermediate": {
               "sub": "Strict Pull-up",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -11885,7 +11885,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -11967,19 +11967,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -12023,19 +12023,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -12150,7 +12150,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -12242,11 +12242,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 45
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 45
             }
           }
         }
@@ -12332,19 +12332,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -12388,15 +12388,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -12535,19 +12535,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -12572,7 +12572,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -12617,11 +12617,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 111
+              "reps": 159
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 95
+              "reps": 159
             }
           }
         },
@@ -12698,7 +12698,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -12805,19 +12805,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -12997,19 +12997,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -13050,19 +13050,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -13232,7 +13232,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -13240,7 +13240,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -13265,7 +13265,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -13357,11 +13357,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 40
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 24
+              "reps": 40
             }
           }
         }
@@ -13435,11 +13435,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -13522,19 +13522,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -13579,11 +13579,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 109
+              "reps": 156
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 94
+              "reps": 156
             }
           }
         },
@@ -13693,19 +13693,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -13776,7 +13776,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -13784,7 +13784,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 10
+              "reps": 16
             }
           }
         },
@@ -13927,7 +13927,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -14044,7 +14044,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -14052,7 +14052,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -14102,11 +14102,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 30
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 18
+              "reps": 30
             }
           }
         },
@@ -14212,19 +14212,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -14306,19 +14306,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -14405,19 +14405,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -14457,19 +14457,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -14603,19 +14603,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -14707,11 +14707,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 40
+              "reps": 57
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 34
+              "reps": 57
             }
           }
         }
@@ -14761,11 +14761,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -14870,19 +14870,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -15062,19 +15062,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -15115,19 +15115,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -15267,11 +15267,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 30
+              "reps": 43
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 43
             }
           }
         }
@@ -15353,19 +15353,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -15415,11 +15415,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 30
+              "reps": 43
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 43
             }
           }
         },
@@ -15525,19 +15525,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -15628,7 +15628,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -15721,11 +15721,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 18
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 18
             }
           }
         },
@@ -15765,19 +15765,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -15922,11 +15922,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 20
+              "reps": 29
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 17
+              "reps": 29
             }
           }
         },
@@ -15951,7 +15951,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -16043,11 +16043,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 39
+              "reps": 56
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 34
+              "reps": 56
             }
           }
         }
@@ -16121,11 +16121,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 16
             }
           }
         }
@@ -16207,19 +16207,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -16400,19 +16400,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -16452,19 +16452,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -16607,7 +16607,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -16699,11 +16699,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 41
+              "reps": 59
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 35
+              "reps": 59
             }
           }
         }
@@ -16777,11 +16777,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 17
+              "reps": 24
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 14
+              "reps": 24
             }
           }
         }
@@ -16863,19 +16863,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -17059,15 +17059,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -17107,19 +17107,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -17289,7 +17289,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -17297,7 +17297,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -17319,11 +17319,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 31
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 31
             }
           }
         }
@@ -17406,19 +17406,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -17492,11 +17492,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 14
+              "reps": 20
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 12
+              "reps": 20
             }
           }
         }
@@ -17578,19 +17578,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -17703,7 +17703,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -17711,7 +17711,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -17804,11 +17804,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 12
+              "reps": 17
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 17
             }
           }
         },
@@ -17878,7 +17878,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -17886,7 +17886,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 10
+              "reps": 16
             }
           }
         },
@@ -18026,11 +18026,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 35
+              "reps": 50
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 30
+              "reps": 50
             }
           }
         }
@@ -18177,7 +18177,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -18282,19 +18282,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -18386,11 +18386,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 32
+              "reps": 46
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 46
             }
           }
         }
@@ -18476,19 +18476,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -18531,15 +18531,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -18674,19 +18674,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -18768,19 +18768,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -18824,19 +18824,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -18950,7 +18950,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -19042,11 +19042,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 29
+              "reps": 41
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 41
             }
           }
         }
@@ -19132,19 +19132,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -19183,19 +19183,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -19391,11 +19391,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 47
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 47
             }
           }
         },
@@ -19510,7 +19510,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -19601,7 +19601,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -19640,19 +19640,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -19668,19 +19668,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -19720,19 +19720,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -19866,19 +19866,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -19922,19 +19922,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 14
+              "reps": 15
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -20049,7 +20049,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -20132,19 +20132,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -20237,11 +20237,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 19
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 19
             }
           }
         },
@@ -20280,19 +20280,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -20435,7 +20435,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -20582,7 +20582,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -20688,19 +20688,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         }
@@ -20782,19 +20782,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -20884,15 +20884,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -20933,19 +20933,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -21085,11 +21085,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 32
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 32
             }
           }
         }
@@ -21206,7 +21206,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -21214,7 +21214,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -21288,11 +21288,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 15
+              "reps": 22
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 13
+              "reps": 22
             }
           }
         }
@@ -21375,19 +21375,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -21567,19 +21567,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -21619,19 +21619,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -21779,7 +21779,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -21801,11 +21801,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 47
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 47
             }
           }
         }
@@ -21955,11 +21955,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 18
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 18
             }
           }
         },
@@ -22066,19 +22066,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -22259,19 +22259,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -22315,15 +22315,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 3
+              "reps": 4
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 4
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 4
             }
           }
         },
@@ -22466,7 +22466,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -22616,11 +22616,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 38
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 23
+              "reps": 38
             }
           }
         },
@@ -22735,7 +22735,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -22949,15 +22949,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -22998,19 +22998,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -23180,7 +23180,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -23188,7 +23188,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -23210,11 +23210,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 37
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 37
             }
           }
         }
@@ -23358,11 +23358,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 31
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 31
             }
           }
         },
@@ -23467,19 +23467,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -23562,19 +23562,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -23666,11 +23666,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 12
+              "reps": 17
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 17
             }
           }
         },
@@ -23711,19 +23711,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -23888,7 +23888,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -23896,7 +23896,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -24013,7 +24013,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -24021,7 +24021,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 10
+              "reps": 16
             }
           }
         }
@@ -24074,7 +24074,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -24181,19 +24181,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -24373,19 +24373,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -24426,19 +24426,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -24578,11 +24578,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 32
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 32
             }
           }
         }
@@ -24750,11 +24750,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 19
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 19
             }
           }
         }
@@ -24836,19 +24836,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -24965,7 +24965,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -24973,7 +24973,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -25059,19 +25059,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -25114,15 +25114,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -25257,19 +25257,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -25386,7 +25386,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -25394,7 +25394,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -25438,19 +25438,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -25562,11 +25562,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 35
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 35
             }
           }
         }
@@ -25750,15 +25750,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -25950,11 +25950,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 34
+              "reps": 49
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 29
+              "reps": 49
             }
           }
         }
@@ -26098,19 +26098,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -26215,19 +26215,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -26408,19 +26408,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -26460,19 +26460,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -26637,7 +26637,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -26645,7 +26645,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -26818,11 +26818,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 36
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 36
             }
           }
         },
@@ -26937,7 +26937,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -27054,7 +27054,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -27062,7 +27062,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -27148,19 +27148,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -27200,19 +27200,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -27377,7 +27377,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -27385,7 +27385,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -27477,11 +27477,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 36
+              "reps": 52
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 52
             }
           }
         }
@@ -27555,11 +27555,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 15
+              "reps": 21
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 13
+              "reps": 21
             }
           }
         }
@@ -27650,7 +27650,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -27836,19 +27836,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -27887,19 +27887,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -28068,7 +28068,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -28076,7 +28076,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -28150,11 +28150,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -28244,7 +28244,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -28357,7 +28357,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -28365,7 +28365,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -28455,15 +28455,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -28502,19 +28502,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -28704,19 +28704,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -28822,19 +28822,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -29014,19 +29014,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -29065,19 +29065,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -29217,11 +29217,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 38
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 23
+              "reps": 38
             }
           }
         }
@@ -29334,7 +29334,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -29342,7 +29342,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -29395,7 +29395,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -29501,19 +29501,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -29605,11 +29605,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 39
+              "reps": 55
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 55
             }
           }
         }
@@ -29699,15 +29699,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -29777,7 +29777,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -29785,7 +29785,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -29928,7 +29928,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -30045,7 +30045,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -30053,7 +30053,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -30103,11 +30103,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 45
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 45
             }
           }
         },
@@ -30217,15 +30217,15 @@
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 3
+              "reps": 5
             }
           }
         }
@@ -30439,15 +30439,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -30488,19 +30488,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -30670,7 +30670,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -30678,7 +30678,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -30703,7 +30703,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -30820,7 +30820,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -30828,7 +30828,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -30872,19 +30872,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -30990,19 +30990,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -31115,7 +31115,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -31123,7 +31123,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -31209,19 +31209,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -31412,11 +31412,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 32
+              "reps": 46
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 46
             }
           }
         }
@@ -31584,11 +31584,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 15
+              "reps": 22
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 13
+              "reps": 22
             }
           }
         }
@@ -31671,19 +31671,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -31863,19 +31863,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -31915,19 +31915,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -32062,19 +32062,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -32191,7 +32191,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -32199,7 +32199,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -32273,11 +32273,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -32358,19 +32358,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -32462,11 +32462,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 36
+              "reps": 51
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 51
             }
           }
         }
@@ -32552,19 +32552,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -32604,19 +32604,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -32786,7 +32786,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -32794,7 +32794,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -32816,11 +32816,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 40
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 24
+              "reps": 40
             }
           }
         }
@@ -33017,11 +33017,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 12
+              "reps": 17
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 17
             }
           }
         }
@@ -33103,19 +33103,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -33207,11 +33207,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 44
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 44
             }
           }
         }
@@ -33302,15 +33302,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -33349,19 +33349,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -33504,7 +33504,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -33617,7 +33617,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -33625,7 +33625,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -33699,11 +33699,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 19
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 19
             }
           }
         }
@@ -33794,7 +33794,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -34008,15 +34008,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -34056,19 +34056,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -34203,19 +34203,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         }
@@ -34359,11 +34359,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 31
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 31
             }
           }
         },
@@ -34469,19 +34469,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -34672,15 +34672,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -34720,19 +34720,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -34875,7 +34875,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -35022,7 +35022,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -35128,19 +35128,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -35257,7 +35257,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -35265,7 +35265,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -35306,19 +35306,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -35338,15 +35338,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -35386,19 +35386,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -35532,19 +35532,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -35682,19 +35682,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -35806,11 +35806,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 35
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 35
             }
           }
         }
@@ -35995,15 +35995,15 @@
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -36042,19 +36042,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -36189,19 +36189,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 6
             }
           }
         }
@@ -36293,11 +36293,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 38
+              "reps": 54
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 32
+              "reps": 54
             }
           }
         }
@@ -36347,11 +36347,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 35
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 35
             }
           }
         },
@@ -36456,19 +36456,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -36585,7 +36585,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -36593,7 +36593,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -36685,11 +36685,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -36728,19 +36728,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -36905,7 +36905,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -36913,7 +36913,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -36963,11 +36963,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 14
+              "reps": 20
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 12
+              "reps": 20
             }
           }
         },
@@ -37073,19 +37073,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -37266,19 +37266,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -37321,15 +37321,15 @@
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -37472,7 +37472,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -37522,11 +37522,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 25
+              "reps": 35
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 35
             }
           }
         },
@@ -37640,7 +37640,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -37685,11 +37685,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 115
+              "reps": 165
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 99
+              "reps": 165
             }
           }
         },
@@ -37799,19 +37799,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -37851,19 +37851,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 14
+              "reps": 15
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -37998,19 +37998,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         }
@@ -38123,7 +38123,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -38131,7 +38131,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -38184,7 +38184,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -38296,11 +38296,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 47
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 47
             }
           }
         }
@@ -38417,7 +38417,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -38425,7 +38425,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -38512,19 +38512,19 @@
             },
             "intermediate_plus": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pike Push-up",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Dumbbell Push Press",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -38595,7 +38595,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -38603,7 +38603,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -38737,19 +38737,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -38841,11 +38841,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 39
+              "reps": 55
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 55
             }
           }
         }
@@ -38919,11 +38919,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -39013,7 +39013,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -39095,19 +39095,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 14
+              "reps": 15
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -39199,11 +39199,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -39243,19 +39243,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         },
@@ -39395,11 +39395,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 22
+              "reps": 31
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 19
+              "reps": 31
             }
           }
         }
@@ -39543,11 +39543,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -39652,19 +39652,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -39844,19 +39844,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 13
+              "reps": 14
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 14
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 14
             }
           }
         },
@@ -39896,19 +39896,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -40048,11 +40048,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 30
+              "reps": 43
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 43
             }
           }
         }
@@ -40220,11 +40220,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 18
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 18
             }
           }
         }
@@ -40306,19 +40306,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -40498,19 +40498,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -40550,19 +40550,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -40697,19 +40697,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -40822,7 +40822,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -40830,7 +40830,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -40880,11 +40880,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 13
+              "reps": 19
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 11
+              "reps": 19
             }
           }
         },
@@ -40989,19 +40989,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -41216,11 +41216,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 12
+              "reps": 17
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 10
+              "reps": 17
             }
           }
         },
@@ -41259,19 +41259,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -41405,19 +41405,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -41590,11 +41590,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -41700,19 +41700,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 10
             }
           }
         }
@@ -41794,19 +41794,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -41893,19 +41893,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -41949,15 +41949,15 @@
             },
             "intermediate": {
               "sub": "Strict Pull-up",
-              "reps": 2
+              "reps": 3
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 2
+              "reps": 3
             }
           }
         },
@@ -42097,11 +42097,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 21
+              "reps": 30
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 18
+              "reps": 30
             }
           }
         }
@@ -42245,19 +42245,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -42362,19 +42362,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -42466,11 +42466,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 34
+              "reps": 49
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 29
+              "reps": 49
             }
           }
         }
@@ -42556,19 +42556,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 11
+              "reps": 12
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 12
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 12
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 12
             }
           }
         },
@@ -42607,19 +42607,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 14
+              "reps": 15
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 15
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 15
             }
           }
         },
@@ -42784,7 +42784,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 16
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -42792,7 +42792,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 10
+              "reps": 16
             }
           }
         }
@@ -42909,7 +42909,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 10
+              "reps": 14
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -42917,7 +42917,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 8
+              "reps": 14
             }
           }
         }
@@ -42961,19 +42961,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 9
+              "reps": 10
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 8
+              "reps": 10
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 7
+              "reps": 10
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 6
+              "reps": 10
             }
           }
         },
@@ -43079,19 +43079,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -43136,11 +43136,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 137
+              "reps": 196
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 118
+              "reps": 196
             }
           }
         },
@@ -43255,15 +43255,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -43304,19 +43304,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 6
+              "reps": 7
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 7
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 7
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 4
+              "reps": 7
             }
           }
         },
@@ -43461,11 +43461,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 44
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 44
             }
           }
         },
@@ -43490,7 +43490,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -43663,11 +43663,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 39
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 23
+              "reps": 39
             }
           }
         },
@@ -43772,19 +43772,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 8
+              "reps": 9
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 7
+              "reps": 9
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 6
+              "reps": 9
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 5
+              "reps": 9
             }
           }
         }
@@ -43875,7 +43875,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -43965,15 +43965,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 3
+              "reps": 4
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 4
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 4
             }
           }
         },
@@ -44012,19 +44012,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 12
+              "reps": 13
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 10
+              "reps": 13
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -44167,7 +44167,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 8
+              "reps": 13
             }
           }
         }
@@ -44335,11 +44335,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 14
+              "reps": 20
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 12
+              "reps": 20
             }
           }
         }
@@ -44421,19 +44421,19 @@
             },
             "intermediate_plus": {
               "sub": "Hanging Leg Raise",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Hanging Leg Raise",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Hanging Knee Raise",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Laying Knee Raise",
-              "reps": 7
+              "reps": 11
             }
           }
         }
@@ -44525,11 +44525,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 41
+              "reps": 58
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 35
+              "reps": 58
             }
           }
         }
@@ -44621,11 +44621,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 9
+              "reps": 13
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 8
+              "reps": 13
             }
           }
         },
@@ -44665,19 +44665,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -44825,7 +44825,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -44847,11 +44847,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 27
+              "reps": 38
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 23
+              "reps": 38
             }
           }
         }
@@ -45018,19 +45018,19 @@
             },
             "intermediate_plus": {
               "sub": "Pistol to Box",
-              "reps": 5
+              "reps": 6
             },
             "intermediate": {
               "sub": "Pistol to Box",
-              "reps": 5
+              "reps": 6
             },
             "beginner_plus": {
               "sub": "Air Squat",
-              "reps": 4
+              "reps": 6
             },
             "beginner": {
               "sub": "Air Squat",
-              "reps": 4
+              "reps": 6
             }
           }
         },
@@ -45141,11 +45141,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 31
+              "reps": 44
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 26
+              "reps": 44
             }
           }
         }
@@ -45236,7 +45236,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         }
@@ -45326,15 +45326,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 3
+              "reps": 4
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 4
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 2
+              "reps": 4
             }
           }
         },
@@ -45374,19 +45374,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Chest-to-Bar",
-              "reps": 10
+              "reps": 11
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 9
+              "reps": 11
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 8
+              "reps": 11
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 7
+              "reps": 11
             }
           }
         },
@@ -45530,11 +45530,11 @@
             },
             "beginner_plus": {
               "sub": "Single-Under",
-              "reps": 33
+              "reps": 47
             },
             "beginner": {
               "sub": "Single-Under",
-              "reps": 28
+              "reps": 47
             }
           }
         }
@@ -45608,11 +45608,11 @@
             },
             "beginner_plus": {
               "sub": "Knee Push-up",
-              "reps": 17
+              "reps": 24
             },
             "beginner": {
               "sub": "Box Push-up",
-              "reps": 14
+              "reps": 24
             }
           }
         }
@@ -45702,7 +45702,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 7
+              "reps": 12
             }
           }
         }
@@ -45819,7 +45819,7 @@
                 "male": 50,
                 "female": 40
               },
-              "reps": 11
+              "reps": 15
             },
             "beginner": {
               "sub": "Box Step-up",
@@ -45827,7 +45827,7 @@
                 "male": 40,
                 "female": 30
               },
-              "reps": 9
+              "reps": 15
             }
           }
         }
@@ -45917,15 +45917,15 @@
             },
             "intermediate": {
               "sub": "Wall Walk (partial)",
-              "reps": 4
+              "reps": 5
             },
             "beginner_plus": {
               "sub": "Inch Worm",
-              "reps": 4
+              "reps": 5
             },
             "beginner": {
               "sub": "Inch Worm",
-              "reps": 3
+              "reps": 5
             }
           }
         },
@@ -45964,19 +45964,19 @@
             },
             "intermediate_plus": {
               "sub": "Jumping Pull-up",
-              "reps": 7
+              "reps": 8
             },
             "intermediate": {
               "sub": "Jumping Pull-up",
-              "reps": 6
+              "reps": 8
             },
             "beginner_plus": {
               "sub": "Ring Row",
-              "reps": 6
+              "reps": 8
             },
             "beginner": {
               "sub": "Ring Row",
-              "reps": 5
+              "reps": 8
             }
           }
         },
@@ -46119,7 +46119,7 @@
             },
             "beginner": {
               "sub": "Bodybuilder",
-              "reps": 5
+              "reps": 8
             }
           }
         }
