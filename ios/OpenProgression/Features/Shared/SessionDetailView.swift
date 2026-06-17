@@ -119,8 +119,13 @@ struct SessionDetailView: View {
             Label("\(session.estimatedMinutes) min", systemImage: "clock").font(.body(14, .semibold)).foregroundStyle(Theme.textDim)
         }
         .frame(maxWidth: .infinity, alignment: .leading).padding(20)
-        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Theme.surface)
-            .overlay(alignment: .top) { Theme.levelGradient.frame(height: 3).clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous)) })
+        .background(
+            ZStack(alignment: .top) {
+                Theme.surface
+                Theme.levelGradient.frame(height: 4)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
+        )
         .overlay(RoundedRectangle(cornerRadius: 24, style: .continuous).strokeBorder(Theme.stroke, lineWidth: 1))
     }
 
