@@ -14,6 +14,7 @@ struct CalculatorView: View {
     @State private var bodyweight: String = ""
     @State private var useBW = false
     @State private var inputs: [String: String] = [:]
+    @FocusState private var fieldFocused: Bool
 
     private let ageBands = ["18-29","30-39","40-49","50+"]
 
@@ -46,6 +47,13 @@ struct CalculatorView: View {
             .animation(.snappy, value: useBW)
         }
         .background(Theme.bg.ignoresSafeArea())
+        .scrollDismissesKeyboard(.interactively)
+        .toolbar {
+            ToolbarItemGroup(placement: .keyboard) {
+                Spacer()
+                Button("Done") { fieldFocused = false }.bold().tint(Theme.primary)
+            }
+        }
     }
 
     private var controls: some View {
@@ -53,7 +61,7 @@ struct CalculatorView: View {
             Picker("", selection: $gender) { Text("Male").tag(Gender.male); Text("Female").tag(Gender.female) }.pickerStyle(.segmented)
             Picker("", selection: $ageBand) { ForEach(ageBands, id: \.self) { Text($0).tag($0) } }.pickerStyle(.segmented)
             HStack(spacing: 10) {
-                TextField("Bodyweight (kg)", text: $bodyweight).keyboardType(.numberPad)
+                TextField("Bodyweight (kg)", text: $bodyweight).keyboardType(.numberPad).focused($fieldFocused)
                     .padding(.horizontal, 14).padding(.vertical, 10)
                     .background(Theme.surface, in: Capsule()).overlay(Capsule().strokeBorder(Theme.stroke))
                 HStack(spacing: 0) {
@@ -108,6 +116,7 @@ struct CalculatorView: View {
             Spacer()
             if let lvl, let lv = store.level(number: lvl) { LevelPill(name: lv.shortName, number: lvl) }
             TextField(placeholder(c.benchmark), text: Binding(get: { inputs[c.id] ?? "" }, set: { inputs[c.id] = $0 }))
+                .focused($fieldFocused)
                 .keyboardType(c.benchmark.testType == "time" ? .numbersAndPunctuation : .numberPad)
                 .multilineTextAlignment(.trailing).frame(width: 86)
                 .padding(.horizontal, 12).padding(.vertical, 9)
