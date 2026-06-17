@@ -80,6 +80,7 @@ struct CoachChat: View {
                     FlowChips(items: suggestions) { ask($0) }
                 }.padding(20)
             }
+            .scrollDismissesKeyboard(.interactively)
             HStack(spacing: 10) {
                 TextField("Ask the coach...", text: $prompt)
                     .font(.body(15)).padding(12).background(Theme.surface, in: Capsule()).overlay(Capsule().strokeBorder(Theme.stroke))

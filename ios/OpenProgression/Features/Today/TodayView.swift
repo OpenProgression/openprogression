@@ -2,17 +2,22 @@ import SwiftUI
 
 struct TodayView: View {
     @Environment(DataStore.self) private var store
+    @State private var showTimer = false
     private let today = Date()
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                HStack {
+                HStack(spacing: 12) {
                     VStack(alignment: .leading, spacing: 6) { Wordmark(size: 19); LevelDots() }
                     Spacer()
                     if let s = store.session(for: today) {
                         Text(prettyDate(s.date)).font(.body(13, .medium)).foregroundStyle(Theme.textDim)
                     }
+                    Button { Haptics.tap(); showTimer = true } label: {
+                        Image(systemName: "timer").font(.system(size: 18, weight: .semibold)).foregroundStyle(Theme.primary)
+                            .frame(width: 40, height: 40).background(Theme.surface, in: Circle()).overlay(Circle().strokeBorder(Theme.stroke))
+                    }.buttonStyle(.plain)
                 }.padding(.top, 6)
 
                 if let s = store.session(for: today) {
@@ -25,6 +30,7 @@ struct TodayView: View {
             .padding(.horizontal, 18).padding(.top, 8)
         }
         .background(Theme.bg.ignoresSafeArea())
+        .fullScreenCover(isPresented: $showTimer) { GymTimerView() }
     }
 
     private func prettyDate(_ iso: String) -> String {

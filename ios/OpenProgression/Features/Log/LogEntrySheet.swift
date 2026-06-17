@@ -35,6 +35,7 @@ struct LogEntrySheet: View {
                 .padding(20)
             }
             .background(Theme.bg.ignoresSafeArea())
+            .scrollDismissesKeyboard(.interactively)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() }.tint(Theme.textDim) }
                 ToolbarItem(placement: .confirmationAction) {
