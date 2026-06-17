@@ -57,7 +57,7 @@ struct BenchmarkDetailView: View {
                         .font(.body(15, .semibold)).foregroundStyle(Color.black)
                         .frame(maxWidth: .infinity).padding(.vertical, 14)
                         .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                }.buttonStyle(.plain)
+                }.buttonStyle(.pressable)
                 Spacer(minLength: 12)
             }
             .padding(20)

@@ -56,7 +56,7 @@ struct ShareResultView: View {
                         .font(.body(16, .bold)).foregroundStyle(.black)
                         .frame(maxWidth: .infinity).padding(.vertical, 16)
                         .background(Theme.primary, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-                }.buttonStyle(.plain).padding(.horizontal, 24)
+                }.buttonStyle(.pressable).padding(.horizontal, 24)
             }
             Spacer()
         }

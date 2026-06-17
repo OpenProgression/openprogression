@@ -109,7 +109,7 @@ struct LogView: View {
             .padding(.vertical, 11)
             .contentShape(Rectangle())
             .overlay(alignment: .bottom) { Rectangle().fill(Theme.stroke).frame(height: 1) }
-        }.buttonStyle(.plain)
+        }.buttonStyle(.pressable)
     }
 
     // MARK: derived

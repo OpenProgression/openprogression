@@ -1,5 +1,19 @@
 import SwiftUI
 
+// Tactile press feedback for every tappable element (renders the label like
+// .plain, but springs slightly on press). Used app-wide for a consistent feel.
+struct PressableStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.96 : 1)
+            .opacity(configuration.isPressed ? 0.86 : 1)
+            .animation(.spring(response: 0.26, dampingFraction: 0.6), value: configuration.isPressed)
+    }
+}
+extension ButtonStyle where Self == PressableStyle {
+    static var pressable: PressableStyle { .init() }
+}
+
 // Wordmark: "Open" white + "Progression" teal
 struct Wordmark: View {
     var size: CGFloat = 20

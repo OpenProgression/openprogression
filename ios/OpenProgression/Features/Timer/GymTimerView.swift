@@ -27,13 +27,13 @@ struct GymTimerView: View {
 
     private var topBar: some View {
         HStack {
-            Button { dismiss() } label: { Image(systemName: "xmark").font(.system(size: 16, weight: .bold)).foregroundStyle(Theme.textDim).frame(width: 38, height: 38).background(Theme.surface, in: Circle()) }.buttonStyle(.plain)
+            Button { dismiss() } label: { Image(systemName: "xmark").font(.system(size: 16, weight: .bold)).foregroundStyle(Theme.textDim).frame(width: 38, height: 38).background(Theme.surface, in: Circle()) }.buttonStyle(.pressable)
             Spacer()
             Text(t.mode.rawValue.uppercased()).font(.body(13, .bold)).tracking(2).foregroundStyle(Theme.textFaint)
             Spacer()
             Button { soundOn.toggle(); Beeper.shared.enabled = soundOn; Haptics.tap() } label: {
                 Image(systemName: soundOn ? "speaker.wave.2.fill" : "speaker.slash.fill").font(.system(size: 15, weight: .semibold)).foregroundStyle(soundOn ? Theme.primary : Theme.textFaint).frame(width: 38, height: 38).background(Theme.surface, in: Circle())
-            }.buttonStyle(.plain)
+            }.buttonStyle(.pressable)
         }
     }
 
@@ -107,7 +107,7 @@ struct GymTimerView: View {
                                 .frame(maxWidth: .infinity).padding(.vertical, 11)
                                 .background(t.mode == m ? Theme.primary : Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                                 .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Theme.stroke, lineWidth: t.mode == m ? 0 : 1))
-                        }.buttonStyle(.plain)
+                        }.buttonStyle(.pressable)
                     }
                 }
                 VStack(spacing: 10) { settings }.card()
@@ -116,7 +116,7 @@ struct GymTimerView: View {
                     Label("Start", systemImage: "play.fill").font(.body(17, .bold)).foregroundStyle(.black)
                         .frame(maxWidth: .infinity).padding(.vertical, 17)
                         .background(Theme.primary, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-                }.buttonStyle(.plain)
+                }.buttonStyle(.pressable)
             }.padding(.top, 20)
         }
     }
@@ -144,9 +144,9 @@ struct GymTimerView: View {
         HStack {
             Text(title).font(.body(15, .medium)).foregroundStyle(Theme.text)
             Spacer()
-            Button { if value.wrappedValue - by >= range.lowerBound { value.wrappedValue -= by; Haptics.tap() } } label: { stepIcon("minus") }.buttonStyle(.plain)
+            Button { if value.wrappedValue - by >= range.lowerBound { value.wrappedValue -= by; Haptics.tap() } } label: { stepIcon("minus") }.buttonStyle(.pressable)
             Text("\(value.wrappedValue)\(unit.isEmpty ? "" : " \(unit)")").font(.display(16, .bold)).foregroundStyle(Theme.text).frame(minWidth: 64)
-            Button { if value.wrappedValue + by <= range.upperBound { value.wrappedValue += by; Haptics.tap() } } label: { stepIcon("plus") }.buttonStyle(.plain)
+            Button { if value.wrappedValue + by <= range.upperBound { value.wrappedValue += by; Haptics.tap() } } label: { stepIcon("plus") }.buttonStyle(.pressable)
         }
     }
     private func stepIcon(_ n: String) -> some View {
@@ -158,7 +158,7 @@ struct GymTimerView: View {
             Label(title, systemImage: icon).font(.body(16, .bold)).foregroundStyle(fg)
                 .frame(maxWidth: .infinity).padding(.vertical, 16)
                 .background(bg, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-        }.buttonStyle(.plain)
+        }.buttonStyle(.pressable)
     }
 
     private func fmt(_ s: Int) -> String { String(format: "%d:%02d", s / 60, s % 60) }

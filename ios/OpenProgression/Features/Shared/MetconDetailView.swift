@@ -31,7 +31,7 @@ struct MetconDetailView: View {
                             ForEach(store.levels) { lv in
                                 Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
                                     LevelPill(name: lv.shortName, number: lv.number, selected: level == lv.number)
-                                }.buttonStyle(.plain)
+                                }.buttonStyle(.pressable)
                             }
                         }
                     }

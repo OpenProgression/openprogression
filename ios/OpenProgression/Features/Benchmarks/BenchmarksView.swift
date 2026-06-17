@@ -26,7 +26,7 @@ struct BenchmarksView: View {
                             ForEach(store.levels) { lv in
                                 Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
                                     LevelPill(name: lv.shortName, number: lv.number, selected: level == lv.number)
-                                }.buttonStyle(.plain)
+                                }.buttonStyle(.pressable)
                             }
                         }
                     }
@@ -42,7 +42,7 @@ struct BenchmarksView: View {
                             ForEach(bms) { b in
                                 Button { Haptics.tap(); selected = SelectedBenchmark(benchmark: b, category: cat.name) } label: {
                                     benchmarkRow(b)
-                                }.buttonStyle(.plain)
+                                }.buttonStyle(.pressable)
                             }
                         }.frame(maxWidth: .infinity, alignment: .leading).card(padding: 16)
                     }

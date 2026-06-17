@@ -42,13 +42,14 @@ struct WorkoutRunnerView: View {
         .sheet(isPresented: $showShare) {
             if let s = saved {
                 ShareResultView(card: ResultCard(name: metcon.name, result: s.result, subtitle: subtitle, levelNumber: level))
+                    .presentationDragIndicator(.visible)
             }
         }
     }
 
     private var header: some View {
         HStack {
-            Button { dismiss() } label: { Image(systemName: "xmark").font(.system(size: 16, weight: .bold)).foregroundStyle(Theme.textDim).frame(width: 38, height: 38).background(Theme.surface, in: Circle()) }.buttonStyle(.plain)
+            Button { dismiss() } label: { Image(systemName: "xmark").font(.system(size: 16, weight: .bold)).foregroundStyle(Theme.textDim).frame(width: 38, height: 38).background(Theme.surface, in: Circle()) }.buttonStyle(.pressable)
             Spacer()
             VStack(spacing: 2) {
                 Text(metcon.name).font(.display(17, .bold)).foregroundStyle(Theme.text)
@@ -82,9 +83,9 @@ struct WorkoutRunnerView: View {
         VStack(spacing: 10) {
             Text("ROUNDS").font(.body(12, .bold)).tracking(1.5).foregroundStyle(Theme.textFaint)
             HStack(spacing: 24) {
-                Button { if rounds > 0 { rounds -= 1; Haptics.tap() } } label: { stepIcon("minus") }.buttonStyle(.plain)
+                Button { if rounds > 0 { rounds -= 1; Haptics.tap() } } label: { stepIcon("minus") }.buttonStyle(.pressable)
                 Text("\(rounds)").font(.system(size: 48, weight: .black, design: .rounded)).foregroundStyle(Theme.text).frame(minWidth: 70)
-                Button { rounds += 1; Haptics.select() } label: { stepIcon("plus") }.buttonStyle(.plain)
+                Button { rounds += 1; Haptics.select() } label: { stepIcon("plus") }.buttonStyle(.pressable)
             }
         }.padding(.top, 24)
     }
@@ -125,7 +126,7 @@ struct WorkoutRunnerView: View {
             Label(title, systemImage: icon).font(.body(16, .bold)).foregroundStyle(fg)
                 .frame(maxWidth: .infinity).padding(.vertical, 16)
                 .background(bg, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-        }.buttonStyle(.plain)
+        }.buttonStyle(.pressable)
     }
 
     private func finish() {

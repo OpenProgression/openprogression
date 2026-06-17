@@ -31,6 +31,7 @@ struct SessionDetailView: View {
     @State private var showLog = false
     @State private var showRunner = false
     @State private var showCoach = false
+    @State private var appeared = false
 
     private var coachContext: String {
         var s = session.title
@@ -55,7 +56,7 @@ struct SessionDetailView: View {
             if let st = session.strength { strengthCard(st) }
             if let mc = store.metcon(session.metcon) {
                 Button { Haptics.tap(); shownMetcon = mc } label: { MetconCard(metcon: mc, level: level, gender: gender) }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.pressable)
             }
             if let a = session.accessory { BlockCard(label: "Accessory", minutes: a.durationMinutes, content: a.notes, accent: Theme.textDim) }
             if store.metcon(session.metcon) != nil {
@@ -65,23 +66,26 @@ struct SessionDetailView: View {
                             .font(.body(16, .bold)).foregroundStyle(Color.black)
                             .frame(maxWidth: .infinity).padding(.vertical, 15)
                             .background(Theme.primary, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                    }.buttonStyle(.plain)
+                    }.buttonStyle(.pressable)
                     Button { Haptics.tap(); showCoach = true } label: {
                         Image(systemName: "sparkles").font(.system(size: 17, weight: .semibold)).foregroundStyle(Theme.primary)
                             .frame(width: 54, height: 52)
                             .background(Theme.surface2, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Theme.stroke))
-                    }.buttonStyle(.plain)
+                    }.buttonStyle(.pressable)
                     Button { Haptics.tap(); showLog = true } label: {
                         Image(systemName: "square.and.pencil").font(.system(size: 17, weight: .semibold)).foregroundStyle(Theme.text)
                             .frame(width: 54, height: 52)
                             .background(Theme.surface2, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                             .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(Theme.stroke))
-                    }.buttonStyle(.plain)
+                    }.buttonStyle(.pressable)
                 }
             }
         }
         .sheet(isPresented: $showCoach) { CoachView(context: coachContext) }
+        .opacity(appeared ? 1 : 0)
+        .offset(y: appeared ? 0 : 10)
+        .onAppear { withAnimation(.easeOut(duration: 0.35)) { appeared = true } }
         .fullScreenCover(isPresented: $showRunner) {
             if let mc = store.metcon(session.metcon) {
                 WorkoutRunnerView(metcon: mc, level: level, gender: gender)
@@ -128,7 +132,7 @@ struct SessionDetailView: View {
                     ForEach(store.levels) { lv in
                         Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
                             LevelPill(name: lv.shortName, number: lv.number, selected: level == lv.number)
-                        }.buttonStyle(.plain)
+                        }.buttonStyle(.pressable)
                     }
                 }
             }
@@ -215,11 +219,18 @@ struct MovementRow: View {
         let r = mv.resolved(levelNumber: level, gender: gender)
         HStack(alignment: .firstTextBaseline, spacing: 12) {
             Text(repsText(r.reps, unit: r.unit)).font(.system(size: 16, weight: .heavy, design: .rounded)).foregroundStyle(Theme.primary).frame(width: 58, alignment: .leading)
+                .contentTransition(.numericText())
             Text(r.name).font(.body(15, .medium)).foregroundStyle(Theme.text)
+                .contentTransition(.opacity)
             Spacer()
-            if let l = r.load, l > 0 { Text("\(Int(l)) kg").font(.body(14, .semibold)).foregroundStyle(Theme.textDim) }
+            if let l = r.load, l > 0 {
+                Text("\(Int(l)) kg").font(.body(14, .semibold)).foregroundStyle(Theme.textDim)
+                    .contentTransition(.numericText())
+            }
         }
         .padding(.horizontal, 14).padding(.vertical, 11)
+        .animation(.snappy, value: level)
+        .animation(.snappy, value: gender)
         .overlay(alignment: .bottom) { Rectangle().fill(Theme.stroke).frame(height: 1).padding(.horizontal, 14) }
     }
 }

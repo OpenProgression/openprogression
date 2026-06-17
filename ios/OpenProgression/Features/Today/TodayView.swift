@@ -17,7 +17,7 @@ struct TodayView: View {
                     Button { Haptics.tap(); showTimer = true } label: {
                         Image(systemName: "timer").font(.system(size: 18, weight: .semibold)).foregroundStyle(Theme.primary)
                             .frame(width: 40, height: 40).background(Theme.surface, in: Circle()).overlay(Circle().strokeBorder(Theme.stroke))
-                    }.buttonStyle(.plain)
+                    }.buttonStyle(.pressable)
                 }.padding(.top, 6)
 
                 if let s = store.session(for: today) {

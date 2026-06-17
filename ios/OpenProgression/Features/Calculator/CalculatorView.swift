@@ -80,7 +80,7 @@ struct CalculatorView: View {
             Text(t).font(.system(size: 13, weight: .semibold))
                 .foregroundStyle(active ? Color.black : (enabled ? Theme.textDim : Theme.textFaint.opacity(0.5)))
                 .padding(.horizontal, 14).padding(.vertical, 10).background(active ? Theme.primary : Color.clear, in: Capsule())
-        }.buttonStyle(.plain).disabled(!enabled)
+        }.buttonStyle(.pressable).disabled(!enabled)
     }
 
     private var results: some View {

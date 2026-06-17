@@ -87,7 +87,7 @@ struct CoachChat: View {
                 Button { ask(prompt) } label: {
                     Image(systemName: busy ? "stop.fill" : "arrow.up").font(.system(size: 16, weight: .bold)).foregroundStyle(.black)
                         .frame(width: 44, height: 44).background(Theme.primary, in: Circle())
-                }.buttonStyle(.plain).disabled(prompt.trimmingCharacters(in: .whitespaces).isEmpty || busy)
+                }.buttonStyle(.pressable).disabled(prompt.trimmingCharacters(in: .whitespaces).isEmpty || busy)
             }.padding(.horizontal, 18).padding(.bottom, 12)
         }
     }
@@ -145,7 +145,7 @@ struct FlowChips: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .background(Theme.surface2, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                         .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Theme.stroke))
-                }.buttonStyle(.plain)
+                }.buttonStyle(.pressable)
             }
         }
     }

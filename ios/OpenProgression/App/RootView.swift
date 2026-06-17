@@ -16,5 +16,6 @@ struct RootView: View {
             StandardView().tag(4).tabItem { Label("Standard", systemImage: "chart.bar.fill") }
         }
         .tint(Theme.primary)
+        .onChange(of: tab) { Haptics.select() }
     }
 }

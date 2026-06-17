@@ -64,7 +64,7 @@ struct ProgramView: View {
         Button { Haptics.tap(); withAnimation(.snappy) { act() } } label: {
             Image(systemName: icon).font(.system(size: 15, weight: .bold)).foregroundStyle(Theme.text)
                 .frame(width: 38, height: 38).background(Theme.surface, in: Circle()).overlay(Circle().strokeBorder(Theme.stroke))
-        }.buttonStyle(.plain)
+        }.buttonStyle(.pressable)
     }
 
     private func shift(_ days: Int) {
@@ -86,7 +86,7 @@ struct ProgramView: View {
                     .frame(maxWidth: .infinity).padding(.vertical, 9)
                     .background(isSel ? Theme.primary : Theme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                     .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Theme.stroke, lineWidth: isSel ? 0 : 1))
-                }.buttonStyle(.plain)
+                }.buttonStyle(.pressable)
             }
         }
     }
