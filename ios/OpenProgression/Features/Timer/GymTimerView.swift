@@ -48,20 +48,22 @@ struct GymTimerView: View {
                 Circle().trim(from: 0, to: t.segProgress)
                     .stroke(color, style: StrokeStyle(lineWidth: 12, lineCap: .round))
                     .rotationEffect(.degrees(-90))
-                    .animation(.linear(duration: 0.1), value: t.segProgress)
                 Text(fmt(t.big))
                     .font(.system(size: 92, weight: .black, design: .rounded)).monospacedDigit()
                     .foregroundStyle(color)
                     .contentTransition(.numericText(countsDown: !t.isCountUp))
-                    .animation(.snappy, value: t.big)
+                    .animation(.easeInOut(duration: 0.18), value: t.big)
             }
             .frame(width: 300, height: 300).padding(.vertical, 24)
-            .scaleEffect(pulse ? 1.04 : 1.0)
+            .scaleEffect(pulse ? 1.05 : 1.0)
             .animation(.easeInOut(duration: 0.45).repeatForever(autoreverses: true), value: pulse)
-            if let r = t.roundsLabel {
-                Text("ROUND \(r)").font(.display(18, .bold)).foregroundStyle(Theme.text)
-                if t.totalRounds <= 12 { roundDots }
-            }
+            // Reserve a fixed-height row so the clock never shifts when ROUND appears.
+            VStack(spacing: 6) {
+                if let r = t.roundsLabel {
+                    Text("ROUND \(r)").font(.display(18, .bold)).foregroundStyle(Theme.text)
+                    if t.totalRounds <= 12 { roundDots }
+                }
+            }.frame(height: 56)
             Spacer()
             controls
         }
@@ -161,5 +163,5 @@ struct GymTimerView: View {
         }.buttonStyle(.pressable)
     }
 
-    private func fmt(_ s: Int) -> String { String(format: "%d:%02d", s / 60, s % 60) }
+    private func fmt(_ s: Int) -> String { String(format: "%02d:%02d", s / 60, s % 60) }
 }
