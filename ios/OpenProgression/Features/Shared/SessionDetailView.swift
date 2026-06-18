@@ -132,13 +132,20 @@ struct SessionDetailView: View {
     private var selectors: some View {
         VStack(alignment: .leading, spacing: 10) {
             SectionLabel(text: "Your Level")
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 8) {
-                    ForEach(store.levels) { lv in
-                        Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
-                            LevelPill(name: lv.shortName, number: lv.number, selected: level == lv.number)
-                        }.buttonStyle(.pressable)
-                    }
+            // All 7 levels fit in one row (equal width) so there is no horizontal
+            // scroll to fight the swipe-to-change-day gesture on the Program screen.
+            HStack(spacing: 5) {
+                ForEach(store.levels) { lv in
+                    let c = Theme.levelColor(lv.number)
+                    let sel = level == lv.number
+                    Button { Haptics.select(); withAnimation(.snappy) { level = lv.number } } label: {
+                        Text(lv.shortName)
+                            .font(.system(size: 12, weight: .bold)).minimumScaleFactor(0.8).lineLimit(1)
+                            .foregroundStyle(sel ? Color.black : c)
+                            .frame(maxWidth: .infinity, minHeight: 30)
+                            .background(sel ? c : c.opacity(0.14), in: Capsule())
+                            .overlay(Capsule().strokeBorder(c.opacity(sel ? 0 : 0.35), lineWidth: 1))
+                    }.buttonStyle(.pressable)
                 }
             }
             Picker("", selection: $gender) { Text("Male").tag(Gender.male); Text("Female").tag(Gender.female) }.pickerStyle(.segmented)
