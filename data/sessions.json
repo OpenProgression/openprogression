@@ -49,8 +49,8 @@
           {
             "movement": "Back Squat",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Same weight all sets. Rest 2:00 between sets."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -95,9 +95,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "4x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Same weight across. Rest 1:30 between sets."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -142,9 +142,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Reset between reps. Start at ~60% and add weight each set."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -197,10 +197,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "4x5",
-            "prescription": "Build to a heavy 5",
-            "notes": "Rest 2:00 between sets. Start at ~60% and add weight each set."
+            "movement": "Back Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -246,8 +246,8 @@
           {
             "movement": "Strict Press",
             "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00 between sets."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -292,9 +292,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "Build to 3RM",
-            "prescription": "Build to a 3-rep max",
-            "notes": "Reset between reps. Start at ~50%, add 5-10% per set. 5-6 working sets total."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -348,9 +348,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00 between sets. Start at ~60% and add weight each set."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -394,10 +394,10 @@
         "durationMinutes": 12,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Start at ~60% and build."
+            "movement": "Strict Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -442,9 +442,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "Build to 3RM",
-            "prescription": "Build to a 3-rep max",
-            "notes": "Reset between reps. Start at ~50%, add 5-10% per set."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -498,9 +498,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Same weight all sets. Rest 2:00 between sets."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -545,9 +545,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "4x5",
-            "prescription": "@ 75% 1RM",
-            "notes": "Same weight across. Rest 1:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -592,9 +592,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Reset between reps. Start at ~60%, add weight each set."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -648,9 +648,9 @@
         "movements": [
           {
             "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00 between sets."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -694,10 +694,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Start at ~60% and build each set."
+            "movement": "Bench Press",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -741,10 +741,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Reset between reps. Start at ~60% and add weight each set."
+            "movement": "Power Clean",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -797,10 +797,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Front Squat",
             "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Start at ~60% and build each set."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -844,10 +844,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
+            "movement": "Bench Press",
             "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Start at ~60%. Drive through the legs."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -891,10 +891,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to 3RM",
-            "prescription": "Build to a 3-rep max",
-            "notes": "Reset between reps. Start at ~50%, add 5-10% per set. 5-6 working sets total."
+            "movement": "Power Clean",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -948,9 +948,9 @@
         "movements": [
           {
             "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Keep elbows high. Start at ~60% and build."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -994,10 +994,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Rest 2:00. Consistent weight across all 5 sets."
+            "movement": "Bench Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1041,10 +1041,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Reset between reps. Start at ~60% and add weight each set."
+            "movement": "Power Clean",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1097,10 +1097,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Rest 2:00. Consistent weight across all 5 sets."
+            "movement": "Front Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1144,10 +1144,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "Build to 3RM",
-            "prescription": "Build to a 3-rep max",
-            "notes": "Start at ~50%, add weight each set. 5-6 working sets."
+            "movement": "Bench Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1191,10 +1191,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Reset between reps. Start at ~60% and add weight each set."
+            "movement": "Power Clean",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1247,10 +1247,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "Build to 3RM",
-            "prescription": "Build to a 3-rep max",
-            "notes": "Start at ~50%, add 5-10% per set. Keep elbows high."
+            "movement": "Back Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1294,10 +1294,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy 3",
-            "notes": "Rest 2:00. Start at ~60% and build each set."
+            "movement": "Push Press",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1341,10 +1341,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "movement": "Power Snatch",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1397,10 +1397,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
+            "movement": "Back Squat",
             "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Add load each set if technique holds."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1446,8 +1446,8 @@
           {
             "movement": "Push Press",
             "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Aggressive dip-drive. Lock out overhead."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1491,10 +1491,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Snatch",
             "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1548,9 +1548,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "4x6",
-            "prescription": "@ 65% 1RM",
-            "notes": "Controlled tempo down, drive up. Rest 2:00."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1594,10 +1594,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Pause on the chest. Rest 2:00."
+            "movement": "Push Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1641,10 +1641,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "movement": "Power Snatch",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1698,9 +1698,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Same weight across sets. Rest 2:00."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1744,10 +1744,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Strict, no leg drive. Rest 2:00."
+            "movement": "Push Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1791,10 +1791,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "movement": "Power Snatch",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1847,10 +1847,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Add load each set if technique holds."
+            "movement": "Overhead Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1894,10 +1894,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Aggressive dip-drive. Lock out overhead."
+            "movement": "Push Jerk",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1941,10 +1941,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "movement": "Clean and Jerk",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -1997,10 +1997,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "4x6",
-            "prescription": "@ 65% 1RM",
-            "notes": "Controlled tempo down, drive up. Rest 2:00."
+            "movement": "Overhead Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2044,10 +2044,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Pause on the chest. Rest 2:00."
+            "movement": "Push Jerk",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2091,10 +2091,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Clean and Jerk",
             "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2147,10 +2147,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Same weight across sets. Rest 2:00."
+            "movement": "Overhead Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2194,10 +2194,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Strict, no leg drive. Rest 2:00."
+            "movement": "Push Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2241,10 +2241,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "movement": "Clean and Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2297,10 +2297,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Add load each set if technique holds."
+            "movement": "Overhead Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2344,10 +2344,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Aggressive dip-drive. Lock out overhead."
+            "movement": "Push Jerk",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2391,10 +2391,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "movement": "Clean and Jerk",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2448,9 +2448,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "4x6",
-            "prescription": "@ 65% 1RM",
-            "notes": "Controlled tempo down, drive up. Rest 2:00."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2494,10 +2494,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
+            "movement": "Strict Press",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Pause on the chest. Rest 2:00."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2542,9 +2542,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2598,9 +2598,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Same weight across sets. Rest 2:00."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2645,9 +2645,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Strict, no leg drive. Rest 2:00."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2693,8 +2693,8 @@
           {
             "movement": "Deadlift",
             "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2747,10 +2747,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Add load each set if technique holds."
+            "movement": "Back Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2794,10 +2794,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Aggressive dip-drive. Lock out overhead."
+            "movement": "Strict Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2842,9 +2842,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2898,9 +2898,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "4x6",
-            "prescription": "@ 65% 1RM",
-            "notes": "Controlled tempo down, drive up. Rest 2:00."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2944,10 +2944,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Pause on the chest. Rest 2:00."
+            "movement": "Strict Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -2992,9 +2992,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3047,10 +3047,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Front Squat",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Same weight across sets. Rest 2:00."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3094,10 +3094,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Bench Press",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Strict, no leg drive. Rest 2:00."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3141,10 +3141,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "Build to a heavy 3",
-            "prescription": "Across ~20 min",
-            "notes": "Reset each rep. Flat back. Stop if form degrades."
+            "movement": "Hang Power Clean",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3199,8 +3199,8 @@
           {
             "movement": "Front Squat",
             "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Add load each set if technique holds."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3244,10 +3244,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
+            "movement": "Bench Press",
             "scheme": "5x3",
-            "prescription": "Build to a heavy triple",
-            "notes": "Aggressive dip-drive. Lock out overhead."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3291,10 +3291,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Hang Power Clean",
             "scheme": "5x3",
-            "prescription": "@ 75% 1RM",
-            "notes": "Touch-and-go only if technique is crisp. Rest 2:00."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3353,10 +3353,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3404,10 +3404,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3455,10 +3455,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Hang Power Clean",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3517,10 +3517,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3568,10 +3568,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3619,10 +3619,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Snatch",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3683,8 +3683,8 @@
           {
             "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3732,10 +3732,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Push Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3783,10 +3783,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Snatch",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3847,8 +3847,8 @@
           {
             "movement": "Back Squat",
             "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3896,10 +3896,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Push Press",
             "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -3947,10 +3947,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Snatch",
             "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4010,9 +4010,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4060,10 +4060,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4111,10 +4111,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Snatch",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4174,9 +4174,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4224,10 +4224,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4275,10 +4275,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Snatch",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4337,10 +4337,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Overhead Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4388,10 +4388,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Push Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4441,8 +4441,8 @@
           {
             "movement": "Deadlift",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4501,10 +4501,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4552,10 +4552,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4604,9 +4604,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4665,10 +4665,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4716,10 +4716,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4768,9 +4768,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4829,10 +4829,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4880,10 +4880,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4932,9 +4932,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -4995,8 +4995,8 @@
           {
             "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5046,8 +5046,8 @@
           {
             "movement": "Strict Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5095,10 +5095,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Snatch",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5158,9 +5158,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5209,9 +5209,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5321,10 +5321,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Back Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5372,10 +5372,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Strict Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5485,10 +5485,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Back Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5536,10 +5536,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Strict Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5587,10 +5587,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Clean",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5651,8 +5651,8 @@
           {
             "movement": "Front Squat",
             "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5700,10 +5700,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
+            "movement": "Bench Press",
             "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5751,10 +5751,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Snatch",
             "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5815,8 +5815,8 @@
           {
             "movement": "Front Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5864,10 +5864,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
+            "movement": "Bench Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5915,10 +5915,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Clean and Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -5978,9 +5978,9 @@
         "movements": [
           {
             "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6028,10 +6028,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6079,10 +6079,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6142,9 +6142,9 @@
         "movements": [
           {
             "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6192,10 +6192,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6243,10 +6243,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6305,10 +6305,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Back Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6357,9 +6357,9 @@
         "movements": [
           {
             "movement": "Push Press",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6407,10 +6407,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6469,10 +6469,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
+            "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6522,8 +6522,8 @@
           {
             "movement": "Push Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6571,10 +6571,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Clean and Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6633,10 +6633,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Back Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6684,10 +6684,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6735,10 +6735,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6797,10 +6797,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Back Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6849,9 +6849,9 @@
         "movements": [
           {
             "movement": "Push Press",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6899,10 +6899,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -6961,10 +6961,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7012,10 +7012,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7064,9 +7064,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7125,10 +7125,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Front Squat",
+            "movement": "Overhead Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7176,10 +7176,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Push Press",
+            "movement": "Push Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7229,8 +7229,8 @@
           {
             "movement": "Deadlift",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7289,10 +7289,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Front Squat",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "movement": "Overhead Squat",
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7340,10 +7340,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Push Press",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "movement": "Push Jerk",
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7453,10 +7453,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7504,10 +7504,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7619,8 +7619,8 @@
           {
             "movement": "Back Squat",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7668,10 +7668,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
+            "movement": "Strict Press",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7719,10 +7719,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Hang Power Clean",
             "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7782,9 +7782,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7832,10 +7832,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Strict Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7883,10 +7883,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Hang Power Clean",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7947,8 +7947,8 @@
           {
             "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -7996,10 +7996,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
+            "movement": "Strict Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8047,10 +8047,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Snatch",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8110,9 +8110,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8160,10 +8160,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Strict Press",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8211,10 +8211,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Hang Power Clean",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Tall chest at the hang, explode at the hip, then punch the elbows around fast and land in a strong quarter squat. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8273,10 +8273,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8325,9 +8325,9 @@
         "movements": [
           {
             "movement": "Bench Press",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8375,10 +8375,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Snatch",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8437,10 +8437,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Front Squat",
             "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8490,8 +8490,8 @@
           {
             "movement": "Bench Press",
             "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8539,10 +8539,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Snatch",
             "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8601,10 +8601,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Front Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8654,8 +8654,8 @@
           {
             "movement": "Bench Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8703,10 +8703,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Snatch",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8765,10 +8765,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8817,9 +8817,9 @@
         "movements": [
           {
             "movement": "Bench Press",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8867,10 +8867,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Snatch",
+            "scheme": "Work to a heavy single",
+            "prescription": "Build to a heavy single for the day, stopping the moment positions slip.",
+            "notes": "Bar close, finish tall before you pull under, receive with active shoulders and a confident overhead lockout. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8930,9 +8930,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -8980,10 +8980,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Press",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9032,9 +9032,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9094,9 +9094,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9144,10 +9144,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9196,9 +9196,9 @@
         "movements": [
           {
             "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9259,8 +9259,8 @@
           {
             "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9308,10 +9308,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Bench Press",
+            "movement": "Push Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9361,8 +9361,8 @@
           {
             "movement": "Deadlift",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Take the slack out of the bar and set a flat back before you pull. Push the floor away and keep the bar close to the legs. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9422,9 +9422,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9472,10 +9472,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Bench Press",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "movement": "Push Press",
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9585,10 +9585,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Overhead Squat",
             "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9636,10 +9636,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Push Jerk",
             "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9749,10 +9749,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9800,10 +9800,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9851,10 +9851,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 70% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9913,10 +9913,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Overhead Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -9964,10 +9964,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10015,10 +10015,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x5",
-            "prescription": "@ 72% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10077,10 +10077,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Overhead Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Active shoulders, squeeze the bar apart, bar stacked over the midfoot. Sit straight down between the heels. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10128,10 +10128,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Push Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Dip, drive, and press yourself under into a partial squat. Catch with locked arms, then stand to finish the rep. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10179,10 +10179,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Clean",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Fast elbows. Loosen the grip a touch so they whip around, catch with high elbows. Finish the pull before the arms bend. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10242,9 +10242,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10293,9 +10293,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10343,10 +10343,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 76% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10407,8 +10407,8 @@
           {
             "movement": "Back Squat",
             "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10458,8 +10458,8 @@
           {
             "movement": "Strict Press",
             "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10507,10 +10507,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Snatch",
             "scheme": "5x3",
-            "prescription": "@ 79% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10570,9 +10570,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10621,9 +10621,9 @@
         "movements": [
           {
             "movement": "Strict Press",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10671,10 +10671,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "5x3",
-            "prescription": "@ 82% 1RM",
-            "notes": "Strength phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Power Snatch",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10735,8 +10735,8 @@
           {
             "movement": "Back Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10786,8 +10786,8 @@
           {
             "movement": "Strict Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Squeeze the bar hard, elbows just in front. Straight bar path past the chin, head through the window to finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10835,10 +10835,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Power Snatch",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Keep the bar close with the lats on. If it drifts forward you jump forward. Turn it over fast and lock the arms hard overhead. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10897,10 +10897,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10948,10 +10948,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -10999,10 +10999,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 85% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "5x5",
+            "prescription": "Build to a heavy set of 5 for the day. No percentages, let the bar tell you.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11061,10 +11061,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11112,10 +11112,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11163,10 +11163,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 88% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11225,10 +11225,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Front Squat",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11276,10 +11276,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Bench Press",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11327,10 +11327,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
-            "scheme": "3x2",
-            "prescription": "@ 91% 1RM",
-            "notes": "Peak phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Clean and Jerk",
+            "scheme": "6x2",
+            "prescription": "Build to a heavy double for the day with sharp, identical reps.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11389,10 +11389,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Back Squat",
+            "movement": "Front Squat",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Elbows high and proud, bar resting on the shoulders. A looser grip is fine if the rack stays tight. Stay tall. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11440,10 +11440,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
+            "movement": "Bench Press",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Shoulder blades pinned, feet planted, small arch. Lower under control to the chest and press back over the shoulders. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11491,10 +11491,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Deadlift",
+            "movement": "Clean and Jerk",
             "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
+            "prescription": "Stay light, about RPE 6. Leave plenty in reserve and move well.",
+            "notes": "Patient off the floor, violent at the hip. On the jerk dip straight down, drive the bar up, and punch under to a locked finish. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11554,9 +11554,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11604,10 +11604,10 @@
         "durationMinutes": 18,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "Work to a heavy single",
-            "prescription": "Test week: establish a new max",
-            "notes": "Build to a heavy single (or 3RM). Record it - your next block scales off this number."
+            "movement": "Push Press",
+            "scheme": "Find a heavy single",
+            "prescription": "Establish a new 1-rep max with crisp positions, building in small jumps.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11718,9 +11718,9 @@
         "movements": [
           {
             "movement": "Back Squat",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Big brace at the top, knees track over the toes, drive the whole foot through the floor out of the hole. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },
@@ -11768,10 +11768,10 @@
         "durationMinutes": 15,
         "movements": [
           {
-            "movement": "Strict Press",
-            "scheme": "5x5",
-            "prescription": "@ 68% 1RM",
-            "notes": "Volume phase. Same weight across sets unless noted. Rest 2:00-2:30."
+            "movement": "Push Press",
+            "scheme": "5x3",
+            "prescription": "Build to a heavy set of 3 for the day, leaving one clean rep in the tank.",
+            "notes": "Quick vertical dip, drive with the legs, then press. Keep the dip straight so the bar stays over the midline. Level: BEG/BEG+ stay light and groove the pattern (empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8. Add load only when the reps stay crisp."
           }
         ]
       },

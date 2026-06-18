@@ -77,7 +77,9 @@ Format: `OP-XXXX "Descriptive Noun"`
 
 ### Load Calibration
 
-All Rx loads are derived from benchmark 1RM data. The percentage depends on rep volume:
+This calibration applies to **metcon barbell loads** (concrete kg in a workout). Strength blocks do not use percentages, see **Strength Block Loading** below.
+
+All Rx metcon loads are derived from benchmark 1RM data. The percentage depends on rep volume:
 
 | Rep Volume | % of 1RM | Example |
 |-----------|---------|---------|
@@ -187,11 +189,11 @@ Team metcons (Teams of 2) use the same movement/scaling structure as solo metcon
 
 | Day | Focus | Strength | Metcon Style |
 |-----|-------|----------|-------------|
-| Monday | Heavy lower body | Back Squat / Front Squat + accessory pull | Sprint or interval (TC 8-16) |
+| Monday | Squat | Squat block: Back / Front / Overhead Squat (rep-max wave) | Sprint or interval (TC 8-16) |
 | Tuesday | **Teams of 2** | Skill work 10 min | Team YGIG or partition (TC 20-30) |
-| Wednesday | Press / upper body | Strict Press / Push Press + Rows | Moderate metcon (TC 16-18) |
+| Wednesday | Press | Press block: Strict / Bench / Push Press / Push Jerk (rep-max wave) | Moderate metcon (TC 16-18) |
 | Thursday | Gymnastics / conditioning | Gymnastics skill (HS, MU, DU) | Mixed modal (TC 14-20) |
-| Friday | Pull / posterior chain | Deadlift (build heavy) | All-out metcon (TC 14-22), no accessory |
+| Friday | Pull from the floor | Deadlift or Olympic block: Power Clean / Snatch / Clean and Jerk (rep-max wave) | All-out metcon (TC 14-22), no accessory |
 | Saturday | **Teams of 2** | Light skill or null | Team grinder (TC 20-30) |
 | Sunday | Active recovery / engine | None or light skill | Long easy effort or bodyweight (TC 20-30) |
 
@@ -201,6 +203,16 @@ Team metcons (Teams of 2) use the same movement/scaling structure as solo metcon
 - Sunday is intentionally lighter to manage weekly training load.
 - **Single-focus strength:** Each strength block has exactly one primary movement. No pairing two heavy compounds in one block. Put secondary work in accessories.
 - **Consecutive-day variety:** Back-to-back days must not repeat more than one movement. If Monday has KB Swings, Burpees, and Rowing, Tuesday should share at most one of those. Plan the weekly schedule holistically.
+
+### Strength Block Loading
+
+Strength blocks (Mon/Wed/Fri) use **rep-max plus RPE, never percentages of 1RM**. This keeps the program accessible (no tested max required) and self-scaling.
+
+- **Block focus:** each slot runs a roughly 4-week block on one lift, then rotates. Monday squat (Back Squat, Front Squat, Overhead Squat). Wednesday press (Strict Press, Bench Press, Push Press, Push Jerk). Friday pull from the floor (Deadlift plus the Olympic lifts: Power Clean, Hang Power Clean, Power Snatch, Snatch, Clean and Jerk). Olympic lifting is woven in year-round (~22% of strength days).
+- **Intensifying wave** over the 4 weeks of a block: week 1 build to a heavy 5 (5x5), week 2 a heavy 3 (5x3), week 3 a heavy 2 (6x2), week 4 a heavy single. Deload weeks back off (3x5 at RPE 6). Test weeks establish a new max.
+- **Load by feel:** prescriptions say "build to a heavy set of N for the day," never a percentage. Add load only when reps stay crisp.
+- **Level cues in OP language:** BEG/BEG+ stay light and groove the pattern (an empty bar or PVC is fine). INT/INT+ moderately heavy with 2-3 reps in reserve. ADV/ADV+/RX build to a genuinely heavy set near RPE 7-8.
+- Avoid clashing the day's strength lift with the same movement in that day's metcon.
 
 ### Time Budget
 
