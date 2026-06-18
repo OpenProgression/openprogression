@@ -4,7 +4,7 @@
     {
       "date": "2026-02-28",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n10 push-ups\n10 ring rows",
         "durationMinutes": 12
@@ -20,7 +20,7 @@
           }
         ]
       },
-      "metcon": "OP-0025",
+      "metcon": "OP-0021",
       "accessory": null
     },
     {
@@ -38,7 +38,7 @@
     {
       "date": "2026-03-02",
       "title": "Monday - Squat + Intervals",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n10 push-up to down dog",
         "durationMinutes": 10
@@ -54,7 +54,7 @@
           }
         ]
       },
-      "metcon": "OP-0004",
+      "metcon": "OP-0005",
       "accessory": {
         "notes": "Strict Pull-up 3x8 Bodyweight or add weight if unbroken\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 11
@@ -63,7 +63,7 @@
     {
       "date": "2026-03-03",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
         "durationMinutes": 10
@@ -79,7 +79,7 @@
           }
         ]
       },
-      "metcon": "OP-0021",
+      "metcon": "OP-0041",
       "accessory": null
     },
     {
@@ -101,7 +101,7 @@
           }
         ]
       },
-      "metcon": "OP-0011",
+      "metcon": "OP-0008",
       "accessory": {
         "notes": "Pendlay Row 3x8 @ moderate weight, controlled reps\n3x15 tricep dips\n2x20 banded face pulls",
         "durationMinutes": 12
@@ -110,7 +110,7 @@
     {
       "date": "2026-03-05",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 leg swings each side\n30s plank hold",
         "durationMinutes": 12
@@ -126,13 +126,13 @@
           }
         ]
       },
-      "metcon": "OP-0027",
+      "metcon": "OP-0011",
       "accessory": null
     },
     {
       "date": "2026-03-06",
       "title": "Friday - Deadlift + Sprint",
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -148,13 +148,13 @@
           }
         ]
       },
-      "metcon": "OP-0005",
+      "metcon": "OP-0004",
       "accessory": null
     },
     {
       "date": "2026-03-07",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 strict pull-ups",
         "durationMinutes": 10
@@ -170,7 +170,7 @@
           }
         ]
       },
-      "metcon": "OP-0022",
+      "metcon": "OP-0025",
       "accessory": null
     },
     {
@@ -188,7 +188,7 @@
     {
       "date": "2026-03-09",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 Cossack squats (alternating)\n10 PVC pass-throughs\n5 box jumps",
         "durationMinutes": 10
@@ -204,7 +204,7 @@
           }
         ]
       },
-      "metcon": "OP-0012",
+      "metcon": "OP-0020",
       "accessory": {
         "notes": "Weighted Ring Dip 3x5 Build across\n3x15 GHD sit-ups\n3x20 banded pull-aparts",
         "durationMinutes": 15
@@ -229,13 +229,13 @@
           }
         ]
       },
-      "metcon": "OP-0026",
+      "metcon": "OP-0022",
       "accessory": null
     },
     {
       "date": "2026-03-11",
       "title": "Wednesday - Press + Gymnastics",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 leg swings each side\n30s plank hold",
         "durationMinutes": 8
@@ -251,7 +251,7 @@
           }
         ]
       },
-      "metcon": "OP-0007",
+      "metcon": "OP-0035",
       "accessory": {
         "notes": "Supinated Barbell Row 3x8 @ moderate weight\n3x12 GHD sit-ups\n2x20 banded face pulls",
         "durationMinutes": 12
@@ -260,7 +260,7 @@
     {
       "date": "2026-03-12",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 air squats\n10 leg swings each side\n5 inchworms",
         "durationMinutes": 12
@@ -276,7 +276,7 @@
           }
         ]
       },
-      "metcon": "OP-0028",
+      "metcon": "OP-0032",
       "accessory": null
     },
     {
@@ -298,7 +298,7 @@
           }
         ]
       },
-      "metcon": "OP-0014",
+      "metcon": "OP-0028",
       "accessory": null
     },
     {
@@ -332,7 +332,7 @@
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0032",
+      "metcon": "OP-0037",
       "accessory": null
     },
     {
@@ -363,7 +363,7 @@
     {
       "date": "2026-03-17",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
         "durationMinutes": 12
@@ -379,7 +379,7 @@
           }
         ]
       },
-      "metcon": "OP-0025",
+      "metcon": "OP-0026",
       "accessory": null
     },
     {
@@ -410,7 +410,7 @@
     {
       "date": "2026-03-19",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n10 PVC pass-throughs",
         "durationMinutes": 12
@@ -426,13 +426,13 @@
           }
         ]
       },
-      "metcon": "OP-0029",
+      "metcon": "OP-0009",
       "accessory": null
     },
     {
       "date": "2026-03-20",
       "title": "Friday - Deadlift + Grind",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n10 wrist circles each direction\n5 broad jumps",
         "durationMinutes": 10
@@ -448,13 +448,13 @@
           }
         ]
       },
-      "metcon": "OP-0009",
+      "metcon": "OP-0043",
       "accessory": null
     },
     {
       "date": "2026-03-21",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "800m easy jog\nThen 2 rounds:\n10 PVC overhead squats\n10 90/90 hip switches\n5 strict pull-ups",
         "durationMinutes": 10
@@ -470,7 +470,7 @@
           }
         ]
       },
-      "metcon": "OP-0026",
+      "metcon": "OP-0024",
       "accessory": null
     },
     {
@@ -488,7 +488,7 @@
     {
       "date": "2026-03-23",
       "title": "Monday - Squat + Intervals",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 Cossack squats (alternating)\n10 PVC pass-throughs\n5 box jumps",
         "durationMinutes": 10
@@ -504,7 +504,7 @@
           }
         ]
       },
-      "metcon": "OP-0004",
+      "metcon": "OP-0027",
       "accessory": {
         "notes": "Strict Pull-up 3x8 Bodyweight or add weight if unbroken\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 11
@@ -513,7 +513,7 @@
     {
       "date": "2026-03-24",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy bike or row\nThen 2 rounds:\n10 KB swings (light)\n10 wall ball (light)\n200m run",
         "durationMinutes": 10
@@ -529,13 +529,13 @@
           }
         ]
       },
-      "metcon": "OP-0021",
+      "metcon": "OP-0026",
       "accessory": null
     },
     {
       "date": "2026-03-25",
       "title": "Wednesday - Press + Bodyweight",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n5 push-ups\n10 ring rows\n15 band pull-aparts\n10 PVC strict press",
         "durationMinutes": 8
@@ -551,7 +551,7 @@
           }
         ]
       },
-      "metcon": "OP-0008",
+      "metcon": "OP-0019",
       "accessory": {
         "notes": "Pendlay Row 4x6 @ moderate-heavy weight\n3x15 tricep dips\n2x20 banded face pulls",
         "durationMinutes": 12
@@ -560,7 +560,7 @@
     {
       "date": "2026-03-26",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 scap pull-ups\n10 push-ups\n10 air squats\n30s plank hold",
         "durationMinutes": 12
@@ -576,13 +576,13 @@
           }
         ]
       },
-      "metcon": "OP-0030",
+      "metcon": "OP-0014",
       "accessory": null
     },
     {
       "date": "2026-03-27",
       "title": "Friday - Pull + Grind",
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 broad jumps",
         "durationMinutes": 10
@@ -598,7 +598,7 @@
           }
         ]
       },
-      "metcon": "OP-0019",
+      "metcon": "OP-0004",
       "accessory": null
     },
     {
@@ -638,7 +638,7 @@
     {
       "date": "2026-03-30",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 52,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n10 push-up to down dog",
         "durationMinutes": 10
@@ -654,7 +654,7 @@
           }
         ]
       },
-      "metcon": "OP-0020",
+      "metcon": "OP-0007",
       "accessory": {
         "notes": "Weighted Ring Dip 3x5 Build across\n3x15 GHD sit-ups\n3x20 banded pull-aparts",
         "durationMinutes": 15
@@ -663,7 +663,7 @@
     {
       "date": "2026-03-31",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row\nThen 2 rounds:\n10 KB deadlifts\n10 leg swings each side\n5 inchworms",
         "durationMinutes": 12
@@ -679,13 +679,13 @@
           }
         ]
       },
-      "metcon": "OP-0024",
+      "metcon": "OP-0025",
       "accessory": null
     },
     {
       "date": "2026-04-01",
       "title": "Wednesday - Press + Intervals",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n5 push press with empty bar\n10 PVC pass-throughs\n10 hanging scap retractions\n10 air squats",
         "durationMinutes": 10
@@ -701,7 +701,7 @@
           }
         ]
       },
-      "metcon": "OP-0035",
+      "metcon": "OP-0012",
       "accessory": {
         "notes": "3x12 Pendlay Row @ moderate weight\n3x15 tricep dips",
         "durationMinutes": 7
@@ -710,7 +710,7 @@
     {
       "date": "2026-04-02",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 wall walk to halfway\n10 PVC pass-throughs\n10 air squats\n20 single-unders",
         "durationMinutes": 10
@@ -726,13 +726,13 @@
           }
         ]
       },
-      "metcon": "OP-0036",
+      "metcon": "OP-0049",
       "accessory": null
     },
     {
       "date": "2026-04-03",
       "title": "Friday - Deadlift + All-Out",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 good mornings\n10 box step-ups\n5 broad jumps\n10 bar-facing burpees (slow)",
         "durationMinutes": 10
@@ -748,13 +748,13 @@
           }
         ]
       },
-      "metcon": "OP-0037",
+      "metcon": "OP-0036",
       "accessory": null
     },
     {
       "date": "2026-04-04",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds with partner:\n10 KB deadlifts\n10 wall balls (light)\n10 leg swings each side",
         "durationMinutes": 12
@@ -770,7 +770,7 @@
           }
         ]
       },
-      "metcon": "OP-0038",
+      "metcon": "OP-0021",
       "accessory": null
     },
     {
@@ -788,7 +788,7 @@
     {
       "date": "2026-04-06",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 49,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n5 front squat with empty bar",
         "durationMinutes": 10
@@ -804,7 +804,7 @@
           }
         ]
       },
-      "metcon": "OP-0040",
+      "metcon": "OP-0075",
       "accessory": {
         "notes": "3x10 Bulgarian split squat (each leg, bodyweight)\n3x15 GHD hip extensions",
         "durationMinutes": 12
@@ -829,13 +829,13 @@
           }
         ]
       },
-      "metcon": "OP-0041",
+      "metcon": "OP-0083",
       "accessory": null
     },
     {
       "date": "2026-04-08",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 snatch grip push press with empty bar\n10 PVC pass-throughs\n10 push-ups\n20 single-unders",
         "durationMinutes": 10
@@ -851,7 +851,7 @@
           }
         ]
       },
-      "metcon": "OP-0042",
+      "metcon": "OP-0071",
       "accessory": {
         "notes": "3x8 strict pull-ups (weighted if possible)\n3x20 banded face pulls",
         "durationMinutes": 7
@@ -860,7 +860,7 @@
     {
       "date": "2026-04-09",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n30s plank hold",
         "durationMinutes": 10
@@ -876,13 +876,13 @@
           }
         ]
       },
-      "metcon": "OP-0043",
+      "metcon": "OP-0044",
       "accessory": null
     },
     {
       "date": "2026-04-10",
       "title": "Friday - Deadlift + All-Out",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 good mornings\n10 single-leg RDL (5 each side)\n5 inchworms",
         "durationMinutes": 10
@@ -898,13 +898,13 @@
           }
         ]
       },
-      "metcon": "OP-0044",
+      "metcon": "OP-0030",
       "accessory": null
     },
     {
       "date": "2026-04-11",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds:\n10 KB swings (light)\n10 sit-ups\n10 wall balls (light)\n200m run",
         "durationMinutes": 12
@@ -920,25 +920,25 @@
           }
         ]
       },
-      "metcon": "OP-0045",
+      "metcon": "OP-0038",
       "accessory": null
     },
     {
       "date": "2026-04-12",
       "title": "Sunday - Active Recovery",
-      "estimatedMinutes": 35,
+      "estimatedMinutes": 30,
       "warmup": {
         "notes": "5 min easy bike\nThen 2 rounds:\n10 walking lunges\n10 PVC pass-throughs\n10 ring rows",
         "durationMinutes": 10
       },
       "strength": null,
-      "metcon": "OP-0046",
+      "metcon": "OP-0029",
       "accessory": null
     },
     {
       "date": "2026-04-13",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 49,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats\n5 front squat with empty bar\n10 PVC pass-throughs",
         "durationMinutes": 10
@@ -954,7 +954,7 @@
           }
         ]
       },
-      "metcon": "OP-0047",
+      "metcon": "OP-0065",
       "accessory": {
         "notes": "3x10 GHD sit-ups (or butterfly sit-ups)\n3x15 GHD hip extensions",
         "durationMinutes": 10
@@ -963,7 +963,7 @@
     {
       "date": "2026-04-14",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds:\n5 hang power clean with empty bar\n10 burpees (slow)\n20 single-unders",
         "durationMinutes": 12
@@ -979,7 +979,7 @@
           }
         ]
       },
-      "metcon": "OP-0048",
+      "metcon": "OP-0045",
       "accessory": null
     },
     {
@@ -1001,7 +1001,7 @@
           }
         ]
       },
-      "metcon": "OP-0049",
+      "metcon": "OP-0050",
       "accessory": {
         "notes": "3x12 dumbbell bench press\n3x20 banded pull-aparts",
         "durationMinutes": 7
@@ -1010,7 +1010,7 @@
     {
       "date": "2026-04-16",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n10 air squats\n5 strict pull-ups",
         "durationMinutes": 8
@@ -1026,7 +1026,7 @@
           }
         ]
       },
-      "metcon": "OP-0050",
+      "metcon": "OP-0074",
       "accessory": null
     },
     {
@@ -1048,13 +1048,13 @@
           }
         ]
       },
-      "metcon": "OP-0051",
+      "metcon": "OP-0064",
       "accessory": null
     },
     {
       "date": "2026-04-18",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or bike\nThen 2 rounds:\n5 power snatch with empty bar\n10 box step-ups\n10 air squats",
         "durationMinutes": 10
@@ -1070,7 +1070,7 @@
           }
         ]
       },
-      "metcon": "OP-0052",
+      "metcon": "OP-0085",
       "accessory": null
     },
     {
@@ -1135,7 +1135,7 @@
     {
       "date": "2026-04-22",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n5 clean with empty bar\n10 PVC pass-throughs\n10 ring rows\n10 air squats",
         "durationMinutes": 10
@@ -1151,7 +1151,7 @@
           }
         ]
       },
-      "metcon": "OP-0056",
+      "metcon": "OP-0061",
       "accessory": {
         "notes": "3x8 Pendlay Row @ moderate weight\n3x20 banded face pulls",
         "durationMinutes": 7
@@ -1160,7 +1160,7 @@
     {
       "date": "2026-04-23",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n5 scap pull-ups\n10 ring rows\n5 pistol squat attempts each leg\n10 sit-ups",
         "durationMinutes": 10
@@ -1176,7 +1176,7 @@
           }
         ]
       },
-      "metcon": "OP-0057",
+      "metcon": "OP-0094",
       "accessory": null
     },
     {
@@ -1198,7 +1198,7 @@
           }
         ]
       },
-      "metcon": "OP-0058",
+      "metcon": "OP-0069",
       "accessory": null
     },
     {
@@ -1220,7 +1220,7 @@
           }
         ]
       },
-      "metcon": "OP-0059",
+      "metcon": "OP-0062",
       "accessory": null
     },
     {
@@ -1238,7 +1238,7 @@
     {
       "date": "2026-04-27",
       "title": "Monday - Squat + Sprint",
-      "estimatedMinutes": 49,
+      "estimatedMinutes": 51,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 PVC pass-throughs\n10 air squats\n5 hang power clean with empty bar",
         "durationMinutes": 10
@@ -1254,7 +1254,7 @@
           }
         ]
       },
-      "metcon": "OP-0061",
+      "metcon": "OP-0042",
       "accessory": {
         "notes": "3x10 Bulgarian split squat (each leg, bodyweight)\n3x10 strict toes-to-bar (or hanging knee raise)",
         "durationMinutes": 10
@@ -1279,13 +1279,13 @@
           }
         ]
       },
-      "metcon": "OP-0062",
+      "metcon": "OP-0059",
       "accessory": null
     },
     {
       "date": "2026-04-29",
       "title": "Wednesday - Press + Intervals",
-      "estimatedMinutes": 49,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n5 snatch grip push press with empty bar\n10 PVC pass-throughs\n10 KB swings (light)\n10 air squats",
         "durationMinutes": 10
@@ -1301,7 +1301,7 @@
           }
         ]
       },
-      "metcon": "OP-0063",
+      "metcon": "OP-0040",
       "accessory": {
         "notes": "3x12 dumbbell bench press\n3x15 tricep dips",
         "durationMinutes": 8
@@ -1310,7 +1310,7 @@
     {
       "date": "2026-04-30",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n5 scap pull-ups\n10 air squats\n10 walking lunges\n20 single-unders",
         "durationMinutes": 10
@@ -1326,13 +1326,13 @@
           }
         ]
       },
-      "metcon": "OP-0064",
+      "metcon": "OP-0074",
       "accessory": null
     },
     {
       "date": "2026-05-01",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -1348,7 +1348,7 @@
           }
         ]
       },
-      "metcon": "OP-0071",
+      "metcon": "OP-0073",
       "accessory": null
     },
     {
@@ -1370,7 +1370,7 @@
           }
         ]
       },
-      "metcon": "OP-0086",
+      "metcon": "OP-0096",
       "accessory": null
     },
     {
@@ -1388,7 +1388,7 @@
     {
       "date": "2026-05-04",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -1404,7 +1404,7 @@
           }
         ]
       },
-      "metcon": "OP-0065",
+      "metcon": "OP-0047",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -1413,7 +1413,7 @@
     {
       "date": "2026-05-05",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1429,7 +1429,7 @@
           }
         ]
       },
-      "metcon": "OP-0083",
+      "metcon": "OP-0048",
       "accessory": null
     },
     {
@@ -1451,7 +1451,7 @@
           }
         ]
       },
-      "metcon": "OP-0067",
+      "metcon": "OP-0089",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -1460,7 +1460,7 @@
     {
       "date": "2026-05-07",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -1476,7 +1476,7 @@
           }
         ]
       },
-      "metcon": "OP-0069",
+      "metcon": "OP-0066",
       "accessory": null
     },
     {
@@ -1498,7 +1498,7 @@
           }
         ]
       },
-      "metcon": "OP-0076",
+      "metcon": "OP-0056",
       "accessory": null
     },
     {
@@ -1563,7 +1563,7 @@
     {
       "date": "2026-05-12",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1579,7 +1579,7 @@
           }
         ]
       },
-      "metcon": "OP-0085",
+      "metcon": "OP-0052",
       "accessory": null
     },
     {
@@ -1610,7 +1610,7 @@
     {
       "date": "2026-05-14",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -1626,7 +1626,7 @@
           }
         ]
       },
-      "metcon": "OP-0073",
+      "metcon": "OP-0076",
       "accessory": null
     },
     {
@@ -1648,13 +1648,13 @@
           }
         ]
       },
-      "metcon": "OP-0072",
+      "metcon": "OP-0051",
       "accessory": null
     },
     {
       "date": "2026-05-16",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1670,7 +1670,7 @@
           }
         ]
       },
-      "metcon": "OP-0084",
+      "metcon": "OP-0097",
       "accessory": null
     },
     {
@@ -1688,7 +1688,7 @@
     {
       "date": "2026-05-18",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -1704,7 +1704,7 @@
           }
         ]
       },
-      "metcon": "OP-0075",
+      "metcon": "OP-0071",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 15
@@ -1713,7 +1713,7 @@
     {
       "date": "2026-05-19",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1729,7 +1729,7 @@
           }
         ]
       },
-      "metcon": "OP-0087",
+      "metcon": "OP-0083",
       "accessory": null
     },
     {
@@ -1760,7 +1760,7 @@
     {
       "date": "2026-05-21",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -1776,13 +1776,13 @@
           }
         ]
       },
-      "metcon": "OP-0074",
+      "metcon": "OP-0093",
       "accessory": null
     },
     {
       "date": "2026-05-22",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -1798,13 +1798,13 @@
           }
         ]
       },
-      "metcon": "OP-0077",
+      "metcon": "OP-0004",
       "accessory": null
     },
     {
       "date": "2026-05-23",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1820,25 +1820,25 @@
           }
         ]
       },
-      "metcon": "OP-0097",
+      "metcon": "OP-0084",
       "accessory": null
     },
     {
       "date": "2026-05-24",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 37,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0094",
+      "metcon": "OP-0046",
       "accessory": null
     },
     {
       "date": "2026-05-25",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -1854,7 +1854,7 @@
           }
         ]
       },
-      "metcon": "OP-0066",
+      "metcon": "OP-0070",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 13
@@ -1879,7 +1879,7 @@
           }
         ]
       },
-      "metcon": "OP-0096",
+      "metcon": "OP-0086",
       "accessory": null
     },
     {
@@ -1901,7 +1901,7 @@
           }
         ]
       },
-      "metcon": "OP-0089",
+      "metcon": "OP-0067",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -1926,13 +1926,13 @@
           }
         ]
       },
-      "metcon": "OP-0091",
+      "metcon": "OP-0072",
       "accessory": null
     },
     {
       "date": "2026-05-29",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -1948,13 +1948,13 @@
           }
         ]
       },
-      "metcon": "OP-0093",
+      "metcon": "OP-0094",
       "accessory": null
     },
     {
       "date": "2026-05-30",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -1970,7 +1970,7 @@
           }
         ]
       },
-      "metcon": "OP-0099",
+      "metcon": "OP-0085",
       "accessory": null
     },
     {
@@ -1988,7 +1988,7 @@
     {
       "date": "2026-06-01",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -2004,7 +2004,7 @@
           }
         ]
       },
-      "metcon": "OP-0081",
+      "metcon": "OP-0075",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 13
@@ -2051,7 +2051,7 @@
           }
         ]
       },
-      "metcon": "OP-0090",
+      "metcon": "OP-0092",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -2060,7 +2060,7 @@
     {
       "date": "2026-06-04",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2076,13 +2076,13 @@
           }
         ]
       },
-      "metcon": "OP-0092",
+      "metcon": "OP-0058",
       "accessory": null
     },
     {
       "date": "2026-06-05",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -2098,13 +2098,13 @@
           }
         ]
       },
-      "metcon": "OP-0071",
+      "metcon": "OP-0090",
       "accessory": null
     },
     {
       "date": "2026-06-06",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2120,19 +2120,19 @@
           }
         ]
       },
-      "metcon": "OP-0086",
+      "metcon": "OP-0087",
       "accessory": null
     },
     {
       "date": "2026-06-07",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0078",
+      "metcon": "OP-0079",
       "accessory": null
     },
     {
@@ -2163,7 +2163,7 @@
     {
       "date": "2026-06-09",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2179,13 +2179,13 @@
           }
         ]
       },
-      "metcon": "OP-0083",
+      "metcon": "OP-0088",
       "accessory": null
     },
     {
       "date": "2026-06-10",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -2201,7 +2201,7 @@
           }
         ]
       },
-      "metcon": "OP-0067",
+      "metcon": "OP-0066",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -2226,13 +2226,13 @@
           }
         ]
       },
-      "metcon": "OP-0069",
+      "metcon": "OP-0067",
       "accessory": null
     },
     {
       "date": "2026-06-12",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -2248,13 +2248,13 @@
           }
         ]
       },
-      "metcon": "OP-0076",
+      "metcon": "OP-0072",
       "accessory": null
     },
     {
       "date": "2026-06-13",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2270,19 +2270,19 @@
           }
         ]
       },
-      "metcon": "OP-0088",
+      "metcon": "OP-0086",
       "accessory": null
     },
     {
       "date": "2026-06-14",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 32,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0082",
+      "metcon": "OP-0002",
       "accessory": null
     },
     {
@@ -2313,7 +2313,7 @@
     {
       "date": "2026-06-16",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2329,13 +2329,13 @@
           }
         ]
       },
-      "metcon": "OP-0085",
+      "metcon": "OP-0099",
       "accessory": null
     },
     {
       "date": "2026-06-17",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -2351,7 +2351,7 @@
           }
         ]
       },
-      "metcon": "OP-0070",
+      "metcon": "OP-0077",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -2360,7 +2360,7 @@
     {
       "date": "2026-06-18",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2376,7 +2376,7 @@
           }
         ]
       },
-      "metcon": "OP-0073",
+      "metcon": "OP-0081",
       "accessory": null
     },
     {
@@ -2398,71 +2398,12 @@
           }
         ]
       },
-      "metcon": "OP-0072",
+      "metcon": "OP-0077",
       "accessory": null
     },
     {
       "date": "2026-06-20",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
-      "warmup": {
-        "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
-        "durationMinutes": 10
-      },
-      "strength": {
-        "durationMinutes": 10,
-        "movements": [
-          {
-            "movement": "Double-Under Practice",
-            "scheme": "Skill: 10 min",
-            "prescription": "Sets of 20-40",
-            "notes": "Single-unders and timing drills for beginners. Not for score."
-          }
-        ]
-      },
-      "metcon": "OP-0084",
-      "accessory": null
-    },
-    {
-      "date": "2026-06-21",
-      "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 36,
-      "warmup": {
-        "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
-        "durationMinutes": 12
-      },
-      "strength": null,
-      "metcon": "OP-0079",
-      "accessory": null
-    },
-    {
-      "date": "2026-06-22",
-      "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 48,
-      "warmup": {
-        "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
-        "durationMinutes": 10
-      },
-      "strength": {
-        "durationMinutes": 15,
-        "movements": [
-          {
-            "movement": "Back Squat",
-            "scheme": "4x6",
-            "prescription": "@ 65% 1RM",
-            "notes": "Controlled tempo down, drive up. Rest 2:00."
-          }
-        ]
-      },
-      "metcon": "OP-0075",
-      "accessory": {
-        "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
-        "durationMinutes": 15
-      }
-    },
-    {
-      "date": "2026-06-23",
-      "title": "Tuesday - Teams of 2",
       "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
@@ -2480,6 +2421,65 @@
         ]
       },
       "metcon": "OP-0087",
+      "accessory": null
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Sunday - Recovery Engine",
+      "estimatedMinutes": 38,
+      "warmup": {
+        "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
+        "durationMinutes": 12
+      },
+      "strength": null,
+      "metcon": "OP-0078",
+      "accessory": null
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Monday - Squat + Conditioning",
+      "estimatedMinutes": 54,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Back Squat",
+            "scheme": "4x6",
+            "prescription": "@ 65% 1RM",
+            "notes": "Controlled tempo down, drive up. Rest 2:00."
+          }
+        ]
+      },
+      "metcon": "OP-0081",
+      "accessory": {
+        "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
+        "durationMinutes": 15
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Tuesday - Teams of 2",
+      "estimatedMinutes": 42,
+      "warmup": {
+        "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Double-Under Practice",
+            "scheme": "Skill: 10 min",
+            "prescription": "Sets of 20-40",
+            "notes": "Single-unders and timing drills for beginners. Not for score."
+          }
+        ]
+      },
+      "metcon": "OP-0021",
       "accessory": null
     },
     {
@@ -2510,7 +2510,7 @@
     {
       "date": "2026-06-25",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2526,7 +2526,7 @@
           }
         ]
       },
-      "metcon": "OP-0074",
+      "metcon": "OP-0003",
       "accessory": null
     },
     {
@@ -2548,7 +2548,7 @@
           }
         ]
       },
-      "metcon": "OP-0077",
+      "metcon": "OP-0091",
       "accessory": null
     },
     {
@@ -2576,19 +2576,19 @@
     {
       "date": "2026-06-28",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0094",
+      "metcon": "OP-0095",
       "accessory": null
     },
     {
       "date": "2026-06-29",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -2604,7 +2604,7 @@
           }
         ]
       },
-      "metcon": "OP-0066",
+      "metcon": "OP-0115",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 13
@@ -2660,7 +2660,7 @@
     {
       "date": "2026-07-02",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2676,13 +2676,13 @@
           }
         ]
       },
-      "metcon": "OP-0091",
+      "metcon": "OP-0093",
       "accessory": null
     },
     {
       "date": "2026-07-03",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -2698,13 +2698,13 @@
           }
         ]
       },
-      "metcon": "OP-0093",
+      "metcon": "OP-0057",
       "accessory": null
     },
     {
       "date": "2026-07-04",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2720,19 +2720,19 @@
           }
         ]
       },
-      "metcon": "OP-0099",
+      "metcon": "OP-0104",
       "accessory": null
     },
     {
       "date": "2026-07-05",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0095",
+      "metcon": "OP-0013",
       "accessory": null
     },
     {
@@ -2754,7 +2754,7 @@
           }
         ]
       },
-      "metcon": "OP-0081",
+      "metcon": "OP-0008",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 13
@@ -2810,7 +2810,7 @@
     {
       "date": "2026-07-09",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2826,13 +2826,13 @@
           }
         ]
       },
-      "metcon": "OP-0092",
+      "metcon": "OP-0008",
       "accessory": null
     },
     {
       "date": "2026-07-10",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -2848,7 +2848,7 @@
           }
         ]
       },
-      "metcon": "OP-0002",
+      "metcon": "OP-0076",
       "accessory": null
     },
     {
@@ -2870,7 +2870,7 @@
           }
         ]
       },
-      "metcon": "OP-0062",
+      "metcon": "OP-0022",
       "accessory": null
     },
     {
@@ -2888,7 +2888,7 @@
     {
       "date": "2026-07-13",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -2904,7 +2904,7 @@
           }
         ]
       },
-      "metcon": "OP-0001",
+      "metcon": "OP-0005",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 15
@@ -2913,7 +2913,7 @@
     {
       "date": "2026-07-14",
       "title": "Tuesday - Teams of 2",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -2929,7 +2929,7 @@
           }
         ]
       },
-      "metcon": "OP-0021",
+      "metcon": "OP-0084",
       "accessory": null
     },
     {
@@ -2951,7 +2951,7 @@
           }
         ]
       },
-      "metcon": "OP-0003",
+      "metcon": "OP-0092",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -2960,7 +2960,7 @@
     {
       "date": "2026-07-16",
       "title": "Thursday - Gymnastics + Conditioning",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -2976,7 +2976,7 @@
           }
         ]
       },
-      "metcon": "OP-0002",
+      "metcon": "OP-0110",
       "accessory": null
     },
     {
@@ -3026,13 +3026,13 @@
     {
       "date": "2026-07-19",
       "title": "Sunday - Recovery Engine",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0013",
+      "metcon": "OP-0082",
       "accessory": null
     },
     {
@@ -3054,7 +3054,7 @@
           }
         ]
       },
-      "metcon": "OP-0004",
+      "metcon": "OP-0063",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 11
@@ -3079,13 +3079,13 @@
           }
         ]
       },
-      "metcon": "OP-0022",
+      "metcon": "OP-0062",
       "accessory": null
     },
     {
       "date": "2026-07-22",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -3101,7 +3101,7 @@
           }
         ]
       },
-      "metcon": "OP-0004",
+      "metcon": "OP-0106",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -3132,7 +3132,7 @@
     {
       "date": "2026-07-24",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3148,13 +3148,13 @@
           }
         ]
       },
-      "metcon": "OP-0004",
+      "metcon": "OP-0109",
       "accessory": null
     },
     {
       "date": "2026-07-25",
       "title": "Saturday - Teams of 2",
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -3170,7 +3170,7 @@
           }
         ]
       },
-      "metcon": "OP-0055",
+      "metcon": "OP-0099",
       "accessory": null
     },
     {
@@ -3188,7 +3188,7 @@
     {
       "date": "2026-07-27",
       "title": "Monday - Squat + Conditioning",
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -3204,7 +3204,7 @@
           }
         ]
       },
-      "metcon": "OP-0005",
+      "metcon": "OP-0004",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -3235,7 +3235,7 @@
     {
       "date": "2026-07-29",
       "title": "Wednesday - Press + Conditioning",
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -3251,7 +3251,7 @@
           }
         ]
       },
-      "metcon": "OP-0008",
+      "metcon": "OP-0108",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 13
@@ -3282,7 +3282,7 @@
     {
       "date": "2026-07-31",
       "title": "Friday - Deadlift + Metcon",
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3298,7 +3298,7 @@
           }
         ]
       },
-      "metcon": "OP-0008",
+      "metcon": "OP-0091",
       "accessory": null
     },
     {
@@ -3306,7 +3306,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -3322,7 +3322,7 @@
           }
         ]
       },
-      "metcon": "OP-0104",
+      "metcon": "OP-0121",
       "accessory": null
     },
     {
@@ -3330,13 +3330,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0105",
+      "metcon": "OP-0119",
       "accessory": null
     },
     {
@@ -3344,7 +3344,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -3360,7 +3360,7 @@
           }
         ]
       },
-      "metcon": "OP-0106",
+      "metcon": "OP-0001",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -3371,7 +3371,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -3387,7 +3387,7 @@
           }
         ]
       },
-      "metcon": "OP-0107",
+      "metcon": "OP-0125",
       "accessory": null
     },
     {
@@ -3395,7 +3395,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -3411,7 +3411,7 @@
           }
         ]
       },
-      "metcon": "OP-0108",
+      "metcon": "OP-0117",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -3422,7 +3422,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -3438,7 +3438,7 @@
           }
         ]
       },
-      "metcon": "OP-0109",
+      "metcon": "OP-0004",
       "accessory": null
     },
     {
@@ -3446,7 +3446,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3462,7 +3462,7 @@
           }
         ]
       },
-      "metcon": "OP-0110",
+      "metcon": "OP-0002",
       "accessory": null
     },
     {
@@ -3535,7 +3535,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -3551,7 +3551,7 @@
           }
         ]
       },
-      "metcon": "OP-0114",
+      "metcon": "OP-0107",
       "accessory": null
     },
     {
@@ -3559,7 +3559,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -3575,7 +3575,7 @@
           }
         ]
       },
-      "metcon": "OP-0115",
+      "metcon": "OP-0116",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -3586,7 +3586,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -3602,7 +3602,7 @@
           }
         ]
       },
-      "metcon": "OP-0116",
+      "metcon": "OP-0134",
       "accessory": null
     },
     {
@@ -3610,7 +3610,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3626,7 +3626,7 @@
           }
         ]
       },
-      "metcon": "OP-0117",
+      "metcon": "OP-0157",
       "accessory": null
     },
     {
@@ -3650,7 +3650,7 @@
           }
         ]
       },
-      "metcon": "OP-0118",
+      "metcon": "OP-0142",
       "accessory": null
     },
     {
@@ -3658,13 +3658,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0119",
+      "metcon": "OP-0105",
       "accessory": null
     },
     {
@@ -3699,7 +3699,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -3715,7 +3715,7 @@
           }
         ]
       },
-      "metcon": "OP-0121",
+      "metcon": "OP-0055",
       "accessory": null
     },
     {
@@ -3750,7 +3750,7 @@
       "title": "Thursday - Gymnastics + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -3766,7 +3766,7 @@
           }
         ]
       },
-      "metcon": "OP-0123",
+      "metcon": "OP-0124",
       "accessory": null
     },
     {
@@ -3774,7 +3774,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3790,7 +3790,7 @@
           }
         ]
       },
-      "metcon": "OP-0124",
+      "metcon": "OP-0123",
       "accessory": null
     },
     {
@@ -3814,7 +3814,7 @@
           }
         ]
       },
-      "metcon": "OP-0125",
+      "metcon": "OP-0114",
       "accessory": null
     },
     {
@@ -3914,7 +3914,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -3930,7 +3930,7 @@
           }
         ]
       },
-      "metcon": "OP-0130",
+      "metcon": "OP-0131",
       "accessory": null
     },
     {
@@ -3938,7 +3938,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -3954,7 +3954,7 @@
           }
         ]
       },
-      "metcon": "OP-0131",
+      "metcon": "OP-0073",
       "accessory": null
     },
     {
@@ -3978,7 +3978,7 @@
           }
         ]
       },
-      "metcon": "OP-0132",
+      "metcon": "OP-0149",
       "accessory": null
     },
     {
@@ -4000,7 +4000,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -4016,7 +4016,7 @@
           }
         ]
       },
-      "metcon": "OP-0134",
+      "metcon": "OP-0136",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 13
@@ -4067,7 +4067,7 @@
           }
         ]
       },
-      "metcon": "OP-0136",
+      "metcon": "OP-0137",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -4094,7 +4094,7 @@
           }
         ]
       },
-      "metcon": "OP-0137",
+      "metcon": "OP-0069",
       "accessory": null
     },
     {
@@ -4102,7 +4102,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -4118,7 +4118,7 @@
           }
         ]
       },
-      "metcon": "OP-0138",
+      "metcon": "OP-0130",
       "accessory": null
     },
     {
@@ -4126,7 +4126,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4142,7 +4142,7 @@
           }
         ]
       },
-      "metcon": "OP-0139",
+      "metcon": "OP-0156",
       "accessory": null
     },
     {
@@ -4164,7 +4164,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -4180,7 +4180,7 @@
           }
         ]
       },
-      "metcon": "OP-0141",
+      "metcon": "OP-0164",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 13
@@ -4191,7 +4191,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4207,7 +4207,7 @@
           }
         ]
       },
-      "metcon": "OP-0142",
+      "metcon": "OP-0146",
       "accessory": null
     },
     {
@@ -4215,7 +4215,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -4231,7 +4231,7 @@
           }
         ]
       },
-      "metcon": "OP-0143",
+      "metcon": "OP-0144",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -4242,7 +4242,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -4258,7 +4258,7 @@
           }
         ]
       },
-      "metcon": "OP-0144",
+      "metcon": "OP-0143",
       "accessory": null
     },
     {
@@ -4290,7 +4290,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4306,7 +4306,7 @@
           }
         ]
       },
-      "metcon": "OP-0146",
+      "metcon": "OP-0132",
       "accessory": null
     },
     {
@@ -4371,7 +4371,7 @@
           }
         ]
       },
-      "metcon": "OP-0149",
+      "metcon": "OP-0118",
       "accessory": null
     },
     {
@@ -4454,7 +4454,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4470,7 +4470,7 @@
           }
         ]
       },
-      "metcon": "OP-0153",
+      "metcon": "OP-0163",
       "accessory": null
     },
     {
@@ -4508,7 +4508,7 @@
           }
         ]
       },
-      "metcon": "OP-0155",
+      "metcon": "OP-0141",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 13
@@ -4519,7 +4519,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4535,7 +4535,7 @@
           }
         ]
       },
-      "metcon": "OP-0156",
+      "metcon": "OP-0174",
       "accessory": null
     },
     {
@@ -4559,7 +4559,7 @@
           }
         ]
       },
-      "metcon": "OP-0157",
+      "metcon": "OP-0173",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -4570,7 +4570,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -4586,7 +4586,7 @@
           }
         ]
       },
-      "metcon": "OP-0158",
+      "metcon": "OP-0172",
       "accessory": null
     },
     {
@@ -4610,7 +4610,7 @@
           }
         ]
       },
-      "metcon": "OP-0159",
+      "metcon": "OP-0138",
       "accessory": null
     },
     {
@@ -4618,7 +4618,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4634,7 +4634,7 @@
           }
         ]
       },
-      "metcon": "OP-0160",
+      "metcon": "OP-0177",
       "accessory": null
     },
     {
@@ -4648,7 +4648,7 @@
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0161",
+      "metcon": "OP-0168",
       "accessory": null
     },
     {
@@ -4656,7 +4656,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -4672,7 +4672,7 @@
           }
         ]
       },
-      "metcon": "OP-0162",
+      "metcon": "OP-0185",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 13
@@ -4683,7 +4683,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4699,7 +4699,7 @@
           }
         ]
       },
-      "metcon": "OP-0163",
+      "metcon": "OP-0170",
       "accessory": null
     },
     {
@@ -4707,7 +4707,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -4723,7 +4723,7 @@
           }
         ]
       },
-      "metcon": "OP-0164",
+      "metcon": "OP-0169",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -4750,7 +4750,7 @@
           }
         ]
       },
-      "metcon": "OP-0165",
+      "metcon": "OP-0166",
       "accessory": null
     },
     {
@@ -4758,7 +4758,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -4774,7 +4774,7 @@
           }
         ]
       },
-      "metcon": "OP-0166",
+      "metcon": "OP-0186",
       "accessory": null
     },
     {
@@ -4782,7 +4782,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4798,7 +4798,7 @@
           }
         ]
       },
-      "metcon": "OP-0167",
+      "metcon": "OP-0187",
       "accessory": null
     },
     {
@@ -4806,13 +4806,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0168",
+      "metcon": "OP-0175",
       "accessory": null
     },
     {
@@ -4820,7 +4820,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -4836,7 +4836,7 @@
           }
         ]
       },
-      "metcon": "OP-0169",
+      "metcon": "OP-0155",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -4847,7 +4847,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4863,7 +4863,7 @@
           }
         ]
       },
-      "metcon": "OP-0170",
+      "metcon": "OP-0160",
       "accessory": null
     },
     {
@@ -4871,7 +4871,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -4887,7 +4887,7 @@
           }
         ]
       },
-      "metcon": "OP-0171",
+      "metcon": "OP-0159",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 9
@@ -4898,7 +4898,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -4914,7 +4914,7 @@
           }
         ]
       },
-      "metcon": "OP-0172",
+      "metcon": "OP-0158",
       "accessory": null
     },
     {
@@ -4922,7 +4922,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -4938,7 +4938,7 @@
           }
         ]
       },
-      "metcon": "OP-0173",
+      "metcon": "OP-0192",
       "accessory": null
     },
     {
@@ -4946,7 +4946,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -4962,7 +4962,7 @@
           }
         ]
       },
-      "metcon": "OP-0174",
+      "metcon": "OP-0181",
       "accessory": null
     },
     {
@@ -4970,13 +4970,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0175",
+      "metcon": "OP-0161",
       "accessory": null
     },
     {
@@ -5011,7 +5011,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5027,7 +5027,7 @@
           }
         ]
       },
-      "metcon": "OP-0177",
+      "metcon": "OP-0167",
       "accessory": null
     },
     {
@@ -5110,7 +5110,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5126,7 +5126,7 @@
           }
         ]
       },
-      "metcon": "OP-0181",
+      "metcon": "OP-0139",
       "accessory": null
     },
     {
@@ -5148,7 +5148,7 @@
       "title": "Monday - Squat + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 53,
+      "estimatedMinutes": 51,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -5164,7 +5164,7 @@
           }
         ]
       },
-      "metcon": "OP-0183",
+      "metcon": "OP-0189",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 15
@@ -5175,7 +5175,7 @@
       "title": "Tuesday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5191,7 +5191,7 @@
           }
         ]
       },
-      "metcon": "OP-0184",
+      "metcon": "OP-0153",
       "accessory": null
     },
     {
@@ -5199,7 +5199,7 @@
       "title": "Wednesday - Press + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 55,
+      "estimatedMinutes": 53,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -5215,7 +5215,7 @@
           }
         ]
       },
-      "metcon": "OP-0185",
+      "metcon": "OP-0162",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -5242,7 +5242,7 @@
           }
         ]
       },
-      "metcon": "OP-0186",
+      "metcon": "OP-0198",
       "accessory": null
     },
     {
@@ -5274,7 +5274,7 @@
       "title": "Saturday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5290,7 +5290,7 @@
           }
         ]
       },
-      "metcon": "OP-0187",
+      "metcon": "OP-0196",
       "accessory": null
     },
     {
@@ -5298,13 +5298,13 @@
       "title": "Sunday - Recovery Engine (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0188",
+      "metcon": "OP-0201",
       "accessory": null
     },
     {
@@ -5312,7 +5312,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -5328,7 +5328,7 @@
           }
         ]
       },
-      "metcon": "OP-0189",
+      "metcon": "OP-0204",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -5339,7 +5339,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5355,7 +5355,7 @@
           }
         ]
       },
-      "metcon": "OP-0190",
+      "metcon": "OP-0193",
       "accessory": null
     },
     {
@@ -5363,7 +5363,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -5379,7 +5379,7 @@
           }
         ]
       },
-      "metcon": "OP-0191",
+      "metcon": "OP-0165",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 9
@@ -5390,7 +5390,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -5406,7 +5406,7 @@
           }
         ]
       },
-      "metcon": "OP-0192",
+      "metcon": "OP-0206",
       "accessory": null
     },
     {
@@ -5438,7 +5438,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5454,7 +5454,7 @@
           }
         ]
       },
-      "metcon": "OP-0193",
+      "metcon": "OP-0190",
       "accessory": null
     },
     {
@@ -5503,7 +5503,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5519,7 +5519,7 @@
           }
         ]
       },
-      "metcon": "OP-0196",
+      "metcon": "OP-0184",
       "accessory": null
     },
     {
@@ -5543,7 +5543,7 @@
           }
         ]
       },
-      "metcon": "OP-0197",
+      "metcon": "OP-0191",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -5570,7 +5570,7 @@
           }
         ]
       },
-      "metcon": "OP-0198",
+      "metcon": "OP-0219",
       "accessory": null
     },
     {
@@ -5626,13 +5626,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0201",
+      "metcon": "OP-0188",
       "accessory": null
     },
     {
@@ -5683,7 +5683,7 @@
           }
         ]
       },
-      "metcon": "OP-0203",
+      "metcon": "OP-0221",
       "accessory": null
     },
     {
@@ -5691,7 +5691,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -5707,7 +5707,7 @@
           }
         ]
       },
-      "metcon": "OP-0204",
+      "metcon": "OP-0183",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -5734,7 +5734,7 @@
           }
         ]
       },
-      "metcon": "OP-0205",
+      "metcon": "OP-0171",
       "accessory": null
     },
     {
@@ -5742,7 +5742,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -5758,7 +5758,7 @@
           }
         ]
       },
-      "metcon": "OP-0206",
+      "metcon": "OP-0220",
       "accessory": null
     },
     {
@@ -5766,7 +5766,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5782,7 +5782,7 @@
           }
         ]
       },
-      "metcon": "OP-0207",
+      "metcon": "OP-0210",
       "accessory": null
     },
     {
@@ -5790,13 +5790,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0208",
+      "metcon": "OP-0229",
       "accessory": null
     },
     {
@@ -5831,7 +5831,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5847,7 +5847,7 @@
           }
         ]
       },
-      "metcon": "OP-0210",
+      "metcon": "OP-0207",
       "accessory": null
     },
     {
@@ -5855,7 +5855,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -5871,7 +5871,7 @@
           }
         ]
       },
-      "metcon": "OP-0211",
+      "metcon": "OP-0213",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -5906,7 +5906,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 37,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -5922,7 +5922,7 @@
           }
         ]
       },
-      "metcon": "OP-0213",
+      "metcon": "OP-0211",
       "accessory": null
     },
     {
@@ -5930,7 +5930,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -5946,7 +5946,7 @@
           }
         ]
       },
-      "metcon": "OP-0214",
+      "metcon": "OP-0217",
       "accessory": null
     },
     {
@@ -5995,7 +5995,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -6011,7 +6011,7 @@
           }
         ]
       },
-      "metcon": "OP-0217",
+      "metcon": "OP-0235",
       "accessory": null
     },
     {
@@ -6035,7 +6035,7 @@
           }
         ]
       },
-      "metcon": "OP-0218",
+      "metcon": "OP-0197",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -6046,7 +6046,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -6062,7 +6062,7 @@
           }
         ]
       },
-      "metcon": "OP-0219",
+      "metcon": "OP-0230",
       "accessory": null
     },
     {
@@ -6070,7 +6070,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6086,7 +6086,7 @@
           }
         ]
       },
-      "metcon": "OP-0220",
+      "metcon": "OP-0233",
       "accessory": null
     },
     {
@@ -6094,7 +6094,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -6110,7 +6110,7 @@
           }
         ]
       },
-      "metcon": "OP-0221",
+      "metcon": "OP-0263",
       "accessory": null
     },
     {
@@ -6183,7 +6183,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -6199,7 +6199,7 @@
           }
         ]
       },
-      "metcon": "OP-0225",
+      "metcon": "OP-0226",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -6226,7 +6226,7 @@
           }
         ]
       },
-      "metcon": "OP-0226",
+      "metcon": "OP-0227",
       "accessory": null
     },
     {
@@ -6234,7 +6234,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6250,7 +6250,7 @@
           }
         ]
       },
-      "metcon": "OP-0227",
+      "metcon": "OP-0247",
       "accessory": null
     },
     {
@@ -6282,13 +6282,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0229",
+      "metcon": "OP-0208",
       "accessory": null
     },
     {
@@ -6296,7 +6296,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -6312,7 +6312,7 @@
           }
         ]
       },
-      "metcon": "OP-0230",
+      "metcon": "OP-0246",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 13
@@ -6347,7 +6347,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -6363,7 +6363,7 @@
           }
         ]
       },
-      "metcon": "OP-0232",
+      "metcon": "OP-0225",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -6374,7 +6374,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -6390,7 +6390,7 @@
           }
         ]
       },
-      "metcon": "OP-0233",
+      "metcon": "OP-0234",
       "accessory": null
     },
     {
@@ -6398,7 +6398,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6414,7 +6414,7 @@
           }
         ]
       },
-      "metcon": "OP-0234",
+      "metcon": "OP-0218",
       "accessory": null
     },
     {
@@ -6422,7 +6422,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -6438,7 +6438,7 @@
           }
         ]
       },
-      "metcon": "OP-0235",
+      "metcon": "OP-0259",
       "accessory": null
     },
     {
@@ -6446,13 +6446,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0236",
+      "metcon": "OP-0257",
       "accessory": null
     },
     {
@@ -6503,7 +6503,7 @@
           }
         ]
       },
-      "metcon": "OP-0238",
+      "metcon": "OP-0266",
       "accessory": null
     },
     {
@@ -6511,7 +6511,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -6527,7 +6527,7 @@
           }
         ]
       },
-      "metcon": "OP-0239",
+      "metcon": "OP-0241",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -6562,7 +6562,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 37,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6578,7 +6578,7 @@
           }
         ]
       },
-      "metcon": "OP-0241",
+      "metcon": "OP-0239",
       "accessory": null
     },
     {
@@ -6586,7 +6586,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -6602,7 +6602,7 @@
           }
         ]
       },
-      "metcon": "OP-0242",
+      "metcon": "OP-0203",
       "accessory": null
     },
     {
@@ -6640,7 +6640,7 @@
           }
         ]
       },
-      "metcon": "OP-0244",
+      "metcon": "OP-0251",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 15
@@ -6675,7 +6675,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -6691,7 +6691,7 @@
           }
         ]
       },
-      "metcon": "OP-0246",
+      "metcon": "OP-0205",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -6702,7 +6702,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -6718,7 +6718,7 @@
           }
         ]
       },
-      "metcon": "OP-0247",
+      "metcon": "OP-0232",
       "accessory": null
     },
     {
@@ -6726,7 +6726,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6742,7 +6742,7 @@
           }
         ]
       },
-      "metcon": "OP-0248",
+      "metcon": "OP-0255",
       "accessory": null
     },
     {
@@ -6766,7 +6766,7 @@
           }
         ]
       },
-      "metcon": "OP-0249",
+      "metcon": "OP-0238",
       "accessory": null
     },
     {
@@ -6804,7 +6804,7 @@
           }
         ]
       },
-      "metcon": "OP-0251",
+      "metcon": "OP-0244",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -6882,7 +6882,7 @@
           }
         ]
       },
-      "metcon": "OP-0254",
+      "metcon": "OP-0262",
       "accessory": null
     },
     {
@@ -6890,7 +6890,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -6906,7 +6906,7 @@
           }
         ]
       },
-      "metcon": "OP-0255",
+      "metcon": "OP-0260",
       "accessory": null
     },
     {
@@ -6914,7 +6914,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -6930,7 +6930,7 @@
           }
         ]
       },
-      "metcon": "OP-0256",
+      "metcon": "OP-0214",
       "accessory": null
     },
     {
@@ -6938,13 +6938,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0257",
+      "metcon": "OP-0236",
       "accessory": null
     },
     {
@@ -6995,7 +6995,7 @@
           }
         ]
       },
-      "metcon": "OP-0259",
+      "metcon": "OP-0285",
       "accessory": null
     },
     {
@@ -7003,7 +7003,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -7019,7 +7019,7 @@
           }
         ]
       },
-      "metcon": "OP-0260",
+      "metcon": "OP-0278",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -7054,7 +7054,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -7070,7 +7070,7 @@
           }
         ]
       },
-      "metcon": "OP-0262",
+      "metcon": "OP-0275",
       "accessory": null
     },
     {
@@ -7078,7 +7078,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7094,7 +7094,7 @@
           }
         ]
       },
-      "metcon": "OP-0263",
+      "metcon": "OP-0242",
       "accessory": null
     },
     {
@@ -7116,7 +7116,7 @@
       "title": "Monday - Squat + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 49,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -7132,7 +7132,7 @@
           }
         ]
       },
-      "metcon": "OP-0265",
+      "metcon": "OP-0268",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 15
@@ -7143,7 +7143,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7159,7 +7159,7 @@
           }
         ]
       },
-      "metcon": "OP-0266",
+      "metcon": "OP-0276",
       "accessory": null
     },
     {
@@ -7167,7 +7167,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -7183,7 +7183,7 @@
           }
         ]
       },
-      "metcon": "OP-0267",
+      "metcon": "OP-0265",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -7210,7 +7210,7 @@
           }
         ]
       },
-      "metcon": "OP-0268",
+      "metcon": "OP-0267",
       "accessory": null
     },
     {
@@ -7258,7 +7258,7 @@
           }
         ]
       },
-      "metcon": "OP-0270",
+      "metcon": "OP-0292",
       "accessory": null
     },
     {
@@ -7307,7 +7307,7 @@
       "title": "Tuesday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7323,7 +7323,7 @@
           }
         ]
       },
-      "metcon": "OP-0273",
+      "metcon": "OP-0249",
       "accessory": null
     },
     {
@@ -7331,7 +7331,7 @@
       "title": "Wednesday - Press + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 55,
+      "estimatedMinutes": 53,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -7347,7 +7347,7 @@
           }
         ]
       },
-      "metcon": "OP-0274",
+      "metcon": "OP-0288",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -7358,7 +7358,7 @@
       "title": "Thursday - Gymnastics + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -7374,7 +7374,7 @@
           }
         ]
       },
-      "metcon": "OP-0275",
+      "metcon": "OP-0274",
       "accessory": null
     },
     {
@@ -7406,7 +7406,7 @@
       "title": "Saturday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7422,7 +7422,7 @@
           }
         ]
       },
-      "metcon": "OP-0276",
+      "metcon": "OP-0256",
       "accessory": null
     },
     {
@@ -7444,7 +7444,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -7460,7 +7460,7 @@
           }
         ]
       },
-      "metcon": "OP-0278",
+      "metcon": "OP-0254",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 13
@@ -7471,7 +7471,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7487,7 +7487,7 @@
           }
         ]
       },
-      "metcon": "OP-0279",
+      "metcon": "OP-0289",
       "accessory": null
     },
     {
@@ -7586,7 +7586,7 @@
           }
         ]
       },
-      "metcon": "OP-0282",
+      "metcon": "OP-0303",
       "accessory": null
     },
     {
@@ -7635,7 +7635,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7651,7 +7651,7 @@
           }
         ]
       },
-      "metcon": "OP-0285",
+      "metcon": "OP-0270",
       "accessory": null
     },
     {
@@ -7659,7 +7659,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -7675,7 +7675,7 @@
           }
         ]
       },
-      "metcon": "OP-0286",
+      "metcon": "OP-0295",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -7686,7 +7686,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -7702,7 +7702,7 @@
           }
         ]
       },
-      "metcon": "OP-0287",
+      "metcon": "OP-0286",
       "accessory": null
     },
     {
@@ -7710,7 +7710,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -7726,7 +7726,7 @@
           }
         ]
       },
-      "metcon": "OP-0288",
+      "metcon": "OP-0287",
       "accessory": null
     },
     {
@@ -7734,7 +7734,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7750,7 +7750,7 @@
           }
         ]
       },
-      "metcon": "OP-0289",
+      "metcon": "OP-0313",
       "accessory": null
     },
     {
@@ -7772,7 +7772,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -7788,7 +7788,7 @@
           }
         ]
       },
-      "metcon": "OP-0291",
+      "metcon": "OP-0312",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -7815,7 +7815,7 @@
           }
         ]
       },
-      "metcon": "OP-0292",
+      "metcon": "OP-0327",
       "accessory": null
     },
     {
@@ -7823,7 +7823,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -7839,7 +7839,7 @@
           }
         ]
       },
-      "metcon": "OP-0293",
+      "metcon": "OP-0291",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -7874,7 +7874,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -7890,7 +7890,7 @@
           }
         ]
       },
-      "metcon": "OP-0295",
+      "metcon": "OP-0248",
       "accessory": null
     },
     {
@@ -7914,7 +7914,7 @@
           }
         ]
       },
-      "metcon": "OP-0296",
+      "metcon": "OP-0273",
       "accessory": null
     },
     {
@@ -7963,7 +7963,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -7979,7 +7979,7 @@
           }
         ]
       },
-      "metcon": "OP-0299",
+      "metcon": "OP-0296",
       "accessory": null
     },
     {
@@ -8078,7 +8078,7 @@
           }
         ]
       },
-      "metcon": "OP-0303",
+      "metcon": "OP-0320",
       "accessory": null
     },
     {
@@ -8100,7 +8100,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -8116,7 +8116,7 @@
           }
         ]
       },
-      "metcon": "OP-0305",
+      "metcon": "OP-0293",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 15
@@ -8167,7 +8167,7 @@
           }
         ]
       },
-      "metcon": "OP-0307",
+      "metcon": "OP-0314",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -8178,7 +8178,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -8194,7 +8194,7 @@
           }
         ]
       },
-      "metcon": "OP-0308",
+      "metcon": "OP-0316",
       "accessory": null
     },
     {
@@ -8202,7 +8202,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -8218,7 +8218,7 @@
           }
         ]
       },
-      "metcon": "OP-0309",
+      "metcon": "OP-0308",
       "accessory": null
     },
     {
@@ -8242,7 +8242,7 @@
           }
         ]
       },
-      "metcon": "OP-0310",
+      "metcon": "OP-0331",
       "accessory": null
     },
     {
@@ -8264,7 +8264,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -8280,7 +8280,7 @@
           }
         ]
       },
-      "metcon": "OP-0312",
+      "metcon": "OP-0305",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -8291,7 +8291,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8307,7 +8307,7 @@
           }
         ]
       },
-      "metcon": "OP-0313",
+      "metcon": "OP-0299",
       "accessory": null
     },
     {
@@ -8331,7 +8331,7 @@
           }
         ]
       },
-      "metcon": "OP-0314",
+      "metcon": "OP-0315",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 9
@@ -8358,7 +8358,7 @@
           }
         ]
       },
-      "metcon": "OP-0315",
+      "metcon": "OP-0307",
       "accessory": null
     },
     {
@@ -8382,7 +8382,7 @@
           }
         ]
       },
-      "metcon": "OP-0316",
+      "metcon": "OP-0309",
       "accessory": null
     },
     {
@@ -8390,7 +8390,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8406,7 +8406,7 @@
           }
         ]
       },
-      "metcon": "OP-0317",
+      "metcon": "OP-0310",
       "accessory": null
     },
     {
@@ -8455,7 +8455,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8471,7 +8471,7 @@
           }
         ]
       },
-      "metcon": "OP-0320",
+      "metcon": "OP-0338",
       "accessory": null
     },
     {
@@ -8578,13 +8578,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 32,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0325",
+      "metcon": "OP-0336",
       "accessory": null
     },
     {
@@ -8619,7 +8619,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8635,7 +8635,7 @@
           }
         ]
       },
-      "metcon": "OP-0327",
+      "metcon": "OP-0345",
       "accessory": null
     },
     {
@@ -8643,7 +8643,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -8659,7 +8659,7 @@
           }
         ]
       },
-      "metcon": "OP-0328",
+      "metcon": "OP-0330",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 11
@@ -8686,7 +8686,7 @@
           }
         ]
       },
-      "metcon": "OP-0329",
+      "metcon": "OP-0328",
       "accessory": null
     },
     {
@@ -8694,7 +8694,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 55,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -8710,7 +8710,7 @@
           }
         ]
       },
-      "metcon": "OP-0330",
+      "metcon": "OP-0332",
       "accessory": null
     },
     {
@@ -8718,7 +8718,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8734,7 +8734,7 @@
           }
         ]
       },
-      "metcon": "OP-0331",
+      "metcon": "OP-0279",
       "accessory": null
     },
     {
@@ -8742,13 +8742,13 @@
       "title": "Sunday - Recovery Engine (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 28,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0332",
+      "metcon": "OP-0329",
       "accessory": null
     },
     {
@@ -8834,7 +8834,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -8850,7 +8850,7 @@
           }
         ]
       },
-      "metcon": "OP-0336",
+      "metcon": "OP-0337",
       "accessory": null
     },
     {
@@ -8858,7 +8858,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 55,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -8874,7 +8874,7 @@
           }
         ]
       },
-      "metcon": "OP-0337",
+      "metcon": "OP-0325",
       "accessory": null
     },
     {
@@ -8882,7 +8882,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8898,7 +8898,7 @@
           }
         ]
       },
-      "metcon": "OP-0338",
+      "metcon": "OP-0355",
       "accessory": null
     },
     {
@@ -8920,7 +8920,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -8936,7 +8936,7 @@
           }
         ]
       },
-      "metcon": "OP-0340",
+      "metcon": "OP-0342",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 15
@@ -8947,7 +8947,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -8963,7 +8963,7 @@
           }
         ]
       },
-      "metcon": "OP-0341",
+      "metcon": "OP-0317",
       "accessory": null
     },
     {
@@ -8971,7 +8971,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -8987,7 +8987,7 @@
           }
         ]
       },
-      "metcon": "OP-0342",
+      "metcon": "OP-0361",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -9038,7 +9038,7 @@
           }
         ]
       },
-      "metcon": "OP-0344",
+      "metcon": "OP-0351",
       "accessory": null
     },
     {
@@ -9046,7 +9046,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -9062,7 +9062,7 @@
           }
         ]
       },
-      "metcon": "OP-0345",
+      "metcon": "OP-0341",
       "accessory": null
     },
     {
@@ -9070,13 +9070,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 38,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0346",
+      "metcon": "OP-0366",
       "accessory": null
     },
     {
@@ -9162,7 +9162,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -9178,7 +9178,7 @@
           }
         ]
       },
-      "metcon": "OP-0350",
+      "metcon": "OP-0344",
       "accessory": null
     },
     {
@@ -9186,7 +9186,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -9202,7 +9202,7 @@
           }
         ]
       },
-      "metcon": "OP-0351",
+      "metcon": "OP-0350",
       "accessory": null
     },
     {
@@ -9210,71 +9210,6 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
-      "warmup": {
-        "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
-        "durationMinutes": 10
-      },
-      "strength": {
-        "durationMinutes": 10,
-        "movements": [
-          {
-            "movement": "Muscle-up Progression",
-            "scheme": "Skill: 10 min",
-            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
-            "prescription": "Transitions and drills"
-          }
-        ]
-      },
-      "metcon": "OP-0352",
-      "accessory": null
-    },
-    {
-      "date": "2027-04-11",
-      "title": "Sunday - Recovery Engine",
-      "phase": "Peak",
-      "deload": false,
-      "estimatedMinutes": 36,
-      "warmup": {
-        "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
-        "durationMinutes": 12
-      },
-      "strength": null,
-      "metcon": "OP-0353",
-      "accessory": null
-    },
-    {
-      "date": "2027-04-12",
-      "title": "Monday - Squat + Conditioning (Deload)",
-      "phase": "Deload",
-      "deload": true,
-      "estimatedMinutes": 50,
-      "warmup": {
-        "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
-        "durationMinutes": 10
-      },
-      "strength": {
-        "durationMinutes": 15,
-        "movements": [
-          {
-            "movement": "Back Squat",
-            "scheme": "3x5",
-            "prescription": "@ 60% 1RM (deload)",
-            "notes": "Light and snappy. Prioritize recovery this week."
-          }
-        ]
-      },
-      "metcon": "OP-0354",
-      "accessory": {
-        "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
-        "durationMinutes": 15
-      }
-    },
-    {
-      "date": "2027-04-13",
-      "title": "Tuesday - Teams of 2 (Deload)",
-      "phase": "Deload",
-      "deload": true,
       "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
@@ -9291,7 +9226,72 @@
           }
         ]
       },
-      "metcon": "OP-0355",
+      "metcon": "OP-0388",
+      "accessory": null
+    },
+    {
+      "date": "2027-04-11",
+      "title": "Sunday - Recovery Engine",
+      "phase": "Peak",
+      "deload": false,
+      "estimatedMinutes": 40,
+      "warmup": {
+        "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
+        "durationMinutes": 12
+      },
+      "strength": null,
+      "metcon": "OP-0372",
+      "accessory": null
+    },
+    {
+      "date": "2027-04-12",
+      "title": "Monday - Squat + Conditioning (Deload)",
+      "phase": "Deload",
+      "deload": true,
+      "estimatedMinutes": 56,
+      "warmup": {
+        "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 15,
+        "movements": [
+          {
+            "movement": "Back Squat",
+            "scheme": "3x5",
+            "prescription": "@ 60% 1RM (deload)",
+            "notes": "Light and snappy. Prioritize recovery this week."
+          }
+        ]
+      },
+      "metcon": "OP-0356",
+      "accessory": {
+        "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
+        "durationMinutes": 15
+      }
+    },
+    {
+      "date": "2027-04-13",
+      "title": "Tuesday - Teams of 2 (Deload)",
+      "phase": "Deload",
+      "deload": true,
+      "estimatedMinutes": 44,
+      "warmup": {
+        "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
+        "durationMinutes": 10
+      },
+      "strength": {
+        "durationMinutes": 10,
+        "movements": [
+          {
+            "movement": "Muscle-up Progression",
+            "scheme": "Skill: 10 min",
+            "notes": "Ring rows and jumping transitions if no MU yet. Not for score.",
+            "prescription": "Transitions and drills"
+          }
+        ]
+      },
+      "metcon": "OP-0362",
       "accessory": null
     },
     {
@@ -9299,7 +9299,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -9315,7 +9315,7 @@
           }
         ]
       },
-      "metcon": "OP-0356",
+      "metcon": "OP-0354",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -9374,7 +9374,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -9390,7 +9390,7 @@
           }
         ]
       },
-      "metcon": "OP-0359",
+      "metcon": "OP-0368",
       "accessory": null
     },
     {
@@ -9412,7 +9412,7 @@
       "title": "Monday - Squat + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 55,
+      "estimatedMinutes": 59,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -9428,7 +9428,7 @@
           }
         ]
       },
-      "metcon": "OP-0361",
+      "metcon": "OP-0382",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 15
@@ -9439,7 +9439,7 @@
       "title": "Tuesday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -9455,7 +9455,7 @@
           }
         ]
       },
-      "metcon": "OP-0362",
+      "metcon": "OP-0371",
       "accessory": null
     },
     {
@@ -9479,7 +9479,7 @@
           }
         ]
       },
-      "metcon": "OP-0363",
+      "metcon": "OP-0383",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -9538,7 +9538,7 @@
       "title": "Saturday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -9554,7 +9554,7 @@
           }
         ]
       },
-      "metcon": "OP-0365",
+      "metcon": "OP-0359",
       "accessory": null
     },
     {
@@ -9562,13 +9562,13 @@
       "title": "Sunday - Recovery Engine (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 38,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0366",
+      "metcon": "OP-0346",
       "accessory": null
     },
     {
@@ -9603,7 +9603,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -9619,7 +9619,7 @@
           }
         ]
       },
-      "metcon": "OP-0368",
+      "metcon": "OP-0352",
       "accessory": null
     },
     {
@@ -9643,7 +9643,7 @@
           }
         ]
       },
-      "metcon": "OP-0369",
+      "metcon": "OP-0396",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -9718,7 +9718,7 @@
           }
         ]
       },
-      "metcon": "OP-0371",
+      "metcon": "OP-0282",
       "accessory": null
     },
     {
@@ -9726,13 +9726,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 36,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0372",
+      "metcon": "OP-0353",
       "accessory": null
     },
     {
@@ -9740,7 +9740,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -9756,7 +9756,7 @@
           }
         ]
       },
-      "metcon": "OP-0373",
+      "metcon": "OP-0363",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -9791,7 +9791,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -9807,7 +9807,7 @@
           }
         ]
       },
-      "metcon": "OP-0375",
+      "metcon": "OP-0373",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -9858,7 +9858,7 @@
           }
         ]
       },
-      "metcon": "OP-0377",
+      "metcon": "OP-0369",
       "accessory": null
     },
     {
@@ -9904,7 +9904,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -9920,7 +9920,7 @@
           }
         ]
       },
-      "metcon": "OP-0380",
+      "metcon": "OP-0384",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 13
@@ -9955,7 +9955,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -9971,7 +9971,7 @@
           }
         ]
       },
-      "metcon": "OP-0382",
+      "metcon": "OP-0340",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -9998,7 +9998,7 @@
           }
         ]
       },
-      "metcon": "OP-0383",
+      "metcon": "OP-0375",
       "accessory": null
     },
     {
@@ -10006,7 +10006,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 43,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10022,7 +10022,7 @@
           }
         ]
       },
-      "metcon": "OP-0384",
+      "metcon": "OP-0377",
       "accessory": null
     },
     {
@@ -10030,7 +10030,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10046,7 +10046,7 @@
           }
         ]
       },
-      "metcon": "OP-0385",
+      "metcon": "OP-0399",
       "accessory": null
     },
     {
@@ -10095,7 +10095,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10111,7 +10111,7 @@
           }
         ]
       },
-      "metcon": "OP-0388",
+      "metcon": "OP-0365",
       "accessory": null
     },
     {
@@ -10146,7 +10146,7 @@
       "title": "Thursday - Gymnastics + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -10162,7 +10162,7 @@
           }
         ]
       },
-      "metcon": "OP-0390",
+      "metcon": "OP-0391",
       "accessory": null
     },
     {
@@ -10170,7 +10170,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10186,7 +10186,7 @@
           }
         ]
       },
-      "metcon": "OP-0391",
+      "metcon": "OP-0390",
       "accessory": null
     },
     {
@@ -10210,7 +10210,7 @@
           }
         ]
       },
-      "metcon": "OP-0392",
+      "metcon": "OP-0416",
       "accessory": null
     },
     {
@@ -10232,7 +10232,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -10248,7 +10248,7 @@
           }
         ]
       },
-      "metcon": "OP-0394",
+      "metcon": "OP-0380",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -10275,7 +10275,7 @@
           }
         ]
       },
-      "metcon": "OP-0395",
+      "metcon": "OP-0413",
       "accessory": null
     },
     {
@@ -10299,7 +10299,7 @@
           }
         ]
       },
-      "metcon": "OP-0396",
+      "metcon": "OP-0403",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 9
@@ -10310,7 +10310,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -10326,7 +10326,7 @@
           }
         ]
       },
-      "metcon": "OP-0397",
+      "metcon": "OP-0398",
       "accessory": null
     },
     {
@@ -10334,7 +10334,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 59,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10350,7 +10350,7 @@
           }
         ]
       },
-      "metcon": "OP-0398",
+      "metcon": "OP-0400",
       "accessory": null
     },
     {
@@ -10358,7 +10358,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10374,7 +10374,7 @@
           }
         ]
       },
-      "metcon": "OP-0399",
+      "metcon": "OP-0406",
       "accessory": null
     },
     {
@@ -10382,13 +10382,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 46,
+      "estimatedMinutes": 32,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0400",
+      "metcon": "OP-0397",
       "accessory": null
     },
     {
@@ -10396,7 +10396,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 54,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -10412,7 +10412,7 @@
           }
         ]
       },
-      "metcon": "OP-0401",
+      "metcon": "OP-0408",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 15
@@ -10447,7 +10447,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -10463,7 +10463,7 @@
           }
         ]
       },
-      "metcon": "OP-0403",
+      "metcon": "OP-0394",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -10474,7 +10474,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -10490,7 +10490,7 @@
           }
         ]
       },
-      "metcon": "OP-0404",
+      "metcon": "OP-0424",
       "accessory": null
     },
     {
@@ -10498,7 +10498,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10514,7 +10514,7 @@
           }
         ]
       },
-      "metcon": "OP-0405",
+      "metcon": "OP-0426",
       "accessory": null
     },
     {
@@ -10522,7 +10522,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 44,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10538,7 +10538,7 @@
           }
         ]
       },
-      "metcon": "OP-0406",
+      "metcon": "OP-0385",
       "accessory": null
     },
     {
@@ -10560,7 +10560,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 46,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -10576,7 +10576,7 @@
           }
         ]
       },
-      "metcon": "OP-0408",
+      "metcon": "OP-0422",
       "accessory": {
         "notes": "Strict Pull-up 3x8 (add load if unbroken)\n3x15 GHD hip extensions\n2x20 banded pull-aparts",
         "durationMinutes": 13
@@ -10587,7 +10587,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10603,7 +10603,7 @@
           }
         ]
       },
-      "metcon": "OP-0409",
+      "metcon": "OP-0430",
       "accessory": null
     },
     {
@@ -10638,7 +10638,7 @@
       "title": "Thursday - Gymnastics + Conditioning",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 44,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -10654,7 +10654,7 @@
           }
         ]
       },
-      "metcon": "OP-0411",
+      "metcon": "OP-0412",
       "accessory": null
     },
     {
@@ -10662,7 +10662,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10678,7 +10678,7 @@
           }
         ]
       },
-      "metcon": "OP-0412",
+      "metcon": "OP-0411",
       "accessory": null
     },
     {
@@ -10702,7 +10702,7 @@
           }
         ]
       },
-      "metcon": "OP-0413",
+      "metcon": "OP-0395",
       "accessory": null
     },
     {
@@ -10710,13 +10710,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Strength",
       "deload": false,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 30,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0414",
+      "metcon": "OP-0431",
       "accessory": null
     },
     {
@@ -10767,7 +10767,7 @@
           }
         ]
       },
-      "metcon": "OP-0416",
+      "metcon": "OP-0392",
       "accessory": null
     },
     {
@@ -10775,7 +10775,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -10791,7 +10791,7 @@
           }
         ]
       },
-      "metcon": "OP-0417",
+      "metcon": "OP-0419",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -10826,7 +10826,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 37,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -10842,7 +10842,7 @@
           }
         ]
       },
-      "metcon": "OP-0419",
+      "metcon": "OP-0417",
       "accessory": null
     },
     {
@@ -10850,7 +10850,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -10866,7 +10866,7 @@
           }
         ]
       },
-      "metcon": "OP-0420",
+      "metcon": "OP-0441",
       "accessory": null
     },
     {
@@ -10904,7 +10904,7 @@
           }
         ]
       },
-      "metcon": "OP-0422",
+      "metcon": "OP-0401",
       "accessory": {
         "notes": "3x10 Strict Toes-to-Bar\n3x15 Bulgarian split squats each leg\n2x20 banded face pulls",
         "durationMinutes": 15
@@ -10939,7 +10939,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -10955,7 +10955,7 @@
           }
         ]
       },
-      "metcon": "OP-0424",
+      "metcon": "OP-0440",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 9
@@ -10990,7 +10990,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -11006,7 +11006,7 @@
           }
         ]
       },
-      "metcon": "OP-0426",
+      "metcon": "OP-0432",
       "accessory": null
     },
     {
@@ -11079,7 +11079,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11095,7 +11095,7 @@
           }
         ]
       },
-      "metcon": "OP-0430",
+      "metcon": "OP-0409",
       "accessory": null
     },
     {
@@ -11119,7 +11119,7 @@
           }
         ]
       },
-      "metcon": "OP-0431",
+      "metcon": "OP-0433",
       "accessory": {
         "notes": "3x10 strict ring dips (scale to box)\n3x12 bent-over rows\n2x30s hollow hold",
         "durationMinutes": 9
@@ -11146,7 +11146,7 @@
           }
         ]
       },
-      "metcon": "OP-0432",
+      "metcon": "OP-0453",
       "accessory": null
     },
     {
@@ -11154,7 +11154,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 43,
+      "estimatedMinutes": 45,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -11170,7 +11170,7 @@
           }
         ]
       },
-      "metcon": "OP-0433",
+      "metcon": "OP-0439",
       "accessory": null
     },
     {
@@ -11178,7 +11178,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 42,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11194,7 +11194,7 @@
           }
         ]
       },
-      "metcon": "OP-0434",
+      "metcon": "OP-0460",
       "accessory": null
     },
     {
@@ -11202,13 +11202,13 @@
       "title": "Sunday - Recovery Engine",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 36,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "Easy 5 min bike or row\nThen 2 rounds:\n10 air squats + 10 sit-ups + 5 inchworms",
         "durationMinutes": 12
       },
       "strength": null,
-      "metcon": "OP-0435",
+      "metcon": "OP-0414",
       "accessory": null
     },
     {
@@ -11216,7 +11216,7 @@
       "title": "Monday - Squat + Conditioning",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 56,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 air squats + 10 PVC pass-throughs",
         "durationMinutes": 10
@@ -11232,7 +11232,7 @@
           }
         ]
       },
-      "metcon": "OP-0436",
+      "metcon": "OP-0458",
       "accessory": {
         "notes": "3x12 Romanian Deadlift (moderate)\n3x20 hollow rocks\n2x30s side plank each side",
         "durationMinutes": 15
@@ -11283,7 +11283,7 @@
           }
         ]
       },
-      "metcon": "OP-0438",
+      "metcon": "OP-0459",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 9
@@ -11310,7 +11310,7 @@
           }
         ]
       },
-      "metcon": "OP-0439",
+      "metcon": "OP-0404",
       "accessory": null
     },
     {
@@ -11318,7 +11318,7 @@
       "title": "Friday - Deadlift + Metcon",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 41,
+      "estimatedMinutes": 49,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -11334,7 +11334,7 @@
           }
         ]
       },
-      "metcon": "OP-0440",
+      "metcon": "OP-0435",
       "accessory": null
     },
     {
@@ -11342,7 +11342,7 @@
       "title": "Saturday - Teams of 2",
       "phase": "Peak",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11358,7 +11358,7 @@
           }
         ]
       },
-      "metcon": "OP-0441",
+      "metcon": "OP-0420",
       "accessory": null
     },
     {
@@ -11407,7 +11407,7 @@
       "title": "Tuesday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11423,7 +11423,7 @@
           }
         ]
       },
-      "metcon": "OP-0444",
+      "metcon": "OP-0457",
       "accessory": null
     },
     {
@@ -11431,7 +11431,7 @@
       "title": "Wednesday - Press + Conditioning (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 50,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -11447,7 +11447,7 @@
           }
         ]
       },
-      "metcon": "OP-0445",
+      "metcon": "OP-0447",
       "accessory": {
         "notes": "3x12 push-ups (deficit if able)\n3x12 single-arm DB rows each side\n2x40s plank",
         "durationMinutes": 11
@@ -11482,7 +11482,7 @@
       "title": "Friday - Deadlift + Metcon (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 39,
+      "estimatedMinutes": 41,
       "warmup": {
         "notes": "3 rounds:\n200m row\n10 KB Romanian deadlifts + 10 walking lunges",
         "durationMinutes": 10
@@ -11498,7 +11498,7 @@
           }
         ]
       },
-      "metcon": "OP-0447",
+      "metcon": "OP-0445",
       "accessory": null
     },
     {
@@ -11506,7 +11506,7 @@
       "title": "Saturday - Teams of 2 (Deload)",
       "phase": "Deload",
       "deload": true,
-      "estimatedMinutes": 40,
+      "estimatedMinutes": 42,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11522,7 +11522,7 @@
           }
         ]
       },
-      "metcon": "OP-0448",
+      "metcon": "OP-0451",
       "accessory": null
     },
     {
@@ -11587,7 +11587,7 @@
           }
         ]
       },
-      "metcon": "OP-0451",
+      "metcon": "OP-0434",
       "accessory": null
     },
     {
@@ -11622,7 +11622,7 @@
       "title": "Thursday - Gymnastics + Conditioning (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 50,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "2 rounds:\n30s hollow hold + 5 wall walks (scaled)\n10 ring rows + 10 air squats",
         "durationMinutes": 12
@@ -11638,7 +11638,7 @@
           }
         ]
       },
-      "metcon": "OP-0453",
+      "metcon": "OP-0405",
       "accessory": null
     },
     {
@@ -11670,7 +11670,7 @@
       "title": "Saturday - Teams of 2 (Test Week)",
       "phase": "Test",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11686,7 +11686,7 @@
           }
         ]
       },
-      "metcon": "OP-0454",
+      "metcon": "OP-0448",
       "accessory": null
     },
     {
@@ -11735,7 +11735,7 @@
       "title": "Tuesday - Teams of 2",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 48,
+      "estimatedMinutes": 40,
       "warmup": {
         "notes": "5 min easy row or run\nThen 2 rounds:\n10 KB deadlifts + 10 leg swings each side",
         "durationMinutes": 10
@@ -11751,7 +11751,7 @@
           }
         ]
       },
-      "metcon": "OP-0457",
+      "metcon": "OP-0444",
       "accessory": null
     },
     {
@@ -11759,7 +11759,7 @@
       "title": "Wednesday - Press + Conditioning",
       "phase": "Volume",
       "deload": false,
-      "estimatedMinutes": 52,
+      "estimatedMinutes": 48,
       "warmup": {
         "notes": "3 rounds:\n10 band pull-aparts\n10 push-ups + 10 scap pull-ups",
         "durationMinutes": 10
@@ -11775,7 +11775,7 @@
           }
         ]
       },
-      "metcon": "OP-0458",
+      "metcon": "OP-0436",
       "accessory": {
         "notes": "3x8 strict HSPU (scale to pike)\n3x15 dumbbell curls\n2x20 banded tricep pushdowns",
         "durationMinutes": 11
@@ -11802,7 +11802,7 @@
           }
         ]
       },
-      "metcon": "OP-0459",
+      "metcon": "OP-0438",
       "accessory": null
     },
     {
@@ -11850,7 +11850,7 @@
           }
         ]
       },
-      "metcon": "OP-0460",
+      "metcon": "OP-0454",
       "accessory": null
     }
   ]
